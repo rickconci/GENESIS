@@ -1,0 +1,29 @@
+# recorded split path (run configs, eval manifests, ceiling JSONs) -> where that split lives now; both repo-relative
+core_util_data/splits/biological_recapitulation_split.yaml	archive/core_util_data/splits/biological_recapitulation_split.yaml
+core_util_data/splits/graded_holdout	archive/core_util_data/splits/graded_holdout
+core_util_data/splits/graded_holdout_grid	archive/core_util_data/splits/graded_holdout_grid
+core_util_data/splits/heatmap	archive/core_util_data/splits/heatmap
+core_util_data/splits/parse_bio_well_split	core_util_data/splits/parse/bio/parse_bio_well_split
+core_util_data/splits/parse_cytokines.yaml	core_util_data/splits/parse/bio/parse_cytokines.yaml
+core_util_data/splits/parse_cytokines_celln967190.yaml	archive/core_util_data/splits/parse_cytokines_celln967190.yaml
+core_util_data/splits/parse_discovery_peek1	archive/core_util_data/splits/parse_discovery_peek1
+core_util_data/splits/parse_overlap_pert_fixed	core_util_data/splits/parse/pert/parse_overlap_pert_fixed
+core_util_data/splits/parse_scaling_bio_split	core_util_data/splits/parse/bio/parse_scaling_bio_split
+core_util_data/splits/parse_scaling_pert_split	core_util_data/splits/parse/pert/parse_scaling_pert_split
+core_util_data/splits/tahoe_legacy_bio_holdout.yaml	core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+core_util_data/splits/tahoe_legacy_perturbation_holdout.yaml	core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+core_util_data/splits/tahoe_overfit	archive/core_util_data/splits/tahoe_overfit
+core_util_data/splits/tahoe_overlap_bio	core_util_data/splits/tahoe/bio/tahoe_overlap_bio
+core_util_data/splits/tahoe_overlap_pert_fixed	core_util_data/splits/tahoe/pert/tahoe_overlap_pert_fixed
+core_util_data/splits/tahoe_scaling_bio_split	core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split
+core_util_data/splits/tahoe_scaling_pert_split	core_util_data/splits/tahoe/pert/tahoe_scaling_pert_split
+core_util_data/splits/tahoe_unseen_HS-578T_hallmark_peek_min300	archive/core_util_data/splits/tahoe_unseen_HS-578T_hallmark_peek_min300
+core_util_data/splits/tahoe_unseen_drug_Dinaciclib_hallmark_peek_min300	archive/core_util_data/splits/tahoe_unseen_drug_Dinaciclib_hallmark_peek_min300
+core_util_data/splits/x_atlas_orion	archive/core_util_data/splits/x_atlas_orion
+core_util_data/splits/x_atlas_orion_complementary_pert_holdout.yaml	archive/core_util_data/splits/x_atlas_orion_complementary_pert_holdout.yaml
+core_util_data/splits/x_atlas_orion_hct116_full_hek293t_train1k_holdout.yaml	archive/core_util_data/splits/x_atlas_orion_hct116_full_hek293t_train1k_holdout.yaml
+core_util_data/splits/x_atlas_orion_hek_full_hct_crossbio_transfer_holdout.yaml	archive/core_util_data/splits/x_atlas_orion_hek_full_hct_crossbio_transfer_holdout.yaml
+# tahoe_legacy_holdout_celln6909363.yaml (archived 2026-10-04) has the SAME test/validation blocks as the inherited legacy split;
+# split-half references are true-vs-true on held-out cells, so its references stand for that split.
+core_util_data/splits/tahoe_legacy_holdout_celln6909363.yaml	core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+core_util_data/splits/tahoe/bio/tahoe_legacy_holdout_celln6909363.yaml	core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml

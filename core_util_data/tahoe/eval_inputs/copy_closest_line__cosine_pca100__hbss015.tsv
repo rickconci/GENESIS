@@ -1,0 +1,6 @@
+cell_name	neighbor	distance	n_shared_arms	runner_up	runner_up_distance	n_own_train_arms	frac_plotted_drugs_in_neighbor_train
+C32	NCI-H2347	0.5512	5	A-427	0.5768	163	0.09
+HOP62	SW 1088	0.4548	10	SW 900	0.464	73	0.239
+HepG2/C3A	SW480	0.624	20	NCI-H2347	0.6313	205	0.075
+Hs 766T	CFPAC-1	0.5171	1	SW 1271	0.5236	104	0.179
+PANC-1	A549	0.4078	7	NCI-H23	0.4922	103	0.03

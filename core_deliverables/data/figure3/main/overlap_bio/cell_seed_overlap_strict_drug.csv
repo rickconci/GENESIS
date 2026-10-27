@@ -1,0 +1,226 @@
+cell_line,overlap,metric_key,metric_mean,n_conditions,n_undefined,row,entity_seed
+C32,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.33865395030826545,693,9,0,0
+C32,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.33800257686095536,693,9,0,1
+C32,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.33723631994946607,693,9,0,2
+C32,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3891184207315397,693,9,4,0
+C32,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.37407795675932115,693,9,4,1
+C32,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3896968284068148,693,9,4,2
+C32,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.41319211437749914,693,9,3,0
+C32,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.40774765480336606,693,9,3,1
+C32,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4017588371225508,693,9,3,2
+C32,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.44977080462094593,693,9,2,0
+C32,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.43398853573372953,693,9,2,1
+C32,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4380721880168712,693,9,2,2
+C32,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4874468004333681,693,9,1,0
+C32,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4661396386916245,693,9,1,1
+C32,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.47077570281234743,693,9,1,2
+HOP62,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4807182855187906,697,6,1,0
+HOP62,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4848589349425848,697,6,1,1
+HOP62,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4614297150069022,697,6,1,2
+HOP62,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5467705878360969,697,6,0,0
+HOP62,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5266177257365271,697,6,0,1
+HOP62,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5471758074427779,697,6,0,2
+HOP62,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.552010527516647,697,6,4,0
+HOP62,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.53092000924767,697,6,4,1
+HOP62,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5599385579216857,697,6,4,2
+HOP62,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.577845585130294,697,6,3,0
+HOP62,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.579402079193758,697,6,3,1
+HOP62,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5820883174815684,697,6,3,2
+HOP62,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.6018350158886212,697,6,2,0
+HOP62,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.601514673429719,697,6,2,1
+HOP62,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5952779631340178,697,6,2,2
+HepG2/C3A,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.25427502824528936,668,35,2,0
+HepG2/C3A,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.2529093870491593,668,35,2,1
+HepG2/C3A,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.255103261628283,668,35,2,2
+HepG2/C3A,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.34526932977898395,668,35,1,0
+HepG2/C3A,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.32751162362167846,668,35,1,1
+HepG2/C3A,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3365201515809237,668,35,1,2
+HepG2/C3A,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.35721431502481243,668,35,0,0
+HepG2/C3A,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3502325420072693,668,35,0,1
+HepG2/C3A,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3382209435657425,668,35,0,2
+HepG2/C3A,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3828538010443399,668,35,4,0
+HepG2/C3A,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.37290335326695334,668,35,4,1
+HepG2/C3A,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3873466151169763,668,35,4,2
+HepG2/C3A,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4038740939455118,668,35,3,0
+HepG2/C3A,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.405857748036903,668,35,3,1
+HepG2/C3A,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.40678851303650054,668,35,3,2
+Hs 766T,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.336508346372284,672,29,3,0
+Hs 766T,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.31966387901809956,672,29,3,1
+Hs 766T,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.31093232086416156,672,29,3,2
+Hs 766T,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.36447799788965357,672,29,2,0
+Hs 766T,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.373703647299581,672,29,2,1
+Hs 766T,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3858624818468733,672,29,2,2
+Hs 766T,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.39392296641710256,672,29,1,0
+Hs 766T,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.39240874918288593,672,29,1,1
+Hs 766T,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3963503730206174,672,29,1,2
+Hs 766T,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.40899543230798807,672,29,0,0
+Hs 766T,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4174973154662266,672,29,0,1
+Hs 766T,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.41733200853091795,672,29,0,2
+Hs 766T,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.42794340432599365,672,29,4,0
+Hs 766T,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.42389039319962085,672,29,4,1
+Hs 766T,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.42792138437895727,672,29,4,2
+PANC-1,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.39800246024136043,698,4,4,0
+PANC-1,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4040894004647062,698,4,4,1
+PANC-1,0,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.400713569117726,698,4,4,2
+PANC-1,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.49024351514251446,698,4,3,0
+PANC-1,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4757633165584445,698,4,3,1
+PANC-1,15,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4636520207739491,698,4,3,2
+PANC-1,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.4941037004802878,698,4,2,0
+PANC-1,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.49769226372519504,698,4,2,1
+PANC-1,30,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.49490120382259006,698,4,2,2
+PANC-1,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5430425129694741,698,4,1,0
+PANC-1,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5261896549694688,698,4,1,1
+PANC-1,80,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5265271069207109,698,4,1,2
+PANC-1,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5418420568919796,698,4,0,0
+PANC-1,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5460799588130675,698,4,0,1
+PANC-1,164,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5425390143369065,698,4,0,2
+C32,0,log1p_slice_med_rgs/energy_distance,0.125548364090444,702,0,0,0
+C32,0,log1p_slice_med_rgs/energy_distance,0.1256891193552914,702,0,0,1
+C32,0,log1p_slice_med_rgs/energy_distance,0.12216577638588061,702,0,0,2
+C32,15,log1p_slice_med_rgs/energy_distance,0.09504614935980903,702,0,4,0
+C32,15,log1p_slice_med_rgs/energy_distance,0.09683382409250635,702,0,4,1
+C32,15,log1p_slice_med_rgs/energy_distance,0.09462485218319798,702,0,4,2
+C32,30,log1p_slice_med_rgs/energy_distance,0.08574219646616879,702,0,3,0
+C32,30,log1p_slice_med_rgs/energy_distance,0.08672432885889994,702,0,3,1
+C32,30,log1p_slice_med_rgs/energy_distance,0.0881042657075105,702,0,3,2
+C32,80,log1p_slice_med_rgs/energy_distance,0.0702283905442284,702,0,2,0
+C32,80,log1p_slice_med_rgs/energy_distance,0.07576218221941565,702,0,2,1
+C32,80,log1p_slice_med_rgs/energy_distance,0.07417235958610165,702,0,2,2
+C32,164,log1p_slice_med_rgs/energy_distance,0.06131532321288715,702,0,1,0
+C32,164,log1p_slice_med_rgs/energy_distance,0.061635964276783826,702,0,1,1
+C32,164,log1p_slice_med_rgs/energy_distance,0.06445072315357349,702,0,1,2
+HOP62,0,log1p_slice_med_rgs/energy_distance,0.07557055417707939,703,0,1,0
+HOP62,0,log1p_slice_med_rgs/energy_distance,0.07546290157529742,703,0,1,1
+HOP62,0,log1p_slice_med_rgs/energy_distance,0.07774551630359286,703,0,1,2
+HOP62,15,log1p_slice_med_rgs/energy_distance,0.0560379652346181,703,0,0,0
+HOP62,15,log1p_slice_med_rgs/energy_distance,0.0641250474693765,703,0,0,1
+HOP62,15,log1p_slice_med_rgs/energy_distance,0.058188359734004796,703,0,0,2
+HOP62,30,log1p_slice_med_rgs/energy_distance,0.05563181935469083,703,0,4,0
+HOP62,30,log1p_slice_med_rgs/energy_distance,0.06239670472667363,703,0,4,1
+HOP62,30,log1p_slice_med_rgs/energy_distance,0.055079755878041516,703,0,4,2
+HOP62,80,log1p_slice_med_rgs/energy_distance,0.04722900716203714,703,0,3,0
+HOP62,80,log1p_slice_med_rgs/energy_distance,0.049608919732431596,703,0,3,1
+HOP62,80,log1p_slice_med_rgs/energy_distance,0.049720754664110425,703,0,3,2
+HOP62,164,log1p_slice_med_rgs/energy_distance,0.0430821368568822,703,0,2,0
+HOP62,164,log1p_slice_med_rgs/energy_distance,0.044502780583301614,703,0,2,1
+HOP62,164,log1p_slice_med_rgs/energy_distance,0.041503175054471486,703,0,2,2
+HepG2/C3A,0,log1p_slice_med_rgs/energy_distance,0.14404027187298576,703,0,2,0
+HepG2/C3A,0,log1p_slice_med_rgs/energy_distance,0.13275216483798508,703,0,2,1
+HepG2/C3A,0,log1p_slice_med_rgs/energy_distance,0.13284384916042366,703,0,2,2
+HepG2/C3A,15,log1p_slice_med_rgs/energy_distance,0.09285719398075283,703,0,1,0
+HepG2/C3A,15,log1p_slice_med_rgs/energy_distance,0.09734781300529817,703,0,1,1
+HepG2/C3A,15,log1p_slice_med_rgs/energy_distance,0.09334620642628134,703,0,1,2
+HepG2/C3A,30,log1p_slice_med_rgs/energy_distance,0.08460647181460731,703,0,0,0
+HepG2/C3A,30,log1p_slice_med_rgs/energy_distance,0.08236553523143698,703,0,0,1
+HepG2/C3A,30,log1p_slice_med_rgs/energy_distance,0.081433582441566,703,0,0,2
+HepG2/C3A,80,log1p_slice_med_rgs/energy_distance,0.06778535530882573,703,0,4,0
+HepG2/C3A,80,log1p_slice_med_rgs/energy_distance,0.06892738912047906,703,0,4,1
+HepG2/C3A,80,log1p_slice_med_rgs/energy_distance,0.06635324985509576,703,0,4,2
+HepG2/C3A,164,log1p_slice_med_rgs/energy_distance,0.05851912057586279,703,0,3,0
+HepG2/C3A,164,log1p_slice_med_rgs/energy_distance,0.05890406178546325,703,0,3,1
+HepG2/C3A,164,log1p_slice_med_rgs/energy_distance,0.06087812963624089,703,0,3,2
+Hs 766T,0,log1p_slice_med_rgs/energy_distance,0.08499812807744307,701,0,3,0
+Hs 766T,0,log1p_slice_med_rgs/energy_distance,0.0873920465161899,701,0,3,1
+Hs 766T,0,log1p_slice_med_rgs/energy_distance,0.09328037729957134,701,0,3,2
+Hs 766T,15,log1p_slice_med_rgs/energy_distance,0.06715955067633222,701,0,2,0
+Hs 766T,15,log1p_slice_med_rgs/energy_distance,0.06842737021017686,701,0,2,1
+Hs 766T,15,log1p_slice_med_rgs/energy_distance,0.06443406647860409,701,0,2,2
+Hs 766T,30,log1p_slice_med_rgs/energy_distance,0.05722760133838518,701,0,1,0
+Hs 766T,30,log1p_slice_med_rgs/energy_distance,0.06205583128881523,701,0,1,1
+Hs 766T,30,log1p_slice_med_rgs/energy_distance,0.05890961074284922,701,0,1,2
+Hs 766T,80,log1p_slice_med_rgs/energy_distance,0.04678050733666957,701,0,0,0
+Hs 766T,80,log1p_slice_med_rgs/energy_distance,0.04963039365542598,701,0,0,1
+Hs 766T,80,log1p_slice_med_rgs/energy_distance,0.049871133159468756,701,0,0,2
+Hs 766T,164,log1p_slice_med_rgs/energy_distance,0.042472591753863066,701,0,4,0
+Hs 766T,164,log1p_slice_med_rgs/energy_distance,0.04275637040294696,701,0,4,1
+Hs 766T,164,log1p_slice_med_rgs/energy_distance,0.041726327316567155,701,0,4,2
+PANC-1,0,log1p_slice_med_rgs/energy_distance,0.08116784462561974,702,0,4,0
+PANC-1,0,log1p_slice_med_rgs/energy_distance,0.07969477781203398,702,0,4,1
+PANC-1,0,log1p_slice_med_rgs/energy_distance,0.07543210358361573,702,0,4,2
+PANC-1,15,log1p_slice_med_rgs/energy_distance,0.057212178863351504,702,0,3,0
+PANC-1,15,log1p_slice_med_rgs/energy_distance,0.054858809522753765,702,0,3,1
+PANC-1,15,log1p_slice_med_rgs/energy_distance,0.058014492024044025,702,0,3,2
+PANC-1,30,log1p_slice_med_rgs/energy_distance,0.05539445523862486,702,0,2,0
+PANC-1,30,log1p_slice_med_rgs/energy_distance,0.05139464598435622,702,0,2,1
+PANC-1,30,log1p_slice_med_rgs/energy_distance,0.05293030344862544,702,0,2,2
+PANC-1,80,log1p_slice_med_rgs/energy_distance,0.041649508680033885,702,0,1,0
+PANC-1,80,log1p_slice_med_rgs/energy_distance,0.045447640269570204,702,0,1,1
+PANC-1,80,log1p_slice_med_rgs/energy_distance,0.04535013861805625,702,0,1,2
+PANC-1,164,log1p_slice_med_rgs/energy_distance,0.03996577222123105,702,0,0,0
+PANC-1,164,log1p_slice_med_rgs/energy_distance,0.03967416660058872,702,0,0,1
+PANC-1,164,log1p_slice_med_rgs/energy_distance,0.038177079964227485,702,0,0,2
+C32,0,log1p_slice_med_rgs/pearson_r_diff,0.46063678037306227,702,0,0,0
+C32,0,log1p_slice_med_rgs/pearson_r_diff,0.4842249989122195,702,0,0,1
+C32,0,log1p_slice_med_rgs/pearson_r_diff,0.47518626963281924,702,0,0,2
+C32,15,log1p_slice_med_rgs/pearson_r_diff,0.590883253863283,702,0,4,0
+C32,15,log1p_slice_med_rgs/pearson_r_diff,0.5852628206659076,702,0,4,1
+C32,15,log1p_slice_med_rgs/pearson_r_diff,0.5958184497935055,702,0,4,2
+C32,30,log1p_slice_med_rgs/pearson_r_diff,0.6262661544062155,702,0,3,0
+C32,30,log1p_slice_med_rgs/pearson_r_diff,0.6269592198747558,702,0,3,1
+C32,30,log1p_slice_med_rgs/pearson_r_diff,0.6209262676133729,702,0,3,2
+C32,80,log1p_slice_med_rgs/pearson_r_diff,0.6793192803522736,702,0,2,0
+C32,80,log1p_slice_med_rgs/pearson_r_diff,0.6642347048660289,702,0,2,1
+C32,80,log1p_slice_med_rgs/pearson_r_diff,0.6654368358812802,702,0,2,2
+C32,164,log1p_slice_med_rgs/pearson_r_diff,0.7034548170774368,702,0,1,0
+C32,164,log1p_slice_med_rgs/pearson_r_diff,0.6984785274175285,702,0,1,1
+C32,164,log1p_slice_med_rgs/pearson_r_diff,0.7020495279819474,702,0,1,2
+HOP62,0,log1p_slice_med_rgs/pearson_r_diff,0.7041731815557307,703,0,1,0
+HOP62,0,log1p_slice_med_rgs/pearson_r_diff,0.7123876697732239,703,0,1,1
+HOP62,0,log1p_slice_med_rgs/pearson_r_diff,0.7011401190198587,703,0,1,2
+HOP62,15,log1p_slice_med_rgs/pearson_r_diff,0.7807945987874719,703,0,0,0
+HOP62,15,log1p_slice_med_rgs/pearson_r_diff,0.7561017420267253,703,0,0,1
+HOP62,15,log1p_slice_med_rgs/pearson_r_diff,0.777252113735396,703,0,0,2
+HOP62,30,log1p_slice_med_rgs/pearson_r_diff,0.788859446211102,703,0,4,0
+HOP62,30,log1p_slice_med_rgs/pearson_r_diff,0.7688301188267164,703,0,4,1
+HOP62,30,log1p_slice_med_rgs/pearson_r_diff,0.7916782387051398,703,0,4,2
+HOP62,80,log1p_slice_med_rgs/pearson_r_diff,0.810845893051258,703,0,3,0
+HOP62,80,log1p_slice_med_rgs/pearson_r_diff,0.8113722066523489,703,0,3,1
+HOP62,80,log1p_slice_med_rgs/pearson_r_diff,0.8100327226713533,703,0,3,2
+HOP62,164,log1p_slice_med_rgs/pearson_r_diff,0.8245832298468394,703,0,2,0
+HOP62,164,log1p_slice_med_rgs/pearson_r_diff,0.8247119843122546,703,0,2,1
+HOP62,164,log1p_slice_med_rgs/pearson_r_diff,0.8257283681889686,703,0,2,2
+HepG2/C3A,0,log1p_slice_med_rgs/pearson_r_diff,0.43033213260322595,703,0,2,0
+HepG2/C3A,0,log1p_slice_med_rgs/pearson_r_diff,0.44346351199021633,703,0,2,1
+HepG2/C3A,0,log1p_slice_med_rgs/pearson_r_diff,0.4475599620517762,703,0,2,2
+HepG2/C3A,15,log1p_slice_med_rgs/pearson_r_diff,0.5932886955403799,703,0,1,0
+HepG2/C3A,15,log1p_slice_med_rgs/pearson_r_diff,0.5668321973399112,703,0,1,1
+HepG2/C3A,15,log1p_slice_med_rgs/pearson_r_diff,0.5865954559105601,703,0,1,2
+HepG2/C3A,30,log1p_slice_med_rgs/pearson_r_diff,0.617701916946138,703,0,0,0
+HepG2/C3A,30,log1p_slice_med_rgs/pearson_r_diff,0.6143009637165842,703,0,0,1
+HepG2/C3A,30,log1p_slice_med_rgs/pearson_r_diff,0.6130141966021057,703,0,0,2
+HepG2/C3A,80,log1p_slice_med_rgs/pearson_r_diff,0.6603937470678711,703,0,4,0
+HepG2/C3A,80,log1p_slice_med_rgs/pearson_r_diff,0.6460398928504729,703,0,4,1
+HepG2/C3A,80,log1p_slice_med_rgs/pearson_r_diff,0.6607531434889474,703,0,4,2
+HepG2/C3A,164,log1p_slice_med_rgs/pearson_r_diff,0.6825468180804469,703,0,3,0
+HepG2/C3A,164,log1p_slice_med_rgs/pearson_r_diff,0.680179377890604,703,0,3,1
+HepG2/C3A,164,log1p_slice_med_rgs/pearson_r_diff,0.6816111239809993,703,0,3,2
+Hs 766T,0,log1p_slice_med_rgs/pearson_r_diff,0.5485001141351572,701,0,3,0
+Hs 766T,0,log1p_slice_med_rgs/pearson_r_diff,0.5425471380863142,701,0,3,1
+Hs 766T,0,log1p_slice_med_rgs/pearson_r_diff,0.5238629049400981,701,0,3,2
+Hs 766T,15,log1p_slice_med_rgs/pearson_r_diff,0.6126700928932941,701,0,2,0
+Hs 766T,15,log1p_slice_med_rgs/pearson_r_diff,0.6115970488972483,701,0,2,1
+Hs 766T,15,log1p_slice_med_rgs/pearson_r_diff,0.6250125475987771,701,0,2,2
+Hs 766T,30,log1p_slice_med_rgs/pearson_r_diff,0.6416743103676833,701,0,1,0
+Hs 766T,30,log1p_slice_med_rgs/pearson_r_diff,0.6328821063025745,701,0,1,1
+Hs 766T,30,log1p_slice_med_rgs/pearson_r_diff,0.6518989828058662,701,0,1,2
+Hs 766T,80,log1p_slice_med_rgs/pearson_r_diff,0.6763755125598119,701,0,0,0
+Hs 766T,80,log1p_slice_med_rgs/pearson_r_diff,0.6717182303248731,701,0,0,1
+Hs 766T,80,log1p_slice_med_rgs/pearson_r_diff,0.6783950421826306,701,0,0,2
+Hs 766T,164,log1p_slice_med_rgs/pearson_r_diff,0.6946942400846221,701,0,4,0
+Hs 766T,164,log1p_slice_med_rgs/pearson_r_diff,0.6922422997738512,701,0,4,1
+Hs 766T,164,log1p_slice_med_rgs/pearson_r_diff,0.6932490876664577,701,0,4,2
+PANC-1,0,log1p_slice_med_rgs/pearson_r_diff,0.5871785224449856,702,0,4,0
+PANC-1,0,log1p_slice_med_rgs/pearson_r_diff,0.5969526529566854,702,0,4,1
+PANC-1,0,log1p_slice_med_rgs/pearson_r_diff,0.5932415706049811,702,0,4,2
+PANC-1,15,log1p_slice_med_rgs/pearson_r_diff,0.701970437875925,702,0,3,0
+PANC-1,15,log1p_slice_med_rgs/pearson_r_diff,0.7029326333196043,702,0,3,1
+PANC-1,15,log1p_slice_med_rgs/pearson_r_diff,0.6827494624817738,702,0,3,2
+PANC-1,30,log1p_slice_med_rgs/pearson_r_diff,0.7173407196552835,702,0,2,0
+PANC-1,30,log1p_slice_med_rgs/pearson_r_diff,0.7233463977901344,702,0,2,1
+PANC-1,30,log1p_slice_med_rgs/pearson_r_diff,0.7239028694813917,702,0,2,2
+PANC-1,80,log1p_slice_med_rgs/pearson_r_diff,0.7630945486454372,702,0,1,0
+PANC-1,80,log1p_slice_med_rgs/pearson_r_diff,0.7534544415907282,702,0,1,1
+PANC-1,80,log1p_slice_med_rgs/pearson_r_diff,0.755247098640499,702,0,1,2
+PANC-1,164,log1p_slice_med_rgs/pearson_r_diff,0.7772494714781429,702,0,0,0
+PANC-1,164,log1p_slice_med_rgs/pearson_r_diff,0.7762912250683773,702,0,0,1
+PANC-1,164,log1p_slice_med_rgs/pearson_r_diff,0.7753759572637982,702,0,0,2

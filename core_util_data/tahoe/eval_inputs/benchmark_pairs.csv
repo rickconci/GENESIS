@@ -1,0 +1,531 @@
+cell_name,drug,dose,plate_i,plate_j
+C32,(R)-Verapamil (hydrochloride),5.0,6,14
+C32,8-Hydroxyquinoline,5.0,6,14
+C32,Adenine,5.0,6,14
+C32,Adenosine,5.0,6,14
+C32,Afatinib,0.05,1,7
+C32,Afatinib,0.05,1,13
+C32,Afatinib,0.05,7,13
+C32,Afatinib,0.5,2,8
+C32,Afatinib,0.5,2,13
+C32,Afatinib,0.5,8,13
+C32,Afatinib,5.0,3,9
+C32,Afatinib,5.0,3,13
+C32,Afatinib,5.0,9,13
+C32,Almonertinib (hydrochloride),5.0,6,14
+C32,Almonertinib (mesylate),0.05,7,13
+C32,Almonertinib (mesylate),0.5,8,13
+C32,Almonertinib (mesylate),5.0,9,13
+C32,Amsacrine,5.0,6,14
+C32,Anethole trithione,5.0,6,14
+C32,Artesunate,5.0,6,14
+C32,Azithromycin (hydrate),5.0,6,14
+C32,Baicalin,5.0,6,14
+C32,Balsalazide (sodium hydrate),5.0,6,14
+C32,Belumosudil,0.05,7,13
+C32,Belumosudil,0.5,8,13
+C32,Belumosudil,5.0,9,13
+C32,Berbamine,0.5,5,13
+C32,Berbamine,5.0,6,14
+C32,Berbamine (dihydrochloride),0.05,7,13
+C32,Berbamine (dihydrochloride),0.5,8,13
+C32,Berbamine (dihydrochloride),5.0,9,13
+C32,Berberine (chloride hydrate),5.0,6,14
+C32,Bimatoprost,5.0,6,14
+C32,Busulfan,5.0,6,14
+C32,Cepharanthine,5.0,6,14
+C32,Chlorhexidine (diacetate),0.5,5,13
+C32,Chlorhexidine (diacetate),5.0,6,14
+C32,Cysteamine (hydrochloride),5.0,6,14
+C32,Daidzin,0.05,7,13
+C32,Daidzin,0.5,8,13
+C32,Daidzin,5.0,9,13
+C32,Demeclocycline,5.0,6,14
+C32,Docetaxel,5.0,6,14
+C32,Elagolix sodium,5.0,6,14
+C32,Fluvoxamine (maleate),5.0,6,14
+C32,Fumaric acid,0.05,7,13
+C32,Fumaric acid,0.5,8,13
+C32,Fumaric acid,5.0,9,13
+C32,Furosemide,5.0,6,14
+C32,Fusidic acid,5.0,6,14
+C32,Gallic acid,5.0,6,14
+C32,Gallic acid (hydrate),5.0,6,14
+C32,Gemfibrozil,5.0,6,14
+C32,Goserelin (acetate),5.0,6,14
+C32,Hexylresorcinol,5.0,6,14
+C32,Homoharringtonine,5.0,6,14
+C32,Idarubicin (hydrochloride),5.0,6,14
+C32,Lenalidomide (hemihydrate),5.0,6,14
+C32,Lipoic acid,5.0,6,14
+C32,Mitoxantrone (dihydrochloride),5.0,6,14
+C32,Naproxen,0.05,7,13
+C32,Naproxen,0.5,8,13
+C32,Naproxen,5.0,9,13
+C32,Neratinib (maleate),5.0,6,14
+C32,Norepinephrine (hydrochloride),5.0,6,14
+C32,Palmatine (chloride),5.0,6,14
+C32,Pasireotide (acetate),5.0,6,14
+C32,Pentamidine (isethionate),0.5,5,13
+C32,Pentamidine (isethionate),5.0,6,14
+C32,Pralsetinib,0.05,1,13
+C32,Pravastatin (sodium),0.05,7,13
+C32,Pravastatin (sodium),0.5,8,13
+C32,Pravastatin (sodium),5.0,9,13
+C32,Pyridoxine,5.0,6,14
+C32,Pyridoxine (hydrochloride),5.0,6,14
+C32,Radotinib,5.0,6,14
+C32,Raltitrexed,5.0,6,14
+C32,Rapamycin,5.0,6,14
+C32,Regorafenib,0.05,1,13
+C32,Regorafenib,0.5,2,13
+C32,Regorafenib,5.0,3,13
+C32,Relugolix,5.0,6,14
+C32,Resveratrol,5.0,6,14
+C32,Retinoic acid,5.0,6,14
+C32,Riluzole hydrochloride,5.0,6,14
+C32,Rimonabant,5.0,6,14
+C32,Ritonavir,5.0,6,14
+C32,Ropivacaine (hydrochloride monohydrate),5.0,6,14
+C32,Salicylic acid,5.0,6,14
+C32,Saquinavir,5.0,6,14
+C32,Sinomenine,5.0,6,14
+C32,Sodium Salicylate,5.0,6,14
+C32,Temsirolimus,5.0,6,14
+C32,Terfenadine,0.5,5,13
+C32,Terfenadine,5.0,6,14
+C32,Thymol,5.0,6,14
+C32,Tofacitinib,5.0,6,14
+C32,Tofacitinib (citrate),5.0,6,14
+C32,Tolcapone,5.0,6,14
+C32,Trametinib,0.05,1,10
+C32,Trametinib,0.5,2,11
+C32,Trametinib,5.0,3,12
+C32,Triamcinolone,5.0,6,14
+C32,Trimetrexate,5.0,6,14
+C32,Tucidinostat,5.0,6,14
+C32,Vilanterol,5.0,6,14
+HOP62,(R)-Verapamil (hydrochloride),5.0,6,14
+HOP62,8-Hydroxyquinoline,5.0,6,14
+HOP62,Adenine,5.0,6,14
+HOP62,Adenosine,5.0,6,14
+HOP62,Afatinib,0.05,1,7
+HOP62,Afatinib,0.05,1,13
+HOP62,Afatinib,0.05,7,13
+HOP62,Afatinib,0.5,2,8
+HOP62,Afatinib,0.5,2,13
+HOP62,Afatinib,0.5,8,13
+HOP62,Afatinib,5.0,3,9
+HOP62,Afatinib,5.0,3,13
+HOP62,Afatinib,5.0,9,13
+HOP62,Almonertinib (hydrochloride),5.0,6,14
+HOP62,Almonertinib (mesylate),0.05,7,13
+HOP62,Almonertinib (mesylate),0.5,8,13
+HOP62,Almonertinib (mesylate),5.0,9,13
+HOP62,Amsacrine,5.0,6,14
+HOP62,Anethole trithione,5.0,6,14
+HOP62,Artesunate,5.0,6,14
+HOP62,Azithromycin (hydrate),5.0,6,14
+HOP62,Baicalin,5.0,6,14
+HOP62,Balsalazide (sodium hydrate),5.0,6,14
+HOP62,Belumosudil,0.05,7,13
+HOP62,Belumosudil,0.5,8,13
+HOP62,Belumosudil,5.0,9,13
+HOP62,Berbamine,0.5,5,13
+HOP62,Berbamine,5.0,6,14
+HOP62,Berbamine (dihydrochloride),0.05,7,13
+HOP62,Berbamine (dihydrochloride),0.5,8,13
+HOP62,Berbamine (dihydrochloride),5.0,9,13
+HOP62,Berberine (chloride hydrate),5.0,6,14
+HOP62,Bimatoprost,5.0,6,14
+HOP62,Busulfan,5.0,6,14
+HOP62,Cepharanthine,5.0,6,14
+HOP62,Chlorhexidine (diacetate),0.5,5,13
+HOP62,Chlorhexidine (diacetate),5.0,6,14
+HOP62,Cysteamine (hydrochloride),5.0,6,14
+HOP62,Daidzin,0.05,7,13
+HOP62,Daidzin,0.5,8,13
+HOP62,Daidzin,5.0,9,13
+HOP62,Demeclocycline,5.0,6,14
+HOP62,Docetaxel,5.0,6,14
+HOP62,Elagolix sodium,5.0,6,14
+HOP62,Fluvoxamine (maleate),5.0,6,14
+HOP62,Fumaric acid,0.05,7,13
+HOP62,Fumaric acid,0.5,8,13
+HOP62,Fumaric acid,5.0,9,13
+HOP62,Furosemide,5.0,6,14
+HOP62,Fusidic acid,5.0,6,14
+HOP62,Gallic acid,5.0,6,14
+HOP62,Gallic acid (hydrate),5.0,6,14
+HOP62,Gemfibrozil,5.0,6,14
+HOP62,Goserelin (acetate),5.0,6,14
+HOP62,Hexylresorcinol,5.0,6,14
+HOP62,Homoharringtonine,5.0,6,14
+HOP62,Idarubicin (hydrochloride),5.0,6,14
+HOP62,Lenalidomide (hemihydrate),5.0,6,14
+HOP62,Lipoic acid,5.0,6,14
+HOP62,Mitoxantrone (dihydrochloride),5.0,6,14
+HOP62,Naproxen,0.05,7,13
+HOP62,Naproxen,0.5,8,13
+HOP62,Naproxen,5.0,9,13
+HOP62,Neratinib (maleate),5.0,6,14
+HOP62,Norepinephrine (hydrochloride),5.0,6,14
+HOP62,Palmatine (chloride),5.0,6,14
+HOP62,Pasireotide (acetate),5.0,6,14
+HOP62,Pentamidine (isethionate),0.5,5,13
+HOP62,Pentamidine (isethionate),5.0,6,14
+HOP62,Pralsetinib,0.05,1,13
+HOP62,Pravastatin (sodium),0.05,7,13
+HOP62,Pravastatin (sodium),0.5,8,13
+HOP62,Pravastatin (sodium),5.0,9,13
+HOP62,Pyridoxine,5.0,6,14
+HOP62,Pyridoxine (hydrochloride),5.0,6,14
+HOP62,Radotinib,5.0,6,14
+HOP62,Raltitrexed,5.0,6,14
+HOP62,Rapamycin,5.0,6,14
+HOP62,Regorafenib,0.05,1,13
+HOP62,Regorafenib,0.5,2,13
+HOP62,Regorafenib,5.0,3,13
+HOP62,Relugolix,5.0,6,14
+HOP62,Resveratrol,5.0,6,14
+HOP62,Retinoic acid,5.0,6,14
+HOP62,Riluzole hydrochloride,5.0,6,14
+HOP62,Rimonabant,5.0,6,14
+HOP62,Ritonavir,5.0,6,14
+HOP62,Ropivacaine (hydrochloride monohydrate),5.0,6,14
+HOP62,Salicylic acid,5.0,6,14
+HOP62,Saquinavir,5.0,6,14
+HOP62,Sinomenine,5.0,6,14
+HOP62,Sodium Salicylate,5.0,6,14
+HOP62,Temsirolimus,5.0,6,14
+HOP62,Terfenadine,0.5,5,13
+HOP62,Terfenadine,5.0,6,14
+HOP62,Thymol,5.0,6,14
+HOP62,Tofacitinib,5.0,6,14
+HOP62,Tofacitinib (citrate),5.0,6,14
+HOP62,Tolcapone,5.0,6,14
+HOP62,Trametinib,0.05,1,10
+HOP62,Trametinib,0.5,2,11
+HOP62,Trametinib,5.0,3,12
+HOP62,Triamcinolone,5.0,6,14
+HOP62,Trimetrexate,5.0,6,14
+HOP62,Tucidinostat,5.0,6,14
+HOP62,Vilanterol,5.0,6,14
+HepG2/C3A,(R)-Verapamil (hydrochloride),5.0,6,14
+HepG2/C3A,8-Hydroxyquinoline,5.0,6,14
+HepG2/C3A,Adenine,5.0,6,14
+HepG2/C3A,Adenosine,5.0,6,14
+HepG2/C3A,Afatinib,0.05,1,7
+HepG2/C3A,Afatinib,0.05,1,13
+HepG2/C3A,Afatinib,0.05,7,13
+HepG2/C3A,Afatinib,0.5,2,8
+HepG2/C3A,Afatinib,0.5,2,13
+HepG2/C3A,Afatinib,0.5,8,13
+HepG2/C3A,Afatinib,5.0,3,9
+HepG2/C3A,Afatinib,5.0,3,13
+HepG2/C3A,Afatinib,5.0,9,13
+HepG2/C3A,Almonertinib (hydrochloride),5.0,6,14
+HepG2/C3A,Almonertinib (mesylate),0.05,7,13
+HepG2/C3A,Almonertinib (mesylate),0.5,8,13
+HepG2/C3A,Almonertinib (mesylate),5.0,9,13
+HepG2/C3A,Amsacrine,5.0,6,14
+HepG2/C3A,Anethole trithione,5.0,6,14
+HepG2/C3A,Artesunate,5.0,6,14
+HepG2/C3A,Azithromycin (hydrate),5.0,6,14
+HepG2/C3A,Baicalin,5.0,6,14
+HepG2/C3A,Balsalazide (sodium hydrate),5.0,6,14
+HepG2/C3A,Belumosudil,0.05,7,13
+HepG2/C3A,Belumosudil,0.5,8,13
+HepG2/C3A,Belumosudil,5.0,9,13
+HepG2/C3A,Berbamine,0.5,5,13
+HepG2/C3A,Berbamine,5.0,6,14
+HepG2/C3A,Berbamine (dihydrochloride),0.05,7,13
+HepG2/C3A,Berbamine (dihydrochloride),0.5,8,13
+HepG2/C3A,Berbamine (dihydrochloride),5.0,9,13
+HepG2/C3A,Berberine (chloride hydrate),5.0,6,14
+HepG2/C3A,Bimatoprost,5.0,6,14
+HepG2/C3A,Busulfan,5.0,6,14
+HepG2/C3A,Cepharanthine,5.0,6,14
+HepG2/C3A,Chlorhexidine (diacetate),0.5,5,13
+HepG2/C3A,Chlorhexidine (diacetate),5.0,6,14
+HepG2/C3A,Cysteamine (hydrochloride),5.0,6,14
+HepG2/C3A,Daidzin,0.05,7,13
+HepG2/C3A,Daidzin,0.5,8,13
+HepG2/C3A,Daidzin,5.0,9,13
+HepG2/C3A,Demeclocycline,5.0,6,14
+HepG2/C3A,Docetaxel,5.0,6,14
+HepG2/C3A,Elagolix sodium,5.0,6,14
+HepG2/C3A,Fluvoxamine (maleate),5.0,6,14
+HepG2/C3A,Fumaric acid,0.05,7,13
+HepG2/C3A,Fumaric acid,0.5,8,13
+HepG2/C3A,Fumaric acid,5.0,9,13
+HepG2/C3A,Furosemide,5.0,6,14
+HepG2/C3A,Fusidic acid,5.0,6,14
+HepG2/C3A,Gallic acid,5.0,6,14
+HepG2/C3A,Gallic acid (hydrate),5.0,6,14
+HepG2/C3A,Gemfibrozil,5.0,6,14
+HepG2/C3A,Goserelin (acetate),5.0,6,14
+HepG2/C3A,Hexylresorcinol,5.0,6,14
+HepG2/C3A,Homoharringtonine,5.0,6,14
+HepG2/C3A,Idarubicin (hydrochloride),5.0,6,14
+HepG2/C3A,Lenalidomide (hemihydrate),5.0,6,14
+HepG2/C3A,Lipoic acid,5.0,6,14
+HepG2/C3A,Mitoxantrone (dihydrochloride),5.0,6,14
+HepG2/C3A,Naproxen,0.05,7,13
+HepG2/C3A,Naproxen,0.5,8,13
+HepG2/C3A,Naproxen,5.0,9,13
+HepG2/C3A,Neratinib (maleate),5.0,6,14
+HepG2/C3A,Norepinephrine (hydrochloride),5.0,6,14
+HepG2/C3A,Palmatine (chloride),5.0,6,14
+HepG2/C3A,Pasireotide (acetate),5.0,6,14
+HepG2/C3A,Pentamidine (isethionate),0.5,5,13
+HepG2/C3A,Pentamidine (isethionate),5.0,6,14
+HepG2/C3A,Pralsetinib,0.05,1,13
+HepG2/C3A,Pravastatin (sodium),0.05,7,13
+HepG2/C3A,Pravastatin (sodium),0.5,8,13
+HepG2/C3A,Pravastatin (sodium),5.0,9,13
+HepG2/C3A,Pyridoxine,5.0,6,14
+HepG2/C3A,Pyridoxine (hydrochloride),5.0,6,14
+HepG2/C3A,Radotinib,5.0,6,14
+HepG2/C3A,Raltitrexed,5.0,6,14
+HepG2/C3A,Rapamycin,5.0,6,14
+HepG2/C3A,Regorafenib,0.05,1,13
+HepG2/C3A,Regorafenib,0.5,2,13
+HepG2/C3A,Regorafenib,5.0,3,13
+HepG2/C3A,Relugolix,5.0,6,14
+HepG2/C3A,Resveratrol,5.0,6,14
+HepG2/C3A,Retinoic acid,5.0,6,14
+HepG2/C3A,Riluzole hydrochloride,5.0,6,14
+HepG2/C3A,Rimonabant,5.0,6,14
+HepG2/C3A,Ritonavir,5.0,6,14
+HepG2/C3A,Ropivacaine (hydrochloride monohydrate),5.0,6,14
+HepG2/C3A,Salicylic acid,5.0,6,14
+HepG2/C3A,Saquinavir,5.0,6,14
+HepG2/C3A,Sinomenine,5.0,6,14
+HepG2/C3A,Sodium Salicylate,5.0,6,14
+HepG2/C3A,Temsirolimus,5.0,6,14
+HepG2/C3A,Terfenadine,0.5,5,13
+HepG2/C3A,Terfenadine,5.0,6,14
+HepG2/C3A,Thymol,5.0,6,14
+HepG2/C3A,Tofacitinib,5.0,6,14
+HepG2/C3A,Tofacitinib (citrate),5.0,6,14
+HepG2/C3A,Tolcapone,5.0,6,14
+HepG2/C3A,Trametinib,0.05,1,10
+HepG2/C3A,Trametinib,0.5,2,11
+HepG2/C3A,Trametinib,5.0,3,12
+HepG2/C3A,Triamcinolone,5.0,6,14
+HepG2/C3A,Trimetrexate,5.0,6,14
+HepG2/C3A,Tucidinostat,5.0,6,14
+HepG2/C3A,Vilanterol,5.0,6,14
+Hs 766T,(R)-Verapamil (hydrochloride),5.0,6,14
+Hs 766T,8-Hydroxyquinoline,5.0,6,14
+Hs 766T,Adenine,5.0,6,14
+Hs 766T,Adenosine,5.0,6,14
+Hs 766T,Afatinib,0.05,1,7
+Hs 766T,Afatinib,0.05,1,13
+Hs 766T,Afatinib,0.05,7,13
+Hs 766T,Afatinib,0.5,2,8
+Hs 766T,Afatinib,0.5,2,13
+Hs 766T,Afatinib,0.5,8,13
+Hs 766T,Afatinib,5.0,3,9
+Hs 766T,Afatinib,5.0,3,13
+Hs 766T,Afatinib,5.0,9,13
+Hs 766T,Almonertinib (hydrochloride),5.0,6,14
+Hs 766T,Almonertinib (mesylate),0.05,7,13
+Hs 766T,Almonertinib (mesylate),0.5,8,13
+Hs 766T,Almonertinib (mesylate),5.0,9,13
+Hs 766T,Amsacrine,5.0,6,14
+Hs 766T,Anethole trithione,5.0,6,14
+Hs 766T,Artesunate,5.0,6,14
+Hs 766T,Azithromycin (hydrate),5.0,6,14
+Hs 766T,Baicalin,5.0,6,14
+Hs 766T,Balsalazide (sodium hydrate),5.0,6,14
+Hs 766T,Belumosudil,0.05,7,13
+Hs 766T,Belumosudil,0.5,8,13
+Hs 766T,Belumosudil,5.0,9,13
+Hs 766T,Berbamine,0.5,5,13
+Hs 766T,Berbamine,5.0,6,14
+Hs 766T,Berbamine (dihydrochloride),0.05,7,13
+Hs 766T,Berbamine (dihydrochloride),0.5,8,13
+Hs 766T,Berbamine (dihydrochloride),5.0,9,13
+Hs 766T,Berberine (chloride hydrate),5.0,6,14
+Hs 766T,Bimatoprost,5.0,6,14
+Hs 766T,Busulfan,5.0,6,14
+Hs 766T,Cepharanthine,5.0,6,14
+Hs 766T,Chlorhexidine (diacetate),0.5,5,13
+Hs 766T,Chlorhexidine (diacetate),5.0,6,14
+Hs 766T,Cysteamine (hydrochloride),5.0,6,14
+Hs 766T,Daidzin,0.05,7,13
+Hs 766T,Daidzin,0.5,8,13
+Hs 766T,Daidzin,5.0,9,13
+Hs 766T,Demeclocycline,5.0,6,14
+Hs 766T,Docetaxel,5.0,6,14
+Hs 766T,Elagolix sodium,5.0,6,14
+Hs 766T,Fluvoxamine (maleate),5.0,6,14
+Hs 766T,Fumaric acid,0.05,7,13
+Hs 766T,Fumaric acid,0.5,8,13
+Hs 766T,Fumaric acid,5.0,9,13
+Hs 766T,Furosemide,5.0,6,14
+Hs 766T,Fusidic acid,5.0,6,14
+Hs 766T,Gallic acid,5.0,6,14
+Hs 766T,Gallic acid (hydrate),5.0,6,14
+Hs 766T,Gemfibrozil,5.0,6,14
+Hs 766T,Goserelin (acetate),5.0,6,14
+Hs 766T,Hexylresorcinol,5.0,6,14
+Hs 766T,Homoharringtonine,5.0,6,14
+Hs 766T,Idarubicin (hydrochloride),5.0,6,14
+Hs 766T,Lenalidomide (hemihydrate),5.0,6,14
+Hs 766T,Lipoic acid,5.0,6,14
+Hs 766T,Mitoxantrone (dihydrochloride),5.0,6,14
+Hs 766T,Naproxen,0.05,7,13
+Hs 766T,Naproxen,0.5,8,13
+Hs 766T,Naproxen,5.0,9,13
+Hs 766T,Neratinib (maleate),5.0,6,14
+Hs 766T,Norepinephrine (hydrochloride),5.0,6,14
+Hs 766T,Palmatine (chloride),5.0,6,14
+Hs 766T,Pasireotide (acetate),5.0,6,14
+Hs 766T,Pentamidine (isethionate),0.5,5,13
+Hs 766T,Pentamidine (isethionate),5.0,6,14
+Hs 766T,Pralsetinib,0.05,1,13
+Hs 766T,Pravastatin (sodium),0.05,7,13
+Hs 766T,Pravastatin (sodium),0.5,8,13
+Hs 766T,Pravastatin (sodium),5.0,9,13
+Hs 766T,Pyridoxine,5.0,6,14
+Hs 766T,Pyridoxine (hydrochloride),5.0,6,14
+Hs 766T,Radotinib,5.0,6,14
+Hs 766T,Raltitrexed,5.0,6,14
+Hs 766T,Rapamycin,5.0,6,14
+Hs 766T,Regorafenib,0.05,1,13
+Hs 766T,Regorafenib,0.5,2,13
+Hs 766T,Regorafenib,5.0,3,13
+Hs 766T,Relugolix,5.0,6,14
+Hs 766T,Resveratrol,5.0,6,14
+Hs 766T,Retinoic acid,5.0,6,14
+Hs 766T,Riluzole hydrochloride,5.0,6,14
+Hs 766T,Rimonabant,5.0,6,14
+Hs 766T,Ritonavir,5.0,6,14
+Hs 766T,Ropivacaine (hydrochloride monohydrate),5.0,6,14
+Hs 766T,Salicylic acid,5.0,6,14
+Hs 766T,Saquinavir,5.0,6,14
+Hs 766T,Sinomenine,5.0,6,14
+Hs 766T,Sodium Salicylate,5.0,6,14
+Hs 766T,Temsirolimus,5.0,6,14
+Hs 766T,Terfenadine,0.5,5,13
+Hs 766T,Terfenadine,5.0,6,14
+Hs 766T,Thymol,5.0,6,14
+Hs 766T,Tofacitinib,5.0,6,14
+Hs 766T,Tofacitinib (citrate),5.0,6,14
+Hs 766T,Tolcapone,5.0,6,14
+Hs 766T,Trametinib,0.05,1,10
+Hs 766T,Trametinib,0.5,2,11
+Hs 766T,Trametinib,5.0,3,12
+Hs 766T,Triamcinolone,5.0,6,14
+Hs 766T,Trimetrexate,5.0,6,14
+Hs 766T,Tucidinostat,5.0,6,14
+Hs 766T,Vilanterol,5.0,6,14
+PANC-1,(R)-Verapamil (hydrochloride),5.0,6,14
+PANC-1,8-Hydroxyquinoline,5.0,6,14
+PANC-1,Adenine,5.0,6,14
+PANC-1,Adenosine,5.0,6,14
+PANC-1,Afatinib,0.05,1,7
+PANC-1,Afatinib,0.05,1,13
+PANC-1,Afatinib,0.05,7,13
+PANC-1,Afatinib,0.5,2,8
+PANC-1,Afatinib,0.5,2,13
+PANC-1,Afatinib,0.5,8,13
+PANC-1,Afatinib,5.0,3,9
+PANC-1,Afatinib,5.0,3,13
+PANC-1,Afatinib,5.0,9,13
+PANC-1,Almonertinib (hydrochloride),5.0,6,14
+PANC-1,Almonertinib (mesylate),0.05,7,13
+PANC-1,Almonertinib (mesylate),0.5,8,13
+PANC-1,Almonertinib (mesylate),5.0,9,13
+PANC-1,Amsacrine,5.0,6,14
+PANC-1,Anethole trithione,5.0,6,14
+PANC-1,Artesunate,5.0,6,14
+PANC-1,Azithromycin (hydrate),5.0,6,14
+PANC-1,Baicalin,5.0,6,14
+PANC-1,Balsalazide (sodium hydrate),5.0,6,14
+PANC-1,Belumosudil,0.05,7,13
+PANC-1,Belumosudil,0.5,8,13
+PANC-1,Belumosudil,5.0,9,13
+PANC-1,Berbamine,0.5,5,13
+PANC-1,Berbamine,5.0,6,14
+PANC-1,Berbamine (dihydrochloride),0.05,7,13
+PANC-1,Berbamine (dihydrochloride),0.5,8,13
+PANC-1,Berbamine (dihydrochloride),5.0,9,13
+PANC-1,Berberine (chloride hydrate),5.0,6,14
+PANC-1,Bimatoprost,5.0,6,14
+PANC-1,Busulfan,5.0,6,14
+PANC-1,Cepharanthine,5.0,6,14
+PANC-1,Chlorhexidine (diacetate),0.5,5,13
+PANC-1,Chlorhexidine (diacetate),5.0,6,14
+PANC-1,Cysteamine (hydrochloride),5.0,6,14
+PANC-1,Daidzin,0.05,7,13
+PANC-1,Daidzin,0.5,8,13
+PANC-1,Daidzin,5.0,9,13
+PANC-1,Demeclocycline,5.0,6,14
+PANC-1,Docetaxel,5.0,6,14
+PANC-1,Elagolix sodium,5.0,6,14
+PANC-1,Fluvoxamine (maleate),5.0,6,14
+PANC-1,Fumaric acid,0.05,7,13
+PANC-1,Fumaric acid,0.5,8,13
+PANC-1,Fumaric acid,5.0,9,13
+PANC-1,Furosemide,5.0,6,14
+PANC-1,Fusidic acid,5.0,6,14
+PANC-1,Gallic acid,5.0,6,14
+PANC-1,Gallic acid (hydrate),5.0,6,14
+PANC-1,Gemfibrozil,5.0,6,14
+PANC-1,Goserelin (acetate),5.0,6,14
+PANC-1,Hexylresorcinol,5.0,6,14
+PANC-1,Homoharringtonine,5.0,6,14
+PANC-1,Idarubicin (hydrochloride),5.0,6,14
+PANC-1,Lenalidomide (hemihydrate),5.0,6,14
+PANC-1,Lipoic acid,5.0,6,14
+PANC-1,Mitoxantrone (dihydrochloride),5.0,6,14
+PANC-1,Naproxen,0.05,7,13
+PANC-1,Naproxen,0.5,8,13
+PANC-1,Naproxen,5.0,9,13
+PANC-1,Neratinib (maleate),5.0,6,14
+PANC-1,Norepinephrine (hydrochloride),5.0,6,14
+PANC-1,Palmatine (chloride),5.0,6,14
+PANC-1,Pasireotide (acetate),5.0,6,14
+PANC-1,Pentamidine (isethionate),0.5,5,13
+PANC-1,Pentamidine (isethionate),5.0,6,14
+PANC-1,Pralsetinib,0.05,1,13
+PANC-1,Pravastatin (sodium),0.05,7,13
+PANC-1,Pravastatin (sodium),0.5,8,13
+PANC-1,Pravastatin (sodium),5.0,9,13
+PANC-1,Pyridoxine,5.0,6,14
+PANC-1,Pyridoxine (hydrochloride),5.0,6,14
+PANC-1,Radotinib,5.0,6,14
+PANC-1,Raltitrexed,5.0,6,14
+PANC-1,Rapamycin,5.0,6,14
+PANC-1,Regorafenib,0.05,1,13
+PANC-1,Regorafenib,0.5,2,13
+PANC-1,Regorafenib,5.0,3,13
+PANC-1,Relugolix,5.0,6,14
+PANC-1,Resveratrol,5.0,6,14
+PANC-1,Retinoic acid,5.0,6,14
+PANC-1,Riluzole hydrochloride,5.0,6,14
+PANC-1,Rimonabant,5.0,6,14
+PANC-1,Ritonavir,5.0,6,14
+PANC-1,Ropivacaine (hydrochloride monohydrate),5.0,6,14
+PANC-1,Salicylic acid,5.0,6,14
+PANC-1,Saquinavir,5.0,6,14
+PANC-1,Sinomenine,5.0,6,14
+PANC-1,Sodium Salicylate,5.0,6,14
+PANC-1,Temsirolimus,5.0,6,14
+PANC-1,Terfenadine,0.5,5,13
+PANC-1,Terfenadine,5.0,6,14
+PANC-1,Thymol,5.0,6,14
+PANC-1,Tofacitinib,5.0,6,14
+PANC-1,Tofacitinib (citrate),5.0,6,14
+PANC-1,Tolcapone,5.0,6,14
+PANC-1,Trametinib,0.05,1,10
+PANC-1,Trametinib,0.5,2,11
+PANC-1,Trametinib,5.0,3,12
+PANC-1,Triamcinolone,5.0,6,14
+PANC-1,Trimetrexate,5.0,6,14
+PANC-1,Tucidinostat,5.0,6,14
+PANC-1,Vilanterol,5.0,6,14

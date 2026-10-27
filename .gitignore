@@ -1,0 +1,13 @@
+# core_results/ ships on Hugging Face, not in git: the scores behind the figures and the model checkpoints
+/core_results/
+# what running the pipeline writes
+/runs/
+/results/
+/data/
+# hf download's bookkeeping for the files it placed
+/.cache/
+.venv/
+__pycache__/
+*.pyc
+# documents kept at the top level (manuscripts, notes) are never part of the release; figure PDFs live deeper
+/*.pdf

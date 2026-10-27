@@ -1,0 +1,10 @@
+metric_key,n_repeats,mean,sem,n_conditions
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,16,0.478761,0.00322986,4158
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,64,0.494418,0.00327001,4158
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,256,0.507019,0.00326515,4158
+log1p_slice_med_rgs/pearson_r_diff,16,0.724178,0.00214492,4211
+log1p_slice_med_rgs/pearson_r_diff,64,0.741728,0.00211735,4211
+log1p_slice_med_rgs/pearson_r_diff,256,0.754728,0.0020522,4211
+log1p_slice_med_rgs/energy_distance,16,0.0506932,0.00148959,4211
+log1p_slice_med_rgs/energy_distance,64,0.0454832,0.00158357,4211
+log1p_slice_med_rgs/energy_distance,256,0.0409091,0.00142004,4211

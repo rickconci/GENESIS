@@ -1,0 +1,13 @@
+STATE_HVG_plus_progeny_pad3072 = STATE_HVG_plus_progeny_3066 (3,066) + 6 padding genes.
+Purpose: 3,066 = 2 x 3 x 7 x 73, so the readout GEMM misses every power-of-two tile.
+3,072 = 64 x 48, hence also a multiple of 32, 16, 8 and 4.
+The first 3,066 lines are byte-identical to STATE_HVG_plus_progeny_3066.txt.
+Padding genes are placeholders, not readouts: drawn uniformly at random
+(numpy default_rng(0).choice, without replacement) from the 59,644 Tahoe symbols in
+the 14-plate gene stats (core_util_data/tahoe/gene_stats/tahoe, 560,000 cells) that are
+not in the union, sorted alphabetically before the draw.
+Raw-count mass of the pad relative to the union: 0.0006%. Three of the six
+(ENSG00000260198, MIR4524A, BUD31P1) were never detected in those 560,000 cells; per-gene statistics that divide by a variance or a
+detection rate are undefined on them; drop the pad before such metrics.
+sha256 = 51ee248518461274479acc4c62b0cb474cb8e51735c43ef6222fef56de580c2a
+Added: ENSG00000260198, MIR4524A, H3P28, ENSG00000269151, BUD31P1, RPS2P18

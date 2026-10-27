@@ -1,0 +1,25 @@
+method,axis,arm,r,ci95_lo,ci95_hi,cluster,n_clusters,ci95_B,ci95_seed
+pearson,profile,replicate,0.376162,0.344538,0.407563,cell line x drug,375,10000,20261014
+pearson,profile,genesis,0.317241,0.291774,0.341631,cell line x drug,375,10000,20261014
+pearson,profile,additive,0.193021,0.176459,0.209721,cell line x drug,375,10000,20261014
+pearson,profile,copy_closest_15,0.228399,0.204461,0.252243,cell line x drug,375,10000,20261014
+pearson,compound,replicate,0.341181,0.309775,0.371353,cell line x drug,375,10000,20261014
+pearson,compound,genesis,0.260708,0.23174,0.288315,cell line x drug,375,10000,20261014
+pearson,compound,additive,0.137747,0.114868,0.159016,cell line x drug,375,10000,20261014
+pearson,compound,copy_closest_15,0.202139,0.175345,0.227795,cell line x drug,375,10000,20261014
+pearson,line,replicate,0.343983,0.299351,0.387136,drug,75,10000,20261014
+pearson,line,genesis,0.230639,0.2005,0.259528,drug,75,10000,20261014
+pearson,line,additive,0.0393078,0.0229594,0.0556546,drug,75,10000,20261014
+pearson,line,copy_closest_15,0.0396077,0.0245555,0.0545376,drug,75,10000,20261014
+spearman,profile,replicate,0.413804,0.381415,0.446143,cell line x drug,375,10000,20261014
+spearman,profile,genesis,0.356898,0.330059,0.382836,cell line x drug,375,10000,20261014
+spearman,profile,additive,0.218161,0.199838,0.236115,cell line x drug,375,10000,20261014
+spearman,profile,copy_closest_15,0.261562,0.236548,0.286309,cell line x drug,375,10000,20261014
+spearman,compound,replicate,0.378785,0.344188,0.405082,cell line x drug,375,10000,20261014
+spearman,compound,genesis,0.302084,0.27309,0.324033,cell line x drug,375,10000,20261014
+spearman,compound,additive,0.158134,0.134833,0.177356,cell line x drug,375,10000,20261014
+spearman,compound,copy_closest_15,0.230607,0.203333,0.252724,cell line x drug,375,10000,20261014
+spearman,line,replicate,0.333902,0.289546,0.376516,drug,75,10000,20261014
+spearman,line,genesis,0.234449,0.205127,0.262836,drug,75,10000,20261014
+spearman,line,additive,0.0386978,0.0222707,0.0548178,drug,75,10000,20261014
+spearman,line,copy_closest_15,0.0537511,0.0374569,0.0701112,drug,75,10000,20261014

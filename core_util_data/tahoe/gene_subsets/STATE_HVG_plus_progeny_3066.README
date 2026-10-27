@@ -1,0 +1,29 @@
+STATE_HVG_plus_progeny_3066 — 3,066 genes
+==========================================
+Built from STATE_HVG.txt (2,000) ∪ progeny_top100_genes_resolved1287.txt (1,287).
+The PROGENy list is the top 100 genes per pathway by p-value over the whole human
+model (OmniPath annotations, resource PROGENy, license=academic; the default
+commercial view is truncated), 14 pathways: 1,400 memberships, 1,297 distinct genes.
+10 symbols are absent from core_util_data/tahoe/metadata/gene_metadata.parquet and
+are not in this panel: ANKRD20A12P, ARLN, CFAP68, CFAP96, EEIG1, FAM200C, LINC00312,
+NHSL3, SARG, SPMIP9.
+Source table: deliverables/FIGURE4_progeny/data/upstream/progeny_omnipath_academic.tsv
+(selection: deliverables/FIGURE4_progeny/scripts/extract_progeny_inputs.py, progeny()).
+Rebuild (byte-identical; refuses to overwrite a differing file):
+  python scripts/data/build_gene_set.py core_util_data/tahoe/gene_subsets/STATE_HVG.txt \
+      core_util_data/shared/gene_subsets/progeny_top100_genes_resolved1287.txt \
+      --out core_util_data/tahoe/gene_subsets/STATE_HVG_plus_progeny_3066.txt
+
+The two source panels are not nested. Intersection: 221.
+HVG-only: 1,779. PROGENy-only: 1,066. Union: 3,066.
+622 of the 1,066 PROGENy-only genes are outside STATE_HVG_plus_hallmark_5750.
+
+Order: STATE_HVG.txt (all 2,000, same order) then PROGENy-only genes in
+progeny_top100_genes_resolved1287.txt order (alphabetical). Prefix is byte-comparable
+to STATE_HVG.
+
+file sha256: 2c7d2592f27f1db6931f5caa2371ac1390b5cfb48f081995affc0e3cadfa086e
+
+Downstream: subset predictions/eval to STATE_HVG names for 2k-comparable metrics.
+The DE q-values on this panel are not the union5750 q-values: Benjamini-Hochberg
+runs over whatever genes are on the axis.

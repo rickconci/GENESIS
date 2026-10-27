@@ -1,0 +1,119 @@
+# =============================================================================
+# Tahoe pert overlap, FIXED test — 10% cells, Latin row 0, entity seed 0
+# =============================================================================
+# Same recipe as tahoe_overlap_bio_celln10 (2-layer [4096, 8192], vg0.5, nrs96, 15 ep).
+# test = 40 fixed drugs × 30 fixed lines × 3 doses, identical in all 12 runs.
+# Latin levels [1, 5, 15, 20] (pool lines per held-out drug); this row: g0=1, g1=5, g2=15, g3=20
+#
+# Launch: CUDA_VISIBLE_DEVICES=<gpu> python -u -m src.main --config configs/tahoe/pert/scaling/overlap_celln10_fixed/entity_seed0/nogroup_state2k_vg05_nrs96_15ep_tahoe_pert_fixed_celln10_r0_es0.yaml devices=1
+# =============================================================================
+
+run_name_suffix: nogroup_state2k_vg05_nrs96_15ep_tahoe_pert_fixed_celln10_r0_es0
+dataset: tahoe
+hvg_genes_path: core_util_data/tahoe/gene_subsets/STATE_HVG.txt
+split_config: core_util_data/splits/tahoe/pert/tahoe_overlap_pert_fixed/entity_seed0/tahoe_overlap_pert_fixed_r0_es0.yaml
+tahoe:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_c0d6420ffc0fa861__n_2000
+  build_cache: false
+  build_eval_cache: false
+  build_noise_ceiling: false
+parse:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_2000
+  build_cache: false
+group_by_condition: false
+train_loader_mode: per_cell
+max_epochs: 15
+limit_train_batches: null
+hbss_equalize_training_budget: false
+seed: 64
+use_curriculum: true
+curriculum_mode: between_epochs
+between_epoch_curriculum_schedule:
+- epoch: 0
+  n_repeats: 96
+  batch_size: 2048
+  lr_mul: 1.0
+- epoch: 3
+  n_repeats: 96
+  batch_size: 2048
+  lr_mul: 0.1
+- epoch: 6
+  n_repeats: 96
+  batch_size: 2048
+  lr_mul: 0.01
+n_repeats: 96
+batch_size: 2048
+optimizer_type: adamw
+lr: 0.0009
+lr_init: 0.0
+weight_decay: 0.0001
+warmup_steps_min: 100
+warmup_steps_max: 1000
+grad_clip: 0
+num_workers: 8
+fetch_factor: 14
+prefetch_factor: 2
+block_size: 1024
+accumulate_grad_batches: 1
+precision: bf16-mixed
+compile_model: true
+compile_mode: max-autotune
+checkpoint_data_fraction: 2.0
+devices: 1
+backbone_type: condition_mlp
+noise_distribution: uniform
+condition_mlp_hidden_dims: [4096, 8192]
+condition_mlp_tokdim: 256
+condition_mlp_norm: none
+condition_mlp_activation: gelu
+condition_mlp_dropout: 0.0
+condition_mlp_residual: false
+condition_mlp_pre_norm: false
+output_activation: relu
+head_bias_init_from_train_mean: true
+head_bias_init_n_batches: 100
+apply_log1p: true
+predict_delta: false
+variogram_loss_weight: 0.5
+variogram_fast: true
+variogram_n_pairs: 6000
+variogram_balanced_zeros: false
+variogram_p: 0.5
+variogram_debias: true
+variogram_repeat_subsample: 96
+variogram_mean_weight: false
+variogram_batch_subsample: 1024
+cpm_energy_loss_weight: 0.0
+total_log1p_mass_weight: 0.0
+raw_mass_huber_weight: 0.0
+per_gene_crps_weight: 0.0
+output_l1_weight: 0.0
+output_l2_weight: 0.0
+batch_composition_diag: true
+batch_composition_diag_every_n_steps: 100
+val_check_interval: 0.0
+num_sanity_val_steps: 0
+limit_val_batches: 0
+use_early_stopping: false
+use_eval_callback: false
+eval_callback_every_n_epochs: 1
+model_eval_splits:
+  - validation
+build_eval_cache: false
+build_noise_ceiling: false
+run_model_eval_after_fit: true
+model_eval_after_fit_splits:
+  - test
+plot_model_vs_ceiling_after_fit: false
+model_eval_n_repeats: 1
+model_eval_batch_size: 2048
+save_split_coverage: false
+raise_on_axis_coverage_failure: false
+use_wandb: true
+wandb_project: tahoe_overlap_pert_fixed_celln10
+wandb_entity: SCFM_VAL
+wandb_run_name: null
+log_every_n_steps: 500
+log_grad_every_n_steps: 5000
+log_grad_top_k: 10
+diagnostics: ["magnitudes"]

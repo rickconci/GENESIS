@@ -1,0 +1,404 @@
+cell_name,drug,dose,plate_i,plate_j
+A-172,Acetohexamide,5.0,6,14
+A-172,Almonertinib (mesylate),0.05,7,13
+A-172,Almonertinib (mesylate),0.5,8,13
+A-172,Almonertinib (mesylate),5.0,9,13
+A-172,Demeclocycline,5.0,6,14
+A-172,Fluvoxamine (maleate),5.0,6,14
+A-172,Furosemide,5.0,6,14
+A-172,Fusidic acid,5.0,6,14
+A-172,Goserelin (acetate),5.0,6,14
+A-172,Lipoic acid,5.0,6,14
+A-172,Neratinib (maleate),5.0,6,14
+A-172,Pralsetinib,0.05,1,13
+A-172,Rapamycin,5.0,6,14
+A-172,Relugolix,5.0,6,14
+A498,Acetohexamide,5.0,6,14
+A498,Almonertinib (mesylate),0.05,7,13
+A498,Almonertinib (mesylate),0.5,8,13
+A498,Almonertinib (mesylate),5.0,9,13
+A498,Demeclocycline,5.0,6,14
+A498,Fluvoxamine (maleate),5.0,6,14
+A498,Furosemide,5.0,6,14
+A498,Fusidic acid,5.0,6,14
+A498,Goserelin (acetate),5.0,6,14
+A498,Lipoic acid,5.0,6,14
+A498,Neratinib (maleate),5.0,6,14
+A498,Pralsetinib,0.05,1,13
+A498,Rapamycin,5.0,6,14
+A498,Relugolix,5.0,6,14
+A549,Acetohexamide,5.0,6,14
+A549,Almonertinib (mesylate),0.05,7,13
+A549,Almonertinib (mesylate),0.5,8,13
+A549,Almonertinib (mesylate),5.0,9,13
+A549,Demeclocycline,5.0,6,14
+A549,Fluvoxamine (maleate),5.0,6,14
+A549,Furosemide,5.0,6,14
+A549,Fusidic acid,5.0,6,14
+A549,Goserelin (acetate),5.0,6,14
+A549,Lipoic acid,5.0,6,14
+A549,Neratinib (maleate),5.0,6,14
+A549,Pralsetinib,0.05,1,13
+A549,Rapamycin,5.0,6,14
+A549,Relugolix,5.0,6,14
+AN3 CA,Acetohexamide,5.0,6,14
+AN3 CA,Almonertinib (mesylate),0.05,7,13
+AN3 CA,Almonertinib (mesylate),0.5,8,13
+AN3 CA,Almonertinib (mesylate),5.0,9,13
+AN3 CA,Demeclocycline,5.0,6,14
+AN3 CA,Fluvoxamine (maleate),5.0,6,14
+AN3 CA,Furosemide,5.0,6,14
+AN3 CA,Fusidic acid,5.0,6,14
+AN3 CA,Goserelin (acetate),5.0,6,14
+AN3 CA,Lipoic acid,5.0,6,14
+AN3 CA,Neratinib (maleate),5.0,6,14
+AN3 CA,Pralsetinib,0.05,1,13
+AN3 CA,Rapamycin,5.0,6,14
+AN3 CA,Relugolix,5.0,6,14
+AsPC-1,Acetohexamide,5.0,6,14
+AsPC-1,Almonertinib (mesylate),0.05,7,13
+AsPC-1,Almonertinib (mesylate),0.5,8,13
+AsPC-1,Almonertinib (mesylate),5.0,9,13
+AsPC-1,Demeclocycline,5.0,6,14
+AsPC-1,Fluvoxamine (maleate),5.0,6,14
+AsPC-1,Furosemide,5.0,6,14
+AsPC-1,Fusidic acid,5.0,6,14
+AsPC-1,Goserelin (acetate),5.0,6,14
+AsPC-1,Lipoic acid,5.0,6,14
+AsPC-1,Neratinib (maleate),5.0,6,14
+AsPC-1,Pralsetinib,0.05,1,13
+AsPC-1,Rapamycin,5.0,6,14
+AsPC-1,Relugolix,5.0,6,14
+C-33 A,Acetohexamide,5.0,6,14
+C-33 A,Almonertinib (mesylate),0.05,7,13
+C-33 A,Almonertinib (mesylate),0.5,8,13
+C-33 A,Almonertinib (mesylate),5.0,9,13
+C-33 A,Demeclocycline,5.0,6,14
+C-33 A,Fluvoxamine (maleate),5.0,6,14
+C-33 A,Furosemide,5.0,6,14
+C-33 A,Fusidic acid,5.0,6,14
+C-33 A,Goserelin (acetate),5.0,6,14
+C-33 A,Lipoic acid,5.0,6,14
+C-33 A,Neratinib (maleate),5.0,6,14
+C-33 A,Pralsetinib,0.05,1,13
+C-33 A,Rapamycin,5.0,6,14
+C-33 A,Relugolix,5.0,6,14
+CHP-212,Acetohexamide,5.0,6,14
+CHP-212,Almonertinib (mesylate),0.05,7,13
+CHP-212,Almonertinib (mesylate),0.5,8,13
+CHP-212,Almonertinib (mesylate),5.0,9,13
+CHP-212,Demeclocycline,5.0,6,14
+CHP-212,Fluvoxamine (maleate),5.0,6,14
+CHP-212,Furosemide,5.0,6,14
+CHP-212,Fusidic acid,5.0,6,14
+CHP-212,Goserelin (acetate),5.0,6,14
+CHP-212,Lipoic acid,5.0,6,14
+CHP-212,Neratinib (maleate),5.0,6,14
+CHP-212,Pralsetinib,0.05,1,13
+CHP-212,Rapamycin,5.0,6,14
+CHP-212,Relugolix,5.0,6,14
+HOP62,Acetohexamide,5.0,6,14
+HOP62,Almonertinib (mesylate),0.05,7,13
+HOP62,Almonertinib (mesylate),0.5,8,13
+HOP62,Almonertinib (mesylate),5.0,9,13
+HOP62,Demeclocycline,5.0,6,14
+HOP62,Fluvoxamine (maleate),5.0,6,14
+HOP62,Furosemide,5.0,6,14
+HOP62,Fusidic acid,5.0,6,14
+HOP62,Goserelin (acetate),5.0,6,14
+HOP62,Lipoic acid,5.0,6,14
+HOP62,Neratinib (maleate),5.0,6,14
+HOP62,Pralsetinib,0.05,1,13
+HOP62,Rapamycin,5.0,6,14
+HOP62,Relugolix,5.0,6,14
+HS-578T,Acetohexamide,5.0,6,14
+HS-578T,Almonertinib (mesylate),0.05,7,13
+HS-578T,Almonertinib (mesylate),0.5,8,13
+HS-578T,Almonertinib (mesylate),5.0,9,13
+HS-578T,Demeclocycline,5.0,6,14
+HS-578T,Fluvoxamine (maleate),5.0,6,14
+HS-578T,Furosemide,5.0,6,14
+HS-578T,Fusidic acid,5.0,6,14
+HS-578T,Goserelin (acetate),5.0,6,14
+HS-578T,Lipoic acid,5.0,6,14
+HS-578T,Neratinib (maleate),5.0,6,14
+HS-578T,Pralsetinib,0.05,1,13
+HS-578T,Rapamycin,5.0,6,14
+HS-578T,Relugolix,5.0,6,14
+J82,Acetohexamide,5.0,6,14
+J82,Almonertinib (mesylate),0.05,7,13
+J82,Almonertinib (mesylate),0.5,8,13
+J82,Almonertinib (mesylate),5.0,9,13
+J82,Demeclocycline,5.0,6,14
+J82,Fluvoxamine (maleate),5.0,6,14
+J82,Furosemide,5.0,6,14
+J82,Fusidic acid,5.0,6,14
+J82,Goserelin (acetate),5.0,6,14
+J82,Lipoic acid,5.0,6,14
+J82,Neratinib (maleate),5.0,6,14
+J82,Pralsetinib,0.05,1,13
+J82,Rapamycin,5.0,6,14
+J82,Relugolix,5.0,6,14
+KATO III,Acetohexamide,5.0,6,14
+KATO III,Almonertinib (mesylate),0.05,7,13
+KATO III,Almonertinib (mesylate),0.5,8,13
+KATO III,Almonertinib (mesylate),5.0,9,13
+KATO III,Demeclocycline,5.0,6,14
+KATO III,Fluvoxamine (maleate),5.0,6,14
+KATO III,Furosemide,5.0,6,14
+KATO III,Fusidic acid,5.0,6,14
+KATO III,Goserelin (acetate),5.0,6,14
+KATO III,Lipoic acid,5.0,6,14
+KATO III,Neratinib (maleate),5.0,6,14
+KATO III,Pralsetinib,0.05,1,13
+KATO III,Rapamycin,5.0,6,14
+KATO III,Relugolix,5.0,6,14
+LOX-IMVI,Acetohexamide,5.0,6,14
+LOX-IMVI,Almonertinib (mesylate),0.05,7,13
+LOX-IMVI,Almonertinib (mesylate),0.5,8,13
+LOX-IMVI,Almonertinib (mesylate),5.0,9,13
+LOX-IMVI,Demeclocycline,5.0,6,14
+LOX-IMVI,Fluvoxamine (maleate),5.0,6,14
+LOX-IMVI,Furosemide,5.0,6,14
+LOX-IMVI,Fusidic acid,5.0,6,14
+LOX-IMVI,Goserelin (acetate),5.0,6,14
+LOX-IMVI,Lipoic acid,5.0,6,14
+LOX-IMVI,Neratinib (maleate),5.0,6,14
+LOX-IMVI,Pralsetinib,0.05,1,13
+LOX-IMVI,Rapamycin,5.0,6,14
+LOX-IMVI,Relugolix,5.0,6,14
+LS 180,Acetohexamide,5.0,6,14
+LS 180,Almonertinib (mesylate),0.05,7,13
+LS 180,Almonertinib (mesylate),0.5,8,13
+LS 180,Almonertinib (mesylate),5.0,9,13
+LS 180,Demeclocycline,5.0,6,14
+LS 180,Fluvoxamine (maleate),5.0,6,14
+LS 180,Furosemide,5.0,6,14
+LS 180,Fusidic acid,5.0,6,14
+LS 180,Goserelin (acetate),5.0,6,14
+LS 180,Lipoic acid,5.0,6,14
+LS 180,Neratinib (maleate),5.0,6,14
+LS 180,Pralsetinib,0.05,1,13
+LS 180,Rapamycin,5.0,6,14
+LS 180,Relugolix,5.0,6,14
+MIA PaCa-2,Acetohexamide,5.0,6,14
+MIA PaCa-2,Almonertinib (mesylate),0.05,7,13
+MIA PaCa-2,Almonertinib (mesylate),0.5,8,13
+MIA PaCa-2,Almonertinib (mesylate),5.0,9,13
+MIA PaCa-2,Demeclocycline,5.0,6,14
+MIA PaCa-2,Fluvoxamine (maleate),5.0,6,14
+MIA PaCa-2,Furosemide,5.0,6,14
+MIA PaCa-2,Fusidic acid,5.0,6,14
+MIA PaCa-2,Goserelin (acetate),5.0,6,14
+MIA PaCa-2,Lipoic acid,5.0,6,14
+MIA PaCa-2,Neratinib (maleate),5.0,6,14
+MIA PaCa-2,Pralsetinib,0.05,1,13
+MIA PaCa-2,Rapamycin,5.0,6,14
+MIA PaCa-2,Relugolix,5.0,6,14
+NCI-H2030,Acetohexamide,5.0,6,14
+NCI-H2030,Almonertinib (mesylate),0.05,7,13
+NCI-H2030,Almonertinib (mesylate),0.5,8,13
+NCI-H2030,Almonertinib (mesylate),5.0,9,13
+NCI-H2030,Demeclocycline,5.0,6,14
+NCI-H2030,Fluvoxamine (maleate),5.0,6,14
+NCI-H2030,Furosemide,5.0,6,14
+NCI-H2030,Fusidic acid,5.0,6,14
+NCI-H2030,Goserelin (acetate),5.0,6,14
+NCI-H2030,Lipoic acid,5.0,6,14
+NCI-H2030,Neratinib (maleate),5.0,6,14
+NCI-H2030,Pralsetinib,0.05,1,13
+NCI-H2030,Rapamycin,5.0,6,14
+NCI-H2030,Relugolix,5.0,6,14
+NCI-H23,Acetohexamide,5.0,6,14
+NCI-H23,Almonertinib (mesylate),0.05,7,13
+NCI-H23,Almonertinib (mesylate),0.5,8,13
+NCI-H23,Almonertinib (mesylate),5.0,9,13
+NCI-H23,Demeclocycline,5.0,6,14
+NCI-H23,Fluvoxamine (maleate),5.0,6,14
+NCI-H23,Furosemide,5.0,6,14
+NCI-H23,Fusidic acid,5.0,6,14
+NCI-H23,Goserelin (acetate),5.0,6,14
+NCI-H23,Lipoic acid,5.0,6,14
+NCI-H23,Neratinib (maleate),5.0,6,14
+NCI-H23,Pralsetinib,0.05,1,13
+NCI-H23,Rapamycin,5.0,6,14
+NCI-H23,Relugolix,5.0,6,14
+NCI-H2347,Acetohexamide,5.0,6,14
+NCI-H2347,Almonertinib (mesylate),0.05,7,13
+NCI-H2347,Almonertinib (mesylate),0.5,8,13
+NCI-H2347,Almonertinib (mesylate),5.0,9,13
+NCI-H2347,Demeclocycline,5.0,6,14
+NCI-H2347,Fluvoxamine (maleate),5.0,6,14
+NCI-H2347,Furosemide,5.0,6,14
+NCI-H2347,Fusidic acid,5.0,6,14
+NCI-H2347,Goserelin (acetate),5.0,6,14
+NCI-H2347,Lipoic acid,5.0,6,14
+NCI-H2347,Neratinib (maleate),5.0,6,14
+NCI-H2347,Pralsetinib,0.05,1,13
+NCI-H2347,Rapamycin,5.0,6,14
+NCI-H2347,Relugolix,5.0,6,14
+NCI-H460,Acetohexamide,5.0,6,14
+NCI-H460,Almonertinib (mesylate),0.05,7,13
+NCI-H460,Almonertinib (mesylate),0.5,8,13
+NCI-H460,Almonertinib (mesylate),5.0,9,13
+NCI-H460,Demeclocycline,5.0,6,14
+NCI-H460,Fluvoxamine (maleate),5.0,6,14
+NCI-H460,Furosemide,5.0,6,14
+NCI-H460,Fusidic acid,5.0,6,14
+NCI-H460,Goserelin (acetate),5.0,6,14
+NCI-H460,Lipoic acid,5.0,6,14
+NCI-H460,Neratinib (maleate),5.0,6,14
+NCI-H460,Pralsetinib,0.05,1,13
+NCI-H460,Rapamycin,5.0,6,14
+NCI-H460,Relugolix,5.0,6,14
+NCI-H661,Almonertinib (mesylate),0.05,7,13
+NCI-H661,Almonertinib (mesylate),0.5,8,13
+NCI-H661,Almonertinib (mesylate),5.0,9,13
+NCI-H661,Demeclocycline,5.0,6,14
+NCI-H661,Fluvoxamine (maleate),5.0,6,14
+NCI-H661,Furosemide,5.0,6,14
+NCI-H661,Fusidic acid,5.0,6,14
+NCI-H661,Goserelin (acetate),5.0,6,14
+NCI-H661,Lipoic acid,5.0,6,14
+NCI-H661,Neratinib (maleate),5.0,6,14
+NCI-H661,Pralsetinib,0.05,1,13
+NCI-H661,Rapamycin,5.0,6,14
+NCI-H661,Relugolix,5.0,6,14
+Panc 03.27,Acetohexamide,5.0,6,14
+Panc 03.27,Almonertinib (mesylate),0.05,7,13
+Panc 03.27,Almonertinib (mesylate),0.5,8,13
+Panc 03.27,Almonertinib (mesylate),5.0,9,13
+Panc 03.27,Demeclocycline,5.0,6,14
+Panc 03.27,Fluvoxamine (maleate),5.0,6,14
+Panc 03.27,Furosemide,5.0,6,14
+Panc 03.27,Fusidic acid,5.0,6,14
+Panc 03.27,Goserelin (acetate),5.0,6,14
+Panc 03.27,Lipoic acid,5.0,6,14
+Panc 03.27,Neratinib (maleate),5.0,6,14
+Panc 03.27,Pralsetinib,0.05,1,13
+Panc 03.27,Rapamycin,5.0,6,14
+Panc 03.27,Relugolix,5.0,6,14
+RKO,Acetohexamide,5.0,6,14
+RKO,Almonertinib (mesylate),0.05,7,13
+RKO,Almonertinib (mesylate),0.5,8,13
+RKO,Almonertinib (mesylate),5.0,9,13
+RKO,Demeclocycline,5.0,6,14
+RKO,Fluvoxamine (maleate),5.0,6,14
+RKO,Furosemide,5.0,6,14
+RKO,Fusidic acid,5.0,6,14
+RKO,Goserelin (acetate),5.0,6,14
+RKO,Lipoic acid,5.0,6,14
+RKO,Neratinib (maleate),5.0,6,14
+RKO,Pralsetinib,0.05,1,13
+RKO,Rapamycin,5.0,6,14
+RKO,Relugolix,5.0,6,14
+RPMI-7951,Acetohexamide,5.0,6,14
+RPMI-7951,Almonertinib (mesylate),0.05,7,13
+RPMI-7951,Almonertinib (mesylate),0.5,8,13
+RPMI-7951,Almonertinib (mesylate),5.0,9,13
+RPMI-7951,Demeclocycline,5.0,6,14
+RPMI-7951,Fluvoxamine (maleate),5.0,6,14
+RPMI-7951,Furosemide,5.0,6,14
+RPMI-7951,Fusidic acid,5.0,6,14
+RPMI-7951,Goserelin (acetate),5.0,6,14
+RPMI-7951,Lipoic acid,5.0,6,14
+RPMI-7951,Neratinib (maleate),5.0,6,14
+RPMI-7951,Pralsetinib,0.05,1,13
+RPMI-7951,Rapamycin,5.0,6,14
+RPMI-7951,Relugolix,5.0,6,14
+SNU-423,Acetohexamide,5.0,6,14
+SNU-423,Almonertinib (mesylate),0.05,7,13
+SNU-423,Almonertinib (mesylate),0.5,8,13
+SNU-423,Almonertinib (mesylate),5.0,9,13
+SNU-423,Demeclocycline,5.0,6,14
+SNU-423,Fluvoxamine (maleate),5.0,6,14
+SNU-423,Furosemide,5.0,6,14
+SNU-423,Fusidic acid,5.0,6,14
+SNU-423,Goserelin (acetate),5.0,6,14
+SNU-423,Lipoic acid,5.0,6,14
+SNU-423,Neratinib (maleate),5.0,6,14
+SNU-423,Pralsetinib,0.05,1,13
+SNU-423,Rapamycin,5.0,6,14
+SNU-423,Relugolix,5.0,6,14
+SW 1088,Acetohexamide,5.0,6,14
+SW 1088,Almonertinib (mesylate),0.5,8,13
+SW 1088,Demeclocycline,5.0,6,14
+SW 1088,Fluvoxamine (maleate),5.0,6,14
+SW 1088,Furosemide,5.0,6,14
+SW 1088,Fusidic acid,5.0,6,14
+SW 1088,Goserelin (acetate),5.0,6,14
+SW 1088,Lipoic acid,5.0,6,14
+SW 1088,Neratinib (maleate),5.0,6,14
+SW 1088,Pralsetinib,0.05,1,13
+SW 1088,Rapamycin,5.0,6,14
+SW 1088,Relugolix,5.0,6,14
+SW 900,Acetohexamide,5.0,6,14
+SW 900,Almonertinib (mesylate),0.05,7,13
+SW 900,Almonertinib (mesylate),0.5,8,13
+SW 900,Almonertinib (mesylate),5.0,9,13
+SW 900,Demeclocycline,5.0,6,14
+SW 900,Fluvoxamine (maleate),5.0,6,14
+SW 900,Furosemide,5.0,6,14
+SW 900,Fusidic acid,5.0,6,14
+SW 900,Goserelin (acetate),5.0,6,14
+SW 900,Lipoic acid,5.0,6,14
+SW 900,Neratinib (maleate),5.0,6,14
+SW 900,Pralsetinib,0.05,1,13
+SW 900,Rapamycin,5.0,6,14
+SW 900,Relugolix,5.0,6,14
+SW1417,Acetohexamide,5.0,6,14
+SW1417,Almonertinib (mesylate),0.05,7,13
+SW1417,Almonertinib (mesylate),0.5,8,13
+SW1417,Almonertinib (mesylate),5.0,9,13
+SW1417,Demeclocycline,5.0,6,14
+SW1417,Fluvoxamine (maleate),5.0,6,14
+SW1417,Furosemide,5.0,6,14
+SW1417,Fusidic acid,5.0,6,14
+SW1417,Goserelin (acetate),5.0,6,14
+SW1417,Lipoic acid,5.0,6,14
+SW1417,Neratinib (maleate),5.0,6,14
+SW1417,Pralsetinib,0.05,1,13
+SW1417,Rapamycin,5.0,6,14
+SW1417,Relugolix,5.0,6,14
+SW48,Acetohexamide,5.0,6,14
+SW48,Almonertinib (mesylate),0.05,7,13
+SW48,Almonertinib (mesylate),0.5,8,13
+SW48,Almonertinib (mesylate),5.0,9,13
+SW48,Demeclocycline,5.0,6,14
+SW48,Fluvoxamine (maleate),5.0,6,14
+SW48,Furosemide,5.0,6,14
+SW48,Fusidic acid,5.0,6,14
+SW48,Goserelin (acetate),5.0,6,14
+SW48,Lipoic acid,5.0,6,14
+SW48,Neratinib (maleate),5.0,6,14
+SW48,Pralsetinib,0.05,1,13
+SW48,Rapamycin,5.0,6,14
+SW48,Relugolix,5.0,6,14
+SW480,Acetohexamide,5.0,6,14
+SW480,Almonertinib (mesylate),0.05,7,13
+SW480,Almonertinib (mesylate),0.5,8,13
+SW480,Almonertinib (mesylate),5.0,9,13
+SW480,Demeclocycline,5.0,6,14
+SW480,Fluvoxamine (maleate),5.0,6,14
+SW480,Furosemide,5.0,6,14
+SW480,Fusidic acid,5.0,6,14
+SW480,Goserelin (acetate),5.0,6,14
+SW480,Lipoic acid,5.0,6,14
+SW480,Neratinib (maleate),5.0,6,14
+SW480,Pralsetinib,0.05,1,13
+SW480,Rapamycin,5.0,6,14
+SW480,Relugolix,5.0,6,14
+hTERT-HPNE,Acetohexamide,5.0,6,14
+hTERT-HPNE,Almonertinib (mesylate),0.05,7,13
+hTERT-HPNE,Almonertinib (mesylate),0.5,8,13
+hTERT-HPNE,Almonertinib (mesylate),5.0,9,13
+hTERT-HPNE,Demeclocycline,5.0,6,14
+hTERT-HPNE,Fluvoxamine (maleate),5.0,6,14
+hTERT-HPNE,Furosemide,5.0,6,14
+hTERT-HPNE,Fusidic acid,5.0,6,14
+hTERT-HPNE,Goserelin (acetate),5.0,6,14
+hTERT-HPNE,Lipoic acid,5.0,6,14
+hTERT-HPNE,Neratinib (maleate),5.0,6,14
+hTERT-HPNE,Pralsetinib,0.05,1,13
+hTERT-HPNE,Rapamycin,5.0,6,14
+hTERT-HPNE,Relugolix,5.0,6,14

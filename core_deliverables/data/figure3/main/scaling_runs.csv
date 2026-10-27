@@ -1,0 +1,16 @@
+axis,pct_kept,run,stem,n_train,n_ctrl,n_conds
+conds,100,r0,genesis,91825395,2330156,52885
+conds,100,r1,genesis_100_mseed65,91825395,2330156,52885
+conds,100,r2,genesis_100_mseed66,91825395,2330156,52885
+conds,25,r0,genesis_25conds_11ep_r0,24459690,2330156,13221
+conds,25,r1,genesis_25conds_11ep_r1,24217419,2330156,13221
+conds,25,r2,genesis_25conds_11ep_r2,24080563,2330156,13221
+conds,5,r0,genesis_5conds_25ep_r0,6909363,2330156,2644
+conds,5,r1,genesis_5conds_25ep_r1,6996035,2330156,2644
+conds,5,r2,genesis_5conds_25ep_r2,6962480,2330156,2644
+cells,25,r0,genesis_25cells_allctrl_11ep_r0,24459690,2330156,52802
+cells,25,r1,genesis_25cells_allctrl_11ep_r1,24217419,2330156,52815
+cells,25,r2,genesis_25cells_allctrl_11ep_r2,24080563,2330156,52813
+cells,5,r0,genesis_5cells_allctrl,6909363,2330156,52068
+cells,5,r1,genesis_5cells_allctrl_r1,6996035,2330156,52105
+cells,5,r2,genesis_5cells_allctrl_r2,6962480,2330156,52083

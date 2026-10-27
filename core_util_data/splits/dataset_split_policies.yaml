@@ -1,0 +1,175 @@
+# Split policies: the per-dataset inputs to scripts/data/make_splits.py.
+#
+# Everything dataset-specific about split generation lives here; the code in
+# src/data/split_generation.py and src/data/split_schemes.py is generic.
+#
+# Per dataset:
+#   split_dataset      value written to each split YAML's ``dataset:`` tag
+#   condition_summary  one row per observed condition (+ num_cells); the
+#                      registry's metadata_joins are applied on load
+#   doses              canonical doses (empty when the dataset has no dose axis)
+#   hbss               HBSS spec shared by every HBSS-subsampled train block
+#   families           one entry per published split directory; ``scheme`` picks
+#                      the generator (scaling | overlap_bio | overlap_pert)
+#
+# The shipped YAMLs under core_util_data/splits/ are canonical: they are
+# hashed into eval-cache and ceiling keys, so they are never rewritten in place.
+# make_splits.py regenerates a family into --out-dir to prove it reproduces them.
+
+tahoe:
+  split_dataset: tahoe100M
+  condition_summary: core_util_data/tahoe/metadata/quadruplet_summary.parquet
+  doses: [0.05, 0.5, 5.0]
+  hbss:
+    balance_axes: [cell_name, drug, dose]
+    candidate_axis: cell_name
+    diversity_axes:
+      cell_name: Organ
+      drug: moa-fine
+    lam: 0.5
+  families:
+    # Fig 3a: 5 held-out cell lines; fewer training conditions (HBSS) or cells.
+    tahoe_scaling_bio_split:
+      scheme: scaling
+      base_split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+      out_dir: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split
+      name: "tahoe_scaling_bio_{tag}_es{seed}.yaml"
+      seed: 0
+      conds_pcts: [5, 10, 15, 25, 50, 100]
+      cells_pcts: [5, 10, 25, 50, 100]
+      # The published cell budgets match a uniform random draw of the same
+      # fraction of conditions, NOT the HBSS draw. Kept explicit so the shipped budgets reproduce.
+      cells_estimate: random_conditions
+    # Fig 3a matched cells arm: fewer cells drawn like the conds
+    # arm of the same fraction and seed, every control kept and perturbed cells capped at that arm's
+    # perturbed count (hbss005: 4,579,207, hbss025: 22,129,534, + 2,330,156 controls), so all three match.
+    # Targets = the conds twin's split_cache/hbss_meta.json n_train_rows_pert_after. cell_targets_from
+    # names each twin run; make_splits reads it and raises if cell_targets disagree (or the run is missing:
+    # drop the key to regenerate from cell_targets alone). Never re-estimate: legacy HBSS breaks quota ties
+    # by CPU (AVX-512 vs AVX2), so estimate_train_cells on another host can draw a different count.
+    tahoe_scaling_bio_keepctrl:
+      scheme: scaling
+      base_split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+      out_dir: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_keepctrl
+      name: "tahoe_scaling_bio_{tag}_es{seed}.yaml"
+      seed: 0
+      conds_pcts: []
+      cells_pcts: [5, 25]
+      cell_targets: {5: 4579207, 25: 22129534}
+      cell_targets_from:
+        5: runs/tahoe/bio/scaling/n_conds_005/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed0/261013_143712_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf005_s64_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed0
+        25: runs/tahoe/bio/scaling/n_conds_025/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed0/261014_085704_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf025_s64_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed0
+      cells_keep_controls: true
+      cells_tag: "celln{n}_keepctrl_mhbss{pct:03d}"
+    # Fig 3a error bars: sampling seeds 1 and 2 for the 5% and 25% arms. Only the
+    # HBSS / cell-draw seed changes; one family per seed and arm, each in its own folder (one manifest each).
+    tahoe_scaling_bio_split_seed1:
+      scheme: scaling
+      base_split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+      out_dir: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split_seed1
+      name: "tahoe_scaling_bio_{tag}_es{seed}.yaml"
+      seed: 1
+      conds_pcts: [5, 25]
+      cells_pcts: []
+    tahoe_scaling_bio_split_seed2:
+      scheme: scaling
+      base_split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+      out_dir: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split_seed2
+      name: "tahoe_scaling_bio_{tag}_es{seed}.yaml"
+      seed: 2
+      conds_pcts: [5, 25]
+      cells_pcts: []
+    tahoe_scaling_bio_keepctrl_seed1:
+      scheme: scaling
+      base_split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+      out_dir: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_keepctrl_seed1
+      name: "tahoe_scaling_bio_{tag}_es{seed}.yaml"
+      seed: 1
+      conds_pcts: []
+      cells_pcts: [5, 25]
+      cell_targets: {5: 4665879, 25: 21887263}
+      cell_targets_from:
+        5: runs/tahoe/bio/scaling/n_conds_005/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed1/261013_202453_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf005_s65_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed1
+        25: runs/tahoe/bio/scaling/n_conds_025/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed1/261014_234413_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf025_s65_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed1
+      cells_keep_controls: true
+      cells_tag: "celln{n}_keepctrl_mhbss{pct:03d}"
+    tahoe_scaling_bio_keepctrl_seed2:
+      scheme: scaling
+      base_split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+      out_dir: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_keepctrl_seed2
+      name: "tahoe_scaling_bio_{tag}_es{seed}.yaml"
+      seed: 2
+      conds_pcts: []
+      cells_pcts: [5, 25]
+      cell_targets: {5: 4632324, 25: 21750407}
+      cell_targets_from:
+        5: runs/tahoe/bio/scaling/n_conds_005/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed2/261015_064123_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf005_s66_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed2
+        25: runs/tahoe/bio/scaling/n_conds_025/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed2/261015_134031_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf025_s66_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed2
+      cells_keep_controls: true
+      cells_tag: "celln{n}_keepctrl_mhbss{pct:03d}"
+    # Fig 3b: each held-out line sees k of its 164 train drugs (Latin square).
+    tahoe_overlap_bio:
+      scheme: overlap_bio
+      base_split: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split/entity_seed0/tahoe_scaling_bio_hbss100_es0.yaml
+      out_dir: core_util_data/splits/tahoe/bio/tahoe_overlap_bio
+      levels: [0, 15, 30, 80, 164]
+      seeds: [0, 1, 2]
+      cell_budget: {target_n: 11322431, seed: 0}   # the bio 10% cells leg
+    # Tahoe pert scaling: 40 held-out drugs, each trained in k of 20 pool lines.
+    tahoe_overlap_pert_fixed:
+      scheme: overlap_pert
+      out_dir: core_util_data/splits/tahoe/pert/tahoe_overlap_pert_fixed
+      n_pool_bios: 20
+      stratify_by: Organ
+      n_test_perts: 40
+      levels: [1, 5, 15, 20]
+      seeds: [0, 1, 2]
+      selection_seed: 0
+      cell_budget: {target_n: 11322431, seed: 0}
+
+parse:
+  split_dataset: parse
+  condition_summary: core_util_data/parse/metadata/pbmc_duplet.parquet
+  doses: []
+  hbss:
+    balance_axes: [donor, cytokine]
+    candidate_axis: donor
+    diversity_axes: {}
+    lam: 0.5
+  families:
+    # PBMC donor holdout, per-well PBS controls (Fig 2c, Fig 3 ED, Fig 4).
+    # The hbss100 base is shipped data; the fractions below derive from it.
+    parse_bio_well_split:
+      scheme: scaling
+      base_split: core_util_data/splits/parse/bio/parse_bio_well_split/parse_bio_well_hbss100_pbs_donorholdout_es0.yaml
+      out_dir: core_util_data/splits/parse/bio/parse_bio_well_split
+      name: "parse_bio_well_{tag}_pbs_donorholdout_es{seed}.yaml"
+      cells_tag: "celln{n}"
+      flat: true                       # no entity_seed{N}/ subdirectory
+      seed: 0
+      conds_pcts: [5, 25]
+      cells_pcts: [5, 25]
+      # 5% and 25% of the 100% leg's realised train cells (6,925,654, run
+      # 260921_192149), not a summary estimate.
+      cell_targets: {5: 346283, 25: 1731414}
+    # PBMC no-cell-type ablation (Appendix); only hbss100 is trained.
+    parse_scaling_bio_split:
+      scheme: scaling
+      base_split: core_util_data/splits/parse/bio/parse_cytokines.yaml
+      out_dir: core_util_data/splits/parse/bio/parse_scaling_bio_split
+      name: "parse_scaling_bio_{tag}_es{seed}.yaml"
+      seed: 0
+      conds_pcts: [15, 25, 50, 100]
+      cells_pcts: [5, 10, 25, 50]
+      cell_targets: {5: 967190, 10: 1285623, 25: 2311499, 50: 3982735}
+    # PBMC pert scaling: 30 held-out cytokines, each trained in k of 5 pool donors.
+    parse_overlap_pert_fixed:
+      scheme: overlap_pert
+      out_dir: core_util_data/splits/parse/pert/parse_overlap_pert_fixed
+      n_pool_bios: 5
+      stratify_by: null
+      n_test_perts: 30
+      levels: [1, 3, 5]
+      seeds: [0, 1, 2]
+      selection_seed: 0
+      cell_budget: null

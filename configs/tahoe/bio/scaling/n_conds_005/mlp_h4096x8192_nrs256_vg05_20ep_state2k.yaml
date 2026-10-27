@@ -1,0 +1,131 @@
+# =============================================================================
+# Tahoe-bio STATE_HVG (2,000) — vg0.5 at 5% training conditions, 100 epochs.
+#
+# Exact clone of configs/tahoe/bio/scaling/n_conds_025/ except:
+#   split        tahoe_scaling_bio_hbss005
+#   max_epochs   100 = 20 × the 100% run's 5 (5% data → 20× steps-matched epochs)
+#   LR schedule  same 20%/20%/60% fractions → drops at epoch 20 and 40
+#
+# Launch: CUDA_VISIBLE_DEVICES=<gpu> python -u -m src.main --config configs/tahoe/bio/scaling/n_conds_005/mlp_h4096x8192_nrs256_vg05_20ep_state2k.yaml devices=1
+# =============================================================================
+
+run_name_suffix: h4096x8192_nrs256_vg05rs256_100ep_state2k_tahoe_bio_5cond_seed0
+
+dataset: tahoe
+hvg_genes_path: core_util_data/tahoe/gene_subsets/STATE_HVG.txt
+split_config: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split/entity_seed0/tahoe_scaling_bio_hbss005_es0.yaml
+
+tahoe:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_c0d6420ffc0fa861__n_2000
+  build_cache: true
+  build_eval_cache: true
+  build_noise_ceiling: true
+parse:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_2000
+  build_cache: false
+
+max_epochs: 100
+hbss_equalize_training_budget: false
+eval_callback_points: 1
+seed: 64
+limit_train_batches: null
+
+use_curriculum: true
+curriculum_mode: between_epochs
+curriculum_target_product: 458752  # 256 × bs 1792
+between_epoch_curriculum_schedule:
+  - {epoch: 0, n_repeats: 256, batch_size: 1792, lr_mul: 1.0}
+  - {epoch: 20, n_repeats: 256, batch_size: 1792, lr_mul: 0.1}
+  - {epoch: 40, n_repeats: 256, batch_size: 1792, lr_mul: 0.01}
+
+curriculum_n_repeats_start: 2
+curriculum_n_repeats_step: 2
+curriculum_lr_decay: 0.333333
+
+n_repeats: 256
+batch_size: 1792
+
+optimizer_type: adamw
+lr: 0.0009
+lr_init: 0.0
+weight_decay: 0.0001
+warmup_steps_min: 100
+warmup_steps_max: 1000
+grad_clip: 0
+
+num_workers: 8
+fetch_factor: 14
+block_size: 1024
+train_loader_mode: per_cell
+use_cell_set: 256
+cell_set_min_cells: 50
+
+accumulate_grad_batches: 1
+precision: bf16-mixed
+compile_model: true
+compile_mode: max-autotune
+checkpoint_data_fraction: 0.5
+devices: 1
+
+backbone_type: condition_mlp
+noise_distribution: uniform
+
+condition_mlp_hidden_dims: [4096, 8192]
+condition_mlp_tokdim: 256
+condition_mlp_norm: none
+condition_mlp_activation: gelu
+condition_mlp_dropout: 0.0
+condition_mlp_residual: false
+condition_mlp_pre_norm: false
+
+output_activation: relu
+head_bias_init_from_train_mean: true
+head_bias_init_n_batches: 100
+apply_log1p: true
+predict_delta: false
+
+variogram_loss_weight: 0.5
+variogram_p: 0.5
+variogram_fast: true
+variogram_debias: true
+variogram_n_pairs: 6000
+variogram_repeat_subsample: 256
+variogram_batch_subsample: 896
+variogram_balanced_zeros: false
+variogram_mean_weight: false
+
+total_log1p_mass_weight: 0.0
+
+val_check_interval: 0.0
+num_sanity_val_steps: 0
+limit_val_batches: 0
+use_early_stopping: false
+
+use_eval_callback: true
+eval_callback_every_n_epochs: 1
+model_eval_splits:
+  - validation
+
+build_cache: true
+build_eval_cache: true
+build_noise_ceiling: true
+noise_ceiling_strategy: split_half
+noise_ceiling_n_repeats: 5
+overwrite_noise_ceiling: false
+
+run_model_eval_after_fit: true
+plot_model_vs_ceiling_after_fit: false
+model_eval_n_repeats: 3
+save_split_coverage: true
+raise_on_axis_coverage_failure: true
+
+use_wandb: true
+wandb_project: tahoe_bio_state_hvg_vg_ablation
+wandb_entity: SCFM_VAL
+wandb_run_name: null
+
+log_every_n_steps: 50
+log_train_reconstruction_metrics: false
+log_grad_every_n_steps: 500
+log_grad_top_k: 10
+diagnostics: ["magnitudes"]

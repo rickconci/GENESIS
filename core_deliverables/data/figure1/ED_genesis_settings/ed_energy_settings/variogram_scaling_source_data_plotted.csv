@@ -1,0 +1,16 @@
+metric_key,variogram_weight,mean,sem,n_conditions
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0,0.496202,0.00327839,4158
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.1,0.500634,0.00333817,4158
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.3,0.505189,0.00329551,4158
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.5,0.507019,0.00326515,4158
+deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,1,0.50515,0.00328356,4158
+log1p_slice_med_rgs/pearson_r_diff,0,0.749377,0.00209537,4211
+log1p_slice_med_rgs/pearson_r_diff,0.1,0.752594,0.0020645,4211
+log1p_slice_med_rgs/pearson_r_diff,0.3,0.754017,0.00206361,4211
+log1p_slice_med_rgs/pearson_r_diff,0.5,0.754728,0.0020522,4211
+log1p_slice_med_rgs/pearson_r_diff,1,0.755294,0.00205768,4211
+log1p_slice_med_rgs/energy_distance,0,0.0427065,0.00144472,4211
+log1p_slice_med_rgs/energy_distance,0.1,0.042274,0.00142843,4211
+log1p_slice_med_rgs/energy_distance,0.3,0.0416077,0.00156789,4211
+log1p_slice_med_rgs/energy_distance,0.5,0.0409091,0.00142004,4211
+log1p_slice_med_rgs/energy_distance,1,0.0411375,0.00142701,4211

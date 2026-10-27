@@ -1,0 +1,9 @@
+panel,metric,vs,share,ci_lo,ci_hi,p,n_units,n_clusters
+a,deg_adaptivek_truth,Set-level MMD 25% cells,0.603774,0.561782,0.645437,1.77417e-06,530,500
+a,pearson_r_diff,Set-level MMD 25% cells,0.577358,0.535448,0.618868,0.000304579,530,500
+a,energy_distance,Set-level MMD 25% cells,0.396226,0.354167,0.437984,1.90119e-06,530,500
+a,mmd_rbf,Set-level MMD 25% cells,0.371698,0.331418,0.412879,2.07916e-09,530,500
+b,deg_adaptivek_truth,Set-level MMD 25% cells,0.737555,0.725134,0.74982,9.07737e-266,4098,3587
+b,pearson_r_diff,Set-level MMD 25% cells,0.854191,0.843284,0.864846,0,4211,3670
+b,energy_distance,Set-level MMD 25% cells,0.819283,0.807591,0.831026,0,4211,3670
+b,mmd_rbf,Set-level MMD 25% cells,0.811446,0.799645,0.823174,0,4211,3670

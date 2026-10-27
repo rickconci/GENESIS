@@ -1,0 +1,3942 @@
+cell_name	drug	dose	plates
+A-172	8-Hydroxyquinoline	5.0	6,14
+A-172	Baicalin	5.0	6,14
+A-172	Berbamine	5.0	6,14
+A-172	Bergenin	5.0	6,14
+A-172	Ciclopirox	5.0	6,14
+A-172	Diammonium Glycyrrhizinate	5.0	6,14
+A-172	Folic acid	5.0	6,14
+A-172	Fusidic acid	5.0	6,14
+A-172	Goserelin (acetate)	5.0	6,14
+A-172	Lenalidomide (hemihydrate)	5.0	6,14
+A-172	Megestrol	5.0	6,14
+A-172	Pasireotide (acetate)	5.0	6,14
+A-172	Pyridoxine	5.0	6,14
+A-172	Pyridoxine (hydrochloride)	5.0	6,14
+A-172	Riluzole hydrochloride	5.0	6,14
+A-427	Almonertinib (hydrochloride)	5.0	6,14
+A-427	Amsacrine	5.0	6,14
+A-427	Baicalin	5.0	6,14
+A-427	Demeclocycline	5.0	6,14
+A-427	Lidocaine (hydrochloride)	5.0	6,14
+A-427	Lipoic acid	5.0	6,14
+A-427	Medroxyprogesterone acetate	5.0	6,14
+A-427	Pentagastrin	5.0	6,14
+A498	Allantoin	5.0	6,14
+A498	Clotrimazole	5.0	6,14
+A498	Demeclocycline	5.0	6,14
+A498	Furosemide	5.0	6,14
+A498	Lumateperone (tosylate)	5.0	6,14
+A498	Neratinib (maleate)	5.0	6,14
+A498	Resveratrol	5.0	6,14
+A498	Riluzole hydrochloride	5.0	6,14
+A498	Rimonabant	5.0	6,14
+A498	Sinomenine	5.0	6,14
+A498	Temsirolimus	5.0	6,14
+A498	Trimetrexate	5.0	6,14
+A498	Vinblastine (sulfate)	5.0	6,14
+A549	18β-Glycyrrhetinic acid	5.0	6,14
+A549	Acetohexamide	5.0	6,14
+A549	Aliskiren	5.0	6,14
+A549	Diammonium Glycyrrhizinate	5.0	6,14
+A549	Larotrectinib	5.0	6,14
+A549	Retinoic acid	5.0	6,14
+A549	Salicylic acid	5.0	6,14
+A549	Sulfisoxazole	5.0	6,14
+A549	Tucidinostat	5.0	6,14
+AN3 CA	(R)-Verapamil (hydrochloride)	5.0	6,14
+AN3 CA	Artesunate	5.0	6,14
+AN3 CA	Berbamine	5.0	6,14
+AN3 CA	Bergenin	5.0	6,14
+AN3 CA	Cepharanthine	5.0	6,14
+AN3 CA	Cysteamine (hydrochloride)	5.0	6,14
+AN3 CA	Norepinephrine (hydrochloride)	5.0	6,14
+AN3 CA	Palmatine (chloride)	5.0	6,14
+AN3 CA	Radotinib	5.0	6,14
+AN3 CA	Raltitrexed	5.0	6,14
+AN3 CA	Rapamycin	5.0	6,14
+AN3 CA	Resveratrol	5.0	6,14
+AN3 CA	Sodium Salicylate	5.0	6,14
+AN3 CA	Tofacitinib (citrate)	5.0	6,14
+AN3 CA	Tolcapone	5.0	6,14
+AN3 CA	Triamcinolone	5.0	6,14
+AsPC-1	Adenosine	5.0	6,14
+AsPC-1	Diammonium Glycyrrhizinate	5.0	6,14
+AsPC-1	Furosemide	5.0	6,14
+AsPC-1	Gallic acid	5.0	6,14
+AsPC-1	Gallic acid (hydrate)	5.0	6,14
+AsPC-1	Pyridoxine	5.0	6,14
+AsPC-1	Rimonabant	5.0	6,14
+AsPC-1	Tucidinostat	5.0	6,14
+AsPC-1	Vinblastine (sulfate)	5.0	6,14
+BT-474	Acetohexamide	5.0	6,14
+BT-474	Berbamine	5.0	6,14
+BT-474	Chlorhexidine (diacetate)	5.0	6,14
+BT-474	Goserelin (acetate)	5.0	6,14
+BT-474	Lenalidomide (hemihydrate)	5.0	6,14
+BT-474	Lidocaine (hydrochloride)	5.0	6,14
+BT-474	Lipoic acid	5.0	6,14
+BT-474	Mitoxantrone (dihydrochloride)	5.0	6,14
+BT-474	Raltitrexed	5.0	6,14
+BT-474	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+BT-474	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+BT-474	Tolcapone	5.0	6,14
+BT-474	Triamcinolone	5.0	6,14
+C-33 A	Acetohexamide	5.0	6,14
+C-33 A	Adenosine	5.0	6,14
+C-33 A	Cepharanthine	5.0	6,14
+C-33 A	Clonidine (hydrochloride)	5.0	6,14
+C-33 A	Clotrimazole	5.0	6,14
+C-33 A	Fluvoxamine (maleate)	5.0	6,14
+C-33 A	Furosemide	5.0	6,14
+C-33 A	Homoharringtonine	5.0	6,14
+C-33 A	Lidocaine (hydrochloride)	5.0	6,14
+C-33 A	Lumateperone (tosylate)	5.0	6,14
+C-33 A	Megestrol	5.0	6,14
+C-33 A	Palmatine (chloride)	5.0	6,14
+C-33 A	Pyridoxine	5.0	6,14
+C-33 A	Retinoic acid	5.0	6,14
+C-33 A	Salicylic acid	5.0	6,14
+C-33 A	Temsirolimus	5.0	6,14
+C-33 A	Tofacitinib	5.0	6,14
+C-33 A	Vilanterol	5.0	6,14
+CFPAC-1	Anethole trithione	5.0	6,14
+CFPAC-1	Darinaparsin	5.0	6,14
+CFPAC-1	Diammonium Glycyrrhizinate	5.0	6,14
+CFPAC-1	Fluvoxamine (maleate)	5.0	6,14
+CFPAC-1	Folic acid	5.0	6,14
+CFPAC-1	Homoharringtonine	5.0	6,14
+CFPAC-1	Olanzapine	5.0	6,14
+CFPAC-1	Saquinavir	5.0	6,14
+CHP-212	Allantoin	5.0	6,14
+CHP-212	Azithromycin (hydrate)	5.0	6,14
+CHP-212	Demeclocycline	5.0	6,14
+CHP-212	Fluvoxamine (maleate)	5.0	6,14
+CHP-212	Gallic acid	5.0	6,14
+CHP-212	Pyridoxine (hydrochloride)	5.0	6,14
+CHP-212	Quinestrol	5.0	6,14
+CHP-212	Retinoic acid	5.0	6,14
+CHP-212	Tucidinostat	5.0	6,14
+COLO 205	Aliskiren	5.0	6,14
+COLO 205	Anethole trithione	5.0	6,14
+COLO 205	Ciclopirox	5.0	6,14
+COLO 205	Thymol	5.0	6,14
+COLO 205	Trimetrexate	5.0	6,14
+H4	(R)-Verapamil (hydrochloride)	5.0	6,14
+H4	Acetohexamide	5.0	6,14
+H4	Adenosine	5.0	6,14
+H4	Aliskiren	5.0	6,14
+H4	Diammonium Glycyrrhizinate	5.0	6,14
+H4	Hexylresorcinol	5.0	6,14
+H4	Pyridoxine	5.0	6,14
+H4	Raltitrexed	5.0	6,14
+H4	Riluzole hydrochloride	5.0	6,14
+H4	Rimonabant	5.0	6,14
+H4	Ritonavir	5.0	6,14
+H4	Trimetrexate	5.0	6,14
+HCT15	(R)-Verapamil (hydrochloride)	5.0	6,14
+HCT15	Baicalin	5.0	6,14
+HCT15	Clotrimazole	5.0	6,14
+HCT15	Fusidic acid	5.0	6,14
+HCT15	Idarubicin (hydrochloride)	5.0	6,14
+HCT15	Lenalidomide (hemihydrate)	5.0	6,14
+HCT15	Norepinephrine (hydrochloride)	5.0	6,14
+HCT15	Pasireotide (acetate)	5.0	6,14
+HCT15	Relugolix	5.0	6,14
+HCT15	Ritonavir	5.0	6,14
+HCT15	Saquinavir	5.0	6,14
+HEC-1-A	Aliskiren	5.0	6,14
+HEC-1-A	Baicalin	5.0	6,14
+HEC-1-A	Berberine (chloride hydrate)	5.0	6,14
+HEC-1-A	Bergenin	5.0	6,14
+HEC-1-A	Diammonium Glycyrrhizinate	5.0	6,14
+HEC-1-A	Goserelin (acetate)	5.0	6,14
+HEC-1-A	Mitoxantrone (dihydrochloride)	5.0	6,14
+HEC-1-A	Pentagastrin	5.0	6,14
+HEC-1-A	Pentamidine (isethionate)	5.0	6,14
+HEC-1-A	Pyridoxine	5.0	6,14
+HEC-1-A	Ritonavir	5.0	6,14
+HEC-1-A	Sodium Salicylate	5.0	6,14
+HOP62	Isocorydine	5.0	6,14
+HOP62	Megestrol	5.0	6,14
+HS-578T	(R)-Verapamil (hydrochloride)	5.0	6,14
+HS-578T	Hexylresorcinol	5.0	6,14
+HS-578T	Larotrectinib	5.0	6,14
+HS-578T	Lipoic acid	5.0	6,14
+HS-578T	Quinestrol	5.0	6,14
+HS-578T	Sulfisoxazole	5.0	6,14
+HS-578T	Temsirolimus	5.0	6,14
+HS-578T	Terfenadine	5.0	6,14
+HS-578T	Tofacitinib (citrate)	5.0	6,14
+HS-578T	Triclosan	5.0	6,14
+HS-578T	Trimetrexate	5.0	6,14
+HT-29	Artesunate	5.0	6,14
+HT-29	Balsalazide (sodium hydrate)	5.0	6,14
+HT-29	Busulfan	5.0	6,14
+HT-29	Hexylresorcinol	5.0	6,14
+HT-29	Lumateperone (tosylate)	5.0	6,14
+HT-29	Palmatine (chloride)	5.0	6,14
+HT-29	Relugolix	5.0	6,14
+HT-29	Sulfisoxazole	5.0	6,14
+HT-29	Terfenadine	5.0	6,14
+HT-29	Tofacitinib (citrate)	5.0	6,14
+HT-29	Triclosan	5.0	6,14
+HepG2/C3A	Acetohexamide	5.0	6,14
+HepG2/C3A	Megestrol	5.0	6,14
+HepG2/C3A	Trifluridine	5.0	6,14
+HepG2/C3A	Vinblastine (sulfate)	5.0	6,14
+Hs 766T	Folic acid	5.0	6,14
+Hs 766T	Lumateperone (tosylate)	5.0	6,14
+J82	Balsalazide (sodium hydrate)	5.0	6,14
+J82	Cloxacillin (sodium)	5.0	6,14
+J82	Cysteamine (hydrochloride)	5.0	6,14
+J82	Demeclocycline	5.0	6,14
+J82	Hexylresorcinol	5.0	6,14
+J82	Medroxyprogesterone acetate	5.0	6,14
+J82	Megestrol	5.0	6,14
+J82	Mitoxantrone (dihydrochloride)	5.0	6,14
+J82	Palmatine (chloride)	5.0	6,14
+J82	Pentagastrin	5.0	6,14
+J82	Pyridoxine	5.0	6,14
+J82	Quinestrol	5.0	6,14
+J82	Relugolix	5.0	6,14
+J82	Rimonabant	5.0	6,14
+J82	Saquinavir	5.0	6,14
+J82	Temsirolimus	5.0	6,14
+J82	Tolcapone	5.0	6,14
+J82	Trifluridine	5.0	6,14
+J82	Vilanterol	5.0	6,14
+KATO III	Baicalin	5.0	6,14
+KATO III	Berbamine	5.0	6,14
+KATO III	Bergenin	5.0	6,14
+KATO III	Chlorhexidine (diacetate)	5.0	6,14
+KATO III	Clonidine (hydrochloride)	5.0	6,14
+KATO III	Cloxacillin (sodium)	5.0	6,14
+KATO III	Elagolix sodium	5.0	6,14
+KATO III	Pyridoxine (hydrochloride)	5.0	6,14
+KATO III	Ritonavir	5.0	6,14
+KATO III	Selinexor 	5.0	6,14
+KATO III	Temsirolimus	5.0	6,14
+KATO III	Terfenadine	5.0	6,14
+KATO III	Triclosan	5.0	6,14
+LOX-IMVI	Artesunate	5.0	6,14
+LOX-IMVI	Berberine (chloride hydrate)	5.0	6,14
+LOX-IMVI	Cloxacillin (sodium)	5.0	6,14
+LOX-IMVI	Folic acid	5.0	6,14
+LOX-IMVI	Gallic acid (hydrate)	5.0	6,14
+LOX-IMVI	Lenalidomide (hemihydrate)	5.0	6,14
+LOX-IMVI	Palmatine (chloride)	5.0	6,14
+LOX-IMVI	Resveratrol	5.0	6,14
+LOX-IMVI	Riluzole hydrochloride	5.0	6,14
+LOX-IMVI	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+LS 180	Almonertinib (hydrochloride)	5.0	6,14
+LS 180	Amsacrine	5.0	6,14
+LS 180	Bimatoprost	5.0	6,14
+LS 180	Busulfan	5.0	6,14
+LS 180	Diammonium Glycyrrhizinate	5.0	6,14
+LS 180	Furosemide	5.0	6,14
+LS 180	Norepinephrine (hydrochloride)	5.0	6,14
+LS 180	Temsirolimus	5.0	6,14
+LoVo	8-Hydroxyquinoline	5.0	6,14
+LoVo	Clonidine (hydrochloride)	5.0	6,14
+LoVo	Darinaparsin	5.0	6,14
+LoVo	Homoharringtonine	5.0	6,14
+LoVo	Isocorydine	5.0	6,14
+LoVo	Lumateperone (tosylate)	5.0	6,14
+LoVo	Neratinib (maleate)	5.0	6,14
+LoVo	Pasireotide (acetate)	5.0	6,14
+LoVo	Resveratrol	5.0	6,14
+MIA PaCa-2	Adenosine	5.0	6,14
+MIA PaCa-2	Aliskiren	5.0	6,14
+MIA PaCa-2	Azithromycin (hydrate)	5.0	6,14
+MIA PaCa-2	Clotrimazole	5.0	6,14
+MIA PaCa-2	Gallic acid (hydrate)	5.0	6,14
+MIA PaCa-2	Hexylresorcinol	5.0	6,14
+MIA PaCa-2	Lidocaine (hydrochloride)	5.0	6,14
+MIA PaCa-2	Lipoic acid	5.0	6,14
+MIA PaCa-2	Olanzapine	5.0	6,14
+MIA PaCa-2	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+MIA PaCa-2	Salicylic acid	5.0	6,14
+MIA PaCa-2	Tofacitinib (citrate)	5.0	6,14
+MIA PaCa-2	Triamcinolone	5.0	6,14
+MIA PaCa-2	Trifluridine	5.0	6,14
+MIA PaCa-2	Vinblastine (sulfate)	5.0	6,14
+NCI-H1573	18β-Glycyrrhetinic acid	5.0	6,14
+NCI-H1573	Bergenin	5.0	6,14
+NCI-H1573	Bimatoprost	5.0	6,14
+NCI-H1573	Furosemide	5.0	6,14
+NCI-H1573	Idarubicin (hydrochloride)	5.0	6,14
+NCI-H1573	Pentagastrin	5.0	6,14
+NCI-H1573	Pentamidine (isethionate)	5.0	6,14
+NCI-H1573	Pyridoxine (hydrochloride)	5.0	6,14
+NCI-H1573	Quinestrol	5.0	6,14
+NCI-H1573	Relugolix	5.0	6,14
+NCI-H1573	Riluzole hydrochloride	5.0	6,14
+NCI-H1573	Salicylic acid	5.0	6,14
+NCI-H1573	Thymol	5.0	6,14
+NCI-H1792	Adenosine	5.0	6,14
+NCI-H1792	Chlorhexidine (diacetate)	5.0	6,14
+NCI-H1792	Gallic acid (hydrate)	5.0	6,14
+NCI-H1792	Mitoxantrone (dihydrochloride)	5.0	6,14
+NCI-H1792	Pasireotide (acetate)	5.0	6,14
+NCI-H1792	Relugolix	5.0	6,14
+NCI-H1792	Saquinavir	5.0	6,14
+NCI-H1792	Vinblastine (sulfate)	5.0	6,14
+NCI-H2030	Adenine	5.0	6,14
+NCI-H2030	Berbamine	5.0	6,14
+NCI-H2030	Bergenin	5.0	6,14
+NCI-H2030	Chlorhexidine (diacetate)	5.0	6,14
+NCI-H2030	Cloxacillin (sodium)	5.0	6,14
+NCI-H2030	Fluvoxamine (maleate)	5.0	6,14
+NCI-H2030	Folic acid	5.0	6,14
+NCI-H2030	Homoharringtonine	5.0	6,14
+NCI-H2030	Idarubicin (hydrochloride)	5.0	6,14
+NCI-H2030	Megestrol	5.0	6,14
+NCI-H2030	Raltitrexed	5.0	6,14
+NCI-H2030	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+NCI-H2030	Sinomenine	5.0	6,14
+NCI-H2030	Tucidinostat	5.0	6,14
+NCI-H23	8-Hydroxyquinoline	5.0	6,14
+NCI-H23	Amsacrine	5.0	6,14
+NCI-H23	Berberine (chloride hydrate)	5.0	6,14
+NCI-H23	Ciclopirox	5.0	6,14
+NCI-H23	Diammonium Glycyrrhizinate	5.0	6,14
+NCI-H23	Fluvoxamine (maleate)	5.0	6,14
+NCI-H23	Megestrol	5.0	6,14
+NCI-H23	Neratinib (maleate)	5.0	6,14
+NCI-H23	Pentamidine (isethionate)	5.0	6,14
+NCI-H23	Pyridoxine (hydrochloride)	5.0	6,14
+NCI-H23	Saquinavir	5.0	6,14
+NCI-H23	Sulfisoxazole	5.0	6,14
+NCI-H23	Terfenadine	5.0	6,14
+NCI-H23	Tofacitinib (citrate)	5.0	6,14
+NCI-H2347	(R)-Verapamil (hydrochloride)	5.0	6,14
+NCI-H2347	Gemfibrozil	5.0	6,14
+NCI-H2347	Megestrol	5.0	6,14
+NCI-H2347	Rapamycin	5.0	6,14
+NCI-H2347	Retinoic acid	5.0	6,14
+NCI-H2347	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+NCI-H460	Almonertinib (hydrochloride)	5.0	6,14
+NCI-H460	Cysteamine (hydrochloride)	5.0	6,14
+NCI-H460	Diammonium Glycyrrhizinate	5.0	6,14
+NCI-H460	Furosemide	5.0	6,14
+NCI-H460	Lenalidomide (hemihydrate)	5.0	6,14
+NCI-H460	Lidocaine (hydrochloride)	5.0	6,14
+NCI-H460	Pyridoxine	5.0	6,14
+NCI-H460	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+NCI-H460	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+NCI-H460	Salicylic acid	5.0	6,14
+NCI-H460	Tofacitinib	5.0	6,14
+NCI-H460	Tofacitinib (citrate)	5.0	6,14
+NCI-H460	Trifluridine	5.0	6,14
+NCI-H460	Tucidinostat	5.0	6,14
+NCI-H661	Adenine	5.0	6,14
+NCI-H661	Balsalazide (sodium hydrate)	5.0	6,14
+NCI-H661	Chlorhexidine (diacetate)	5.0	6,14
+NCI-H661	Lenalidomide (hemihydrate)	5.0	6,14
+NCI-H661	Pyridoxine (hydrochloride)	5.0	6,14
+NCI-H661	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+NCI-H661	Tofacitinib	5.0	6,14
+NCI-H661	Tofacitinib (citrate)	5.0	6,14
+PANC-1	Cloxacillin (sodium)	5.0	6,14
+PANC-1	Lidocaine (hydrochloride)	5.0	6,14
+PANC-1	Triclosan	5.0	6,14
+Panc 03.27	Aliskiren	5.0	6,14
+Panc 03.27	Bimatoprost	5.0	6,14
+Panc 03.27	Cepharanthine	5.0	6,14
+Panc 03.27	Darinaparsin	5.0	6,14
+Panc 03.27	Demeclocycline	5.0	6,14
+Panc 03.27	Elagolix sodium	5.0	6,14
+Panc 03.27	Furosemide	5.0	6,14
+Panc 03.27	Larotrectinib	5.0	6,14
+Panc 03.27	Palmatine (chloride)	5.0	6,14
+Panc 03.27	Radotinib	5.0	6,14
+Panc 03.27	Thymol	5.0	6,14
+Panc 03.27	Tolcapone	5.0	6,14
+RKO	8-Hydroxyquinoline	5.0	6,14
+RKO	Idarubicin (hydrochloride)	5.0	6,14
+RKO	Pentamidine (isethionate)	5.0	6,14
+RKO	Pyridoxine (hydrochloride)	5.0	6,14
+RKO	Temsirolimus	5.0	6,14
+RKO	Tofacitinib	5.0	6,14
+RPMI-7951	Artesunate	5.0	6,14
+RPMI-7951	Bimatoprost	5.0	6,14
+RPMI-7951	Demeclocycline	5.0	6,14
+RPMI-7951	Fluvoxamine (maleate)	5.0	6,14
+RPMI-7951	Goserelin (acetate)	5.0	6,14
+RPMI-7951	Medroxyprogesterone acetate	5.0	6,14
+RPMI-7951	Resveratrol	5.0	6,14
+RPMI-7951	Rimonabant	5.0	6,14
+RPMI-7951	Ritonavir	5.0	6,14
+RPMI-7951	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+RPMI-7951	Sinomenine	5.0	6,14
+RPMI-7951	Tofacitinib	5.0	6,14
+SHP-77	Balsalazide (sodium hydrate)	5.0	6,14
+SHP-77	Berberine (chloride hydrate)	5.0	6,14
+SHP-77	Gallic acid (hydrate)	5.0	6,14
+SHP-77	Goserelin (acetate)	5.0	6,14
+SHP-77	Idarubicin (hydrochloride)	5.0	6,14
+SHP-77	Pasireotide (acetate)	5.0	6,14
+SHP-77	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SHP-77	Tolcapone	5.0	6,14
+SHP-77	Triamcinolone	5.0	6,14
+SK-MEL-2	Almonertinib (hydrochloride)	5.0	6,14
+SK-MEL-2	Berbamine	5.0	6,14
+SK-MEL-2	Pasireotide (acetate)	5.0	6,14
+SK-MEL-2	Pentagastrin	5.0	6,14
+SK-MEL-2	Radotinib	5.0	6,14
+SK-MEL-2	Salicylic acid	5.0	6,14
+SNU-1	Aliskiren	5.0	6,14
+SNU-1	Baicalin	5.0	6,14
+SNU-1	Gallic acid (hydrate)	5.0	6,14
+SNU-1	Isocorydine	5.0	6,14
+SNU-1	Lumateperone (tosylate)	5.0	6,14
+SNU-1	Pasireotide (acetate)	5.0	6,14
+SNU-1	Raltitrexed	5.0	6,14
+SNU-1	Sinomenine	5.0	6,14
+SNU-1	Temsirolimus	5.0	6,14
+SNU-1	Tofacitinib (citrate)	5.0	6,14
+SNU-1	Vinblastine (sulfate)	5.0	6,14
+SNU-423	8-Hydroxyquinoline	5.0	6,14
+SNU-423	Adenosine	5.0	6,14
+SNU-423	Allantoin	5.0	6,14
+SNU-423	Busulfan	5.0	6,14
+SNU-423	Chlorhexidine (diacetate)	5.0	6,14
+SNU-423	Clotrimazole	5.0	6,14
+SNU-423	Diammonium Glycyrrhizinate	5.0	6,14
+SNU-423	Mitoxantrone (dihydrochloride)	5.0	6,14
+SNU-423	Raltitrexed	5.0	6,14
+SNU-423	Resveratrol	5.0	6,14
+SNU-423	Saquinavir	5.0	6,14
+SNU-423	Triamcinolone	5.0	6,14
+SNU-423	Trifluridine	5.0	6,14
+SW 1088	8-Hydroxyquinoline	5.0	6,14
+SW 1088	Acetohexamide	5.0	6,14
+SW 1088	Anethole trithione	5.0	6,14
+SW 1088	Artesunate	5.0	6,14
+SW 1088	Azithromycin (hydrate)	5.0	6,14
+SW 1088	Chlorhexidine (diacetate)	5.0	6,14
+SW 1088	Cloxacillin (sodium)	5.0	6,14
+SW 1088	Elagolix sodium	5.0	6,14
+SW 1088	Fusidic acid	5.0	6,14
+SW 1088	Isocorydine	5.0	6,14
+SW 1088	Pyridoxine	5.0	6,14
+SW 1088	Sulfisoxazole	5.0	6,14
+SW 1088	Terfenadine	5.0	6,14
+SW 1088	Vinblastine (sulfate)	5.0	6,14
+SW 1271	Balsalazide (sodium hydrate)	5.0	6,14
+SW 1271	Clotrimazole	5.0	6,14
+SW 1271	Cysteamine (hydrochloride)	5.0	6,14
+SW 1271	Folic acid	5.0	6,14
+SW 1271	Palmatine (chloride)	5.0	6,14
+SW 1271	Radotinib	5.0	6,14
+SW 1271	Sulfisoxazole	5.0	6,14
+SW 1271	Trifluridine	5.0	6,14
+SW 1271	Trimetrexate	5.0	6,14
+SW 900	8-Hydroxyquinoline	5.0	6,14
+SW 900	Bergenin	5.0	6,14
+SW 900	Cepharanthine	5.0	6,14
+SW 900	Cysteamine (hydrochloride)	5.0	6,14
+SW 900	Darinaparsin	5.0	6,14
+SW 900	Fluvoxamine (maleate)	5.0	6,14
+SW 900	Fusidic acid	5.0	6,14
+SW 900	Gallic acid	5.0	6,14
+SW 900	Gallic acid (hydrate)	5.0	6,14
+SW 900	Lipoic acid	5.0	6,14
+SW 900	Pyridoxine (hydrochloride)	5.0	6,14
+SW 900	Rapamycin	5.0	6,14
+SW 900	Relugolix	5.0	6,14
+SW 900	Resveratrol	5.0	6,14
+SW 900	Tolcapone	5.0	6,14
+SW 900	Triclosan	5.0	6,14
+SW1417	8-Hydroxyquinoline	5.0	6,14
+SW1417	Adenosine	5.0	6,14
+SW1417	Aliskiren	5.0	6,14
+SW1417	Cepharanthine	5.0	6,14
+SW1417	Cloxacillin (sodium)	5.0	6,14
+SW1417	Homoharringtonine	5.0	6,14
+SW1417	Larotrectinib	5.0	6,14
+SW1417	Lidocaine (hydrochloride)	5.0	6,14
+SW1417	Norepinephrine (hydrochloride)	5.0	6,14
+SW1417	Palmatine (chloride)	5.0	6,14
+SW1417	Raltitrexed	5.0	6,14
+SW1417	Thymol	5.0	6,14
+SW48	Artesunate	5.0	6,14
+SW48	Clonidine (hydrochloride)	5.0	6,14
+SW48	Clotrimazole	5.0	6,14
+SW48	Megestrol	5.0	6,14
+SW48	Pasireotide (acetate)	5.0	6,14
+SW48	Pyridoxine	5.0	6,14
+SW48	Pyridoxine (hydrochloride)	5.0	6,14
+SW48	Tofacitinib	5.0	6,14
+SW480	Acetohexamide	5.0	6,14
+SW480	Almonertinib (hydrochloride)	5.0	6,14
+SW480	Busulfan	5.0	6,14
+SW480	Chlorhexidine (diacetate)	5.0	6,14
+SW480	Diammonium Glycyrrhizinate	5.0	6,14
+SW480	Neratinib (maleate)	5.0	6,14
+SW480	Pasireotide (acetate)	5.0	6,14
+SW480	Pentamidine (isethionate)	5.0	6,14
+SW480	Radotinib	5.0	6,14
+SW480	Rapamycin	5.0	6,14
+SW480	Retinoic acid	5.0	6,14
+SW480	Terfenadine	5.0	6,14
+SW480	Triamcinolone	5.0	6,14
+SW480	Trifluridine	5.0	6,14
+SW480	Vilanterol	5.0	6,14
+SW480	Vinblastine (sulfate)	5.0	6,14
+hTERT-HPNE	Acetohexamide	5.0	6,14
+hTERT-HPNE	Anethole trithione	5.0	6,14
+hTERT-HPNE	Artesunate	5.0	6,14
+hTERT-HPNE	Bimatoprost	5.0	6,14
+hTERT-HPNE	Cloxacillin (sodium)	5.0	6,14
+hTERT-HPNE	Furosemide	5.0	6,14
+hTERT-HPNE	Isocorydine	5.0	6,14
+hTERT-HPNE	Olanzapine	5.0	6,14
+hTERT-HPNE	Pentagastrin	5.0	6,14
+hTERT-HPNE	Rapamycin	5.0	6,14
+hTERT-HPNE	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+hTERT-HPNE	Sodium Salicylate	5.0	6,14
+hTERT-HPNE	Tofacitinib (citrate)	5.0	6,14
+hTERT-HPNE	Trifluridine	5.0	6,14
+A-172	18β-Glycyrrhetinic acid	5.0	6,14
+A-172	(R)-Verapamil (hydrochloride)	5.0	6,14
+A-172	Acetohexamide	5.0	6,14
+A-172	Adenine	5.0	6,14
+A-172	Adenosine	5.0	6,14
+A-172	Aliskiren	5.0	6,14
+A-172	Allantoin	5.0	6,14
+A-172	Almonertinib (hydrochloride)	5.0	6,14
+A-172	Amsacrine	5.0	6,14
+A-172	Anethole trithione	5.0	6,14
+A-172	Artesunate	5.0	6,14
+A-172	Azithromycin (hydrate)	5.0	6,14
+A-172	Balsalazide (sodium hydrate)	5.0	6,14
+A-172	Berberine (chloride hydrate)	5.0	6,14
+A-172	Bimatoprost	5.0	6,14
+A-172	Busulfan	5.0	6,14
+A-172	Cepharanthine	5.0	6,14
+A-172	Chlorhexidine (diacetate)	5.0	6,14
+A-172	Clonidine (hydrochloride)	5.0	6,14
+A-172	Clotrimazole	5.0	6,14
+A-172	Cloxacillin (sodium)	5.0	6,14
+A-172	Cysteamine (hydrochloride)	5.0	6,14
+A-172	Darinaparsin	5.0	6,14
+A-172	Demeclocycline	5.0	6,14
+A-172	Docetaxel	5.0	6,14
+A-172	Elagolix sodium	5.0	6,14
+A-172	Fluvoxamine (maleate)	5.0	6,14
+A-172	Furosemide	5.0	6,14
+A-172	Gallic acid	5.0	6,14
+A-172	Gallic acid (hydrate)	5.0	6,14
+A-172	Gemfibrozil	5.0	6,14
+A-172	Hexylresorcinol	5.0	6,14
+A-172	Homoharringtonine	5.0	6,14
+A-172	Idarubicin (hydrochloride)	5.0	6,14
+A-172	Isocorydine	5.0	6,14
+A-172	Larotrectinib	5.0	6,14
+A-172	Lidocaine (hydrochloride)	5.0	6,14
+A-172	Lipoic acid	5.0	6,14
+A-172	Lumateperone (tosylate)	5.0	6,14
+A-172	Medroxyprogesterone acetate	5.0	6,14
+A-172	Mitoxantrone (dihydrochloride)	5.0	6,14
+A-172	Neratinib (maleate)	5.0	6,14
+A-172	Norepinephrine (hydrochloride)	5.0	6,14
+A-172	Olanzapine	5.0	6,14
+A-172	Palmatine (chloride)	5.0	6,14
+A-172	Pentagastrin	5.0	6,14
+A-172	Pentamidine (isethionate)	5.0	6,14
+A-172	Quinestrol	5.0	6,14
+A-172	Radotinib	5.0	6,14
+A-172	Raltitrexed	5.0	6,14
+A-172	Rapamycin	5.0	6,14
+A-172	Relugolix	5.0	6,14
+A-172	Resveratrol	5.0	6,14
+A-172	Retinoic acid	5.0	6,14
+A-172	Rimonabant	5.0	6,14
+A-172	Ritonavir	5.0	6,14
+A-172	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+A-172	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+A-172	Salicylic acid	5.0	6,14
+A-172	Saquinavir	5.0	6,14
+A-172	Sinomenine	5.0	6,14
+A-172	Sodium Salicylate	5.0	6,14
+A-172	Sulfisoxazole	5.0	6,14
+A-172	Temsirolimus	5.0	6,14
+A-172	Terfenadine	5.0	6,14
+A-172	Thymol	5.0	6,14
+A-172	Tofacitinib	5.0	6,14
+A-172	Tofacitinib (citrate)	5.0	6,14
+A-172	Tolcapone	5.0	6,14
+A-172	Triamcinolone	5.0	6,14
+A-172	Triclosan	5.0	6,14
+A-172	Trifluridine	5.0	6,14
+A-172	Trimetrexate	5.0	6,14
+A-172	Tucidinostat	5.0	6,14
+A-172	Vilanterol	5.0	6,14
+A-172	Vinblastine (sulfate)	5.0	6,14
+A-427	8-Hydroxyquinoline	5.0	6,14
+A-427	18β-Glycyrrhetinic acid	5.0	6,14
+A-427	(R)-Verapamil (hydrochloride)	5.0	6,14
+A-427	Acetohexamide	5.0	6,14
+A-427	Adenine	5.0	6,14
+A-427	Adenosine	5.0	6,14
+A-427	Aliskiren	5.0	6,14
+A-427	Allantoin	5.0	6,14
+A-427	Anethole trithione	5.0	6,14
+A-427	Artesunate	5.0	6,14
+A-427	Azithromycin (hydrate)	5.0	6,14
+A-427	Balsalazide (sodium hydrate)	5.0	6,14
+A-427	Berbamine	5.0	6,14
+A-427	Berberine (chloride hydrate)	5.0	6,14
+A-427	Bergenin	5.0	6,14
+A-427	Bimatoprost	5.0	6,14
+A-427	Busulfan	5.0	6,14
+A-427	Cepharanthine	5.0	6,14
+A-427	Chlorhexidine (diacetate)	5.0	6,14
+A-427	Ciclopirox	5.0	6,14
+A-427	Clonidine (hydrochloride)	5.0	6,14
+A-427	Clotrimazole	5.0	6,14
+A-427	Cloxacillin (sodium)	5.0	6,14
+A-427	Cysteamine (hydrochloride)	5.0	6,14
+A-427	Darinaparsin	5.0	6,14
+A-427	Diammonium Glycyrrhizinate	5.0	6,14
+A-427	Docetaxel	5.0	6,14
+A-427	Elagolix sodium	5.0	6,14
+A-427	Fluvoxamine (maleate)	5.0	6,14
+A-427	Furosemide	5.0	6,14
+A-427	Fusidic acid	5.0	6,14
+A-427	Gallic acid	5.0	6,14
+A-427	Gallic acid (hydrate)	5.0	6,14
+A-427	Gemfibrozil	5.0	6,14
+A-427	Goserelin (acetate)	5.0	6,14
+A-427	Hexylresorcinol	5.0	6,14
+A-427	Isocorydine	5.0	6,14
+A-427	Larotrectinib	5.0	6,14
+A-427	Lenalidomide (hemihydrate)	5.0	6,14
+A-427	Lumateperone (tosylate)	5.0	6,14
+A-427	Megestrol	5.0	6,14
+A-427	Norepinephrine (hydrochloride)	5.0	6,14
+A-427	Olanzapine	5.0	6,14
+A-427	Palmatine (chloride)	5.0	6,14
+A-427	Pasireotide (acetate)	5.0	6,14
+A-427	Pentamidine (isethionate)	5.0	6,14
+A-427	Pyridoxine	5.0	6,14
+A-427	Pyridoxine (hydrochloride)	5.0	6,14
+A-427	Quinestrol	5.0	6,14
+A-427	Radotinib	5.0	6,14
+A-427	Raltitrexed	5.0	6,14
+A-427	Rapamycin	5.0	6,14
+A-427	Relugolix	5.0	6,14
+A-427	Resveratrol	5.0	6,14
+A-427	Retinoic acid	5.0	6,14
+A-427	Riluzole hydrochloride	5.0	6,14
+A-427	Rimonabant	5.0	6,14
+A-427	Ritonavir	5.0	6,14
+A-427	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+A-427	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+A-427	Salicylic acid	5.0	6,14
+A-427	Saquinavir	5.0	6,14
+A-427	Sinomenine	5.0	6,14
+A-427	Sodium Salicylate	5.0	6,14
+A-427	Sulfisoxazole	5.0	6,14
+A-427	Temsirolimus	5.0	6,14
+A-427	Terfenadine	5.0	6,14
+A-427	Thymol	5.0	6,14
+A-427	Tofacitinib	5.0	6,14
+A-427	Tofacitinib (citrate)	5.0	6,14
+A-427	Tolcapone	5.0	6,14
+A-427	Triamcinolone	5.0	6,14
+A-427	Triclosan	5.0	6,14
+A-427	Trifluridine	5.0	6,14
+A-427	Trimetrexate	5.0	6,14
+A-427	Tucidinostat	5.0	6,14
+A-427	Vinblastine (sulfate)	5.0	6,14
+A498	8-Hydroxyquinoline	5.0	6,14
+A498	18β-Glycyrrhetinic acid	5.0	6,14
+A498	(R)-Verapamil (hydrochloride)	5.0	6,14
+A498	Acetohexamide	5.0	6,14
+A498	Adenine	5.0	6,14
+A498	Adenosine	5.0	6,14
+A498	Aliskiren	5.0	6,14
+A498	Almonertinib (hydrochloride)	5.0	6,14
+A498	Amsacrine	5.0	6,14
+A498	Anethole trithione	5.0	6,14
+A498	Artesunate	5.0	6,14
+A498	Azithromycin (hydrate)	5.0	6,14
+A498	Baicalin	5.0	6,14
+A498	Balsalazide (sodium hydrate)	5.0	6,14
+A498	Berbamine	5.0	6,14
+A498	Berberine (chloride hydrate)	5.0	6,14
+A498	Bergenin	5.0	6,14
+A498	Bimatoprost	5.0	6,14
+A498	Busulfan	5.0	6,14
+A498	Cepharanthine	5.0	6,14
+A498	Chlorhexidine (diacetate)	5.0	6,14
+A498	Ciclopirox	5.0	6,14
+A498	Clonidine (hydrochloride)	5.0	6,14
+A498	Cloxacillin (sodium)	5.0	6,14
+A498	Cysteamine (hydrochloride)	5.0	6,14
+A498	Darinaparsin	5.0	6,14
+A498	Diammonium Glycyrrhizinate	5.0	6,14
+A498	Docetaxel	5.0	6,14
+A498	Elagolix sodium	5.0	6,14
+A498	Fluvoxamine (maleate)	5.0	6,14
+A498	Folic acid	5.0	6,14
+A498	Fusidic acid	5.0	6,14
+A498	Gallic acid	5.0	6,14
+A498	Gallic acid (hydrate)	5.0	6,14
+A498	Gemfibrozil	5.0	6,14
+A498	Goserelin (acetate)	5.0	6,14
+A498	Hexylresorcinol	5.0	6,14
+A498	Homoharringtonine	5.0	6,14
+A498	Idarubicin (hydrochloride)	5.0	6,14
+A498	Isocorydine	5.0	6,14
+A498	Larotrectinib	5.0	6,14
+A498	Lenalidomide (hemihydrate)	5.0	6,14
+A498	Lidocaine (hydrochloride)	5.0	6,14
+A498	Lipoic acid	5.0	6,14
+A498	Medroxyprogesterone acetate	5.0	6,14
+A498	Megestrol	5.0	6,14
+A498	Mitoxantrone (dihydrochloride)	5.0	6,14
+A498	Norepinephrine (hydrochloride)	5.0	6,14
+A498	Olanzapine	5.0	6,14
+A498	Palmatine (chloride)	5.0	6,14
+A498	Pasireotide (acetate)	5.0	6,14
+A498	Pentagastrin	5.0	6,14
+A498	Pentamidine (isethionate)	5.0	6,14
+A498	Pyridoxine	5.0	6,14
+A498	Pyridoxine (hydrochloride)	5.0	6,14
+A498	Quinestrol	5.0	6,14
+A498	Radotinib	5.0	6,14
+A498	Raltitrexed	5.0	6,14
+A498	Rapamycin	5.0	6,14
+A498	Relugolix	5.0	6,14
+A498	Retinoic acid	5.0	6,14
+A498	Ritonavir	5.0	6,14
+A498	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+A498	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+A498	Salicylic acid	5.0	6,14
+A498	Saquinavir	5.0	6,14
+A498	Sodium Salicylate	5.0	6,14
+A498	Sulfisoxazole	5.0	6,14
+A498	Terfenadine	5.0	6,14
+A498	Thymol	5.0	6,14
+A498	Tofacitinib	5.0	6,14
+A498	Tofacitinib (citrate)	5.0	6,14
+A498	Tolcapone	5.0	6,14
+A498	Triamcinolone	5.0	6,14
+A498	Triclosan	5.0	6,14
+A498	Trifluridine	5.0	6,14
+A498	Tucidinostat	5.0	6,14
+A498	Vilanterol	5.0	6,14
+A549	8-Hydroxyquinoline	5.0	6,14
+A549	(R)-Verapamil (hydrochloride)	5.0	6,14
+A549	Adenine	5.0	6,14
+A549	Adenosine	5.0	6,14
+A549	Allantoin	5.0	6,14
+A549	Almonertinib (hydrochloride)	5.0	6,14
+A549	Amsacrine	5.0	6,14
+A549	Anethole trithione	5.0	6,14
+A549	Artesunate	5.0	6,14
+A549	Azithromycin (hydrate)	5.0	6,14
+A549	Baicalin	5.0	6,14
+A549	Balsalazide (sodium hydrate)	5.0	6,14
+A549	Berbamine	5.0	6,14
+A549	Berberine (chloride hydrate)	5.0	6,14
+A549	Bergenin	5.0	6,14
+A549	Bimatoprost	5.0	6,14
+A549	Busulfan	5.0	6,14
+A549	Cepharanthine	5.0	6,14
+A549	Chlorhexidine (diacetate)	5.0	6,14
+A549	Ciclopirox	5.0	6,14
+A549	Clonidine (hydrochloride)	5.0	6,14
+A549	Clotrimazole	5.0	6,14
+A549	Cloxacillin (sodium)	5.0	6,14
+A549	Cysteamine (hydrochloride)	5.0	6,14
+A549	Darinaparsin	5.0	6,14
+A549	Demeclocycline	5.0	6,14
+A549	Docetaxel	5.0	6,14
+A549	Elagolix sodium	5.0	6,14
+A549	Fluvoxamine (maleate)	5.0	6,14
+A549	Folic acid	5.0	6,14
+A549	Furosemide	5.0	6,14
+A549	Fusidic acid	5.0	6,14
+A549	Gallic acid	5.0	6,14
+A549	Gallic acid (hydrate)	5.0	6,14
+A549	Gemfibrozil	5.0	6,14
+A549	Goserelin (acetate)	5.0	6,14
+A549	Hexylresorcinol	5.0	6,14
+A549	Homoharringtonine	5.0	6,14
+A549	Idarubicin (hydrochloride)	5.0	6,14
+A549	Isocorydine	5.0	6,14
+A549	Lenalidomide (hemihydrate)	5.0	6,14
+A549	Lidocaine (hydrochloride)	5.0	6,14
+A549	Lipoic acid	5.0	6,14
+A549	Lumateperone (tosylate)	5.0	6,14
+A549	Medroxyprogesterone acetate	5.0	6,14
+A549	Megestrol	5.0	6,14
+A549	Neratinib (maleate)	5.0	6,14
+A549	Norepinephrine (hydrochloride)	5.0	6,14
+A549	Olanzapine	5.0	6,14
+A549	Palmatine (chloride)	5.0	6,14
+A549	Pasireotide (acetate)	5.0	6,14
+A549	Pentagastrin	5.0	6,14
+A549	Pentamidine (isethionate)	5.0	6,14
+A549	Pyridoxine	5.0	6,14
+A549	Pyridoxine (hydrochloride)	5.0	6,14
+A549	Quinestrol	5.0	6,14
+A549	Radotinib	5.0	6,14
+A549	Raltitrexed	5.0	6,14
+A549	Rapamycin	5.0	6,14
+A549	Relugolix	5.0	6,14
+A549	Resveratrol	5.0	6,14
+A549	Riluzole hydrochloride	5.0	6,14
+A549	Rimonabant	5.0	6,14
+A549	Ritonavir	5.0	6,14
+A549	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+A549	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+A549	Saquinavir	5.0	6,14
+A549	Selinexor 	5.0	6,14
+A549	Sinomenine	5.0	6,14
+A549	Sodium Salicylate	5.0	6,14
+A549	Temsirolimus	5.0	6,14
+A549	Terfenadine	5.0	6,14
+A549	Thymol	5.0	6,14
+A549	Tofacitinib	5.0	6,14
+A549	Tofacitinib (citrate)	5.0	6,14
+A549	Tolcapone	5.0	6,14
+A549	Triamcinolone	5.0	6,14
+A549	Triclosan	5.0	6,14
+A549	Trifluridine	5.0	6,14
+A549	Trimetrexate	5.0	6,14
+A549	Vilanterol	5.0	6,14
+AN3 CA	8-Hydroxyquinoline	5.0	6,14
+AN3 CA	18β-Glycyrrhetinic acid	5.0	6,14
+AN3 CA	Acetohexamide	5.0	6,14
+AN3 CA	Adenine	5.0	6,14
+AN3 CA	Adenosine	5.0	6,14
+AN3 CA	Aliskiren	5.0	6,14
+AN3 CA	Almonertinib (hydrochloride)	5.0	6,14
+AN3 CA	Amsacrine	5.0	6,14
+AN3 CA	Anethole trithione	5.0	6,14
+AN3 CA	Azithromycin (hydrate)	5.0	6,14
+AN3 CA	Baicalin	5.0	6,14
+AN3 CA	Balsalazide (sodium hydrate)	5.0	6,14
+AN3 CA	Berberine (chloride hydrate)	5.0	6,14
+AN3 CA	Bimatoprost	5.0	6,14
+AN3 CA	Busulfan	5.0	6,14
+AN3 CA	Chlorhexidine (diacetate)	5.0	6,14
+AN3 CA	Ciclopirox	5.0	6,14
+AN3 CA	Clotrimazole	5.0	6,14
+AN3 CA	Cloxacillin (sodium)	5.0	6,14
+AN3 CA	Darinaparsin	5.0	6,14
+AN3 CA	Demeclocycline	5.0	6,14
+AN3 CA	Diammonium Glycyrrhizinate	5.0	6,14
+AN3 CA	Docetaxel	5.0	6,14
+AN3 CA	Elagolix sodium	5.0	6,14
+AN3 CA	Fluvoxamine (maleate)	5.0	6,14
+AN3 CA	Furosemide	5.0	6,14
+AN3 CA	Fusidic acid	5.0	6,14
+AN3 CA	Gallic acid	5.0	6,14
+AN3 CA	Gallic acid (hydrate)	5.0	6,14
+AN3 CA	Gemfibrozil	5.0	6,14
+AN3 CA	Goserelin (acetate)	5.0	6,14
+AN3 CA	Hexylresorcinol	5.0	6,14
+AN3 CA	Idarubicin (hydrochloride)	5.0	6,14
+AN3 CA	Isocorydine	5.0	6,14
+AN3 CA	Larotrectinib	5.0	6,14
+AN3 CA	Lenalidomide (hemihydrate)	5.0	6,14
+AN3 CA	Lidocaine (hydrochloride)	5.0	6,14
+AN3 CA	Lipoic acid	5.0	6,14
+AN3 CA	Lumateperone (tosylate)	5.0	6,14
+AN3 CA	Medroxyprogesterone acetate	5.0	6,14
+AN3 CA	Megestrol	5.0	6,14
+AN3 CA	Mitoxantrone (dihydrochloride)	5.0	6,14
+AN3 CA	Neratinib (maleate)	5.0	6,14
+AN3 CA	Olanzapine	5.0	6,14
+AN3 CA	Pasireotide (acetate)	5.0	6,14
+AN3 CA	Pentagastrin	5.0	6,14
+AN3 CA	Pentamidine (isethionate)	5.0	6,14
+AN3 CA	Pyridoxine	5.0	6,14
+AN3 CA	Pyridoxine (hydrochloride)	5.0	6,14
+AN3 CA	Quinestrol	5.0	6,14
+AN3 CA	Relugolix	5.0	6,14
+AN3 CA	Retinoic acid	5.0	6,14
+AN3 CA	Riluzole hydrochloride	5.0	6,14
+AN3 CA	Rimonabant	5.0	6,14
+AN3 CA	Ritonavir	5.0	6,14
+AN3 CA	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+AN3 CA	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+AN3 CA	Salicylic acid	5.0	6,14
+AN3 CA	Saquinavir	5.0	6,14
+AN3 CA	Selinexor 	5.0	6,14
+AN3 CA	Sinomenine	5.0	6,14
+AN3 CA	Sulfisoxazole	5.0	6,14
+AN3 CA	Temsirolimus	5.0	6,14
+AN3 CA	Terfenadine	5.0	6,14
+AN3 CA	Thymol	5.0	6,14
+AN3 CA	Tofacitinib	5.0	6,14
+AN3 CA	Triclosan	5.0	6,14
+AN3 CA	Trifluridine	5.0	6,14
+AN3 CA	Trimetrexate	5.0	6,14
+AN3 CA	Tucidinostat	5.0	6,14
+AN3 CA	Vilanterol	5.0	6,14
+AN3 CA	Vinblastine (sulfate)	5.0	6,14
+AsPC-1	8-Hydroxyquinoline	5.0	6,14
+AsPC-1	18β-Glycyrrhetinic acid	5.0	6,14
+AsPC-1	(R)-Verapamil (hydrochloride)	5.0	6,14
+AsPC-1	Acetohexamide	5.0	6,14
+AsPC-1	Adenine	5.0	6,14
+AsPC-1	Aliskiren	5.0	6,14
+AsPC-1	Allantoin	5.0	6,14
+AsPC-1	Almonertinib (hydrochloride)	5.0	6,14
+AsPC-1	Amsacrine	5.0	6,14
+AsPC-1	Anethole trithione	5.0	6,14
+AsPC-1	Artesunate	5.0	6,14
+AsPC-1	Azithromycin (hydrate)	5.0	6,14
+AsPC-1	Baicalin	5.0	6,14
+AsPC-1	Balsalazide (sodium hydrate)	5.0	6,14
+AsPC-1	Berbamine	5.0	6,14
+AsPC-1	Berberine (chloride hydrate)	5.0	6,14
+AsPC-1	Bergenin	5.0	6,14
+AsPC-1	Bimatoprost	5.0	6,14
+AsPC-1	Busulfan	5.0	6,14
+AsPC-1	Chlorhexidine (diacetate)	5.0	6,14
+AsPC-1	Ciclopirox	5.0	6,14
+AsPC-1	Clonidine (hydrochloride)	5.0	6,14
+AsPC-1	Clotrimazole	5.0	6,14
+AsPC-1	Cloxacillin (sodium)	5.0	6,14
+AsPC-1	Cysteamine (hydrochloride)	5.0	6,14
+AsPC-1	Darinaparsin	5.0	6,14
+AsPC-1	Demeclocycline	5.0	6,14
+AsPC-1	Docetaxel	5.0	6,14
+AsPC-1	Elagolix sodium	5.0	6,14
+AsPC-1	Fluvoxamine (maleate)	5.0	6,14
+AsPC-1	Folic acid	5.0	6,14
+AsPC-1	Fusidic acid	5.0	6,14
+AsPC-1	Gemfibrozil	5.0	6,14
+AsPC-1	Goserelin (acetate)	5.0	6,14
+AsPC-1	Hexylresorcinol	5.0	6,14
+AsPC-1	Homoharringtonine	5.0	6,14
+AsPC-1	Idarubicin (hydrochloride)	5.0	6,14
+AsPC-1	Isocorydine	5.0	6,14
+AsPC-1	Larotrectinib	5.0	6,14
+AsPC-1	Lenalidomide (hemihydrate)	5.0	6,14
+AsPC-1	Lidocaine (hydrochloride)	5.0	6,14
+AsPC-1	Lipoic acid	5.0	6,14
+AsPC-1	Lumateperone (tosylate)	5.0	6,14
+AsPC-1	Medroxyprogesterone acetate	5.0	6,14
+AsPC-1	Megestrol	5.0	6,14
+AsPC-1	Mitoxantrone (dihydrochloride)	5.0	6,14
+AsPC-1	Neratinib (maleate)	5.0	6,14
+AsPC-1	Norepinephrine (hydrochloride)	5.0	6,14
+AsPC-1	Olanzapine	5.0	6,14
+AsPC-1	Palmatine (chloride)	5.0	6,14
+AsPC-1	Pasireotide (acetate)	5.0	6,14
+AsPC-1	Pentagastrin	5.0	6,14
+AsPC-1	Pentamidine (isethionate)	5.0	6,14
+AsPC-1	Pyridoxine (hydrochloride)	5.0	6,14
+AsPC-1	Quinestrol	5.0	6,14
+AsPC-1	Radotinib	5.0	6,14
+AsPC-1	Raltitrexed	5.0	6,14
+AsPC-1	Rapamycin	5.0	6,14
+AsPC-1	Relugolix	5.0	6,14
+AsPC-1	Resveratrol	5.0	6,14
+AsPC-1	Retinoic acid	5.0	6,14
+AsPC-1	Riluzole hydrochloride	5.0	6,14
+AsPC-1	Ritonavir	5.0	6,14
+AsPC-1	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+AsPC-1	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+AsPC-1	Salicylic acid	5.0	6,14
+AsPC-1	Saquinavir	5.0	6,14
+AsPC-1	Selinexor 	5.0	6,14
+AsPC-1	Sinomenine	5.0	6,14
+AsPC-1	Sodium Salicylate	5.0	6,14
+AsPC-1	Sulfisoxazole	5.0	6,14
+AsPC-1	Temsirolimus	5.0	6,14
+AsPC-1	Terfenadine	5.0	6,14
+AsPC-1	Thymol	5.0	6,14
+AsPC-1	Tofacitinib	5.0	6,14
+AsPC-1	Tofacitinib (citrate)	5.0	6,14
+AsPC-1	Tolcapone	5.0	6,14
+AsPC-1	Triamcinolone	5.0	6,14
+AsPC-1	Triclosan	5.0	6,14
+AsPC-1	Trifluridine	5.0	6,14
+AsPC-1	Trimetrexate	5.0	6,14
+AsPC-1	Vilanterol	5.0	6,14
+BT-474	8-Hydroxyquinoline	5.0	6,14
+BT-474	18β-Glycyrrhetinic acid	5.0	6,14
+BT-474	(R)-Verapamil (hydrochloride)	5.0	6,14
+BT-474	Adenine	5.0	6,14
+BT-474	Adenosine	5.0	6,14
+BT-474	Aliskiren	5.0	6,14
+BT-474	Allantoin	5.0	6,14
+BT-474	Almonertinib (hydrochloride)	5.0	6,14
+BT-474	Amsacrine	5.0	6,14
+BT-474	Anethole trithione	5.0	6,14
+BT-474	Artesunate	5.0	6,14
+BT-474	Azithromycin (hydrate)	5.0	6,14
+BT-474	Baicalin	5.0	6,14
+BT-474	Balsalazide (sodium hydrate)	5.0	6,14
+BT-474	Berberine (chloride hydrate)	5.0	6,14
+BT-474	Bergenin	5.0	6,14
+BT-474	Bimatoprost	5.0	6,14
+BT-474	Busulfan	5.0	6,14
+BT-474	Cepharanthine	5.0	6,14
+BT-474	Ciclopirox	5.0	6,14
+BT-474	Clonidine (hydrochloride)	5.0	6,14
+BT-474	Clotrimazole	5.0	6,14
+BT-474	Cloxacillin (sodium)	5.0	6,14
+BT-474	Cysteamine (hydrochloride)	5.0	6,14
+BT-474	Darinaparsin	5.0	6,14
+BT-474	Demeclocycline	5.0	6,14
+BT-474	Diammonium Glycyrrhizinate	5.0	6,14
+BT-474	Docetaxel	5.0	6,14
+BT-474	Elagolix sodium	5.0	6,14
+BT-474	Fluvoxamine (maleate)	5.0	6,14
+BT-474	Folic acid	5.0	6,14
+BT-474	Furosemide	5.0	6,14
+BT-474	Fusidic acid	5.0	6,14
+BT-474	Gallic acid	5.0	6,14
+BT-474	Gallic acid (hydrate)	5.0	6,14
+BT-474	Gemfibrozil	5.0	6,14
+BT-474	Hexylresorcinol	5.0	6,14
+BT-474	Homoharringtonine	5.0	6,14
+BT-474	Idarubicin (hydrochloride)	5.0	6,14
+BT-474	Isocorydine	5.0	6,14
+BT-474	Larotrectinib	5.0	6,14
+BT-474	Lumateperone (tosylate)	5.0	6,14
+BT-474	Medroxyprogesterone acetate	5.0	6,14
+BT-474	Megestrol	5.0	6,14
+BT-474	Neratinib (maleate)	5.0	6,14
+BT-474	Norepinephrine (hydrochloride)	5.0	6,14
+BT-474	Olanzapine	5.0	6,14
+BT-474	Palmatine (chloride)	5.0	6,14
+BT-474	Pasireotide (acetate)	5.0	6,14
+BT-474	Pentagastrin	5.0	6,14
+BT-474	Pentamidine (isethionate)	5.0	6,14
+BT-474	Pyridoxine	5.0	6,14
+BT-474	Pyridoxine (hydrochloride)	5.0	6,14
+BT-474	Quinestrol	5.0	6,14
+BT-474	Radotinib	5.0	6,14
+BT-474	Rapamycin	5.0	6,14
+BT-474	Relugolix	5.0	6,14
+BT-474	Resveratrol	5.0	6,14
+BT-474	Retinoic acid	5.0	6,14
+BT-474	Riluzole hydrochloride	5.0	6,14
+BT-474	Rimonabant	5.0	6,14
+BT-474	Ritonavir	5.0	6,14
+BT-474	Salicylic acid	5.0	6,14
+BT-474	Saquinavir	5.0	6,14
+BT-474	Sinomenine	5.0	6,14
+BT-474	Sodium Salicylate	5.0	6,14
+BT-474	Sulfisoxazole	5.0	6,14
+BT-474	Temsirolimus	5.0	6,14
+BT-474	Terfenadine	5.0	6,14
+BT-474	Thymol	5.0	6,14
+BT-474	Tofacitinib	5.0	6,14
+BT-474	Tofacitinib (citrate)	5.0	6,14
+BT-474	Triclosan	5.0	6,14
+BT-474	Trifluridine	5.0	6,14
+BT-474	Trimetrexate	5.0	6,14
+BT-474	Tucidinostat	5.0	6,14
+BT-474	Vilanterol	5.0	6,14
+BT-474	Vinblastine (sulfate)	5.0	6,14
+C-33 A	8-Hydroxyquinoline	5.0	6,14
+C-33 A	18β-Glycyrrhetinic acid	5.0	6,14
+C-33 A	(R)-Verapamil (hydrochloride)	5.0	6,14
+C-33 A	Aliskiren	5.0	6,14
+C-33 A	Allantoin	5.0	6,14
+C-33 A	Almonertinib (hydrochloride)	5.0	6,14
+C-33 A	Amsacrine	5.0	6,14
+C-33 A	Anethole trithione	5.0	6,14
+C-33 A	Artesunate	5.0	6,14
+C-33 A	Azithromycin (hydrate)	5.0	6,14
+C-33 A	Baicalin	5.0	6,14
+C-33 A	Balsalazide (sodium hydrate)	5.0	6,14
+C-33 A	Berbamine	5.0	6,14
+C-33 A	Berberine (chloride hydrate)	5.0	6,14
+C-33 A	Bergenin	5.0	6,14
+C-33 A	Bimatoprost	5.0	6,14
+C-33 A	Busulfan	5.0	6,14
+C-33 A	Chlorhexidine (diacetate)	5.0	6,14
+C-33 A	Ciclopirox	5.0	6,14
+C-33 A	Cloxacillin (sodium)	5.0	6,14
+C-33 A	Cysteamine (hydrochloride)	5.0	6,14
+C-33 A	Darinaparsin	5.0	6,14
+C-33 A	Demeclocycline	5.0	6,14
+C-33 A	Diammonium Glycyrrhizinate	5.0	6,14
+C-33 A	Docetaxel	5.0	6,14
+C-33 A	Elagolix sodium	5.0	6,14
+C-33 A	Fusidic acid	5.0	6,14
+C-33 A	Gallic acid	5.0	6,14
+C-33 A	Gallic acid (hydrate)	5.0	6,14
+C-33 A	Gemfibrozil	5.0	6,14
+C-33 A	Goserelin (acetate)	5.0	6,14
+C-33 A	Hexylresorcinol	5.0	6,14
+C-33 A	Idarubicin (hydrochloride)	5.0	6,14
+C-33 A	Isocorydine	5.0	6,14
+C-33 A	Larotrectinib	5.0	6,14
+C-33 A	Lenalidomide (hemihydrate)	5.0	6,14
+C-33 A	Lipoic acid	5.0	6,14
+C-33 A	Medroxyprogesterone acetate	5.0	6,14
+C-33 A	Mitoxantrone (dihydrochloride)	5.0	6,14
+C-33 A	Neratinib (maleate)	5.0	6,14
+C-33 A	Norepinephrine (hydrochloride)	5.0	6,14
+C-33 A	Olanzapine	5.0	6,14
+C-33 A	Pasireotide (acetate)	5.0	6,14
+C-33 A	Pentagastrin	5.0	6,14
+C-33 A	Pentamidine (isethionate)	5.0	6,14
+C-33 A	Pyridoxine (hydrochloride)	5.0	6,14
+C-33 A	Quinestrol	5.0	6,14
+C-33 A	Radotinib	5.0	6,14
+C-33 A	Raltitrexed	5.0	6,14
+C-33 A	Rapamycin	5.0	6,14
+C-33 A	Relugolix	5.0	6,14
+C-33 A	Resveratrol	5.0	6,14
+C-33 A	Riluzole hydrochloride	5.0	6,14
+C-33 A	Rimonabant	5.0	6,14
+C-33 A	Ritonavir	5.0	6,14
+C-33 A	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+C-33 A	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+C-33 A	Saquinavir	5.0	6,14
+C-33 A	Sinomenine	5.0	6,14
+C-33 A	Sodium Salicylate	5.0	6,14
+C-33 A	Sulfisoxazole	5.0	6,14
+C-33 A	Terfenadine	5.0	6,14
+C-33 A	Thymol	5.0	6,14
+C-33 A	Tofacitinib (citrate)	5.0	6,14
+C-33 A	Tolcapone	5.0	6,14
+C-33 A	Triamcinolone	5.0	6,14
+C-33 A	Triclosan	5.0	6,14
+C-33 A	Trifluridine	5.0	6,14
+C-33 A	Trimetrexate	5.0	6,14
+C-33 A	Tucidinostat	5.0	6,14
+C-33 A	Vinblastine (sulfate)	5.0	6,14
+C32	18β-Glycyrrhetinic acid	5.0	6,14
+C32	Acetohexamide	5.0	6,14
+C32	Aliskiren	5.0	6,14
+C32	Bergenin	5.0	6,14
+C32	Ciclopirox	5.0	6,14
+C32	Clonidine (hydrochloride)	5.0	6,14
+C32	Cloxacillin (sodium)	5.0	6,14
+C32	Darinaparsin	5.0	6,14
+C32	Diammonium Glycyrrhizinate	5.0	6,14
+C32	Isocorydine	5.0	6,14
+C32	Lidocaine (hydrochloride)	5.0	6,14
+C32	Lumateperone (tosylate)	5.0	6,14
+C32	Medroxyprogesterone acetate	5.0	6,14
+C32	Megestrol	5.0	6,14
+C32	Olanzapine	5.0	6,14
+C32	Pentagastrin	5.0	6,14
+C32	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+C32	Sulfisoxazole	5.0	6,14
+C32	Triclosan	5.0	6,14
+C32	Trifluridine	5.0	6,14
+C32	Vinblastine (sulfate)	5.0	6,14
+CFPAC-1	8-Hydroxyquinoline	5.0	6,14
+CFPAC-1	18β-Glycyrrhetinic acid	5.0	6,14
+CFPAC-1	(R)-Verapamil (hydrochloride)	5.0	6,14
+CFPAC-1	Acetohexamide	5.0	6,14
+CFPAC-1	Adenine	5.0	6,14
+CFPAC-1	Adenosine	5.0	6,14
+CFPAC-1	Aliskiren	5.0	6,14
+CFPAC-1	Allantoin	5.0	6,14
+CFPAC-1	Almonertinib (hydrochloride)	5.0	6,14
+CFPAC-1	Amsacrine	5.0	6,14
+CFPAC-1	Artesunate	5.0	6,14
+CFPAC-1	Azithromycin (hydrate)	5.0	6,14
+CFPAC-1	Baicalin	5.0	6,14
+CFPAC-1	Balsalazide (sodium hydrate)	5.0	6,14
+CFPAC-1	Berbamine	5.0	6,14
+CFPAC-1	Berberine (chloride hydrate)	5.0	6,14
+CFPAC-1	Bergenin	5.0	6,14
+CFPAC-1	Bimatoprost	5.0	6,14
+CFPAC-1	Busulfan	5.0	6,14
+CFPAC-1	Cepharanthine	5.0	6,14
+CFPAC-1	Chlorhexidine (diacetate)	5.0	6,14
+CFPAC-1	Ciclopirox	5.0	6,14
+CFPAC-1	Clonidine (hydrochloride)	5.0	6,14
+CFPAC-1	Clotrimazole	5.0	6,14
+CFPAC-1	Cloxacillin (sodium)	5.0	6,14
+CFPAC-1	Cysteamine (hydrochloride)	5.0	6,14
+CFPAC-1	Demeclocycline	5.0	6,14
+CFPAC-1	Docetaxel	5.0	6,14
+CFPAC-1	Elagolix sodium	5.0	6,14
+CFPAC-1	Furosemide	5.0	6,14
+CFPAC-1	Fusidic acid	5.0	6,14
+CFPAC-1	Gallic acid	5.0	6,14
+CFPAC-1	Gallic acid (hydrate)	5.0	6,14
+CFPAC-1	Gemfibrozil	5.0	6,14
+CFPAC-1	Goserelin (acetate)	5.0	6,14
+CFPAC-1	Hexylresorcinol	5.0	6,14
+CFPAC-1	Idarubicin (hydrochloride)	5.0	6,14
+CFPAC-1	Isocorydine	5.0	6,14
+CFPAC-1	Larotrectinib	5.0	6,14
+CFPAC-1	Lenalidomide (hemihydrate)	5.0	6,14
+CFPAC-1	Lidocaine (hydrochloride)	5.0	6,14
+CFPAC-1	Lipoic acid	5.0	6,14
+CFPAC-1	Lumateperone (tosylate)	5.0	6,14
+CFPAC-1	Medroxyprogesterone acetate	5.0	6,14
+CFPAC-1	Megestrol	5.0	6,14
+CFPAC-1	Mitoxantrone (dihydrochloride)	5.0	6,14
+CFPAC-1	Neratinib (maleate)	5.0	6,14
+CFPAC-1	Norepinephrine (hydrochloride)	5.0	6,14
+CFPAC-1	Palmatine (chloride)	5.0	6,14
+CFPAC-1	Pasireotide (acetate)	5.0	6,14
+CFPAC-1	Pentagastrin	5.0	6,14
+CFPAC-1	Pentamidine (isethionate)	5.0	6,14
+CFPAC-1	Pyridoxine	5.0	6,14
+CFPAC-1	Pyridoxine (hydrochloride)	5.0	6,14
+CFPAC-1	Quinestrol	5.0	6,14
+CFPAC-1	Radotinib	5.0	6,14
+CFPAC-1	Raltitrexed	5.0	6,14
+CFPAC-1	Rapamycin	5.0	6,14
+CFPAC-1	Relugolix	5.0	6,14
+CFPAC-1	Resveratrol	5.0	6,14
+CFPAC-1	Retinoic acid	5.0	6,14
+CFPAC-1	Riluzole hydrochloride	5.0	6,14
+CFPAC-1	Rimonabant	5.0	6,14
+CFPAC-1	Ritonavir	5.0	6,14
+CFPAC-1	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+CFPAC-1	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+CFPAC-1	Salicylic acid	5.0	6,14
+CFPAC-1	Selinexor 	5.0	6,14
+CFPAC-1	Sinomenine	5.0	6,14
+CFPAC-1	Sodium Salicylate	5.0	6,14
+CFPAC-1	Sulfisoxazole	5.0	6,14
+CFPAC-1	Temsirolimus	5.0	6,14
+CFPAC-1	Terfenadine	5.0	6,14
+CFPAC-1	Thymol	5.0	6,14
+CFPAC-1	Tofacitinib	5.0	6,14
+CFPAC-1	Tofacitinib (citrate)	5.0	6,14
+CFPAC-1	Tolcapone	5.0	6,14
+CFPAC-1	Triamcinolone	5.0	6,14
+CFPAC-1	Triclosan	5.0	6,14
+CFPAC-1	Trifluridine	5.0	6,14
+CFPAC-1	Trimetrexate	5.0	6,14
+CFPAC-1	Tucidinostat	5.0	6,14
+CFPAC-1	Vilanterol	5.0	6,14
+CFPAC-1	Vinblastine (sulfate)	5.0	6,14
+CHP-212	8-Hydroxyquinoline	5.0	6,14
+CHP-212	18β-Glycyrrhetinic acid	5.0	6,14
+CHP-212	(R)-Verapamil (hydrochloride)	5.0	6,14
+CHP-212	Acetohexamide	5.0	6,14
+CHP-212	Adenine	5.0	6,14
+CHP-212	Adenosine	5.0	6,14
+CHP-212	Aliskiren	5.0	6,14
+CHP-212	Almonertinib (hydrochloride)	5.0	6,14
+CHP-212	Amsacrine	5.0	6,14
+CHP-212	Anethole trithione	5.0	6,14
+CHP-212	Artesunate	5.0	6,14
+CHP-212	Baicalin	5.0	6,14
+CHP-212	Balsalazide (sodium hydrate)	5.0	6,14
+CHP-212	Berbamine	5.0	6,14
+CHP-212	Berberine (chloride hydrate)	5.0	6,14
+CHP-212	Bergenin	5.0	6,14
+CHP-212	Bimatoprost	5.0	6,14
+CHP-212	Busulfan	5.0	6,14
+CHP-212	Cepharanthine	5.0	6,14
+CHP-212	Chlorhexidine (diacetate)	5.0	6,14
+CHP-212	Ciclopirox	5.0	6,14
+CHP-212	Clonidine (hydrochloride)	5.0	6,14
+CHP-212	Clotrimazole	5.0	6,14
+CHP-212	Cloxacillin (sodium)	5.0	6,14
+CHP-212	Cysteamine (hydrochloride)	5.0	6,14
+CHP-212	Darinaparsin	5.0	6,14
+CHP-212	Diammonium Glycyrrhizinate	5.0	6,14
+CHP-212	Docetaxel	5.0	6,14
+CHP-212	Elagolix sodium	5.0	6,14
+CHP-212	Furosemide	5.0	6,14
+CHP-212	Fusidic acid	5.0	6,14
+CHP-212	Gallic acid (hydrate)	5.0	6,14
+CHP-212	Gemfibrozil	5.0	6,14
+CHP-212	Goserelin (acetate)	5.0	6,14
+CHP-212	Hexylresorcinol	5.0	6,14
+CHP-212	Homoharringtonine	5.0	6,14
+CHP-212	Idarubicin (hydrochloride)	5.0	6,14
+CHP-212	Isocorydine	5.0	6,14
+CHP-212	Larotrectinib	5.0	6,14
+CHP-212	Lenalidomide (hemihydrate)	5.0	6,14
+CHP-212	Lidocaine (hydrochloride)	5.0	6,14
+CHP-212	Lipoic acid	5.0	6,14
+CHP-212	Lumateperone (tosylate)	5.0	6,14
+CHP-212	Medroxyprogesterone acetate	5.0	6,14
+CHP-212	Megestrol	5.0	6,14
+CHP-212	Mitoxantrone (dihydrochloride)	5.0	6,14
+CHP-212	Neratinib (maleate)	5.0	6,14
+CHP-212	Norepinephrine (hydrochloride)	5.0	6,14
+CHP-212	Olanzapine	5.0	6,14
+CHP-212	Palmatine (chloride)	5.0	6,14
+CHP-212	Pasireotide (acetate)	5.0	6,14
+CHP-212	Pentagastrin	5.0	6,14
+CHP-212	Pentamidine (isethionate)	5.0	6,14
+CHP-212	Pyridoxine	5.0	6,14
+CHP-212	Radotinib	5.0	6,14
+CHP-212	Raltitrexed	5.0	6,14
+CHP-212	Rapamycin	5.0	6,14
+CHP-212	Relugolix	5.0	6,14
+CHP-212	Resveratrol	5.0	6,14
+CHP-212	Riluzole hydrochloride	5.0	6,14
+CHP-212	Rimonabant	5.0	6,14
+CHP-212	Ritonavir	5.0	6,14
+CHP-212	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+CHP-212	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+CHP-212	Salicylic acid	5.0	6,14
+CHP-212	Saquinavir	5.0	6,14
+CHP-212	Sinomenine	5.0	6,14
+CHP-212	Sodium Salicylate	5.0	6,14
+CHP-212	Sulfisoxazole	5.0	6,14
+CHP-212	Temsirolimus	5.0	6,14
+CHP-212	Terfenadine	5.0	6,14
+CHP-212	Thymol	5.0	6,14
+CHP-212	Tofacitinib	5.0	6,14
+CHP-212	Tofacitinib (citrate)	5.0	6,14
+CHP-212	Tolcapone	5.0	6,14
+CHP-212	Triamcinolone	5.0	6,14
+CHP-212	Triclosan	5.0	6,14
+CHP-212	Trifluridine	5.0	6,14
+CHP-212	Trimetrexate	5.0	6,14
+CHP-212	Vilanterol	5.0	6,14
+CHP-212	Vinblastine (sulfate)	5.0	6,14
+COLO 205	8-Hydroxyquinoline	5.0	6,14
+COLO 205	18β-Glycyrrhetinic acid	5.0	6,14
+COLO 205	(R)-Verapamil (hydrochloride)	5.0	6,14
+COLO 205	Acetohexamide	5.0	6,14
+COLO 205	Adenine	5.0	6,14
+COLO 205	Adenosine	5.0	6,14
+COLO 205	Allantoin	5.0	6,14
+COLO 205	Almonertinib (hydrochloride)	5.0	6,14
+COLO 205	Amsacrine	5.0	6,14
+COLO 205	Artesunate	5.0	6,14
+COLO 205	Azithromycin (hydrate)	5.0	6,14
+COLO 205	Baicalin	5.0	6,14
+COLO 205	Balsalazide (sodium hydrate)	5.0	6,14
+COLO 205	Berberine (chloride hydrate)	5.0	6,14
+COLO 205	Bergenin	5.0	6,14
+COLO 205	Bimatoprost	5.0	6,14
+COLO 205	Busulfan	5.0	6,14
+COLO 205	Cepharanthine	5.0	6,14
+COLO 205	Chlorhexidine (diacetate)	5.0	6,14
+COLO 205	Clonidine (hydrochloride)	5.0	6,14
+COLO 205	Clotrimazole	5.0	6,14
+COLO 205	Cloxacillin (sodium)	5.0	6,14
+COLO 205	Cysteamine (hydrochloride)	5.0	6,14
+COLO 205	Darinaparsin	5.0	6,14
+COLO 205	Demeclocycline	5.0	6,14
+COLO 205	Diammonium Glycyrrhizinate	5.0	6,14
+COLO 205	Docetaxel	5.0	6,14
+COLO 205	Elagolix sodium	5.0	6,14
+COLO 205	Fluvoxamine (maleate)	5.0	6,14
+COLO 205	Folic acid	5.0	6,14
+COLO 205	Furosemide	5.0	6,14
+COLO 205	Fusidic acid	5.0	6,14
+COLO 205	Gallic acid	5.0	6,14
+COLO 205	Gallic acid (hydrate)	5.0	6,14
+COLO 205	Gemfibrozil	5.0	6,14
+COLO 205	Goserelin (acetate)	5.0	6,14
+COLO 205	Hexylresorcinol	5.0	6,14
+COLO 205	Homoharringtonine	5.0	6,14
+COLO 205	Idarubicin (hydrochloride)	5.0	6,14
+COLO 205	Isocorydine	5.0	6,14
+COLO 205	Lenalidomide (hemihydrate)	5.0	6,14
+COLO 205	Lidocaine (hydrochloride)	5.0	6,14
+COLO 205	Lipoic acid	5.0	6,14
+COLO 205	Lumateperone (tosylate)	5.0	6,14
+COLO 205	Medroxyprogesterone acetate	5.0	6,14
+COLO 205	Megestrol	5.0	6,14
+COLO 205	Mitoxantrone (dihydrochloride)	5.0	6,14
+COLO 205	Neratinib (maleate)	5.0	6,14
+COLO 205	Norepinephrine (hydrochloride)	5.0	6,14
+COLO 205	Olanzapine	5.0	6,14
+COLO 205	Palmatine (chloride)	5.0	6,14
+COLO 205	Pasireotide (acetate)	5.0	6,14
+COLO 205	Pentagastrin	5.0	6,14
+COLO 205	Pentamidine (isethionate)	5.0	6,14
+COLO 205	Pyridoxine	5.0	6,14
+COLO 205	Pyridoxine (hydrochloride)	5.0	6,14
+COLO 205	Quinestrol	5.0	6,14
+COLO 205	Radotinib	5.0	6,14
+COLO 205	Raltitrexed	5.0	6,14
+COLO 205	Rapamycin	5.0	6,14
+COLO 205	Relugolix	5.0	6,14
+COLO 205	Resveratrol	5.0	6,14
+COLO 205	Retinoic acid	5.0	6,14
+COLO 205	Riluzole hydrochloride	5.0	6,14
+COLO 205	Rimonabant	5.0	6,14
+COLO 205	Ritonavir	5.0	6,14
+COLO 205	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+COLO 205	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+COLO 205	Salicylic acid	5.0	6,14
+COLO 205	Saquinavir	5.0	6,14
+COLO 205	Sinomenine	5.0	6,14
+COLO 205	Sodium Salicylate	5.0	6,14
+COLO 205	Sulfisoxazole	5.0	6,14
+COLO 205	Temsirolimus	5.0	6,14
+COLO 205	Terfenadine	5.0	6,14
+COLO 205	Tofacitinib	5.0	6,14
+COLO 205	Tofacitinib (citrate)	5.0	6,14
+COLO 205	Tolcapone	5.0	6,14
+COLO 205	Triamcinolone	5.0	6,14
+COLO 205	Triclosan	5.0	6,14
+COLO 205	Trifluridine	5.0	6,14
+COLO 205	Tucidinostat	5.0	6,14
+COLO 205	Vilanterol	5.0	6,14
+COLO 205	Vinblastine (sulfate)	5.0	6,14
+H4	8-Hydroxyquinoline	5.0	6,14
+H4	18β-Glycyrrhetinic acid	5.0	6,14
+H4	Adenine	5.0	6,14
+H4	Allantoin	5.0	6,14
+H4	Almonertinib (hydrochloride)	5.0	6,14
+H4	Amsacrine	5.0	6,14
+H4	Anethole trithione	5.0	6,14
+H4	Artesunate	5.0	6,14
+H4	Azithromycin (hydrate)	5.0	6,14
+H4	Balsalazide (sodium hydrate)	5.0	6,14
+H4	Berbamine	5.0	6,14
+H4	Berberine (chloride hydrate)	5.0	6,14
+H4	Bergenin	5.0	6,14
+H4	Bimatoprost	5.0	6,14
+H4	Busulfan	5.0	6,14
+H4	Cepharanthine	5.0	6,14
+H4	Chlorhexidine (diacetate)	5.0	6,14
+H4	Ciclopirox	5.0	6,14
+H4	Clonidine (hydrochloride)	5.0	6,14
+H4	Clotrimazole	5.0	6,14
+H4	Cloxacillin (sodium)	5.0	6,14
+H4	Cysteamine (hydrochloride)	5.0	6,14
+H4	Darinaparsin	5.0	6,14
+H4	Demeclocycline	5.0	6,14
+H4	Docetaxel	5.0	6,14
+H4	Elagolix sodium	5.0	6,14
+H4	Fluvoxamine (maleate)	5.0	6,14
+H4	Folic acid	5.0	6,14
+H4	Furosemide	5.0	6,14
+H4	Fusidic acid	5.0	6,14
+H4	Gallic acid (hydrate)	5.0	6,14
+H4	Gemfibrozil	5.0	6,14
+H4	Goserelin (acetate)	5.0	6,14
+H4	Homoharringtonine	5.0	6,14
+H4	Idarubicin (hydrochloride)	5.0	6,14
+H4	Isocorydine	5.0	6,14
+H4	Larotrectinib	5.0	6,14
+H4	Lenalidomide (hemihydrate)	5.0	6,14
+H4	Lidocaine (hydrochloride)	5.0	6,14
+H4	Lipoic acid	5.0	6,14
+H4	Lumateperone (tosylate)	5.0	6,14
+H4	Medroxyprogesterone acetate	5.0	6,14
+H4	Megestrol	5.0	6,14
+H4	Mitoxantrone (dihydrochloride)	5.0	6,14
+H4	Neratinib (maleate)	5.0	6,14
+H4	Norepinephrine (hydrochloride)	5.0	6,14
+H4	Olanzapine	5.0	6,14
+H4	Palmatine (chloride)	5.0	6,14
+H4	Pasireotide (acetate)	5.0	6,14
+H4	Pentagastrin	5.0	6,14
+H4	Pentamidine (isethionate)	5.0	6,14
+H4	Pyridoxine (hydrochloride)	5.0	6,14
+H4	Quinestrol	5.0	6,14
+H4	Radotinib	5.0	6,14
+H4	Rapamycin	5.0	6,14
+H4	Relugolix	5.0	6,14
+H4	Resveratrol	5.0	6,14
+H4	Retinoic acid	5.0	6,14
+H4	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+H4	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+H4	Salicylic acid	5.0	6,14
+H4	Saquinavir	5.0	6,14
+H4	Sinomenine	5.0	6,14
+H4	Sodium Salicylate	5.0	6,14
+H4	Sulfisoxazole	5.0	6,14
+H4	Temsirolimus	5.0	6,14
+H4	Terfenadine	5.0	6,14
+H4	Thymol	5.0	6,14
+H4	Tofacitinib	5.0	6,14
+H4	Tofacitinib (citrate)	5.0	6,14
+H4	Tolcapone	5.0	6,14
+H4	Triamcinolone	5.0	6,14
+H4	Triclosan	5.0	6,14
+H4	Trifluridine	5.0	6,14
+H4	Tucidinostat	5.0	6,14
+H4	Vilanterol	5.0	6,14
+H4	Vinblastine (sulfate)	5.0	6,14
+HCT15	8-Hydroxyquinoline	5.0	6,14
+HCT15	18β-Glycyrrhetinic acid	5.0	6,14
+HCT15	Acetohexamide	5.0	6,14
+HCT15	Adenosine	5.0	6,14
+HCT15	Aliskiren	5.0	6,14
+HCT15	Allantoin	5.0	6,14
+HCT15	Almonertinib (hydrochloride)	5.0	6,14
+HCT15	Amsacrine	5.0	6,14
+HCT15	Anethole trithione	5.0	6,14
+HCT15	Artesunate	5.0	6,14
+HCT15	Azithromycin (hydrate)	5.0	6,14
+HCT15	Balsalazide (sodium hydrate)	5.0	6,14
+HCT15	Berbamine	5.0	6,14
+HCT15	Berberine (chloride hydrate)	5.0	6,14
+HCT15	Bergenin	5.0	6,14
+HCT15	Bimatoprost	5.0	6,14
+HCT15	Busulfan	5.0	6,14
+HCT15	Cepharanthine	5.0	6,14
+HCT15	Chlorhexidine (diacetate)	5.0	6,14
+HCT15	Ciclopirox	5.0	6,14
+HCT15	Cloxacillin (sodium)	5.0	6,14
+HCT15	Cysteamine (hydrochloride)	5.0	6,14
+HCT15	Darinaparsin	5.0	6,14
+HCT15	Demeclocycline	5.0	6,14
+HCT15	Diammonium Glycyrrhizinate	5.0	6,14
+HCT15	Docetaxel	5.0	6,14
+HCT15	Elagolix sodium	5.0	6,14
+HCT15	Fluvoxamine (maleate)	5.0	6,14
+HCT15	Folic acid	5.0	6,14
+HCT15	Furosemide	5.0	6,14
+HCT15	Gallic acid	5.0	6,14
+HCT15	Gallic acid (hydrate)	5.0	6,14
+HCT15	Gemfibrozil	5.0	6,14
+HCT15	Goserelin (acetate)	5.0	6,14
+HCT15	Hexylresorcinol	5.0	6,14
+HCT15	Homoharringtonine	5.0	6,14
+HCT15	Isocorydine	5.0	6,14
+HCT15	Larotrectinib	5.0	6,14
+HCT15	Lidocaine (hydrochloride)	5.0	6,14
+HCT15	Lipoic acid	5.0	6,14
+HCT15	Lumateperone (tosylate)	5.0	6,14
+HCT15	Medroxyprogesterone acetate	5.0	6,14
+HCT15	Megestrol	5.0	6,14
+HCT15	Mitoxantrone (dihydrochloride)	5.0	6,14
+HCT15	Neratinib (maleate)	5.0	6,14
+HCT15	Olanzapine	5.0	6,14
+HCT15	Palmatine (chloride)	5.0	6,14
+HCT15	Pentagastrin	5.0	6,14
+HCT15	Pentamidine (isethionate)	5.0	6,14
+HCT15	Pyridoxine	5.0	6,14
+HCT15	Pyridoxine (hydrochloride)	5.0	6,14
+HCT15	Quinestrol	5.0	6,14
+HCT15	Radotinib	5.0	6,14
+HCT15	Raltitrexed	5.0	6,14
+HCT15	Rapamycin	5.0	6,14
+HCT15	Retinoic acid	5.0	6,14
+HCT15	Riluzole hydrochloride	5.0	6,14
+HCT15	Rimonabant	5.0	6,14
+HCT15	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+HCT15	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+HCT15	Salicylic acid	5.0	6,14
+HCT15	Sinomenine	5.0	6,14
+HCT15	Sodium Salicylate	5.0	6,14
+HCT15	Sulfisoxazole	5.0	6,14
+HCT15	Temsirolimus	5.0	6,14
+HCT15	Terfenadine	5.0	6,14
+HCT15	Thymol	5.0	6,14
+HCT15	Tofacitinib	5.0	6,14
+HCT15	Tofacitinib (citrate)	5.0	6,14
+HCT15	Tolcapone	5.0	6,14
+HCT15	Triamcinolone	5.0	6,14
+HCT15	Triclosan	5.0	6,14
+HCT15	Trifluridine	5.0	6,14
+HCT15	Trimetrexate	5.0	6,14
+HCT15	Tucidinostat	5.0	6,14
+HCT15	Vilanterol	5.0	6,14
+HCT15	Vinblastine (sulfate)	5.0	6,14
+HEC-1-A	8-Hydroxyquinoline	5.0	6,14
+HEC-1-A	18β-Glycyrrhetinic acid	5.0	6,14
+HEC-1-A	(R)-Verapamil (hydrochloride)	5.0	6,14
+HEC-1-A	Acetohexamide	5.0	6,14
+HEC-1-A	Adenine	5.0	6,14
+HEC-1-A	Adenosine	5.0	6,14
+HEC-1-A	Allantoin	5.0	6,14
+HEC-1-A	Almonertinib (hydrochloride)	5.0	6,14
+HEC-1-A	Amsacrine	5.0	6,14
+HEC-1-A	Anethole trithione	5.0	6,14
+HEC-1-A	Artesunate	5.0	6,14
+HEC-1-A	Azithromycin (hydrate)	5.0	6,14
+HEC-1-A	Balsalazide (sodium hydrate)	5.0	6,14
+HEC-1-A	Berbamine	5.0	6,14
+HEC-1-A	Bimatoprost	5.0	6,14
+HEC-1-A	Busulfan	5.0	6,14
+HEC-1-A	Cepharanthine	5.0	6,14
+HEC-1-A	Chlorhexidine (diacetate)	5.0	6,14
+HEC-1-A	Ciclopirox	5.0	6,14
+HEC-1-A	Clonidine (hydrochloride)	5.0	6,14
+HEC-1-A	Clotrimazole	5.0	6,14
+HEC-1-A	Cloxacillin (sodium)	5.0	6,14
+HEC-1-A	Cysteamine (hydrochloride)	5.0	6,14
+HEC-1-A	Darinaparsin	5.0	6,14
+HEC-1-A	Demeclocycline	5.0	6,14
+HEC-1-A	Docetaxel	5.0	6,14
+HEC-1-A	Elagolix sodium	5.0	6,14
+HEC-1-A	Fluvoxamine (maleate)	5.0	6,14
+HEC-1-A	Folic acid	5.0	6,14
+HEC-1-A	Fusidic acid	5.0	6,14
+HEC-1-A	Gallic acid	5.0	6,14
+HEC-1-A	Gallic acid (hydrate)	5.0	6,14
+HEC-1-A	Gemfibrozil	5.0	6,14
+HEC-1-A	Hexylresorcinol	5.0	6,14
+HEC-1-A	Homoharringtonine	5.0	6,14
+HEC-1-A	Idarubicin (hydrochloride)	5.0	6,14
+HEC-1-A	Isocorydine	5.0	6,14
+HEC-1-A	Larotrectinib	5.0	6,14
+HEC-1-A	Lenalidomide (hemihydrate)	5.0	6,14
+HEC-1-A	Lidocaine (hydrochloride)	5.0	6,14
+HEC-1-A	Lipoic acid	5.0	6,14
+HEC-1-A	Lumateperone (tosylate)	5.0	6,14
+HEC-1-A	Medroxyprogesterone acetate	5.0	6,14
+HEC-1-A	Megestrol	5.0	6,14
+HEC-1-A	Neratinib (maleate)	5.0	6,14
+HEC-1-A	Norepinephrine (hydrochloride)	5.0	6,14
+HEC-1-A	Olanzapine	5.0	6,14
+HEC-1-A	Palmatine (chloride)	5.0	6,14
+HEC-1-A	Pasireotide (acetate)	5.0	6,14
+HEC-1-A	Pyridoxine (hydrochloride)	5.0	6,14
+HEC-1-A	Quinestrol	5.0	6,14
+HEC-1-A	Radotinib	5.0	6,14
+HEC-1-A	Raltitrexed	5.0	6,14
+HEC-1-A	Rapamycin	5.0	6,14
+HEC-1-A	Relugolix	5.0	6,14
+HEC-1-A	Resveratrol	5.0	6,14
+HEC-1-A	Retinoic acid	5.0	6,14
+HEC-1-A	Riluzole hydrochloride	5.0	6,14
+HEC-1-A	Rimonabant	5.0	6,14
+HEC-1-A	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+HEC-1-A	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+HEC-1-A	Salicylic acid	5.0	6,14
+HEC-1-A	Saquinavir	5.0	6,14
+HEC-1-A	Sinomenine	5.0	6,14
+HEC-1-A	Sulfisoxazole	5.0	6,14
+HEC-1-A	Temsirolimus	5.0	6,14
+HEC-1-A	Terfenadine	5.0	6,14
+HEC-1-A	Thymol	5.0	6,14
+HEC-1-A	Tofacitinib	5.0	6,14
+HEC-1-A	Tofacitinib (citrate)	5.0	6,14
+HEC-1-A	Tolcapone	5.0	6,14
+HEC-1-A	Triamcinolone	5.0	6,14
+HEC-1-A	Triclosan	5.0	6,14
+HEC-1-A	Trifluridine	5.0	6,14
+HEC-1-A	Trimetrexate	5.0	6,14
+HEC-1-A	Tucidinostat	5.0	6,14
+HEC-1-A	Vilanterol	5.0	6,14
+HEC-1-A	Vinblastine (sulfate)	5.0	6,14
+HOP62	Adagrasib	0.05	6,14
+HOP62	18β-Glycyrrhetinic acid	5.0	6,14
+HOP62	Acetohexamide	5.0	6,14
+HOP62	Aliskiren	5.0	6,14
+HOP62	Bergenin	5.0	6,14
+HOP62	Ciclopirox	5.0	6,14
+HOP62	Clonidine (hydrochloride)	5.0	6,14
+HOP62	Cloxacillin (sodium)	5.0	6,14
+HOP62	Darinaparsin	5.0	6,14
+HOP62	Diammonium Glycyrrhizinate	5.0	6,14
+HOP62	Lidocaine (hydrochloride)	5.0	6,14
+HOP62	Lumateperone (tosylate)	5.0	6,14
+HOP62	Medroxyprogesterone acetate	5.0	6,14
+HOP62	Olanzapine	5.0	6,14
+HOP62	Pentagastrin	5.0	6,14
+HOP62	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+HOP62	Sulfisoxazole	5.0	6,14
+HOP62	Triclosan	5.0	6,14
+HOP62	Trifluridine	5.0	6,14
+HOP62	Vinblastine (sulfate)	5.0	6,14
+HS-578T	8-Hydroxyquinoline	5.0	6,14
+HS-578T	18β-Glycyrrhetinic acid	5.0	6,14
+HS-578T	Acetohexamide	5.0	6,14
+HS-578T	Adenine	5.0	6,14
+HS-578T	Adenosine	5.0	6,14
+HS-578T	Aliskiren	5.0	6,14
+HS-578T	Allantoin	5.0	6,14
+HS-578T	Almonertinib (hydrochloride)	5.0	6,14
+HS-578T	Amsacrine	5.0	6,14
+HS-578T	Anethole trithione	5.0	6,14
+HS-578T	Artesunate	5.0	6,14
+HS-578T	Azithromycin (hydrate)	5.0	6,14
+HS-578T	Baicalin	5.0	6,14
+HS-578T	Balsalazide (sodium hydrate)	5.0	6,14
+HS-578T	Berbamine	5.0	6,14
+HS-578T	Berberine (chloride hydrate)	5.0	6,14
+HS-578T	Bergenin	5.0	6,14
+HS-578T	Bimatoprost	5.0	6,14
+HS-578T	Busulfan	5.0	6,14
+HS-578T	Cepharanthine	5.0	6,14
+HS-578T	Chlorhexidine (diacetate)	5.0	6,14
+HS-578T	Ciclopirox	5.0	6,14
+HS-578T	Clonidine (hydrochloride)	5.0	6,14
+HS-578T	Clotrimazole	5.0	6,14
+HS-578T	Cloxacillin (sodium)	5.0	6,14
+HS-578T	Cysteamine (hydrochloride)	5.0	6,14
+HS-578T	Darinaparsin	5.0	6,14
+HS-578T	Demeclocycline	5.0	6,14
+HS-578T	Diammonium Glycyrrhizinate	5.0	6,14
+HS-578T	Docetaxel	5.0	6,14
+HS-578T	Fluvoxamine (maleate)	5.0	6,14
+HS-578T	Furosemide	5.0	6,14
+HS-578T	Fusidic acid	5.0	6,14
+HS-578T	Gallic acid	5.0	6,14
+HS-578T	Gallic acid (hydrate)	5.0	6,14
+HS-578T	Gemfibrozil	5.0	6,14
+HS-578T	Goserelin (acetate)	5.0	6,14
+HS-578T	Homoharringtonine	5.0	6,14
+HS-578T	Idarubicin (hydrochloride)	5.0	6,14
+HS-578T	Isocorydine	5.0	6,14
+HS-578T	Lenalidomide (hemihydrate)	5.0	6,14
+HS-578T	Lidocaine (hydrochloride)	5.0	6,14
+HS-578T	Lumateperone (tosylate)	5.0	6,14
+HS-578T	Medroxyprogesterone acetate	5.0	6,14
+HS-578T	Megestrol	5.0	6,14
+HS-578T	Mitoxantrone (dihydrochloride)	5.0	6,14
+HS-578T	Neratinib (maleate)	5.0	6,14
+HS-578T	Norepinephrine (hydrochloride)	5.0	6,14
+HS-578T	Olanzapine	5.0	6,14
+HS-578T	Palmatine (chloride)	5.0	6,14
+HS-578T	Pasireotide (acetate)	5.0	6,14
+HS-578T	Pentagastrin	5.0	6,14
+HS-578T	Pentamidine (isethionate)	5.0	6,14
+HS-578T	Pyridoxine	5.0	6,14
+HS-578T	Pyridoxine (hydrochloride)	5.0	6,14
+HS-578T	Radotinib	5.0	6,14
+HS-578T	Rapamycin	5.0	6,14
+HS-578T	Relugolix	5.0	6,14
+HS-578T	Resveratrol	5.0	6,14
+HS-578T	Retinoic acid	5.0	6,14
+HS-578T	Riluzole hydrochloride	5.0	6,14
+HS-578T	Rimonabant	5.0	6,14
+HS-578T	Ritonavir	5.0	6,14
+HS-578T	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+HS-578T	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+HS-578T	Salicylic acid	5.0	6,14
+HS-578T	Saquinavir	5.0	6,14
+HS-578T	Sinomenine	5.0	6,14
+HS-578T	Sodium Salicylate	5.0	6,14
+HS-578T	Thymol	5.0	6,14
+HS-578T	Tofacitinib	5.0	6,14
+HS-578T	Tolcapone	5.0	6,14
+HS-578T	Triamcinolone	5.0	6,14
+HS-578T	Trifluridine	5.0	6,14
+HS-578T	Tucidinostat	5.0	6,14
+HS-578T	Vilanterol	5.0	6,14
+HS-578T	Vinblastine (sulfate)	5.0	6,14
+HT-29	8-Hydroxyquinoline	5.0	6,14
+HT-29	18β-Glycyrrhetinic acid	5.0	6,14
+HT-29	(R)-Verapamil (hydrochloride)	5.0	6,14
+HT-29	Acetohexamide	5.0	6,14
+HT-29	Adenine	5.0	6,14
+HT-29	Adenosine	5.0	6,14
+HT-29	Aliskiren	5.0	6,14
+HT-29	Allantoin	5.0	6,14
+HT-29	Almonertinib (hydrochloride)	5.0	6,14
+HT-29	Amsacrine	5.0	6,14
+HT-29	Anethole trithione	5.0	6,14
+HT-29	Azithromycin (hydrate)	5.0	6,14
+HT-29	Baicalin	5.0	6,14
+HT-29	Berbamine	5.0	6,14
+HT-29	Berberine (chloride hydrate)	5.0	6,14
+HT-29	Bergenin	5.0	6,14
+HT-29	Bimatoprost	5.0	6,14
+HT-29	Chlorhexidine (diacetate)	5.0	6,14
+HT-29	Ciclopirox	5.0	6,14
+HT-29	Clonidine (hydrochloride)	5.0	6,14
+HT-29	Clotrimazole	5.0	6,14
+HT-29	Cloxacillin (sodium)	5.0	6,14
+HT-29	Cysteamine (hydrochloride)	5.0	6,14
+HT-29	Darinaparsin	5.0	6,14
+HT-29	Demeclocycline	5.0	6,14
+HT-29	Diammonium Glycyrrhizinate	5.0	6,14
+HT-29	Docetaxel	5.0	6,14
+HT-29	Elagolix sodium	5.0	6,14
+HT-29	Fluvoxamine (maleate)	5.0	6,14
+HT-29	Folic acid	5.0	6,14
+HT-29	Furosemide	5.0	6,14
+HT-29	Fusidic acid	5.0	6,14
+HT-29	Gallic acid	5.0	6,14
+HT-29	Gallic acid (hydrate)	5.0	6,14
+HT-29	Gemfibrozil	5.0	6,14
+HT-29	Goserelin (acetate)	5.0	6,14
+HT-29	Homoharringtonine	5.0	6,14
+HT-29	Idarubicin (hydrochloride)	5.0	6,14
+HT-29	Isocorydine	5.0	6,14
+HT-29	Lenalidomide (hemihydrate)	5.0	6,14
+HT-29	Lidocaine (hydrochloride)	5.0	6,14
+HT-29	Lipoic acid	5.0	6,14
+HT-29	Medroxyprogesterone acetate	5.0	6,14
+HT-29	Megestrol	5.0	6,14
+HT-29	Mitoxantrone (dihydrochloride)	5.0	6,14
+HT-29	Neratinib (maleate)	5.0	6,14
+HT-29	Norepinephrine (hydrochloride)	5.0	6,14
+HT-29	Olanzapine	5.0	6,14
+HT-29	Pasireotide (acetate)	5.0	6,14
+HT-29	Pentagastrin	5.0	6,14
+HT-29	Pentamidine (isethionate)	5.0	6,14
+HT-29	Pyridoxine	5.0	6,14
+HT-29	Pyridoxine (hydrochloride)	5.0	6,14
+HT-29	Quinestrol	5.0	6,14
+HT-29	Radotinib	5.0	6,14
+HT-29	Raltitrexed	5.0	6,14
+HT-29	Rapamycin	5.0	6,14
+HT-29	Resveratrol	5.0	6,14
+HT-29	Retinoic acid	5.0	6,14
+HT-29	Riluzole hydrochloride	5.0	6,14
+HT-29	Rimonabant	5.0	6,14
+HT-29	Ritonavir	5.0	6,14
+HT-29	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+HT-29	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+HT-29	Salicylic acid	5.0	6,14
+HT-29	Saquinavir	5.0	6,14
+HT-29	Selinexor 	5.0	6,14
+HT-29	Sinomenine	5.0	6,14
+HT-29	Sodium Salicylate	5.0	6,14
+HT-29	Temsirolimus	5.0	6,14
+HT-29	Thymol	5.0	6,14
+HT-29	Tofacitinib	5.0	6,14
+HT-29	Tolcapone	5.0	6,14
+HT-29	Triamcinolone	5.0	6,14
+HT-29	Trifluridine	5.0	6,14
+HT-29	Trimetrexate	5.0	6,14
+HT-29	Tucidinostat	5.0	6,14
+HT-29	Vilanterol	5.0	6,14
+HT-29	Vinblastine (sulfate)	5.0	6,14
+HepG2/C3A	18β-Glycyrrhetinic acid	5.0	6,14
+HepG2/C3A	Aliskiren	5.0	6,14
+HepG2/C3A	Bergenin	5.0	6,14
+HepG2/C3A	Ciclopirox	5.0	6,14
+HepG2/C3A	Clonidine (hydrochloride)	5.0	6,14
+HepG2/C3A	Cloxacillin (sodium)	5.0	6,14
+HepG2/C3A	Darinaparsin	5.0	6,14
+HepG2/C3A	Diammonium Glycyrrhizinate	5.0	6,14
+HepG2/C3A	Folic acid	5.0	6,14
+HepG2/C3A	Isocorydine	5.0	6,14
+HepG2/C3A	Lidocaine (hydrochloride)	5.0	6,14
+HepG2/C3A	Lumateperone (tosylate)	5.0	6,14
+HepG2/C3A	Medroxyprogesterone acetate	5.0	6,14
+HepG2/C3A	Olanzapine	5.0	6,14
+HepG2/C3A	Pentagastrin	5.0	6,14
+HepG2/C3A	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+HepG2/C3A	Selinexor 	5.0	6,14
+HepG2/C3A	Sulfisoxazole	5.0	6,14
+HepG2/C3A	Triclosan	5.0	6,14
+Hs 766T	18β-Glycyrrhetinic acid	5.0	6,14
+Hs 766T	Acetohexamide	5.0	6,14
+Hs 766T	Aliskiren	5.0	6,14
+Hs 766T	Bergenin	5.0	6,14
+Hs 766T	Ciclopirox	5.0	6,14
+Hs 766T	Clonidine (hydrochloride)	5.0	6,14
+Hs 766T	Cloxacillin (sodium)	5.0	6,14
+Hs 766T	Darinaparsin	5.0	6,14
+Hs 766T	Diammonium Glycyrrhizinate	5.0	6,14
+Hs 766T	Isocorydine	5.0	6,14
+Hs 766T	Lidocaine (hydrochloride)	5.0	6,14
+Hs 766T	Medroxyprogesterone acetate	5.0	6,14
+Hs 766T	Megestrol	5.0	6,14
+Hs 766T	Olanzapine	5.0	6,14
+Hs 766T	Pentagastrin	5.0	6,14
+Hs 766T	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+Hs 766T	Sulfisoxazole	5.0	6,14
+Hs 766T	Triclosan	5.0	6,14
+Hs 766T	Trifluridine	5.0	6,14
+Hs 766T	Vinblastine (sulfate)	5.0	6,14
+J82	8-Hydroxyquinoline	5.0	6,14
+J82	18β-Glycyrrhetinic acid	5.0	6,14
+J82	(R)-Verapamil (hydrochloride)	5.0	6,14
+J82	Acetohexamide	5.0	6,14
+J82	Adenine	5.0	6,14
+J82	Adenosine	5.0	6,14
+J82	Aliskiren	5.0	6,14
+J82	Allantoin	5.0	6,14
+J82	Almonertinib (hydrochloride)	5.0	6,14
+J82	Amsacrine	5.0	6,14
+J82	Anethole trithione	5.0	6,14
+J82	Artesunate	5.0	6,14
+J82	Azithromycin (hydrate)	5.0	6,14
+J82	Baicalin	5.0	6,14
+J82	Berbamine	5.0	6,14
+J82	Berberine (chloride hydrate)	5.0	6,14
+J82	Bergenin	5.0	6,14
+J82	Bimatoprost	5.0	6,14
+J82	Busulfan	5.0	6,14
+J82	Cepharanthine	5.0	6,14
+J82	Chlorhexidine (diacetate)	5.0	6,14
+J82	Ciclopirox	5.0	6,14
+J82	Clotrimazole	5.0	6,14
+J82	Darinaparsin	5.0	6,14
+J82	Diammonium Glycyrrhizinate	5.0	6,14
+J82	Docetaxel	5.0	6,14
+J82	Elagolix sodium	5.0	6,14
+J82	Fluvoxamine (maleate)	5.0	6,14
+J82	Folic acid	5.0	6,14
+J82	Furosemide	5.0	6,14
+J82	Fusidic acid	5.0	6,14
+J82	Gallic acid	5.0	6,14
+J82	Gallic acid (hydrate)	5.0	6,14
+J82	Gemfibrozil	5.0	6,14
+J82	Goserelin (acetate)	5.0	6,14
+J82	Homoharringtonine	5.0	6,14
+J82	Idarubicin (hydrochloride)	5.0	6,14
+J82	Isocorydine	5.0	6,14
+J82	Lenalidomide (hemihydrate)	5.0	6,14
+J82	Lidocaine (hydrochloride)	5.0	6,14
+J82	Lipoic acid	5.0	6,14
+J82	Lumateperone (tosylate)	5.0	6,14
+J82	Neratinib (maleate)	5.0	6,14
+J82	Norepinephrine (hydrochloride)	5.0	6,14
+J82	Olanzapine	5.0	6,14
+J82	Pasireotide (acetate)	5.0	6,14
+J82	Pentamidine (isethionate)	5.0	6,14
+J82	Pyridoxine (hydrochloride)	5.0	6,14
+J82	Radotinib	5.0	6,14
+J82	Raltitrexed	5.0	6,14
+J82	Rapamycin	5.0	6,14
+J82	Resveratrol	5.0	6,14
+J82	Retinoic acid	5.0	6,14
+J82	Riluzole hydrochloride	5.0	6,14
+J82	Ritonavir	5.0	6,14
+J82	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+J82	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+J82	Salicylic acid	5.0	6,14
+J82	Sinomenine	5.0	6,14
+J82	Sodium Salicylate	5.0	6,14
+J82	Sulfisoxazole	5.0	6,14
+J82	Terfenadine	5.0	6,14
+J82	Thymol	5.0	6,14
+J82	Tofacitinib	5.0	6,14
+J82	Tofacitinib (citrate)	5.0	6,14
+J82	Triamcinolone	5.0	6,14
+J82	Triclosan	5.0	6,14
+J82	Trimetrexate	5.0	6,14
+J82	Tucidinostat	5.0	6,14
+J82	Vinblastine (sulfate)	5.0	6,14
+KATO III	8-Hydroxyquinoline	5.0	6,14
+KATO III	18β-Glycyrrhetinic acid	5.0	6,14
+KATO III	(R)-Verapamil (hydrochloride)	5.0	6,14
+KATO III	Acetohexamide	5.0	6,14
+KATO III	Adenine	5.0	6,14
+KATO III	Adenosine	5.0	6,14
+KATO III	Aliskiren	5.0	6,14
+KATO III	Allantoin	5.0	6,14
+KATO III	Almonertinib (hydrochloride)	5.0	6,14
+KATO III	Amsacrine	5.0	6,14
+KATO III	Anethole trithione	5.0	6,14
+KATO III	Artesunate	5.0	6,14
+KATO III	Azithromycin (hydrate)	5.0	6,14
+KATO III	Balsalazide (sodium hydrate)	5.0	6,14
+KATO III	Berberine (chloride hydrate)	5.0	6,14
+KATO III	Bimatoprost	5.0	6,14
+KATO III	Busulfan	5.0	6,14
+KATO III	Cepharanthine	5.0	6,14
+KATO III	Ciclopirox	5.0	6,14
+KATO III	Clotrimazole	5.0	6,14
+KATO III	Cysteamine (hydrochloride)	5.0	6,14
+KATO III	Darinaparsin	5.0	6,14
+KATO III	Demeclocycline	5.0	6,14
+KATO III	Diammonium Glycyrrhizinate	5.0	6,14
+KATO III	Fluvoxamine (maleate)	5.0	6,14
+KATO III	Folic acid	5.0	6,14
+KATO III	Furosemide	5.0	6,14
+KATO III	Fusidic acid	5.0	6,14
+KATO III	Gallic acid	5.0	6,14
+KATO III	Gallic acid (hydrate)	5.0	6,14
+KATO III	Gemfibrozil	5.0	6,14
+KATO III	Goserelin (acetate)	5.0	6,14
+KATO III	Hexylresorcinol	5.0	6,14
+KATO III	Homoharringtonine	5.0	6,14
+KATO III	Idarubicin (hydrochloride)	5.0	6,14
+KATO III	Isocorydine	5.0	6,14
+KATO III	Larotrectinib	5.0	6,14
+KATO III	Lenalidomide (hemihydrate)	5.0	6,14
+KATO III	Lidocaine (hydrochloride)	5.0	6,14
+KATO III	Lipoic acid	5.0	6,14
+KATO III	Lumateperone (tosylate)	5.0	6,14
+KATO III	Medroxyprogesterone acetate	5.0	6,14
+KATO III	Megestrol	5.0	6,14
+KATO III	Mitoxantrone (dihydrochloride)	5.0	6,14
+KATO III	Neratinib (maleate)	5.0	6,14
+KATO III	Norepinephrine (hydrochloride)	5.0	6,14
+KATO III	Olanzapine	5.0	6,14
+KATO III	Palmatine (chloride)	5.0	6,14
+KATO III	Pasireotide (acetate)	5.0	6,14
+KATO III	Pentagastrin	5.0	6,14
+KATO III	Pentamidine (isethionate)	5.0	6,14
+KATO III	Pyridoxine	5.0	6,14
+KATO III	Quinestrol	5.0	6,14
+KATO III	Radotinib	5.0	6,14
+KATO III	Raltitrexed	5.0	6,14
+KATO III	Rapamycin	5.0	6,14
+KATO III	Relugolix	5.0	6,14
+KATO III	Resveratrol	5.0	6,14
+KATO III	Retinoic acid	5.0	6,14
+KATO III	Riluzole hydrochloride	5.0	6,14
+KATO III	Rimonabant	5.0	6,14
+KATO III	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+KATO III	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+KATO III	Salicylic acid	5.0	6,14
+KATO III	Saquinavir	5.0	6,14
+KATO III	Sinomenine	5.0	6,14
+KATO III	Sodium Salicylate	5.0	6,14
+KATO III	Sulfisoxazole	5.0	6,14
+KATO III	Thymol	5.0	6,14
+KATO III	Tofacitinib	5.0	6,14
+KATO III	Tofacitinib (citrate)	5.0	6,14
+KATO III	Tolcapone	5.0	6,14
+KATO III	Triamcinolone	5.0	6,14
+KATO III	Trifluridine	5.0	6,14
+KATO III	Trimetrexate	5.0	6,14
+KATO III	Tucidinostat	5.0	6,14
+KATO III	Vilanterol	5.0	6,14
+KATO III	Vinblastine (sulfate)	5.0	6,14
+LOX-IMVI	8-Hydroxyquinoline	5.0	6,14
+LOX-IMVI	18β-Glycyrrhetinic acid	5.0	6,14
+LOX-IMVI	(R)-Verapamil (hydrochloride)	5.0	6,14
+LOX-IMVI	Acetohexamide	5.0	6,14
+LOX-IMVI	Adenine	5.0	6,14
+LOX-IMVI	Adenosine	5.0	6,14
+LOX-IMVI	Aliskiren	5.0	6,14
+LOX-IMVI	Allantoin	5.0	6,14
+LOX-IMVI	Almonertinib (hydrochloride)	5.0	6,14
+LOX-IMVI	Amsacrine	5.0	6,14
+LOX-IMVI	Anethole trithione	5.0	6,14
+LOX-IMVI	Azithromycin (hydrate)	5.0	6,14
+LOX-IMVI	Baicalin	5.0	6,14
+LOX-IMVI	Balsalazide (sodium hydrate)	5.0	6,14
+LOX-IMVI	Berbamine	5.0	6,14
+LOX-IMVI	Bergenin	5.0	6,14
+LOX-IMVI	Bimatoprost	5.0	6,14
+LOX-IMVI	Busulfan	5.0	6,14
+LOX-IMVI	Cepharanthine	5.0	6,14
+LOX-IMVI	Chlorhexidine (diacetate)	5.0	6,14
+LOX-IMVI	Ciclopirox	5.0	6,14
+LOX-IMVI	Clonidine (hydrochloride)	5.0	6,14
+LOX-IMVI	Clotrimazole	5.0	6,14
+LOX-IMVI	Cysteamine (hydrochloride)	5.0	6,14
+LOX-IMVI	Darinaparsin	5.0	6,14
+LOX-IMVI	Demeclocycline	5.0	6,14
+LOX-IMVI	Diammonium Glycyrrhizinate	5.0	6,14
+LOX-IMVI	Docetaxel	5.0	6,14
+LOX-IMVI	Elagolix sodium	5.0	6,14
+LOX-IMVI	Fluvoxamine (maleate)	5.0	6,14
+LOX-IMVI	Furosemide	5.0	6,14
+LOX-IMVI	Fusidic acid	5.0	6,14
+LOX-IMVI	Gallic acid	5.0	6,14
+LOX-IMVI	Gemfibrozil	5.0	6,14
+LOX-IMVI	Goserelin (acetate)	5.0	6,14
+LOX-IMVI	Hexylresorcinol	5.0	6,14
+LOX-IMVI	Homoharringtonine	5.0	6,14
+LOX-IMVI	Idarubicin (hydrochloride)	5.0	6,14
+LOX-IMVI	Isocorydine	5.0	6,14
+LOX-IMVI	Larotrectinib	5.0	6,14
+LOX-IMVI	Lidocaine (hydrochloride)	5.0	6,14
+LOX-IMVI	Lipoic acid	5.0	6,14
+LOX-IMVI	Lumateperone (tosylate)	5.0	6,14
+LOX-IMVI	Medroxyprogesterone acetate	5.0	6,14
+LOX-IMVI	Megestrol	5.0	6,14
+LOX-IMVI	Mitoxantrone (dihydrochloride)	5.0	6,14
+LOX-IMVI	Neratinib (maleate)	5.0	6,14
+LOX-IMVI	Norepinephrine (hydrochloride)	5.0	6,14
+LOX-IMVI	Olanzapine	5.0	6,14
+LOX-IMVI	Pasireotide (acetate)	5.0	6,14
+LOX-IMVI	Pentagastrin	5.0	6,14
+LOX-IMVI	Pentamidine (isethionate)	5.0	6,14
+LOX-IMVI	Pyridoxine	5.0	6,14
+LOX-IMVI	Pyridoxine (hydrochloride)	5.0	6,14
+LOX-IMVI	Quinestrol	5.0	6,14
+LOX-IMVI	Radotinib	5.0	6,14
+LOX-IMVI	Raltitrexed	5.0	6,14
+LOX-IMVI	Rapamycin	5.0	6,14
+LOX-IMVI	Relugolix	5.0	6,14
+LOX-IMVI	Retinoic acid	5.0	6,14
+LOX-IMVI	Rimonabant	5.0	6,14
+LOX-IMVI	Ritonavir	5.0	6,14
+LOX-IMVI	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+LOX-IMVI	Salicylic acid	5.0	6,14
+LOX-IMVI	Saquinavir	5.0	6,14
+LOX-IMVI	Sinomenine	5.0	6,14
+LOX-IMVI	Sodium Salicylate	5.0	6,14
+LOX-IMVI	Sulfisoxazole	5.0	6,14
+LOX-IMVI	Temsirolimus	5.0	6,14
+LOX-IMVI	Terfenadine	5.0	6,14
+LOX-IMVI	Thymol	5.0	6,14
+LOX-IMVI	Tofacitinib	5.0	6,14
+LOX-IMVI	Tofacitinib (citrate)	5.0	6,14
+LOX-IMVI	Tolcapone	5.0	6,14
+LOX-IMVI	Triamcinolone	5.0	6,14
+LOX-IMVI	Triclosan	5.0	6,14
+LOX-IMVI	Trifluridine	5.0	6,14
+LOX-IMVI	Trimetrexate	5.0	6,14
+LOX-IMVI	Tucidinostat	5.0	6,14
+LOX-IMVI	Vilanterol	5.0	6,14
+LOX-IMVI	Vinblastine (sulfate)	5.0	6,14
+LS 180	8-Hydroxyquinoline	5.0	6,14
+LS 180	(R)-Verapamil (hydrochloride)	5.0	6,14
+LS 180	Acetohexamide	5.0	6,14
+LS 180	Adenine	5.0	6,14
+LS 180	Adenosine	5.0	6,14
+LS 180	Aliskiren	5.0	6,14
+LS 180	Allantoin	5.0	6,14
+LS 180	Anethole trithione	5.0	6,14
+LS 180	Artesunate	5.0	6,14
+LS 180	Azithromycin (hydrate)	5.0	6,14
+LS 180	Baicalin	5.0	6,14
+LS 180	Balsalazide (sodium hydrate)	5.0	6,14
+LS 180	Berbamine	5.0	6,14
+LS 180	Berberine (chloride hydrate)	5.0	6,14
+LS 180	Bergenin	5.0	6,14
+LS 180	Chlorhexidine (diacetate)	5.0	6,14
+LS 180	Ciclopirox	5.0	6,14
+LS 180	Clonidine (hydrochloride)	5.0	6,14
+LS 180	Clotrimazole	5.0	6,14
+LS 180	Cloxacillin (sodium)	5.0	6,14
+LS 180	Cysteamine (hydrochloride)	5.0	6,14
+LS 180	Darinaparsin	5.0	6,14
+LS 180	Demeclocycline	5.0	6,14
+LS 180	Elagolix sodium	5.0	6,14
+LS 180	Fluvoxamine (maleate)	5.0	6,14
+LS 180	Folic acid	5.0	6,14
+LS 180	Fusidic acid	5.0	6,14
+LS 180	Gallic acid	5.0	6,14
+LS 180	Gallic acid (hydrate)	5.0	6,14
+LS 180	Gemfibrozil	5.0	6,14
+LS 180	Goserelin (acetate)	5.0	6,14
+LS 180	Hexylresorcinol	5.0	6,14
+LS 180	Homoharringtonine	5.0	6,14
+LS 180	Idarubicin (hydrochloride)	5.0	6,14
+LS 180	Isocorydine	5.0	6,14
+LS 180	Lenalidomide (hemihydrate)	5.0	6,14
+LS 180	Lidocaine (hydrochloride)	5.0	6,14
+LS 180	Lipoic acid	5.0	6,14
+LS 180	Lumateperone (tosylate)	5.0	6,14
+LS 180	Medroxyprogesterone acetate	5.0	6,14
+LS 180	Megestrol	5.0	6,14
+LS 180	Mitoxantrone (dihydrochloride)	5.0	6,14
+LS 180	Neratinib (maleate)	5.0	6,14
+LS 180	Olanzapine	5.0	6,14
+LS 180	Palmatine (chloride)	5.0	6,14
+LS 180	Pasireotide (acetate)	5.0	6,14
+LS 180	Pentagastrin	5.0	6,14
+LS 180	Pentamidine (isethionate)	5.0	6,14
+LS 180	Pyridoxine	5.0	6,14
+LS 180	Pyridoxine (hydrochloride)	5.0	6,14
+LS 180	Quinestrol	5.0	6,14
+LS 180	Radotinib	5.0	6,14
+LS 180	Raltitrexed	5.0	6,14
+LS 180	Rapamycin	5.0	6,14
+LS 180	Relugolix	5.0	6,14
+LS 180	Resveratrol	5.0	6,14
+LS 180	Retinoic acid	5.0	6,14
+LS 180	Riluzole hydrochloride	5.0	6,14
+LS 180	Rimonabant	5.0	6,14
+LS 180	Ritonavir	5.0	6,14
+LS 180	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+LS 180	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+LS 180	Salicylic acid	5.0	6,14
+LS 180	Saquinavir	5.0	6,14
+LS 180	Selinexor 	5.0	6,14
+LS 180	Sinomenine	5.0	6,14
+LS 180	Sodium Salicylate	5.0	6,14
+LS 180	Sulfisoxazole	5.0	6,14
+LS 180	Terfenadine	5.0	6,14
+LS 180	Thymol	5.0	6,14
+LS 180	Tofacitinib	5.0	6,14
+LS 180	Tofacitinib (citrate)	5.0	6,14
+LS 180	Tolcapone	5.0	6,14
+LS 180	Triamcinolone	5.0	6,14
+LS 180	Triclosan	5.0	6,14
+LS 180	Trifluridine	5.0	6,14
+LS 180	Trimetrexate	5.0	6,14
+LS 180	Tucidinostat	5.0	6,14
+LS 180	Vilanterol	5.0	6,14
+LS 180	Vinblastine (sulfate)	5.0	6,14
+LoVo	18β-Glycyrrhetinic acid	5.0	6,14
+LoVo	(R)-Verapamil (hydrochloride)	5.0	6,14
+LoVo	Acetohexamide	5.0	6,14
+LoVo	Adenine	5.0	6,14
+LoVo	Adenosine	5.0	6,14
+LoVo	Aliskiren	5.0	6,14
+LoVo	Allantoin	5.0	6,14
+LoVo	Almonertinib (hydrochloride)	5.0	6,14
+LoVo	Amsacrine	5.0	6,14
+LoVo	Anethole trithione	5.0	6,14
+LoVo	Artesunate	5.0	6,14
+LoVo	Azithromycin (hydrate)	5.0	6,14
+LoVo	Baicalin	5.0	6,14
+LoVo	Balsalazide (sodium hydrate)	5.0	6,14
+LoVo	Berbamine	5.0	6,14
+LoVo	Berberine (chloride hydrate)	5.0	6,14
+LoVo	Bergenin	5.0	6,14
+LoVo	Bimatoprost	5.0	6,14
+LoVo	Busulfan	5.0	6,14
+LoVo	Cepharanthine	5.0	6,14
+LoVo	Chlorhexidine (diacetate)	5.0	6,14
+LoVo	Ciclopirox	5.0	6,14
+LoVo	Clotrimazole	5.0	6,14
+LoVo	Cloxacillin (sodium)	5.0	6,14
+LoVo	Cysteamine (hydrochloride)	5.0	6,14
+LoVo	Demeclocycline	5.0	6,14
+LoVo	Diammonium Glycyrrhizinate	5.0	6,14
+LoVo	Docetaxel	5.0	6,14
+LoVo	Elagolix sodium	5.0	6,14
+LoVo	Fluvoxamine (maleate)	5.0	6,14
+LoVo	Folic acid	5.0	6,14
+LoVo	Furosemide	5.0	6,14
+LoVo	Fusidic acid	5.0	6,14
+LoVo	Gallic acid	5.0	6,14
+LoVo	Gallic acid (hydrate)	5.0	6,14
+LoVo	Gemfibrozil	5.0	6,14
+LoVo	Goserelin (acetate)	5.0	6,14
+LoVo	Hexylresorcinol	5.0	6,14
+LoVo	Idarubicin (hydrochloride)	5.0	6,14
+LoVo	Larotrectinib	5.0	6,14
+LoVo	Lenalidomide (hemihydrate)	5.0	6,14
+LoVo	Lidocaine (hydrochloride)	5.0	6,14
+LoVo	Lipoic acid	5.0	6,14
+LoVo	Medroxyprogesterone acetate	5.0	6,14
+LoVo	Megestrol	5.0	6,14
+LoVo	Mitoxantrone (dihydrochloride)	5.0	6,14
+LoVo	Norepinephrine (hydrochloride)	5.0	6,14
+LoVo	Olanzapine	5.0	6,14
+LoVo	Palmatine (chloride)	5.0	6,14
+LoVo	Pentagastrin	5.0	6,14
+LoVo	Pentamidine (isethionate)	5.0	6,14
+LoVo	Pyridoxine	5.0	6,14
+LoVo	Pyridoxine (hydrochloride)	5.0	6,14
+LoVo	Quinestrol	5.0	6,14
+LoVo	Radotinib	5.0	6,14
+LoVo	Raltitrexed	5.0	6,14
+LoVo	Rapamycin	5.0	6,14
+LoVo	Relugolix	5.0	6,14
+LoVo	Retinoic acid	5.0	6,14
+LoVo	Riluzole hydrochloride	5.0	6,14
+LoVo	Rimonabant	5.0	6,14
+LoVo	Ritonavir	5.0	6,14
+LoVo	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+LoVo	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+LoVo	Salicylic acid	5.0	6,14
+LoVo	Saquinavir	5.0	6,14
+LoVo	Sinomenine	5.0	6,14
+LoVo	Sodium Salicylate	5.0	6,14
+LoVo	Sulfisoxazole	5.0	6,14
+LoVo	Temsirolimus	5.0	6,14
+LoVo	Terfenadine	5.0	6,14
+LoVo	Thymol	5.0	6,14
+LoVo	Tofacitinib	5.0	6,14
+LoVo	Tofacitinib (citrate)	5.0	6,14
+LoVo	Tolcapone	5.0	6,14
+LoVo	Triamcinolone	5.0	6,14
+LoVo	Triclosan	5.0	6,14
+LoVo	Trifluridine	5.0	6,14
+LoVo	Trimetrexate	5.0	6,14
+LoVo	Tucidinostat	5.0	6,14
+LoVo	Vilanterol	5.0	6,14
+LoVo	Vinblastine (sulfate)	5.0	6,14
+MIA PaCa-2	8-Hydroxyquinoline	5.0	6,14
+MIA PaCa-2	18β-Glycyrrhetinic acid	5.0	6,14
+MIA PaCa-2	(R)-Verapamil (hydrochloride)	5.0	6,14
+MIA PaCa-2	Acetohexamide	5.0	6,14
+MIA PaCa-2	Allantoin	5.0	6,14
+MIA PaCa-2	Almonertinib (hydrochloride)	5.0	6,14
+MIA PaCa-2	Amsacrine	5.0	6,14
+MIA PaCa-2	Anethole trithione	5.0	6,14
+MIA PaCa-2	Artesunate	5.0	6,14
+MIA PaCa-2	Baicalin	5.0	6,14
+MIA PaCa-2	Balsalazide (sodium hydrate)	5.0	6,14
+MIA PaCa-2	Berberine (chloride hydrate)	5.0	6,14
+MIA PaCa-2	Bergenin	5.0	6,14
+MIA PaCa-2	Bimatoprost	5.0	6,14
+MIA PaCa-2	Busulfan	5.0	6,14
+MIA PaCa-2	Cepharanthine	5.0	6,14
+MIA PaCa-2	Chlorhexidine (diacetate)	5.0	6,14
+MIA PaCa-2	Ciclopirox	5.0	6,14
+MIA PaCa-2	Clonidine (hydrochloride)	5.0	6,14
+MIA PaCa-2	Cloxacillin (sodium)	5.0	6,14
+MIA PaCa-2	Cysteamine (hydrochloride)	5.0	6,14
+MIA PaCa-2	Darinaparsin	5.0	6,14
+MIA PaCa-2	Demeclocycline	5.0	6,14
+MIA PaCa-2	Diammonium Glycyrrhizinate	5.0	6,14
+MIA PaCa-2	Docetaxel	5.0	6,14
+MIA PaCa-2	Elagolix sodium	5.0	6,14
+MIA PaCa-2	Fluvoxamine (maleate)	5.0	6,14
+MIA PaCa-2	Folic acid	5.0	6,14
+MIA PaCa-2	Furosemide	5.0	6,14
+MIA PaCa-2	Fusidic acid	5.0	6,14
+MIA PaCa-2	Gallic acid	5.0	6,14
+MIA PaCa-2	Gemfibrozil	5.0	6,14
+MIA PaCa-2	Goserelin (acetate)	5.0	6,14
+MIA PaCa-2	Homoharringtonine	5.0	6,14
+MIA PaCa-2	Idarubicin (hydrochloride)	5.0	6,14
+MIA PaCa-2	Isocorydine	5.0	6,14
+MIA PaCa-2	Larotrectinib	5.0	6,14
+MIA PaCa-2	Lenalidomide (hemihydrate)	5.0	6,14
+MIA PaCa-2	Lumateperone (tosylate)	5.0	6,14
+MIA PaCa-2	Medroxyprogesterone acetate	5.0	6,14
+MIA PaCa-2	Megestrol	5.0	6,14
+MIA PaCa-2	Mitoxantrone (dihydrochloride)	5.0	6,14
+MIA PaCa-2	Neratinib (maleate)	5.0	6,14
+MIA PaCa-2	Norepinephrine (hydrochloride)	5.0	6,14
+MIA PaCa-2	Palmatine (chloride)	5.0	6,14
+MIA PaCa-2	Pasireotide (acetate)	5.0	6,14
+MIA PaCa-2	Pentamidine (isethionate)	5.0	6,14
+MIA PaCa-2	Pyridoxine	5.0	6,14
+MIA PaCa-2	Quinestrol	5.0	6,14
+MIA PaCa-2	Radotinib	5.0	6,14
+MIA PaCa-2	Raltitrexed	5.0	6,14
+MIA PaCa-2	Rapamycin	5.0	6,14
+MIA PaCa-2	Relugolix	5.0	6,14
+MIA PaCa-2	Resveratrol	5.0	6,14
+MIA PaCa-2	Retinoic acid	5.0	6,14
+MIA PaCa-2	Riluzole hydrochloride	5.0	6,14
+MIA PaCa-2	Rimonabant	5.0	6,14
+MIA PaCa-2	Ritonavir	5.0	6,14
+MIA PaCa-2	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+MIA PaCa-2	Saquinavir	5.0	6,14
+MIA PaCa-2	Sinomenine	5.0	6,14
+MIA PaCa-2	Sodium Salicylate	5.0	6,14
+MIA PaCa-2	Sulfisoxazole	5.0	6,14
+MIA PaCa-2	Temsirolimus	5.0	6,14
+MIA PaCa-2	Terfenadine	5.0	6,14
+MIA PaCa-2	Thymol	5.0	6,14
+MIA PaCa-2	Tofacitinib	5.0	6,14
+MIA PaCa-2	Tolcapone	5.0	6,14
+MIA PaCa-2	Triclosan	5.0	6,14
+MIA PaCa-2	Trimetrexate	5.0	6,14
+MIA PaCa-2	Tucidinostat	5.0	6,14
+MIA PaCa-2	Vilanterol	5.0	6,14
+NCI-H1573	8-Hydroxyquinoline	5.0	6,14
+NCI-H1573	(R)-Verapamil (hydrochloride)	5.0	6,14
+NCI-H1573	Acetohexamide	5.0	6,14
+NCI-H1573	Adenosine	5.0	6,14
+NCI-H1573	Aliskiren	5.0	6,14
+NCI-H1573	Allantoin	5.0	6,14
+NCI-H1573	Almonertinib (hydrochloride)	5.0	6,14
+NCI-H1573	Amsacrine	5.0	6,14
+NCI-H1573	Anethole trithione	5.0	6,14
+NCI-H1573	Artesunate	5.0	6,14
+NCI-H1573	Azithromycin (hydrate)	5.0	6,14
+NCI-H1573	Baicalin	5.0	6,14
+NCI-H1573	Balsalazide (sodium hydrate)	5.0	6,14
+NCI-H1573	Berbamine	5.0	6,14
+NCI-H1573	Berberine (chloride hydrate)	5.0	6,14
+NCI-H1573	Busulfan	5.0	6,14
+NCI-H1573	Cepharanthine	5.0	6,14
+NCI-H1573	Chlorhexidine (diacetate)	5.0	6,14
+NCI-H1573	Ciclopirox	5.0	6,14
+NCI-H1573	Clonidine (hydrochloride)	5.0	6,14
+NCI-H1573	Clotrimazole	5.0	6,14
+NCI-H1573	Cloxacillin (sodium)	5.0	6,14
+NCI-H1573	Cysteamine (hydrochloride)	5.0	6,14
+NCI-H1573	Darinaparsin	5.0	6,14
+NCI-H1573	Demeclocycline	5.0	6,14
+NCI-H1573	Diammonium Glycyrrhizinate	5.0	6,14
+NCI-H1573	Docetaxel	5.0	6,14
+NCI-H1573	Elagolix sodium	5.0	6,14
+NCI-H1573	Fluvoxamine (maleate)	5.0	6,14
+NCI-H1573	Folic acid	5.0	6,14
+NCI-H1573	Fusidic acid	5.0	6,14
+NCI-H1573	Gallic acid	5.0	6,14
+NCI-H1573	Gallic acid (hydrate)	5.0	6,14
+NCI-H1573	Gemfibrozil	5.0	6,14
+NCI-H1573	Goserelin (acetate)	5.0	6,14
+NCI-H1573	Hexylresorcinol	5.0	6,14
+NCI-H1573	Homoharringtonine	5.0	6,14
+NCI-H1573	Isocorydine	5.0	6,14
+NCI-H1573	Larotrectinib	5.0	6,14
+NCI-H1573	Lenalidomide (hemihydrate)	5.0	6,14
+NCI-H1573	Lidocaine (hydrochloride)	5.0	6,14
+NCI-H1573	Lipoic acid	5.0	6,14
+NCI-H1573	Lumateperone (tosylate)	5.0	6,14
+NCI-H1573	Medroxyprogesterone acetate	5.0	6,14
+NCI-H1573	Megestrol	5.0	6,14
+NCI-H1573	Mitoxantrone (dihydrochloride)	5.0	6,14
+NCI-H1573	Neratinib (maleate)	5.0	6,14
+NCI-H1573	Norepinephrine (hydrochloride)	5.0	6,14
+NCI-H1573	Olanzapine	5.0	6,14
+NCI-H1573	Palmatine (chloride)	5.0	6,14
+NCI-H1573	Pasireotide (acetate)	5.0	6,14
+NCI-H1573	Pyridoxine	5.0	6,14
+NCI-H1573	Radotinib	5.0	6,14
+NCI-H1573	Raltitrexed	5.0	6,14
+NCI-H1573	Rapamycin	5.0	6,14
+NCI-H1573	Resveratrol	5.0	6,14
+NCI-H1573	Retinoic acid	5.0	6,14
+NCI-H1573	Rimonabant	5.0	6,14
+NCI-H1573	Ritonavir	5.0	6,14
+NCI-H1573	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+NCI-H1573	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+NCI-H1573	Saquinavir	5.0	6,14
+NCI-H1573	Selinexor 	5.0	6,14
+NCI-H1573	Sinomenine	5.0	6,14
+NCI-H1573	Sodium Salicylate	5.0	6,14
+NCI-H1573	Sulfisoxazole	5.0	6,14
+NCI-H1573	Temsirolimus	5.0	6,14
+NCI-H1573	Terfenadine	5.0	6,14
+NCI-H1573	Tofacitinib	5.0	6,14
+NCI-H1573	Tofacitinib (citrate)	5.0	6,14
+NCI-H1573	Tolcapone	5.0	6,14
+NCI-H1573	Triamcinolone	5.0	6,14
+NCI-H1573	Triclosan	5.0	6,14
+NCI-H1573	Trifluridine	5.0	6,14
+NCI-H1573	Trimetrexate	5.0	6,14
+NCI-H1573	Tucidinostat	5.0	6,14
+NCI-H1573	Vilanterol	5.0	6,14
+NCI-H1573	Vinblastine (sulfate)	5.0	6,14
+NCI-H1792	8-Hydroxyquinoline	5.0	6,14
+NCI-H1792	18β-Glycyrrhetinic acid	5.0	6,14
+NCI-H1792	(R)-Verapamil (hydrochloride)	5.0	6,14
+NCI-H1792	Acetohexamide	5.0	6,14
+NCI-H1792	Adenine	5.0	6,14
+NCI-H1792	Aliskiren	5.0	6,14
+NCI-H1792	Allantoin	5.0	6,14
+NCI-H1792	Almonertinib (hydrochloride)	5.0	6,14
+NCI-H1792	Amsacrine	5.0	6,14
+NCI-H1792	Anethole trithione	5.0	6,14
+NCI-H1792	Artesunate	5.0	6,14
+NCI-H1792	Azithromycin (hydrate)	5.0	6,14
+NCI-H1792	Baicalin	5.0	6,14
+NCI-H1792	Balsalazide (sodium hydrate)	5.0	6,14
+NCI-H1792	Berbamine	5.0	6,14
+NCI-H1792	Berberine (chloride hydrate)	5.0	6,14
+NCI-H1792	Bergenin	5.0	6,14
+NCI-H1792	Bimatoprost	5.0	6,14
+NCI-H1792	Busulfan	5.0	6,14
+NCI-H1792	Cepharanthine	5.0	6,14
+NCI-H1792	Ciclopirox	5.0	6,14
+NCI-H1792	Clotrimazole	5.0	6,14
+NCI-H1792	Cloxacillin (sodium)	5.0	6,14
+NCI-H1792	Cysteamine (hydrochloride)	5.0	6,14
+NCI-H1792	Darinaparsin	5.0	6,14
+NCI-H1792	Demeclocycline	5.0	6,14
+NCI-H1792	Diammonium Glycyrrhizinate	5.0	6,14
+NCI-H1792	Docetaxel	5.0	6,14
+NCI-H1792	Elagolix sodium	5.0	6,14
+NCI-H1792	Fluvoxamine (maleate)	5.0	6,14
+NCI-H1792	Folic acid	5.0	6,14
+NCI-H1792	Furosemide	5.0	6,14
+NCI-H1792	Fusidic acid	5.0	6,14
+NCI-H1792	Gallic acid	5.0	6,14
+NCI-H1792	Gemfibrozil	5.0	6,14
+NCI-H1792	Goserelin (acetate)	5.0	6,14
+NCI-H1792	Hexylresorcinol	5.0	6,14
+NCI-H1792	Homoharringtonine	5.0	6,14
+NCI-H1792	Idarubicin (hydrochloride)	5.0	6,14
+NCI-H1792	Isocorydine	5.0	6,14
+NCI-H1792	Larotrectinib	5.0	6,14
+NCI-H1792	Lenalidomide (hemihydrate)	5.0	6,14
+NCI-H1792	Lidocaine (hydrochloride)	5.0	6,14
+NCI-H1792	Lipoic acid	5.0	6,14
+NCI-H1792	Lumateperone (tosylate)	5.0	6,14
+NCI-H1792	Medroxyprogesterone acetate	5.0	6,14
+NCI-H1792	Megestrol	5.0	6,14
+NCI-H1792	Neratinib (maleate)	5.0	6,14
+NCI-H1792	Norepinephrine (hydrochloride)	5.0	6,14
+NCI-H1792	Olanzapine	5.0	6,14
+NCI-H1792	Palmatine (chloride)	5.0	6,14
+NCI-H1792	Pentagastrin	5.0	6,14
+NCI-H1792	Pentamidine (isethionate)	5.0	6,14
+NCI-H1792	Pyridoxine	5.0	6,14
+NCI-H1792	Pyridoxine (hydrochloride)	5.0	6,14
+NCI-H1792	Quinestrol	5.0	6,14
+NCI-H1792	Radotinib	5.0	6,14
+NCI-H1792	Raltitrexed	5.0	6,14
+NCI-H1792	Rapamycin	5.0	6,14
+NCI-H1792	Resveratrol	5.0	6,14
+NCI-H1792	Retinoic acid	5.0	6,14
+NCI-H1792	Riluzole hydrochloride	5.0	6,14
+NCI-H1792	Rimonabant	5.0	6,14
+NCI-H1792	Ritonavir	5.0	6,14
+NCI-H1792	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+NCI-H1792	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+NCI-H1792	Sinomenine	5.0	6,14
+NCI-H1792	Sodium Salicylate	5.0	6,14
+NCI-H1792	Sulfisoxazole	5.0	6,14
+NCI-H1792	Temsirolimus	5.0	6,14
+NCI-H1792	Terfenadine	5.0	6,14
+NCI-H1792	Thymol	5.0	6,14
+NCI-H1792	Tofacitinib	5.0	6,14
+NCI-H1792	Tofacitinib (citrate)	5.0	6,14
+NCI-H1792	Tolcapone	5.0	6,14
+NCI-H1792	Triamcinolone	5.0	6,14
+NCI-H1792	Triclosan	5.0	6,14
+NCI-H1792	Trifluridine	5.0	6,14
+NCI-H1792	Trimetrexate	5.0	6,14
+NCI-H1792	Tucidinostat	5.0	6,14
+NCI-H1792	Vilanterol	5.0	6,14
+NCI-H2030	8-Hydroxyquinoline	5.0	6,14
+NCI-H2030	18β-Glycyrrhetinic acid	5.0	6,14
+NCI-H2030	(R)-Verapamil (hydrochloride)	5.0	6,14
+NCI-H2030	Acetohexamide	5.0	6,14
+NCI-H2030	Adenosine	5.0	6,14
+NCI-H2030	Aliskiren	5.0	6,14
+NCI-H2030	Allantoin	5.0	6,14
+NCI-H2030	Almonertinib (hydrochloride)	5.0	6,14
+NCI-H2030	Amsacrine	5.0	6,14
+NCI-H2030	Anethole trithione	5.0	6,14
+NCI-H2030	Artesunate	5.0	6,14
+NCI-H2030	Azithromycin (hydrate)	5.0	6,14
+NCI-H2030	Baicalin	5.0	6,14
+NCI-H2030	Balsalazide (sodium hydrate)	5.0	6,14
+NCI-H2030	Berberine (chloride hydrate)	5.0	6,14
+NCI-H2030	Bimatoprost	5.0	6,14
+NCI-H2030	Busulfan	5.0	6,14
+NCI-H2030	Cepharanthine	5.0	6,14
+NCI-H2030	Ciclopirox	5.0	6,14
+NCI-H2030	Clonidine (hydrochloride)	5.0	6,14
+NCI-H2030	Clotrimazole	5.0	6,14
+NCI-H2030	Cysteamine (hydrochloride)	5.0	6,14
+NCI-H2030	Darinaparsin	5.0	6,14
+NCI-H2030	Demeclocycline	5.0	6,14
+NCI-H2030	Diammonium Glycyrrhizinate	5.0	6,14
+NCI-H2030	Docetaxel	5.0	6,14
+NCI-H2030	Elagolix sodium	5.0	6,14
+NCI-H2030	Furosemide	5.0	6,14
+NCI-H2030	Fusidic acid	5.0	6,14
+NCI-H2030	Gallic acid	5.0	6,14
+NCI-H2030	Gallic acid (hydrate)	5.0	6,14
+NCI-H2030	Gemfibrozil	5.0	6,14
+NCI-H2030	Goserelin (acetate)	5.0	6,14
+NCI-H2030	Hexylresorcinol	5.0	6,14
+NCI-H2030	Isocorydine	5.0	6,14
+NCI-H2030	Larotrectinib	5.0	6,14
+NCI-H2030	Lenalidomide (hemihydrate)	5.0	6,14
+NCI-H2030	Lidocaine (hydrochloride)	5.0	6,14
+NCI-H2030	Lipoic acid	5.0	6,14
+NCI-H2030	Lumateperone (tosylate)	5.0	6,14
+NCI-H2030	Medroxyprogesterone acetate	5.0	6,14
+NCI-H2030	Mitoxantrone (dihydrochloride)	5.0	6,14
+NCI-H2030	Neratinib (maleate)	5.0	6,14
+NCI-H2030	Norepinephrine (hydrochloride)	5.0	6,14
+NCI-H2030	Olanzapine	5.0	6,14
+NCI-H2030	Palmatine (chloride)	5.0	6,14
+NCI-H2030	Pasireotide (acetate)	5.0	6,14
+NCI-H2030	Pentagastrin	5.0	6,14
+NCI-H2030	Pentamidine (isethionate)	5.0	6,14
+NCI-H2030	Pyridoxine	5.0	6,14
+NCI-H2030	Pyridoxine (hydrochloride)	5.0	6,14
+NCI-H2030	Quinestrol	5.0	6,14
+NCI-H2030	Radotinib	5.0	6,14
+NCI-H2030	Rapamycin	5.0	6,14
+NCI-H2030	Relugolix	5.0	6,14
+NCI-H2030	Resveratrol	5.0	6,14
+NCI-H2030	Retinoic acid	5.0	6,14
+NCI-H2030	Riluzole hydrochloride	5.0	6,14
+NCI-H2030	Rimonabant	5.0	6,14
+NCI-H2030	Ritonavir	5.0	6,14
+NCI-H2030	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+NCI-H2030	Saquinavir	5.0	6,14
+NCI-H2030	Sodium Salicylate	5.0	6,14
+NCI-H2030	Sulfisoxazole	5.0	6,14
+NCI-H2030	Temsirolimus	5.0	6,14
+NCI-H2030	Terfenadine	5.0	6,14
+NCI-H2030	Thymol	5.0	6,14
+NCI-H2030	Tofacitinib	5.0	6,14
+NCI-H2030	Tofacitinib (citrate)	5.0	6,14
+NCI-H2030	Tolcapone	5.0	6,14
+NCI-H2030	Triamcinolone	5.0	6,14
+NCI-H2030	Triclosan	5.0	6,14
+NCI-H2030	Trifluridine	5.0	6,14
+NCI-H2030	Trimetrexate	5.0	6,14
+NCI-H2030	Vilanterol	5.0	6,14
+NCI-H2030	Vinblastine (sulfate)	5.0	6,14
+NCI-H23	18β-Glycyrrhetinic acid	5.0	6,14
+NCI-H23	(R)-Verapamil (hydrochloride)	5.0	6,14
+NCI-H23	Acetohexamide	5.0	6,14
+NCI-H23	Adenine	5.0	6,14
+NCI-H23	Adenosine	5.0	6,14
+NCI-H23	Aliskiren	5.0	6,14
+NCI-H23	Allantoin	5.0	6,14
+NCI-H23	Almonertinib (hydrochloride)	5.0	6,14
+NCI-H23	Anethole trithione	5.0	6,14
+NCI-H23	Artesunate	5.0	6,14
+NCI-H23	Azithromycin (hydrate)	5.0	6,14
+NCI-H23	Baicalin	5.0	6,14
+NCI-H23	Balsalazide (sodium hydrate)	5.0	6,14
+NCI-H23	Berbamine	5.0	6,14
+NCI-H23	Bergenin	5.0	6,14
+NCI-H23	Bimatoprost	5.0	6,14
+NCI-H23	Busulfan	5.0	6,14
+NCI-H23	Chlorhexidine (diacetate)	5.0	6,14
+NCI-H23	Clonidine (hydrochloride)	5.0	6,14
+NCI-H23	Clotrimazole	5.0	6,14
+NCI-H23	Cloxacillin (sodium)	5.0	6,14
+NCI-H23	Cysteamine (hydrochloride)	5.0	6,14
+NCI-H23	Darinaparsin	5.0	6,14
+NCI-H23	Demeclocycline	5.0	6,14
+NCI-H23	Docetaxel	5.0	6,14
+NCI-H23	Elagolix sodium	5.0	6,14
+NCI-H23	Furosemide	5.0	6,14
+NCI-H23	Fusidic acid	5.0	6,14
+NCI-H23	Gallic acid	5.0	6,14
+NCI-H23	Gallic acid (hydrate)	5.0	6,14
+NCI-H23	Gemfibrozil	5.0	6,14
+NCI-H23	Goserelin (acetate)	5.0	6,14
+NCI-H23	Hexylresorcinol	5.0	6,14
+NCI-H23	Homoharringtonine	5.0	6,14
+NCI-H23	Idarubicin (hydrochloride)	5.0	6,14
+NCI-H23	Isocorydine	5.0	6,14
+NCI-H23	Larotrectinib	5.0	6,14
+NCI-H23	Lenalidomide (hemihydrate)	5.0	6,14
+NCI-H23	Lidocaine (hydrochloride)	5.0	6,14
+NCI-H23	Lipoic acid	5.0	6,14
+NCI-H23	Lumateperone (tosylate)	5.0	6,14
+NCI-H23	Medroxyprogesterone acetate	5.0	6,14
+NCI-H23	Mitoxantrone (dihydrochloride)	5.0	6,14
+NCI-H23	Norepinephrine (hydrochloride)	5.0	6,14
+NCI-H23	Olanzapine	5.0	6,14
+NCI-H23	Palmatine (chloride)	5.0	6,14
+NCI-H23	Pasireotide (acetate)	5.0	6,14
+NCI-H23	Pentagastrin	5.0	6,14
+NCI-H23	Pyridoxine	5.0	6,14
+NCI-H23	Quinestrol	5.0	6,14
+NCI-H23	Radotinib	5.0	6,14
+NCI-H23	Rapamycin	5.0	6,14
+NCI-H23	Relugolix	5.0	6,14
+NCI-H23	Resveratrol	5.0	6,14
+NCI-H23	Retinoic acid	5.0	6,14
+NCI-H23	Riluzole hydrochloride	5.0	6,14
+NCI-H23	Rimonabant	5.0	6,14
+NCI-H23	Ritonavir	5.0	6,14
+NCI-H23	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+NCI-H23	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+NCI-H23	Salicylic acid	5.0	6,14
+NCI-H23	Sinomenine	5.0	6,14
+NCI-H23	Sodium Salicylate	5.0	6,14
+NCI-H23	Temsirolimus	5.0	6,14
+NCI-H23	Thymol	5.0	6,14
+NCI-H23	Tofacitinib	5.0	6,14
+NCI-H23	Tolcapone	5.0	6,14
+NCI-H23	Triamcinolone	5.0	6,14
+NCI-H23	Triclosan	5.0	6,14
+NCI-H23	Trifluridine	5.0	6,14
+NCI-H23	Trimetrexate	5.0	6,14
+NCI-H23	Tucidinostat	5.0	6,14
+NCI-H23	Vilanterol	5.0	6,14
+NCI-H23	Vinblastine (sulfate)	5.0	6,14
+NCI-H2347	8-Hydroxyquinoline	5.0	6,14
+NCI-H2347	18β-Glycyrrhetinic acid	5.0	6,14
+NCI-H2347	Acetohexamide	5.0	6,14
+NCI-H2347	Adenine	5.0	6,14
+NCI-H2347	Adenosine	5.0	6,14
+NCI-H2347	Aliskiren	5.0	6,14
+NCI-H2347	Allantoin	5.0	6,14
+NCI-H2347	Almonertinib (hydrochloride)	5.0	6,14
+NCI-H2347	Amsacrine	5.0	6,14
+NCI-H2347	Anethole trithione	5.0	6,14
+NCI-H2347	Artesunate	5.0	6,14
+NCI-H2347	Azithromycin (hydrate)	5.0	6,14
+NCI-H2347	Baicalin	5.0	6,14
+NCI-H2347	Balsalazide (sodium hydrate)	5.0	6,14
+NCI-H2347	Berbamine	5.0	6,14
+NCI-H2347	Berberine (chloride hydrate)	5.0	6,14
+NCI-H2347	Bergenin	5.0	6,14
+NCI-H2347	Bimatoprost	5.0	6,14
+NCI-H2347	Busulfan	5.0	6,14
+NCI-H2347	Cepharanthine	5.0	6,14
+NCI-H2347	Chlorhexidine (diacetate)	5.0	6,14
+NCI-H2347	Ciclopirox	5.0	6,14
+NCI-H2347	Clonidine (hydrochloride)	5.0	6,14
+NCI-H2347	Clotrimazole	5.0	6,14
+NCI-H2347	Cloxacillin (sodium)	5.0	6,14
+NCI-H2347	Cysteamine (hydrochloride)	5.0	6,14
+NCI-H2347	Darinaparsin	5.0	6,14
+NCI-H2347	Demeclocycline	5.0	6,14
+NCI-H2347	Diammonium Glycyrrhizinate	5.0	6,14
+NCI-H2347	Docetaxel	5.0	6,14
+NCI-H2347	Elagolix sodium	5.0	6,14
+NCI-H2347	Fluvoxamine (maleate)	5.0	6,14
+NCI-H2347	Folic acid	5.0	6,14
+NCI-H2347	Furosemide	5.0	6,14
+NCI-H2347	Fusidic acid	5.0	6,14
+NCI-H2347	Gallic acid	5.0	6,14
+NCI-H2347	Gallic acid (hydrate)	5.0	6,14
+NCI-H2347	Goserelin (acetate)	5.0	6,14
+NCI-H2347	Hexylresorcinol	5.0	6,14
+NCI-H2347	Homoharringtonine	5.0	6,14
+NCI-H2347	Idarubicin (hydrochloride)	5.0	6,14
+NCI-H2347	Isocorydine	5.0	6,14
+NCI-H2347	Larotrectinib	5.0	6,14
+NCI-H2347	Lenalidomide (hemihydrate)	5.0	6,14
+NCI-H2347	Lidocaine (hydrochloride)	5.0	6,14
+NCI-H2347	Lipoic acid	5.0	6,14
+NCI-H2347	Lumateperone (tosylate)	5.0	6,14
+NCI-H2347	Medroxyprogesterone acetate	5.0	6,14
+NCI-H2347	Mitoxantrone (dihydrochloride)	5.0	6,14
+NCI-H2347	Neratinib (maleate)	5.0	6,14
+NCI-H2347	Norepinephrine (hydrochloride)	5.0	6,14
+NCI-H2347	Olanzapine	5.0	6,14
+NCI-H2347	Palmatine (chloride)	5.0	6,14
+NCI-H2347	Pasireotide (acetate)	5.0	6,14
+NCI-H2347	Pentagastrin	5.0	6,14
+NCI-H2347	Pentamidine (isethionate)	5.0	6,14
+NCI-H2347	Pyridoxine	5.0	6,14
+NCI-H2347	Pyridoxine (hydrochloride)	5.0	6,14
+NCI-H2347	Quinestrol	5.0	6,14
+NCI-H2347	Radotinib	5.0	6,14
+NCI-H2347	Raltitrexed	5.0	6,14
+NCI-H2347	Relugolix	5.0	6,14
+NCI-H2347	Resveratrol	5.0	6,14
+NCI-H2347	Riluzole hydrochloride	5.0	6,14
+NCI-H2347	Rimonabant	5.0	6,14
+NCI-H2347	Ritonavir	5.0	6,14
+NCI-H2347	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+NCI-H2347	Salicylic acid	5.0	6,14
+NCI-H2347	Saquinavir	5.0	6,14
+NCI-H2347	Sinomenine	5.0	6,14
+NCI-H2347	Sodium Salicylate	5.0	6,14
+NCI-H2347	Sulfisoxazole	5.0	6,14
+NCI-H2347	Temsirolimus	5.0	6,14
+NCI-H2347	Terfenadine	5.0	6,14
+NCI-H2347	Thymol	5.0	6,14
+NCI-H2347	Tofacitinib	5.0	6,14
+NCI-H2347	Tofacitinib (citrate)	5.0	6,14
+NCI-H2347	Tolcapone	5.0	6,14
+NCI-H2347	Triamcinolone	5.0	6,14
+NCI-H2347	Triclosan	5.0	6,14
+NCI-H2347	Trifluridine	5.0	6,14
+NCI-H2347	Trimetrexate	5.0	6,14
+NCI-H2347	Tucidinostat	5.0	6,14
+NCI-H2347	Vilanterol	5.0	6,14
+NCI-H2347	Vinblastine (sulfate)	5.0	6,14
+NCI-H460	8-Hydroxyquinoline	5.0	6,14
+NCI-H460	18β-Glycyrrhetinic acid	5.0	6,14
+NCI-H460	(R)-Verapamil (hydrochloride)	5.0	6,14
+NCI-H460	Acetohexamide	5.0	6,14
+NCI-H460	Adenine	5.0	6,14
+NCI-H460	Adenosine	5.0	6,14
+NCI-H460	Aliskiren	5.0	6,14
+NCI-H460	Allantoin	5.0	6,14
+NCI-H460	Amsacrine	5.0	6,14
+NCI-H460	Anethole trithione	5.0	6,14
+NCI-H460	Artesunate	5.0	6,14
+NCI-H460	Azithromycin (hydrate)	5.0	6,14
+NCI-H460	Baicalin	5.0	6,14
+NCI-H460	Balsalazide (sodium hydrate)	5.0	6,14
+NCI-H460	Berbamine	5.0	6,14
+NCI-H460	Berberine (chloride hydrate)	5.0	6,14
+NCI-H460	Bergenin	5.0	6,14
+NCI-H460	Bimatoprost	5.0	6,14
+NCI-H460	Busulfan	5.0	6,14
+NCI-H460	Cepharanthine	5.0	6,14
+NCI-H460	Chlorhexidine (diacetate)	5.0	6,14
+NCI-H460	Ciclopirox	5.0	6,14
+NCI-H460	Clonidine (hydrochloride)	5.0	6,14
+NCI-H460	Clotrimazole	5.0	6,14
+NCI-H460	Cloxacillin (sodium)	5.0	6,14
+NCI-H460	Darinaparsin	5.0	6,14
+NCI-H460	Demeclocycline	5.0	6,14
+NCI-H460	Docetaxel	5.0	6,14
+NCI-H460	Elagolix sodium	5.0	6,14
+NCI-H460	Fluvoxamine (maleate)	5.0	6,14
+NCI-H460	Folic acid	5.0	6,14
+NCI-H460	Fusidic acid	5.0	6,14
+NCI-H460	Gallic acid	5.0	6,14
+NCI-H460	Gallic acid (hydrate)	5.0	6,14
+NCI-H460	Gemfibrozil	5.0	6,14
+NCI-H460	Goserelin (acetate)	5.0	6,14
+NCI-H460	Hexylresorcinol	5.0	6,14
+NCI-H460	Homoharringtonine	5.0	6,14
+NCI-H460	Idarubicin (hydrochloride)	5.0	6,14
+NCI-H460	Isocorydine	5.0	6,14
+NCI-H460	Lipoic acid	5.0	6,14
+NCI-H460	Lumateperone (tosylate)	5.0	6,14
+NCI-H460	Medroxyprogesterone acetate	5.0	6,14
+NCI-H460	Megestrol	5.0	6,14
+NCI-H460	Mitoxantrone (dihydrochloride)	5.0	6,14
+NCI-H460	Neratinib (maleate)	5.0	6,14
+NCI-H460	Norepinephrine (hydrochloride)	5.0	6,14
+NCI-H460	Olanzapine	5.0	6,14
+NCI-H460	Palmatine (chloride)	5.0	6,14
+NCI-H460	Pasireotide (acetate)	5.0	6,14
+NCI-H460	Pentagastrin	5.0	6,14
+NCI-H460	Pentamidine (isethionate)	5.0	6,14
+NCI-H460	Pyridoxine (hydrochloride)	5.0	6,14
+NCI-H460	Quinestrol	5.0	6,14
+NCI-H460	Radotinib	5.0	6,14
+NCI-H460	Raltitrexed	5.0	6,14
+NCI-H460	Rapamycin	5.0	6,14
+NCI-H460	Relugolix	5.0	6,14
+NCI-H460	Resveratrol	5.0	6,14
+NCI-H460	Retinoic acid	5.0	6,14
+NCI-H460	Riluzole hydrochloride	5.0	6,14
+NCI-H460	Rimonabant	5.0	6,14
+NCI-H460	Ritonavir	5.0	6,14
+NCI-H460	Saquinavir	5.0	6,14
+NCI-H460	Selinexor 	5.0	6,14
+NCI-H460	Sinomenine	5.0	6,14
+NCI-H460	Sodium Salicylate	5.0	6,14
+NCI-H460	Sulfisoxazole	5.0	6,14
+NCI-H460	Temsirolimus	5.0	6,14
+NCI-H460	Terfenadine	5.0	6,14
+NCI-H460	Thymol	5.0	6,14
+NCI-H460	Tolcapone	5.0	6,14
+NCI-H460	Triamcinolone	5.0	6,14
+NCI-H460	Triclosan	5.0	6,14
+NCI-H460	Trimetrexate	5.0	6,14
+NCI-H460	Vilanterol	5.0	6,14
+NCI-H460	Vinblastine (sulfate)	5.0	6,14
+NCI-H661	8-Hydroxyquinoline	5.0	6,14
+NCI-H661	18β-Glycyrrhetinic acid	5.0	6,14
+NCI-H661	(R)-Verapamil (hydrochloride)	5.0	6,14
+NCI-H661	Aliskiren	5.0	6,14
+NCI-H661	Allantoin	5.0	6,14
+NCI-H661	Amsacrine	5.0	6,14
+NCI-H661	Anethole trithione	5.0	6,14
+NCI-H661	Artesunate	5.0	6,14
+NCI-H661	Azithromycin (hydrate)	5.0	6,14
+NCI-H661	Baicalin	5.0	6,14
+NCI-H661	Berbamine	5.0	6,14
+NCI-H661	Berberine (chloride hydrate)	5.0	6,14
+NCI-H661	Bergenin	5.0	6,14
+NCI-H661	Bimatoprost	5.0	6,14
+NCI-H661	Busulfan	5.0	6,14
+NCI-H661	Ciclopirox	5.0	6,14
+NCI-H661	Clonidine (hydrochloride)	5.0	6,14
+NCI-H661	Clotrimazole	5.0	6,14
+NCI-H661	Cloxacillin (sodium)	5.0	6,14
+NCI-H661	Demeclocycline	5.0	6,14
+NCI-H661	Diammonium Glycyrrhizinate	5.0	6,14
+NCI-H661	Docetaxel	5.0	6,14
+NCI-H661	Elagolix sodium	5.0	6,14
+NCI-H661	Fusidic acid	5.0	6,14
+NCI-H661	Gallic acid	5.0	6,14
+NCI-H661	Gallic acid (hydrate)	5.0	6,14
+NCI-H661	Gemfibrozil	5.0	6,14
+NCI-H661	Goserelin (acetate)	5.0	6,14
+NCI-H661	Hexylresorcinol	5.0	6,14
+NCI-H661	Idarubicin (hydrochloride)	5.0	6,14
+NCI-H661	Isocorydine	5.0	6,14
+NCI-H661	Lidocaine (hydrochloride)	5.0	6,14
+NCI-H661	Lipoic acid	5.0	6,14
+NCI-H661	Lumateperone (tosylate)	5.0	6,14
+NCI-H661	Medroxyprogesterone acetate	5.0	6,14
+NCI-H661	Megestrol	5.0	6,14
+NCI-H661	Neratinib (maleate)	5.0	6,14
+NCI-H661	Norepinephrine (hydrochloride)	5.0	6,14
+NCI-H661	Olanzapine	5.0	6,14
+NCI-H661	Palmatine (chloride)	5.0	6,14
+NCI-H661	Pasireotide (acetate)	5.0	6,14
+NCI-H661	Pentagastrin	5.0	6,14
+NCI-H661	Pentamidine (isethionate)	5.0	6,14
+NCI-H661	Quinestrol	5.0	6,14
+NCI-H661	Radotinib	5.0	6,14
+NCI-H661	Raltitrexed	5.0	6,14
+NCI-H661	Rapamycin	5.0	6,14
+NCI-H661	Relugolix	5.0	6,14
+NCI-H661	Resveratrol	5.0	6,14
+NCI-H661	Retinoic acid	5.0	6,14
+NCI-H661	Riluzole hydrochloride	5.0	6,14
+NCI-H661	Rimonabant	5.0	6,14
+NCI-H661	Ritonavir	5.0	6,14
+NCI-H661	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+NCI-H661	Sinomenine	5.0	6,14
+NCI-H661	Sodium Salicylate	5.0	6,14
+NCI-H661	Sulfisoxazole	5.0	6,14
+NCI-H661	Temsirolimus	5.0	6,14
+NCI-H661	Tolcapone	5.0	6,14
+NCI-H661	Triamcinolone	5.0	6,14
+NCI-H661	Triclosan	5.0	6,14
+NCI-H661	Trimetrexate	5.0	6,14
+NCI-H661	Tucidinostat	5.0	6,14
+NCI-H661	Vilanterol	5.0	6,14
+PANC-1	18β-Glycyrrhetinic acid	5.0	6,14
+PANC-1	Acetohexamide	5.0	6,14
+PANC-1	Aliskiren	5.0	6,14
+PANC-1	Bergenin	5.0	6,14
+PANC-1	Ciclopirox	5.0	6,14
+PANC-1	Clonidine (hydrochloride)	5.0	6,14
+PANC-1	Darinaparsin	5.0	6,14
+PANC-1	Diammonium Glycyrrhizinate	5.0	6,14
+PANC-1	Isocorydine	5.0	6,14
+PANC-1	Lumateperone (tosylate)	5.0	6,14
+PANC-1	Medroxyprogesterone acetate	5.0	6,14
+PANC-1	Megestrol	5.0	6,14
+PANC-1	Olanzapine	5.0	6,14
+PANC-1	Pentagastrin	5.0	6,14
+PANC-1	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+PANC-1	Selinexor 	5.0	6,14
+PANC-1	Sulfisoxazole	5.0	6,14
+PANC-1	Trifluridine	5.0	6,14
+PANC-1	Vinblastine (sulfate)	5.0	6,14
+Panc 03.27	8-Hydroxyquinoline	5.0	6,14
+Panc 03.27	18β-Glycyrrhetinic acid	5.0	6,14
+Panc 03.27	(R)-Verapamil (hydrochloride)	5.0	6,14
+Panc 03.27	Acetohexamide	5.0	6,14
+Panc 03.27	Adenine	5.0	6,14
+Panc 03.27	Adenosine	5.0	6,14
+Panc 03.27	Allantoin	5.0	6,14
+Panc 03.27	Almonertinib (hydrochloride)	5.0	6,14
+Panc 03.27	Amsacrine	5.0	6,14
+Panc 03.27	Anethole trithione	5.0	6,14
+Panc 03.27	Artesunate	5.0	6,14
+Panc 03.27	Azithromycin (hydrate)	5.0	6,14
+Panc 03.27	Baicalin	5.0	6,14
+Panc 03.27	Balsalazide (sodium hydrate)	5.0	6,14
+Panc 03.27	Berbamine	5.0	6,14
+Panc 03.27	Berberine (chloride hydrate)	5.0	6,14
+Panc 03.27	Bergenin	5.0	6,14
+Panc 03.27	Busulfan	5.0	6,14
+Panc 03.27	Chlorhexidine (diacetate)	5.0	6,14
+Panc 03.27	Ciclopirox	5.0	6,14
+Panc 03.27	Clonidine (hydrochloride)	5.0	6,14
+Panc 03.27	Clotrimazole	5.0	6,14
+Panc 03.27	Cloxacillin (sodium)	5.0	6,14
+Panc 03.27	Cysteamine (hydrochloride)	5.0	6,14
+Panc 03.27	Diammonium Glycyrrhizinate	5.0	6,14
+Panc 03.27	Docetaxel	5.0	6,14
+Panc 03.27	Fluvoxamine (maleate)	5.0	6,14
+Panc 03.27	Folic acid	5.0	6,14
+Panc 03.27	Fusidic acid	5.0	6,14
+Panc 03.27	Gallic acid	5.0	6,14
+Panc 03.27	Gallic acid (hydrate)	5.0	6,14
+Panc 03.27	Gemfibrozil	5.0	6,14
+Panc 03.27	Goserelin (acetate)	5.0	6,14
+Panc 03.27	Hexylresorcinol	5.0	6,14
+Panc 03.27	Homoharringtonine	5.0	6,14
+Panc 03.27	Idarubicin (hydrochloride)	5.0	6,14
+Panc 03.27	Isocorydine	5.0	6,14
+Panc 03.27	Lenalidomide (hemihydrate)	5.0	6,14
+Panc 03.27	Lidocaine (hydrochloride)	5.0	6,14
+Panc 03.27	Lipoic acid	5.0	6,14
+Panc 03.27	Lumateperone (tosylate)	5.0	6,14
+Panc 03.27	Medroxyprogesterone acetate	5.0	6,14
+Panc 03.27	Megestrol	5.0	6,14
+Panc 03.27	Mitoxantrone (dihydrochloride)	5.0	6,14
+Panc 03.27	Neratinib (maleate)	5.0	6,14
+Panc 03.27	Norepinephrine (hydrochloride)	5.0	6,14
+Panc 03.27	Olanzapine	5.0	6,14
+Panc 03.27	Pasireotide (acetate)	5.0	6,14
+Panc 03.27	Pentagastrin	5.0	6,14
+Panc 03.27	Pentamidine (isethionate)	5.0	6,14
+Panc 03.27	Pyridoxine	5.0	6,14
+Panc 03.27	Pyridoxine (hydrochloride)	5.0	6,14
+Panc 03.27	Quinestrol	5.0	6,14
+Panc 03.27	Raltitrexed	5.0	6,14
+Panc 03.27	Rapamycin	5.0	6,14
+Panc 03.27	Relugolix	5.0	6,14
+Panc 03.27	Resveratrol	5.0	6,14
+Panc 03.27	Retinoic acid	5.0	6,14
+Panc 03.27	Riluzole hydrochloride	5.0	6,14
+Panc 03.27	Rimonabant	5.0	6,14
+Panc 03.27	Ritonavir	5.0	6,14
+Panc 03.27	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+Panc 03.27	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+Panc 03.27	Salicylic acid	5.0	6,14
+Panc 03.27	Saquinavir	5.0	6,14
+Panc 03.27	Sinomenine	5.0	6,14
+Panc 03.27	Sodium Salicylate	5.0	6,14
+Panc 03.27	Sulfisoxazole	5.0	6,14
+Panc 03.27	Temsirolimus	5.0	6,14
+Panc 03.27	Terfenadine	5.0	6,14
+Panc 03.27	Tofacitinib	5.0	6,14
+Panc 03.27	Tofacitinib (citrate)	5.0	6,14
+Panc 03.27	Triamcinolone	5.0	6,14
+Panc 03.27	Triclosan	5.0	6,14
+Panc 03.27	Trifluridine	5.0	6,14
+Panc 03.27	Trimetrexate	5.0	6,14
+Panc 03.27	Tucidinostat	5.0	6,14
+Panc 03.27	Vilanterol	5.0	6,14
+Panc 03.27	Vinblastine (sulfate)	5.0	6,14
+RKO	18β-Glycyrrhetinic acid	5.0	6,14
+RKO	(R)-Verapamil (hydrochloride)	5.0	6,14
+RKO	Acetohexamide	5.0	6,14
+RKO	Adenine	5.0	6,14
+RKO	Adenosine	5.0	6,14
+RKO	Aliskiren	5.0	6,14
+RKO	Allantoin	5.0	6,14
+RKO	Almonertinib (hydrochloride)	5.0	6,14
+RKO	Amsacrine	5.0	6,14
+RKO	Anethole trithione	5.0	6,14
+RKO	Azithromycin (hydrate)	5.0	6,14
+RKO	Baicalin	5.0	6,14
+RKO	Balsalazide (sodium hydrate)	5.0	6,14
+RKO	Berbamine	5.0	6,14
+RKO	Bergenin	5.0	6,14
+RKO	Bimatoprost	5.0	6,14
+RKO	Busulfan	5.0	6,14
+RKO	Cepharanthine	5.0	6,14
+RKO	Chlorhexidine (diacetate)	5.0	6,14
+RKO	Ciclopirox	5.0	6,14
+RKO	Clonidine (hydrochloride)	5.0	6,14
+RKO	Clotrimazole	5.0	6,14
+RKO	Cloxacillin (sodium)	5.0	6,14
+RKO	Cysteamine (hydrochloride)	5.0	6,14
+RKO	Darinaparsin	5.0	6,14
+RKO	Demeclocycline	5.0	6,14
+RKO	Diammonium Glycyrrhizinate	5.0	6,14
+RKO	Docetaxel	5.0	6,14
+RKO	Elagolix sodium	5.0	6,14
+RKO	Fluvoxamine (maleate)	5.0	6,14
+RKO	Folic acid	5.0	6,14
+RKO	Furosemide	5.0	6,14
+RKO	Fusidic acid	5.0	6,14
+RKO	Gallic acid	5.0	6,14
+RKO	Gallic acid (hydrate)	5.0	6,14
+RKO	Gemfibrozil	5.0	6,14
+RKO	Goserelin (acetate)	5.0	6,14
+RKO	Hexylresorcinol	5.0	6,14
+RKO	Homoharringtonine	5.0	6,14
+RKO	Isocorydine	5.0	6,14
+RKO	Larotrectinib	5.0	6,14
+RKO	Lenalidomide (hemihydrate)	5.0	6,14
+RKO	Lidocaine (hydrochloride)	5.0	6,14
+RKO	Lipoic acid	5.0	6,14
+RKO	Lumateperone (tosylate)	5.0	6,14
+RKO	Medroxyprogesterone acetate	5.0	6,14
+RKO	Megestrol	5.0	6,14
+RKO	Mitoxantrone (dihydrochloride)	5.0	6,14
+RKO	Neratinib (maleate)	5.0	6,14
+RKO	Norepinephrine (hydrochloride)	5.0	6,14
+RKO	Olanzapine	5.0	6,14
+RKO	Palmatine (chloride)	5.0	6,14
+RKO	Pasireotide (acetate)	5.0	6,14
+RKO	Pentagastrin	5.0	6,14
+RKO	Pyridoxine	5.0	6,14
+RKO	Quinestrol	5.0	6,14
+RKO	Radotinib	5.0	6,14
+RKO	Rapamycin	5.0	6,14
+RKO	Relugolix	5.0	6,14
+RKO	Resveratrol	5.0	6,14
+RKO	Retinoic acid	5.0	6,14
+RKO	Riluzole hydrochloride	5.0	6,14
+RKO	Rimonabant	5.0	6,14
+RKO	Ritonavir	5.0	6,14
+RKO	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+RKO	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+RKO	Salicylic acid	5.0	6,14
+RKO	Saquinavir	5.0	6,14
+RKO	Sinomenine	5.0	6,14
+RKO	Sodium Salicylate	5.0	6,14
+RKO	Sulfisoxazole	5.0	6,14
+RKO	Terfenadine	5.0	6,14
+RKO	Thymol	5.0	6,14
+RKO	Tofacitinib (citrate)	5.0	6,14
+RKO	Tolcapone	5.0	6,14
+RKO	Triamcinolone	5.0	6,14
+RKO	Triclosan	5.0	6,14
+RKO	Trifluridine	5.0	6,14
+RKO	Trimetrexate	5.0	6,14
+RKO	Tucidinostat	5.0	6,14
+RKO	Vilanterol	5.0	6,14
+RKO	Vinblastine (sulfate)	5.0	6,14
+RPMI-7951	8-Hydroxyquinoline	5.0	6,14
+RPMI-7951	18β-Glycyrrhetinic acid	5.0	6,14
+RPMI-7951	(R)-Verapamil (hydrochloride)	5.0	6,14
+RPMI-7951	Acetohexamide	5.0	6,14
+RPMI-7951	Adenosine	5.0	6,14
+RPMI-7951	Aliskiren	5.0	6,14
+RPMI-7951	Allantoin	5.0	6,14
+RPMI-7951	Almonertinib (hydrochloride)	5.0	6,14
+RPMI-7951	Amsacrine	5.0	6,14
+RPMI-7951	Anethole trithione	5.0	6,14
+RPMI-7951	Azithromycin (hydrate)	5.0	6,14
+RPMI-7951	Baicalin	5.0	6,14
+RPMI-7951	Balsalazide (sodium hydrate)	5.0	6,14
+RPMI-7951	Berbamine	5.0	6,14
+RPMI-7951	Berberine (chloride hydrate)	5.0	6,14
+RPMI-7951	Bergenin	5.0	6,14
+RPMI-7951	Busulfan	5.0	6,14
+RPMI-7951	Cepharanthine	5.0	6,14
+RPMI-7951	Chlorhexidine (diacetate)	5.0	6,14
+RPMI-7951	Ciclopirox	5.0	6,14
+RPMI-7951	Clonidine (hydrochloride)	5.0	6,14
+RPMI-7951	Clotrimazole	5.0	6,14
+RPMI-7951	Cloxacillin (sodium)	5.0	6,14
+RPMI-7951	Cysteamine (hydrochloride)	5.0	6,14
+RPMI-7951	Darinaparsin	5.0	6,14
+RPMI-7951	Diammonium Glycyrrhizinate	5.0	6,14
+RPMI-7951	Docetaxel	5.0	6,14
+RPMI-7951	Elagolix sodium	5.0	6,14
+RPMI-7951	Folic acid	5.0	6,14
+RPMI-7951	Furosemide	5.0	6,14
+RPMI-7951	Fusidic acid	5.0	6,14
+RPMI-7951	Gallic acid	5.0	6,14
+RPMI-7951	Gallic acid (hydrate)	5.0	6,14
+RPMI-7951	Gemfibrozil	5.0	6,14
+RPMI-7951	Hexylresorcinol	5.0	6,14
+RPMI-7951	Homoharringtonine	5.0	6,14
+RPMI-7951	Idarubicin (hydrochloride)	5.0	6,14
+RPMI-7951	Isocorydine	5.0	6,14
+RPMI-7951	Larotrectinib	5.0	6,14
+RPMI-7951	Lenalidomide (hemihydrate)	5.0	6,14
+RPMI-7951	Lidocaine (hydrochloride)	5.0	6,14
+RPMI-7951	Lipoic acid	5.0	6,14
+RPMI-7951	Lumateperone (tosylate)	5.0	6,14
+RPMI-7951	Megestrol	5.0	6,14
+RPMI-7951	Mitoxantrone (dihydrochloride)	5.0	6,14
+RPMI-7951	Neratinib (maleate)	5.0	6,14
+RPMI-7951	Norepinephrine (hydrochloride)	5.0	6,14
+RPMI-7951	Olanzapine	5.0	6,14
+RPMI-7951	Palmatine (chloride)	5.0	6,14
+RPMI-7951	Pasireotide (acetate)	5.0	6,14
+RPMI-7951	Pentagastrin	5.0	6,14
+RPMI-7951	Pentamidine (isethionate)	5.0	6,14
+RPMI-7951	Pyridoxine	5.0	6,14
+RPMI-7951	Pyridoxine (hydrochloride)	5.0	6,14
+RPMI-7951	Quinestrol	5.0	6,14
+RPMI-7951	Radotinib	5.0	6,14
+RPMI-7951	Raltitrexed	5.0	6,14
+RPMI-7951	Rapamycin	5.0	6,14
+RPMI-7951	Relugolix	5.0	6,14
+RPMI-7951	Retinoic acid	5.0	6,14
+RPMI-7951	Riluzole hydrochloride	5.0	6,14
+RPMI-7951	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+RPMI-7951	Salicylic acid	5.0	6,14
+RPMI-7951	Saquinavir	5.0	6,14
+RPMI-7951	Sodium Salicylate	5.0	6,14
+RPMI-7951	Sulfisoxazole	5.0	6,14
+RPMI-7951	Temsirolimus	5.0	6,14
+RPMI-7951	Terfenadine	5.0	6,14
+RPMI-7951	Thymol	5.0	6,14
+RPMI-7951	Tofacitinib (citrate)	5.0	6,14
+RPMI-7951	Tolcapone	5.0	6,14
+RPMI-7951	Triamcinolone	5.0	6,14
+RPMI-7951	Triclosan	5.0	6,14
+RPMI-7951	Trifluridine	5.0	6,14
+RPMI-7951	Trimetrexate	5.0	6,14
+RPMI-7951	Tucidinostat	5.0	6,14
+RPMI-7951	Vilanterol	5.0	6,14
+RPMI-7951	Vinblastine (sulfate)	5.0	6,14
+SHP-77	8-Hydroxyquinoline	5.0	6,14
+SHP-77	18β-Glycyrrhetinic acid	5.0	6,14
+SHP-77	(R)-Verapamil (hydrochloride)	5.0	6,14
+SHP-77	Acetohexamide	5.0	6,14
+SHP-77	Adenine	5.0	6,14
+SHP-77	Adenosine	5.0	6,14
+SHP-77	Aliskiren	5.0	6,14
+SHP-77	Allantoin	5.0	6,14
+SHP-77	Almonertinib (hydrochloride)	5.0	6,14
+SHP-77	Amsacrine	5.0	6,14
+SHP-77	Anethole trithione	5.0	6,14
+SHP-77	Artesunate	5.0	6,14
+SHP-77	Azithromycin (hydrate)	5.0	6,14
+SHP-77	Baicalin	5.0	6,14
+SHP-77	Berbamine	5.0	6,14
+SHP-77	Bergenin	5.0	6,14
+SHP-77	Bimatoprost	5.0	6,14
+SHP-77	Busulfan	5.0	6,14
+SHP-77	Cepharanthine	5.0	6,14
+SHP-77	Ciclopirox	5.0	6,14
+SHP-77	Clotrimazole	5.0	6,14
+SHP-77	Cloxacillin (sodium)	5.0	6,14
+SHP-77	Cysteamine (hydrochloride)	5.0	6,14
+SHP-77	Darinaparsin	5.0	6,14
+SHP-77	Demeclocycline	5.0	6,14
+SHP-77	Docetaxel	5.0	6,14
+SHP-77	Elagolix sodium	5.0	6,14
+SHP-77	Fluvoxamine (maleate)	5.0	6,14
+SHP-77	Folic acid	5.0	6,14
+SHP-77	Furosemide	5.0	6,14
+SHP-77	Fusidic acid	5.0	6,14
+SHP-77	Gemfibrozil	5.0	6,14
+SHP-77	Hexylresorcinol	5.0	6,14
+SHP-77	Homoharringtonine	5.0	6,14
+SHP-77	Isocorydine	5.0	6,14
+SHP-77	Larotrectinib	5.0	6,14
+SHP-77	Lenalidomide (hemihydrate)	5.0	6,14
+SHP-77	Lidocaine (hydrochloride)	5.0	6,14
+SHP-77	Lipoic acid	5.0	6,14
+SHP-77	Lumateperone (tosylate)	5.0	6,14
+SHP-77	Medroxyprogesterone acetate	5.0	6,14
+SHP-77	Megestrol	5.0	6,14
+SHP-77	Mitoxantrone (dihydrochloride)	5.0	6,14
+SHP-77	Neratinib (maleate)	5.0	6,14
+SHP-77	Norepinephrine (hydrochloride)	5.0	6,14
+SHP-77	Olanzapine	5.0	6,14
+SHP-77	Palmatine (chloride)	5.0	6,14
+SHP-77	Pentagastrin	5.0	6,14
+SHP-77	Pentamidine (isethionate)	5.0	6,14
+SHP-77	Pyridoxine	5.0	6,14
+SHP-77	Quinestrol	5.0	6,14
+SHP-77	Radotinib	5.0	6,14
+SHP-77	Raltitrexed	5.0	6,14
+SHP-77	Rapamycin	5.0	6,14
+SHP-77	Relugolix	5.0	6,14
+SHP-77	Resveratrol	5.0	6,14
+SHP-77	Retinoic acid	5.0	6,14
+SHP-77	Riluzole hydrochloride	5.0	6,14
+SHP-77	Rimonabant	5.0	6,14
+SHP-77	Ritonavir	5.0	6,14
+SHP-77	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SHP-77	Salicylic acid	5.0	6,14
+SHP-77	Saquinavir	5.0	6,14
+SHP-77	Selinexor 	5.0	6,14
+SHP-77	Sinomenine	5.0	6,14
+SHP-77	Sodium Salicylate	5.0	6,14
+SHP-77	Sulfisoxazole	5.0	6,14
+SHP-77	Temsirolimus	5.0	6,14
+SHP-77	Terfenadine	5.0	6,14
+SHP-77	Thymol	5.0	6,14
+SHP-77	Tofacitinib	5.0	6,14
+SHP-77	Tofacitinib (citrate)	5.0	6,14
+SHP-77	Triclosan	5.0	6,14
+SHP-77	Trifluridine	5.0	6,14
+SHP-77	Trimetrexate	5.0	6,14
+SHP-77	Tucidinostat	5.0	6,14
+SHP-77	Vilanterol	5.0	6,14
+SHP-77	Vinblastine (sulfate)	5.0	6,14
+SK-MEL-2	8-Hydroxyquinoline	5.0	6,14
+SK-MEL-2	18β-Glycyrrhetinic acid	5.0	6,14
+SK-MEL-2	(R)-Verapamil (hydrochloride)	5.0	6,14
+SK-MEL-2	Acetohexamide	5.0	6,14
+SK-MEL-2	Adenine	5.0	6,14
+SK-MEL-2	Adenosine	5.0	6,14
+SK-MEL-2	Aliskiren	5.0	6,14
+SK-MEL-2	Allantoin	5.0	6,14
+SK-MEL-2	Amsacrine	5.0	6,14
+SK-MEL-2	Anethole trithione	5.0	6,14
+SK-MEL-2	Artesunate	5.0	6,14
+SK-MEL-2	Azithromycin (hydrate)	5.0	6,14
+SK-MEL-2	Baicalin	5.0	6,14
+SK-MEL-2	Balsalazide (sodium hydrate)	5.0	6,14
+SK-MEL-2	Berberine (chloride hydrate)	5.0	6,14
+SK-MEL-2	Bergenin	5.0	6,14
+SK-MEL-2	Bimatoprost	5.0	6,14
+SK-MEL-2	Busulfan	5.0	6,14
+SK-MEL-2	Cepharanthine	5.0	6,14
+SK-MEL-2	Chlorhexidine (diacetate)	5.0	6,14
+SK-MEL-2	Ciclopirox	5.0	6,14
+SK-MEL-2	Clonidine (hydrochloride)	5.0	6,14
+SK-MEL-2	Clotrimazole	5.0	6,14
+SK-MEL-2	Cloxacillin (sodium)	5.0	6,14
+SK-MEL-2	Cysteamine (hydrochloride)	5.0	6,14
+SK-MEL-2	Darinaparsin	5.0	6,14
+SK-MEL-2	Demeclocycline	5.0	6,14
+SK-MEL-2	Diammonium Glycyrrhizinate	5.0	6,14
+SK-MEL-2	Docetaxel	5.0	6,14
+SK-MEL-2	Elagolix sodium	5.0	6,14
+SK-MEL-2	Fluvoxamine (maleate)	5.0	6,14
+SK-MEL-2	Furosemide	5.0	6,14
+SK-MEL-2	Fusidic acid	5.0	6,14
+SK-MEL-2	Gallic acid	5.0	6,14
+SK-MEL-2	Gallic acid (hydrate)	5.0	6,14
+SK-MEL-2	Gemfibrozil	5.0	6,14
+SK-MEL-2	Hexylresorcinol	5.0	6,14
+SK-MEL-2	Homoharringtonine	5.0	6,14
+SK-MEL-2	Idarubicin (hydrochloride)	5.0	6,14
+SK-MEL-2	Isocorydine	5.0	6,14
+SK-MEL-2	Larotrectinib	5.0	6,14
+SK-MEL-2	Lenalidomide (hemihydrate)	5.0	6,14
+SK-MEL-2	Lidocaine (hydrochloride)	5.0	6,14
+SK-MEL-2	Lipoic acid	5.0	6,14
+SK-MEL-2	Lumateperone (tosylate)	5.0	6,14
+SK-MEL-2	Medroxyprogesterone acetate	5.0	6,14
+SK-MEL-2	Megestrol	5.0	6,14
+SK-MEL-2	Mitoxantrone (dihydrochloride)	5.0	6,14
+SK-MEL-2	Neratinib (maleate)	5.0	6,14
+SK-MEL-2	Norepinephrine (hydrochloride)	5.0	6,14
+SK-MEL-2	Olanzapine	5.0	6,14
+SK-MEL-2	Palmatine (chloride)	5.0	6,14
+SK-MEL-2	Pentamidine (isethionate)	5.0	6,14
+SK-MEL-2	Pyridoxine	5.0	6,14
+SK-MEL-2	Quinestrol	5.0	6,14
+SK-MEL-2	Raltitrexed	5.0	6,14
+SK-MEL-2	Rapamycin	5.0	6,14
+SK-MEL-2	Relugolix	5.0	6,14
+SK-MEL-2	Resveratrol	5.0	6,14
+SK-MEL-2	Retinoic acid	5.0	6,14
+SK-MEL-2	Riluzole hydrochloride	5.0	6,14
+SK-MEL-2	Rimonabant	5.0	6,14
+SK-MEL-2	Ritonavir	5.0	6,14
+SK-MEL-2	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SK-MEL-2	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SK-MEL-2	Saquinavir	5.0	6,14
+SK-MEL-2	Sinomenine	5.0	6,14
+SK-MEL-2	Sodium Salicylate	5.0	6,14
+SK-MEL-2	Sulfisoxazole	5.0	6,14
+SK-MEL-2	Temsirolimus	5.0	6,14
+SK-MEL-2	Terfenadine	5.0	6,14
+SK-MEL-2	Thymol	5.0	6,14
+SK-MEL-2	Tofacitinib	5.0	6,14
+SK-MEL-2	Tofacitinib (citrate)	5.0	6,14
+SK-MEL-2	Tolcapone	5.0	6,14
+SK-MEL-2	Triamcinolone	5.0	6,14
+SK-MEL-2	Triclosan	5.0	6,14
+SK-MEL-2	Trifluridine	5.0	6,14
+SK-MEL-2	Trimetrexate	5.0	6,14
+SK-MEL-2	Tucidinostat	5.0	6,14
+SK-MEL-2	Vilanterol	5.0	6,14
+SK-MEL-2	Vinblastine (sulfate)	5.0	6,14
+SNU-1	8-Hydroxyquinoline	5.0	6,14
+SNU-1	18β-Glycyrrhetinic acid	5.0	6,14
+SNU-1	(R)-Verapamil (hydrochloride)	5.0	6,14
+SNU-1	Acetohexamide	5.0	6,14
+SNU-1	Adenine	5.0	6,14
+SNU-1	Adenosine	5.0	6,14
+SNU-1	Allantoin	5.0	6,14
+SNU-1	Almonertinib (hydrochloride)	5.0	6,14
+SNU-1	Amsacrine	5.0	6,14
+SNU-1	Anethole trithione	5.0	6,14
+SNU-1	Artesunate	5.0	6,14
+SNU-1	Azithromycin (hydrate)	5.0	6,14
+SNU-1	Balsalazide (sodium hydrate)	5.0	6,14
+SNU-1	Berbamine	5.0	6,14
+SNU-1	Berberine (chloride hydrate)	5.0	6,14
+SNU-1	Bergenin	5.0	6,14
+SNU-1	Bimatoprost	5.0	6,14
+SNU-1	Busulfan	5.0	6,14
+SNU-1	Cepharanthine	5.0	6,14
+SNU-1	Chlorhexidine (diacetate)	5.0	6,14
+SNU-1	Ciclopirox	5.0	6,14
+SNU-1	Clonidine (hydrochloride)	5.0	6,14
+SNU-1	Clotrimazole	5.0	6,14
+SNU-1	Cloxacillin (sodium)	5.0	6,14
+SNU-1	Cysteamine (hydrochloride)	5.0	6,14
+SNU-1	Darinaparsin	5.0	6,14
+SNU-1	Demeclocycline	5.0	6,14
+SNU-1	Diammonium Glycyrrhizinate	5.0	6,14
+SNU-1	Docetaxel	5.0	6,14
+SNU-1	Elagolix sodium	5.0	6,14
+SNU-1	Fluvoxamine (maleate)	5.0	6,14
+SNU-1	Folic acid	5.0	6,14
+SNU-1	Furosemide	5.0	6,14
+SNU-1	Fusidic acid	5.0	6,14
+SNU-1	Gallic acid	5.0	6,14
+SNU-1	Gemfibrozil	5.0	6,14
+SNU-1	Goserelin (acetate)	5.0	6,14
+SNU-1	Hexylresorcinol	5.0	6,14
+SNU-1	Homoharringtonine	5.0	6,14
+SNU-1	Idarubicin (hydrochloride)	5.0	6,14
+SNU-1	Larotrectinib	5.0	6,14
+SNU-1	Lenalidomide (hemihydrate)	5.0	6,14
+SNU-1	Lidocaine (hydrochloride)	5.0	6,14
+SNU-1	Lipoic acid	5.0	6,14
+SNU-1	Medroxyprogesterone acetate	5.0	6,14
+SNU-1	Megestrol	5.0	6,14
+SNU-1	Mitoxantrone (dihydrochloride)	5.0	6,14
+SNU-1	Neratinib (maleate)	5.0	6,14
+SNU-1	Norepinephrine (hydrochloride)	5.0	6,14
+SNU-1	Olanzapine	5.0	6,14
+SNU-1	Palmatine (chloride)	5.0	6,14
+SNU-1	Pentagastrin	5.0	6,14
+SNU-1	Pentamidine (isethionate)	5.0	6,14
+SNU-1	Pyridoxine	5.0	6,14
+SNU-1	Pyridoxine (hydrochloride)	5.0	6,14
+SNU-1	Quinestrol	5.0	6,14
+SNU-1	Radotinib	5.0	6,14
+SNU-1	Rapamycin	5.0	6,14
+SNU-1	Resveratrol	5.0	6,14
+SNU-1	Retinoic acid	5.0	6,14
+SNU-1	Riluzole hydrochloride	5.0	6,14
+SNU-1	Rimonabant	5.0	6,14
+SNU-1	Ritonavir	5.0	6,14
+SNU-1	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SNU-1	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SNU-1	Salicylic acid	5.0	6,14
+SNU-1	Saquinavir	5.0	6,14
+SNU-1	Sodium Salicylate	5.0	6,14
+SNU-1	Sulfisoxazole	5.0	6,14
+SNU-1	Terfenadine	5.0	6,14
+SNU-1	Thymol	5.0	6,14
+SNU-1	Tofacitinib	5.0	6,14
+SNU-1	Tolcapone	5.0	6,14
+SNU-1	Triamcinolone	5.0	6,14
+SNU-1	Triclosan	5.0	6,14
+SNU-1	Trifluridine	5.0	6,14
+SNU-1	Trimetrexate	5.0	6,14
+SNU-1	Tucidinostat	5.0	6,14
+SNU-1	Vilanterol	5.0	6,14
+SNU-423	18β-Glycyrrhetinic acid	5.0	6,14
+SNU-423	(R)-Verapamil (hydrochloride)	5.0	6,14
+SNU-423	Acetohexamide	5.0	6,14
+SNU-423	Adenine	5.0	6,14
+SNU-423	Aliskiren	5.0	6,14
+SNU-423	Almonertinib (hydrochloride)	5.0	6,14
+SNU-423	Amsacrine	5.0	6,14
+SNU-423	Anethole trithione	5.0	6,14
+SNU-423	Artesunate	5.0	6,14
+SNU-423	Baicalin	5.0	6,14
+SNU-423	Balsalazide (sodium hydrate)	5.0	6,14
+SNU-423	Berbamine	5.0	6,14
+SNU-423	Berberine (chloride hydrate)	5.0	6,14
+SNU-423	Bergenin	5.0	6,14
+SNU-423	Bimatoprost	5.0	6,14
+SNU-423	Ciclopirox	5.0	6,14
+SNU-423	Clonidine (hydrochloride)	5.0	6,14
+SNU-423	Cloxacillin (sodium)	5.0	6,14
+SNU-423	Cysteamine (hydrochloride)	5.0	6,14
+SNU-423	Darinaparsin	5.0	6,14
+SNU-423	Demeclocycline	5.0	6,14
+SNU-423	Docetaxel	5.0	6,14
+SNU-423	Elagolix sodium	5.0	6,14
+SNU-423	Fluvoxamine (maleate)	5.0	6,14
+SNU-423	Folic acid	5.0	6,14
+SNU-423	Furosemide	5.0	6,14
+SNU-423	Fusidic acid	5.0	6,14
+SNU-423	Gallic acid	5.0	6,14
+SNU-423	Gallic acid (hydrate)	5.0	6,14
+SNU-423	Gemfibrozil	5.0	6,14
+SNU-423	Goserelin (acetate)	5.0	6,14
+SNU-423	Hexylresorcinol	5.0	6,14
+SNU-423	Homoharringtonine	5.0	6,14
+SNU-423	Idarubicin (hydrochloride)	5.0	6,14
+SNU-423	Isocorydine	5.0	6,14
+SNU-423	Lenalidomide (hemihydrate)	5.0	6,14
+SNU-423	Lidocaine (hydrochloride)	5.0	6,14
+SNU-423	Lipoic acid	5.0	6,14
+SNU-423	Lumateperone (tosylate)	5.0	6,14
+SNU-423	Medroxyprogesterone acetate	5.0	6,14
+SNU-423	Megestrol	5.0	6,14
+SNU-423	Neratinib (maleate)	5.0	6,14
+SNU-423	Norepinephrine (hydrochloride)	5.0	6,14
+SNU-423	Olanzapine	5.0	6,14
+SNU-423	Palmatine (chloride)	5.0	6,14
+SNU-423	Pasireotide (acetate)	5.0	6,14
+SNU-423	Pentagastrin	5.0	6,14
+SNU-423	Pentamidine (isethionate)	5.0	6,14
+SNU-423	Pyridoxine	5.0	6,14
+SNU-423	Pyridoxine (hydrochloride)	5.0	6,14
+SNU-423	Quinestrol	5.0	6,14
+SNU-423	Radotinib	5.0	6,14
+SNU-423	Rapamycin	5.0	6,14
+SNU-423	Relugolix	5.0	6,14
+SNU-423	Retinoic acid	5.0	6,14
+SNU-423	Riluzole hydrochloride	5.0	6,14
+SNU-423	Rimonabant	5.0	6,14
+SNU-423	Ritonavir	5.0	6,14
+SNU-423	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SNU-423	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SNU-423	Sinomenine	5.0	6,14
+SNU-423	Sodium Salicylate	5.0	6,14
+SNU-423	Sulfisoxazole	5.0	6,14
+SNU-423	Temsirolimus	5.0	6,14
+SNU-423	Terfenadine	5.0	6,14
+SNU-423	Thymol	5.0	6,14
+SNU-423	Tofacitinib	5.0	6,14
+SNU-423	Tofacitinib (citrate)	5.0	6,14
+SNU-423	Tolcapone	5.0	6,14
+SNU-423	Triclosan	5.0	6,14
+SNU-423	Trimetrexate	5.0	6,14
+SNU-423	Tucidinostat	5.0	6,14
+SNU-423	Vilanterol	5.0	6,14
+SNU-423	Vinblastine (sulfate)	5.0	6,14
+SW 1088	18β-Glycyrrhetinic acid	5.0	6,14
+SW 1088	(R)-Verapamil (hydrochloride)	5.0	6,14
+SW 1088	Adenine	5.0	6,14
+SW 1088	Adenosine	5.0	6,14
+SW 1088	Aliskiren	5.0	6,14
+SW 1088	Allantoin	5.0	6,14
+SW 1088	Almonertinib (hydrochloride)	5.0	6,14
+SW 1088	Amsacrine	5.0	6,14
+SW 1088	Baicalin	5.0	6,14
+SW 1088	Balsalazide (sodium hydrate)	5.0	6,14
+SW 1088	Berbamine	5.0	6,14
+SW 1088	Berberine (chloride hydrate)	5.0	6,14
+SW 1088	Bergenin	5.0	6,14
+SW 1088	Bimatoprost	5.0	6,14
+SW 1088	Busulfan	5.0	6,14
+SW 1088	Ciclopirox	5.0	6,14
+SW 1088	Clonidine (hydrochloride)	5.0	6,14
+SW 1088	Clotrimazole	5.0	6,14
+SW 1088	Cysteamine (hydrochloride)	5.0	6,14
+SW 1088	Demeclocycline	5.0	6,14
+SW 1088	Diammonium Glycyrrhizinate	5.0	6,14
+SW 1088	Docetaxel	5.0	6,14
+SW 1088	Fluvoxamine (maleate)	5.0	6,14
+SW 1088	Folic acid	5.0	6,14
+SW 1088	Furosemide	5.0	6,14
+SW 1088	Gallic acid	5.0	6,14
+SW 1088	Gallic acid (hydrate)	5.0	6,14
+SW 1088	Gemfibrozil	5.0	6,14
+SW 1088	Goserelin (acetate)	5.0	6,14
+SW 1088	Hexylresorcinol	5.0	6,14
+SW 1088	Homoharringtonine	5.0	6,14
+SW 1088	Idarubicin (hydrochloride)	5.0	6,14
+SW 1088	Lenalidomide (hemihydrate)	5.0	6,14
+SW 1088	Lipoic acid	5.0	6,14
+SW 1088	Lumateperone (tosylate)	5.0	6,14
+SW 1088	Medroxyprogesterone acetate	5.0	6,14
+SW 1088	Megestrol	5.0	6,14
+SW 1088	Mitoxantrone (dihydrochloride)	5.0	6,14
+SW 1088	Neratinib (maleate)	5.0	6,14
+SW 1088	Norepinephrine (hydrochloride)	5.0	6,14
+SW 1088	Olanzapine	5.0	6,14
+SW 1088	Palmatine (chloride)	5.0	6,14
+SW 1088	Pasireotide (acetate)	5.0	6,14
+SW 1088	Pentamidine (isethionate)	5.0	6,14
+SW 1088	Pyridoxine (hydrochloride)	5.0	6,14
+SW 1088	Quinestrol	5.0	6,14
+SW 1088	Radotinib	5.0	6,14
+SW 1088	Raltitrexed	5.0	6,14
+SW 1088	Rapamycin	5.0	6,14
+SW 1088	Relugolix	5.0	6,14
+SW 1088	Resveratrol	5.0	6,14
+SW 1088	Retinoic acid	5.0	6,14
+SW 1088	Riluzole hydrochloride	5.0	6,14
+SW 1088	Rimonabant	5.0	6,14
+SW 1088	Ritonavir	5.0	6,14
+SW 1088	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SW 1088	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SW 1088	Saquinavir	5.0	6,14
+SW 1088	Sinomenine	5.0	6,14
+SW 1088	Sodium Salicylate	5.0	6,14
+SW 1088	Temsirolimus	5.0	6,14
+SW 1088	Thymol	5.0	6,14
+SW 1088	Tofacitinib	5.0	6,14
+SW 1088	Tofacitinib (citrate)	5.0	6,14
+SW 1088	Tolcapone	5.0	6,14
+SW 1088	Triamcinolone	5.0	6,14
+SW 1088	Triclosan	5.0	6,14
+SW 1088	Trifluridine	5.0	6,14
+SW 1088	Trimetrexate	5.0	6,14
+SW 1088	Tucidinostat	5.0	6,14
+SW 1088	Vilanterol	5.0	6,14
+SW 1271	8-Hydroxyquinoline	5.0	6,14
+SW 1271	18β-Glycyrrhetinic acid	5.0	6,14
+SW 1271	(R)-Verapamil (hydrochloride)	5.0	6,14
+SW 1271	Acetohexamide	5.0	6,14
+SW 1271	Adenine	5.0	6,14
+SW 1271	Adenosine	5.0	6,14
+SW 1271	Aliskiren	5.0	6,14
+SW 1271	Allantoin	5.0	6,14
+SW 1271	Almonertinib (hydrochloride)	5.0	6,14
+SW 1271	Amsacrine	5.0	6,14
+SW 1271	Anethole trithione	5.0	6,14
+SW 1271	Artesunate	5.0	6,14
+SW 1271	Azithromycin (hydrate)	5.0	6,14
+SW 1271	Baicalin	5.0	6,14
+SW 1271	Berbamine	5.0	6,14
+SW 1271	Berberine (chloride hydrate)	5.0	6,14
+SW 1271	Bergenin	5.0	6,14
+SW 1271	Bimatoprost	5.0	6,14
+SW 1271	Busulfan	5.0	6,14
+SW 1271	Cepharanthine	5.0	6,14
+SW 1271	Chlorhexidine (diacetate)	5.0	6,14
+SW 1271	Ciclopirox	5.0	6,14
+SW 1271	Clonidine (hydrochloride)	5.0	6,14
+SW 1271	Cloxacillin (sodium)	5.0	6,14
+SW 1271	Darinaparsin	5.0	6,14
+SW 1271	Demeclocycline	5.0	6,14
+SW 1271	Diammonium Glycyrrhizinate	5.0	6,14
+SW 1271	Docetaxel	5.0	6,14
+SW 1271	Elagolix sodium	5.0	6,14
+SW 1271	Fluvoxamine (maleate)	5.0	6,14
+SW 1271	Furosemide	5.0	6,14
+SW 1271	Fusidic acid	5.0	6,14
+SW 1271	Gallic acid	5.0	6,14
+SW 1271	Gallic acid (hydrate)	5.0	6,14
+SW 1271	Gemfibrozil	5.0	6,14
+SW 1271	Goserelin (acetate)	5.0	6,14
+SW 1271	Hexylresorcinol	5.0	6,14
+SW 1271	Homoharringtonine	5.0	6,14
+SW 1271	Idarubicin (hydrochloride)	5.0	6,14
+SW 1271	Isocorydine	5.0	6,14
+SW 1271	Larotrectinib	5.0	6,14
+SW 1271	Lenalidomide (hemihydrate)	5.0	6,14
+SW 1271	Lidocaine (hydrochloride)	5.0	6,14
+SW 1271	Lipoic acid	5.0	6,14
+SW 1271	Lumateperone (tosylate)	5.0	6,14
+SW 1271	Medroxyprogesterone acetate	5.0	6,14
+SW 1271	Megestrol	5.0	6,14
+SW 1271	Neratinib (maleate)	5.0	6,14
+SW 1271	Norepinephrine (hydrochloride)	5.0	6,14
+SW 1271	Olanzapine	5.0	6,14
+SW 1271	Pasireotide (acetate)	5.0	6,14
+SW 1271	Pentagastrin	5.0	6,14
+SW 1271	Pentamidine (isethionate)	5.0	6,14
+SW 1271	Pyridoxine	5.0	6,14
+SW 1271	Pyridoxine (hydrochloride)	5.0	6,14
+SW 1271	Quinestrol	5.0	6,14
+SW 1271	Raltitrexed	5.0	6,14
+SW 1271	Rapamycin	5.0	6,14
+SW 1271	Relugolix	5.0	6,14
+SW 1271	Resveratrol	5.0	6,14
+SW 1271	Retinoic acid	5.0	6,14
+SW 1271	Riluzole hydrochloride	5.0	6,14
+SW 1271	Rimonabant	5.0	6,14
+SW 1271	Ritonavir	5.0	6,14
+SW 1271	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SW 1271	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SW 1271	Salicylic acid	5.0	6,14
+SW 1271	Saquinavir	5.0	6,14
+SW 1271	Sinomenine	5.0	6,14
+SW 1271	Sodium Salicylate	5.0	6,14
+SW 1271	Temsirolimus	5.0	6,14
+SW 1271	Terfenadine	5.0	6,14
+SW 1271	Thymol	5.0	6,14
+SW 1271	Tofacitinib	5.0	6,14
+SW 1271	Tofacitinib (citrate)	5.0	6,14
+SW 1271	Tolcapone	5.0	6,14
+SW 1271	Triamcinolone	5.0	6,14
+SW 1271	Triclosan	5.0	6,14
+SW 1271	Tucidinostat	5.0	6,14
+SW 1271	Vilanterol	5.0	6,14
+SW 1271	Vinblastine (sulfate)	5.0	6,14
+SW 900	18β-Glycyrrhetinic acid	5.0	6,14
+SW 900	(R)-Verapamil (hydrochloride)	5.0	6,14
+SW 900	Acetohexamide	5.0	6,14
+SW 900	Adenine	5.0	6,14
+SW 900	Adenosine	5.0	6,14
+SW 900	Aliskiren	5.0	6,14
+SW 900	Allantoin	5.0	6,14
+SW 900	Almonertinib (hydrochloride)	5.0	6,14
+SW 900	Amsacrine	5.0	6,14
+SW 900	Anethole trithione	5.0	6,14
+SW 900	Artesunate	5.0	6,14
+SW 900	Azithromycin (hydrate)	5.0	6,14
+SW 900	Baicalin	5.0	6,14
+SW 900	Balsalazide (sodium hydrate)	5.0	6,14
+SW 900	Berbamine	5.0	6,14
+SW 900	Berberine (chloride hydrate)	5.0	6,14
+SW 900	Bimatoprost	5.0	6,14
+SW 900	Busulfan	5.0	6,14
+SW 900	Chlorhexidine (diacetate)	5.0	6,14
+SW 900	Ciclopirox	5.0	6,14
+SW 900	Clonidine (hydrochloride)	5.0	6,14
+SW 900	Clotrimazole	5.0	6,14
+SW 900	Cloxacillin (sodium)	5.0	6,14
+SW 900	Demeclocycline	5.0	6,14
+SW 900	Diammonium Glycyrrhizinate	5.0	6,14
+SW 900	Docetaxel	5.0	6,14
+SW 900	Elagolix sodium	5.0	6,14
+SW 900	Folic acid	5.0	6,14
+SW 900	Furosemide	5.0	6,14
+SW 900	Gemfibrozil	5.0	6,14
+SW 900	Goserelin (acetate)	5.0	6,14
+SW 900	Hexylresorcinol	5.0	6,14
+SW 900	Homoharringtonine	5.0	6,14
+SW 900	Idarubicin (hydrochloride)	5.0	6,14
+SW 900	Isocorydine	5.0	6,14
+SW 900	Larotrectinib	5.0	6,14
+SW 900	Lenalidomide (hemihydrate)	5.0	6,14
+SW 900	Lidocaine (hydrochloride)	5.0	6,14
+SW 900	Lumateperone (tosylate)	5.0	6,14
+SW 900	Medroxyprogesterone acetate	5.0	6,14
+SW 900	Megestrol	5.0	6,14
+SW 900	Mitoxantrone (dihydrochloride)	5.0	6,14
+SW 900	Neratinib (maleate)	5.0	6,14
+SW 900	Norepinephrine (hydrochloride)	5.0	6,14
+SW 900	Olanzapine	5.0	6,14
+SW 900	Palmatine (chloride)	5.0	6,14
+SW 900	Pasireotide (acetate)	5.0	6,14
+SW 900	Pentagastrin	5.0	6,14
+SW 900	Pentamidine (isethionate)	5.0	6,14
+SW 900	Pyridoxine	5.0	6,14
+SW 900	Quinestrol	5.0	6,14
+SW 900	Radotinib	5.0	6,14
+SW 900	Raltitrexed	5.0	6,14
+SW 900	Retinoic acid	5.0	6,14
+SW 900	Riluzole hydrochloride	5.0	6,14
+SW 900	Rimonabant	5.0	6,14
+SW 900	Ritonavir	5.0	6,14
+SW 900	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SW 900	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SW 900	Salicylic acid	5.0	6,14
+SW 900	Saquinavir	5.0	6,14
+SW 900	Sinomenine	5.0	6,14
+SW 900	Sodium Salicylate	5.0	6,14
+SW 900	Sulfisoxazole	5.0	6,14
+SW 900	Temsirolimus	5.0	6,14
+SW 900	Terfenadine	5.0	6,14
+SW 900	Thymol	5.0	6,14
+SW 900	Tofacitinib	5.0	6,14
+SW 900	Tofacitinib (citrate)	5.0	6,14
+SW 900	Triamcinolone	5.0	6,14
+SW 900	Trifluridine	5.0	6,14
+SW 900	Trimetrexate	5.0	6,14
+SW 900	Tucidinostat	5.0	6,14
+SW 900	Vilanterol	5.0	6,14
+SW 900	Vinblastine (sulfate)	5.0	6,14
+SW1417	18β-Glycyrrhetinic acid	5.0	6,14
+SW1417	(R)-Verapamil (hydrochloride)	5.0	6,14
+SW1417	Acetohexamide	5.0	6,14
+SW1417	Adenine	5.0	6,14
+SW1417	Allantoin	5.0	6,14
+SW1417	Almonertinib (hydrochloride)	5.0	6,14
+SW1417	Amsacrine	5.0	6,14
+SW1417	Anethole trithione	5.0	6,14
+SW1417	Artesunate	5.0	6,14
+SW1417	Azithromycin (hydrate)	5.0	6,14
+SW1417	Baicalin	5.0	6,14
+SW1417	Balsalazide (sodium hydrate)	5.0	6,14
+SW1417	Berbamine	5.0	6,14
+SW1417	Berberine (chloride hydrate)	5.0	6,14
+SW1417	Bergenin	5.0	6,14
+SW1417	Bimatoprost	5.0	6,14
+SW1417	Busulfan	5.0	6,14
+SW1417	Chlorhexidine (diacetate)	5.0	6,14
+SW1417	Ciclopirox	5.0	6,14
+SW1417	Clonidine (hydrochloride)	5.0	6,14
+SW1417	Clotrimazole	5.0	6,14
+SW1417	Cysteamine (hydrochloride)	5.0	6,14
+SW1417	Darinaparsin	5.0	6,14
+SW1417	Demeclocycline	5.0	6,14
+SW1417	Diammonium Glycyrrhizinate	5.0	6,14
+SW1417	Docetaxel	5.0	6,14
+SW1417	Elagolix sodium	5.0	6,14
+SW1417	Fluvoxamine (maleate)	5.0	6,14
+SW1417	Folic acid	5.0	6,14
+SW1417	Furosemide	5.0	6,14
+SW1417	Fusidic acid	5.0	6,14
+SW1417	Gallic acid	5.0	6,14
+SW1417	Gallic acid (hydrate)	5.0	6,14
+SW1417	Gemfibrozil	5.0	6,14
+SW1417	Goserelin (acetate)	5.0	6,14
+SW1417	Hexylresorcinol	5.0	6,14
+SW1417	Idarubicin (hydrochloride)	5.0	6,14
+SW1417	Isocorydine	5.0	6,14
+SW1417	Lenalidomide (hemihydrate)	5.0	6,14
+SW1417	Lipoic acid	5.0	6,14
+SW1417	Lumateperone (tosylate)	5.0	6,14
+SW1417	Medroxyprogesterone acetate	5.0	6,14
+SW1417	Megestrol	5.0	6,14
+SW1417	Mitoxantrone (dihydrochloride)	5.0	6,14
+SW1417	Neratinib (maleate)	5.0	6,14
+SW1417	Olanzapine	5.0	6,14
+SW1417	Pasireotide (acetate)	5.0	6,14
+SW1417	Pentagastrin	5.0	6,14
+SW1417	Pentamidine (isethionate)	5.0	6,14
+SW1417	Pyridoxine	5.0	6,14
+SW1417	Pyridoxine (hydrochloride)	5.0	6,14
+SW1417	Quinestrol	5.0	6,14
+SW1417	Radotinib	5.0	6,14
+SW1417	Rapamycin	5.0	6,14
+SW1417	Relugolix	5.0	6,14
+SW1417	Resveratrol	5.0	6,14
+SW1417	Retinoic acid	5.0	6,14
+SW1417	Riluzole hydrochloride	5.0	6,14
+SW1417	Rimonabant	5.0	6,14
+SW1417	Ritonavir	5.0	6,14
+SW1417	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SW1417	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SW1417	Salicylic acid	5.0	6,14
+SW1417	Saquinavir	5.0	6,14
+SW1417	Sinomenine	5.0	6,14
+SW1417	Sodium Salicylate	5.0	6,14
+SW1417	Sulfisoxazole	5.0	6,14
+SW1417	Temsirolimus	5.0	6,14
+SW1417	Terfenadine	5.0	6,14
+SW1417	Tofacitinib	5.0	6,14
+SW1417	Tofacitinib (citrate)	5.0	6,14
+SW1417	Tolcapone	5.0	6,14
+SW1417	Triamcinolone	5.0	6,14
+SW1417	Triclosan	5.0	6,14
+SW1417	Trifluridine	5.0	6,14
+SW1417	Trimetrexate	5.0	6,14
+SW1417	Tucidinostat	5.0	6,14
+SW1417	Vilanterol	5.0	6,14
+SW1417	Vinblastine (sulfate)	5.0	6,14
+SW48	8-Hydroxyquinoline	5.0	6,14
+SW48	18β-Glycyrrhetinic acid	5.0	6,14
+SW48	(R)-Verapamil (hydrochloride)	5.0	6,14
+SW48	Acetohexamide	5.0	6,14
+SW48	Adenine	5.0	6,14
+SW48	Adenosine	5.0	6,14
+SW48	Aliskiren	5.0	6,14
+SW48	Allantoin	5.0	6,14
+SW48	Almonertinib (hydrochloride)	5.0	6,14
+SW48	Amsacrine	5.0	6,14
+SW48	Anethole trithione	5.0	6,14
+SW48	Azithromycin (hydrate)	5.0	6,14
+SW48	Baicalin	5.0	6,14
+SW48	Balsalazide (sodium hydrate)	5.0	6,14
+SW48	Berbamine	5.0	6,14
+SW48	Berberine (chloride hydrate)	5.0	6,14
+SW48	Bergenin	5.0	6,14
+SW48	Bimatoprost	5.0	6,14
+SW48	Busulfan	5.0	6,14
+SW48	Cepharanthine	5.0	6,14
+SW48	Chlorhexidine (diacetate)	5.0	6,14
+SW48	Ciclopirox	5.0	6,14
+SW48	Cloxacillin (sodium)	5.0	6,14
+SW48	Cysteamine (hydrochloride)	5.0	6,14
+SW48	Darinaparsin	5.0	6,14
+SW48	Demeclocycline	5.0	6,14
+SW48	Diammonium Glycyrrhizinate	5.0	6,14
+SW48	Docetaxel	5.0	6,14
+SW48	Elagolix sodium	5.0	6,14
+SW48	Fluvoxamine (maleate)	5.0	6,14
+SW48	Folic acid	5.0	6,14
+SW48	Furosemide	5.0	6,14
+SW48	Fusidic acid	5.0	6,14
+SW48	Gallic acid	5.0	6,14
+SW48	Gallic acid (hydrate)	5.0	6,14
+SW48	Gemfibrozil	5.0	6,14
+SW48	Goserelin (acetate)	5.0	6,14
+SW48	Hexylresorcinol	5.0	6,14
+SW48	Homoharringtonine	5.0	6,14
+SW48	Idarubicin (hydrochloride)	5.0	6,14
+SW48	Isocorydine	5.0	6,14
+SW48	Lenalidomide (hemihydrate)	5.0	6,14
+SW48	Lidocaine (hydrochloride)	5.0	6,14
+SW48	Lipoic acid	5.0	6,14
+SW48	Lumateperone (tosylate)	5.0	6,14
+SW48	Medroxyprogesterone acetate	5.0	6,14
+SW48	Mitoxantrone (dihydrochloride)	5.0	6,14
+SW48	Neratinib (maleate)	5.0	6,14
+SW48	Norepinephrine (hydrochloride)	5.0	6,14
+SW48	Olanzapine	5.0	6,14
+SW48	Palmatine (chloride)	5.0	6,14
+SW48	Pentagastrin	5.0	6,14
+SW48	Pentamidine (isethionate)	5.0	6,14
+SW48	Quinestrol	5.0	6,14
+SW48	Radotinib	5.0	6,14
+SW48	Raltitrexed	5.0	6,14
+SW48	Rapamycin	5.0	6,14
+SW48	Relugolix	5.0	6,14
+SW48	Resveratrol	5.0	6,14
+SW48	Retinoic acid	5.0	6,14
+SW48	Riluzole hydrochloride	5.0	6,14
+SW48	Rimonabant	5.0	6,14
+SW48	Ritonavir	5.0	6,14
+SW48	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SW48	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SW48	Salicylic acid	5.0	6,14
+SW48	Saquinavir	5.0	6,14
+SW48	Sinomenine	5.0	6,14
+SW48	Sodium Salicylate	5.0	6,14
+SW48	Sulfisoxazole	5.0	6,14
+SW48	Temsirolimus	5.0	6,14
+SW48	Terfenadine	5.0	6,14
+SW48	Thymol	5.0	6,14
+SW48	Tofacitinib (citrate)	5.0	6,14
+SW48	Tolcapone	5.0	6,14
+SW48	Triamcinolone	5.0	6,14
+SW48	Triclosan	5.0	6,14
+SW48	Trifluridine	5.0	6,14
+SW48	Trimetrexate	5.0	6,14
+SW48	Tucidinostat	5.0	6,14
+SW48	Vilanterol	5.0	6,14
+SW48	Vinblastine (sulfate)	5.0	6,14
+SW480	8-Hydroxyquinoline	5.0	6,14
+SW480	18β-Glycyrrhetinic acid	5.0	6,14
+SW480	(R)-Verapamil (hydrochloride)	5.0	6,14
+SW480	Adenine	5.0	6,14
+SW480	Adenosine	5.0	6,14
+SW480	Aliskiren	5.0	6,14
+SW480	Allantoin	5.0	6,14
+SW480	Amsacrine	5.0	6,14
+SW480	Anethole trithione	5.0	6,14
+SW480	Artesunate	5.0	6,14
+SW480	Azithromycin (hydrate)	5.0	6,14
+SW480	Baicalin	5.0	6,14
+SW480	Balsalazide (sodium hydrate)	5.0	6,14
+SW480	Berbamine	5.0	6,14
+SW480	Berberine (chloride hydrate)	5.0	6,14
+SW480	Bergenin	5.0	6,14
+SW480	Bimatoprost	5.0	6,14
+SW480	Ciclopirox	5.0	6,14
+SW480	Clonidine (hydrochloride)	5.0	6,14
+SW480	Clotrimazole	5.0	6,14
+SW480	Cloxacillin (sodium)	5.0	6,14
+SW480	Cysteamine (hydrochloride)	5.0	6,14
+SW480	Darinaparsin	5.0	6,14
+SW480	Demeclocycline	5.0	6,14
+SW480	Docetaxel	5.0	6,14
+SW480	Elagolix sodium	5.0	6,14
+SW480	Fluvoxamine (maleate)	5.0	6,14
+SW480	Folic acid	5.0	6,14
+SW480	Furosemide	5.0	6,14
+SW480	Fusidic acid	5.0	6,14
+SW480	Gallic acid	5.0	6,14
+SW480	Gallic acid (hydrate)	5.0	6,14
+SW480	Gemfibrozil	5.0	6,14
+SW480	Hexylresorcinol	5.0	6,14
+SW480	Homoharringtonine	5.0	6,14
+SW480	Idarubicin (hydrochloride)	5.0	6,14
+SW480	Isocorydine	5.0	6,14
+SW480	Larotrectinib	5.0	6,14
+SW480	Lenalidomide (hemihydrate)	5.0	6,14
+SW480	Lidocaine (hydrochloride)	5.0	6,14
+SW480	Lipoic acid	5.0	6,14
+SW480	Lumateperone (tosylate)	5.0	6,14
+SW480	Medroxyprogesterone acetate	5.0	6,14
+SW480	Megestrol	5.0	6,14
+SW480	Mitoxantrone (dihydrochloride)	5.0	6,14
+SW480	Norepinephrine (hydrochloride)	5.0	6,14
+SW480	Olanzapine	5.0	6,14
+SW480	Palmatine (chloride)	5.0	6,14
+SW480	Pentagastrin	5.0	6,14
+SW480	Pyridoxine	5.0	6,14
+SW480	Pyridoxine (hydrochloride)	5.0	6,14
+SW480	Quinestrol	5.0	6,14
+SW480	Raltitrexed	5.0	6,14
+SW480	Relugolix	5.0	6,14
+SW480	Resveratrol	5.0	6,14
+SW480	Riluzole hydrochloride	5.0	6,14
+SW480	Rimonabant	5.0	6,14
+SW480	Ritonavir	5.0	6,14
+SW480	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+SW480	S-Adenosyl-L-methionine (disulfate tosylate)	5.0	6,14
+SW480	Salicylic acid	5.0	6,14
+SW480	Saquinavir	5.0	6,14
+SW480	Selinexor 	5.0	6,14
+SW480	Sinomenine	5.0	6,14
+SW480	Sodium Salicylate	5.0	6,14
+SW480	Sulfisoxazole	5.0	6,14
+SW480	Temsirolimus	5.0	6,14
+SW480	Thymol	5.0	6,14
+SW480	Tofacitinib	5.0	6,14
+SW480	Tofacitinib (citrate)	5.0	6,14
+SW480	Tolcapone	5.0	6,14
+SW480	Triclosan	5.0	6,14
+SW480	Trimetrexate	5.0	6,14
+SW480	Tucidinostat	5.0	6,14
+hTERT-HPNE	8-Hydroxyquinoline	5.0	6,14
+hTERT-HPNE	18β-Glycyrrhetinic acid	5.0	6,14
+hTERT-HPNE	(R)-Verapamil (hydrochloride)	5.0	6,14
+hTERT-HPNE	Adenine	5.0	6,14
+hTERT-HPNE	Adenosine	5.0	6,14
+hTERT-HPNE	Aliskiren	5.0	6,14
+hTERT-HPNE	Allantoin	5.0	6,14
+hTERT-HPNE	Almonertinib (hydrochloride)	5.0	6,14
+hTERT-HPNE	Amsacrine	5.0	6,14
+hTERT-HPNE	Azithromycin (hydrate)	5.0	6,14
+hTERT-HPNE	Baicalin	5.0	6,14
+hTERT-HPNE	Balsalazide (sodium hydrate)	5.0	6,14
+hTERT-HPNE	Berbamine	5.0	6,14
+hTERT-HPNE	Berberine (chloride hydrate)	5.0	6,14
+hTERT-HPNE	Bergenin	5.0	6,14
+hTERT-HPNE	Busulfan	5.0	6,14
+hTERT-HPNE	Cepharanthine	5.0	6,14
+hTERT-HPNE	Chlorhexidine (diacetate)	5.0	6,14
+hTERT-HPNE	Ciclopirox	5.0	6,14
+hTERT-HPNE	Clonidine (hydrochloride)	5.0	6,14
+hTERT-HPNE	Clotrimazole	5.0	6,14
+hTERT-HPNE	Cysteamine (hydrochloride)	5.0	6,14
+hTERT-HPNE	Darinaparsin	5.0	6,14
+hTERT-HPNE	Demeclocycline	5.0	6,14
+hTERT-HPNE	Diammonium Glycyrrhizinate	5.0	6,14
+hTERT-HPNE	Docetaxel	5.0	6,14
+hTERT-HPNE	Elagolix sodium	5.0	6,14
+hTERT-HPNE	Fluvoxamine (maleate)	5.0	6,14
+hTERT-HPNE	Folic acid	5.0	6,14
+hTERT-HPNE	Fusidic acid	5.0	6,14
+hTERT-HPNE	Gallic acid	5.0	6,14
+hTERT-HPNE	Gallic acid (hydrate)	5.0	6,14
+hTERT-HPNE	Gemfibrozil	5.0	6,14
+hTERT-HPNE	Goserelin (acetate)	5.0	6,14
+hTERT-HPNE	Hexylresorcinol	5.0	6,14
+hTERT-HPNE	Homoharringtonine	5.0	6,14
+hTERT-HPNE	Idarubicin (hydrochloride)	5.0	6,14
+hTERT-HPNE	Larotrectinib	5.0	6,14
+hTERT-HPNE	Lenalidomide (hemihydrate)	5.0	6,14
+hTERT-HPNE	Lidocaine (hydrochloride)	5.0	6,14
+hTERT-HPNE	Lipoic acid	5.0	6,14
+hTERT-HPNE	Lumateperone (tosylate)	5.0	6,14
+hTERT-HPNE	Medroxyprogesterone acetate	5.0	6,14
+hTERT-HPNE	Megestrol	5.0	6,14
+hTERT-HPNE	Mitoxantrone (dihydrochloride)	5.0	6,14
+hTERT-HPNE	Neratinib (maleate)	5.0	6,14
+hTERT-HPNE	Norepinephrine (hydrochloride)	5.0	6,14
+hTERT-HPNE	Palmatine (chloride)	5.0	6,14
+hTERT-HPNE	Pasireotide (acetate)	5.0	6,14
+hTERT-HPNE	Pentamidine (isethionate)	5.0	6,14
+hTERT-HPNE	Pyridoxine	5.0	6,14
+hTERT-HPNE	Pyridoxine (hydrochloride)	5.0	6,14
+hTERT-HPNE	Quinestrol	5.0	6,14
+hTERT-HPNE	Radotinib	5.0	6,14
+hTERT-HPNE	Raltitrexed	5.0	6,14
+hTERT-HPNE	Relugolix	5.0	6,14
+hTERT-HPNE	Resveratrol	5.0	6,14
+hTERT-HPNE	Retinoic acid	5.0	6,14
+hTERT-HPNE	Riluzole hydrochloride	5.0	6,14
+hTERT-HPNE	Rimonabant	5.0	6,14
+hTERT-HPNE	Ritonavir	5.0	6,14
+hTERT-HPNE	Ropivacaine (hydrochloride monohydrate)	5.0	6,14
+hTERT-HPNE	Salicylic acid	5.0	6,14
+hTERT-HPNE	Saquinavir	5.0	6,14
+hTERT-HPNE	Selinexor 	5.0	6,14
+hTERT-HPNE	Sinomenine	5.0	6,14
+hTERT-HPNE	Sulfisoxazole	5.0	6,14
+hTERT-HPNE	Temsirolimus	5.0	6,14
+hTERT-HPNE	Terfenadine	5.0	6,14
+hTERT-HPNE	Thymol	5.0	6,14
+hTERT-HPNE	Tofacitinib	5.0	6,14
+hTERT-HPNE	Tolcapone	5.0	6,14
+hTERT-HPNE	Triamcinolone	5.0	6,14
+hTERT-HPNE	Triclosan	5.0	6,14
+hTERT-HPNE	Trimetrexate	5.0	6,14
+hTERT-HPNE	Tucidinostat	5.0	6,14
+hTERT-HPNE	Vilanterol	5.0	6,14
+hTERT-HPNE	Vinblastine (sulfate)	5.0	6,14

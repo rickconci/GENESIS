@@ -1,0 +1,110 @@
+# Second-layer a priori gene sets, scored beside the 14 PROGENy pathways with the same machinery.
+#
+# sign: +1 = the gene goes UP when the programme is ON; -1 = down. Score v = sum(sign*log2FC)/n over gated
+#       members, so the depth coefficient r = mean(sign) and the same per-gene depth subtraction applies.
+# status (provisional, set here before scoring; the realized correlation in Step 2b overwrites it):
+#   candidate      - measurable and not already a PROGENy pathway
+#   calibration    - built on genes PROGENy already uses; kept to compare weighting, NOT as independent support
+#   not_measurable - fewer than 5 members on the 3,066-gene panel
+# citation_status: PENDING for every row. The project rule is a verified primary citation per programme;
+#   these were written from domain knowledge without a literature check and MUST be verified at the Step 0
+#   stop before any of them appears in a report. Nothing here ships on my say-so.
+set	gene	sign	status	source	citation_status	note
+RTK_transcript_24h	EGFR	1	candidate	hand set of receptor tyrosine kinase transcripts	PENDING	Named for what is measured at 24 h, not for a rebound mechanism.
+RTK_transcript_24h	ERBB2	1	candidate	hand set	PENDING
+RTK_transcript_24h	ERBB3	1	candidate	hand set	PENDING	ERBB3 relief after MEK block is largely post-transcriptional; mRNA is a weak proxy.
+RTK_transcript_24h	FGFR1	1	candidate	hand set	PENDING
+RTK_transcript_24h	FGFR2	1	candidate	hand set	PENDING
+RTK_transcript_24h	MET	1	candidate	hand set	PENDING
+RTK_transcript_24h	IGF1R	1	candidate	hand set	PENDING	Also a PROGENy Androgen member.
+hepatocyte_secreted	ALB	1	candidate	hepatocyte differentiation markers	PENDING	Zero overlap with any PROGENy pathway.
+hepatocyte_secreted	AFP	1	candidate	hepatocyte markers	PENDING	C3A was clonally selected for high AFP and albumin.
+hepatocyte_secreted	TF	1	candidate	hepatocyte markers	PENDING
+hepatocyte_secreted	FGB	1	candidate	hepatocyte markers	PENDING
+hepatocyte_secreted	FGA	1	candidate	hepatocyte markers	PENDING
+hepatocyte_secreted	APOA1	1	candidate	hepatocyte markers	PENDING
+hepatocyte_secreted	SERPINA1	1	candidate	hepatocyte markers	PENDING
+MITF_melanocyte	MITF	1	candidate	melanocyte differentiation programme	PENDING	C32 has a MITF CRISPR dependency of -1.07, i.e. lineage-addicted.
+MITF_melanocyte	PMEL	1	candidate	MITF target	PENDING	Also a PROGENy PI3K member with a NEGATIVE weight.
+MITF_melanocyte	TYR	1	candidate	MITF target	PENDING	PROGENy PI3K member, negative weight. Low expression: watch the detection gate.
+MITF_melanocyte	MLANA	1	candidate	MITF target	PENDING	PROGENy PI3K member, negative weight.
+MITF_melanocyte	DCT	1	candidate	MITF target	PENDING	Low expression.
+MITF_melanocyte	SOX10	1	candidate	melanocyte lineage TF	PENDING
+EMT	CDH1	-1	candidate	epithelial-mesenchymal transition markers	PENDING	The only -1 member; epithelial marker.
+EMT	CDH2	1	candidate	EMT markers	PENDING	PROGENy TGFb member.
+EMT	SNAI1	1	candidate	EMT TF	PENDING	PROGENy TGFb member.
+EMT	SNAI2	1	candidate	EMT TF	PENDING	PROGENy Androgen member.
+EMT	FN1	1	candidate	EMT markers	PENDING
+EMT	MMP2	1	candidate	EMT / invasion	PENDING
+EMT	MMP9	1	candidate	EMT / invasion	PENDING	PROGENy TNFa member.
+EMT	ANKRD1	1	candidate	YAP/TAZ-TEAD target	PENDING	PROGENy WNT member.
+TGFb_SMAD_targets	SERPINE1	1	candidate	direct SMAD2/3 target	PENDING	Tests H11 (SMAD4-null Hs 766T) independently of PROGENy TGFb.
+TGFb_SMAD_targets	SMAD7	1	candidate	direct SMAD target	PENDING	PROGENy TGFb member.
+TGFb_SMAD_targets	SKIL	1	candidate	direct SMAD target	PENDING	PROGENy TGFb member.
+TGFb_SMAD_targets	TGFBI	1	candidate	TGFb-induced	PENDING
+TGFb_SMAD_targets	THBS1	1	candidate	TGFb-associated	PENDING
+TGFb_SMAD_targets	ID1	1	candidate	BMP/SMAD1-5 target	PENDING	PROGENy TGFb member. BMP arm, not TGFb arm: flag.
+mTORC1_metabolic	SLC2A1	1	candidate	mTORC1 / HIF metabolic output	PENDING	PROGENy Hypoxia member.
+mTORC1_metabolic	LDHA	1	candidate	glycolytic output	PENDING	PROGENy Hypoxia member.
+mTORC1_metabolic	ACACA	1	candidate	SREBP lipogenic target	PENDING
+mTORC1_metabolic	HMGCS1	1	candidate	SREBP sterol target	PENDING
+mTORC1_metabolic	LDLR	1	candidate	SREBP sterol target	PENDING	PROGENy MAPK member.
+p53_targets	CDKN1A	1	calibration	canonical p53 transcriptional targets	PENDING	All 9 members are PROGENy p53 members: this is PROGENy p53 unweighted, not a second opinion.
+p53_targets	MDM2	1	calibration	canonical p53 target	PENDING
+p53_targets	RRM2B	1	calibration	canonical p53 target	PENDING
+p53_targets	SESN1	1	calibration	canonical p53 target	PENDING
+p53_targets	TP53I3	1	calibration	canonical p53 target	PENDING
+p53_targets	ZMAT3	1	calibration	canonical p53 target	PENDING
+p53_targets	TIGAR	1	calibration	canonical p53 target	PENDING
+p53_targets	FAS	1	calibration	canonical p53 target	PENDING
+p53_targets	TNFRSF10B	1	calibration	canonical p53 target	PENDING
+ISG_interferon	IFIT1	1	calibration	interferon-stimulated genes	PENDING	12 of 13 are PROGENy JAK-STAT members.
+ISG_interferon	IFIT2	1	calibration	ISG	PENDING
+ISG_interferon	IFIT3	1	calibration	ISG	PENDING
+ISG_interferon	MX1	1	calibration	ISG	PENDING
+ISG_interferon	OAS1	1	calibration	ISG	PENDING
+ISG_interferon	OAS2	1	calibration	ISG	PENDING
+ISG_interferon	ISG15	1	calibration	ISG	PENDING
+ISG_interferon	STAT1	1	calibration	ISG	PENDING
+ISG_interferon	IRF7	1	calibration	ISG	PENDING
+ISG_interferon	IRF9	1	calibration	ISG	PENDING
+ISG_interferon	BST2	1	calibration	ISG	PENDING
+ISG_interferon	PSMB8	1	calibration	ISG	PENDING
+ISG_interferon	HLA-B	1	calibration	ISG	PENDING	Not a PROGENy JAK-STAT member.
+MAPK_output	DUSP6	1	calibration	canonical ERK transcriptional output	PENDING	11 of 12 are PROGENy MAPK or EGFR members.
+MAPK_output	DUSP4	1	calibration	ERK output	PENDING
+MAPK_output	DUSP5	1	calibration	ERK output	PENDING
+MAPK_output	SPRY2	1	calibration	ERK output	PENDING
+MAPK_output	SPRY4	1	calibration	ERK output	PENDING
+MAPK_output	ETV4	1	calibration	ERK output	PENDING
+MAPK_output	ETV5	1	calibration	ERK output	PENDING
+MAPK_output	EGR1	1	calibration	immediate-early, ERK-driven	PENDING	Not a PROGENy member; the one gene that could make this set differ.
+MAPK_output	CCND1	1	calibration	ERK output	PENDING
+MAPK_output	PHLDA1	1	calibration	ERK output	PENDING
+MAPK_output	FOSL1	1	calibration	ERK output	PENDING
+MAPK_output	EPHA2	1	calibration	ERK output	PENDING
+FOXO_targets	CDKN1A	1	not_measurable	FOXO transcriptional targets	PENDING	Only 4 of 8 on the panel (CDKN1B, BCL2L11, GADD45A absent). H6 therefore rests on PROGENy PI3K alone.
+FOXO_targets	FASLG	1	not_measurable	FOXO target	PENDING
+FOXO_targets	TXNIP	1	not_measurable	FOXO target	PENDING
+FOXO_targets	SESN1	1	not_measurable	FOXO target	PENDING
+apoptosis_intrinsic	MCL1	-1	not_measurable	intrinsic apoptosis regulators	PENDING	Only 3 on the panel; BBC3, PMAIP1, BCL2L11, BAX all absent.
+apoptosis_intrinsic	BCL2L1	-1	not_measurable	anti-apoptotic	PENDING
+apoptosis_intrinsic	BID	1	not_measurable	pro-apoptotic	PENDING
+SAC_mitotic	BUB1	1	not_measurable	spindle assembly checkpoint	PENDING	ZERO members on the panel. The docetaxel/SAC prediction cannot be tested here.
+SAC_mitotic	BUB1B	1	not_measurable	spindle assembly checkpoint	PENDING	
+SAC_mitotic	MAD2L1	1	not_measurable	spindle assembly checkpoint	PENDING	
+SAC_mitotic	CCNB1	1	not_measurable	spindle assembly checkpoint	PENDING	
+SAC_mitotic	PLK1	1	not_measurable	spindle assembly checkpoint	PENDING	
+SAC_mitotic	AURKA	1	not_measurable	spindle assembly checkpoint	PENDING	
+SAC_mitotic	AURKB	1	not_measurable	spindle assembly checkpoint	PENDING	
+SAC_mitotic	CDC20	1	not_measurable	spindle assembly checkpoint	PENDING	
+SAC_mitotic	TTK	1	not_measurable	spindle assembly checkpoint	PENDING	
+UPR_ISR	ATF4	1	not_measurable	integrated stress response	PENDING	Only XBP1 is on the panel. The homoharringtonine UPR prediction cannot be tested here.
+UPR_ISR	DDIT3	1	not_measurable	integrated stress response	PENDING	
+UPR_ISR	TRIB3	1	not_measurable	integrated stress response	PENDING	
+UPR_ISR	ASNS	1	not_measurable	integrated stress response	PENDING	
+UPR_ISR	CHAC1	1	not_measurable	integrated stress response	PENDING	
+UPR_ISR	SESN2	1	not_measurable	integrated stress response	PENDING	
+UPR_ISR	ATF3	1	not_measurable	integrated stress response	PENDING	
+UPR_ISR	XBP1	1	not_measurable	integrated stress response	PENDING	
+UPR_ISR	HSPA5	1	not_measurable	integrated stress response	PENDING	

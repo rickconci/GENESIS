@@ -1,0 +1,641 @@
+level,key,arm,r,ci95_lo,ci95_hi,n_units,ci95_B,ci95_seed,method
+line,C32,replicate,0.333052,0.260133,0.403793,75,10000,20261014,pearson
+line,HOP62,replicate,0.398761,0.33332,0.462911,75,10000,20261014,pearson
+line,HepG2/C3A,replicate,0.448777,0.377589,0.515564,75,10000,20261014,pearson
+line,Hs 766T,replicate,0.359677,0.290982,0.423437,75,10000,20261014,pearson
+line,PANC-1,replicate,0.340542,0.264805,0.415002,75,10000,20261014,pearson
+compound,(R)-Verapamil (hydrochloride),replicate,0.412983,,,5,,,pearson
+compound,8-Hydroxyquinoline,replicate,0.380247,,,5,,,pearson
+compound,Adenine,replicate,0.297628,,,5,,,pearson
+compound,Adenosine,replicate,0.317587,,,5,,,pearson
+compound,Afatinib,replicate,-0.0194971,,,5,,,pearson
+compound,Almonertinib (hydrochloride),replicate,0.349864,,,5,,,pearson
+compound,Almonertinib (mesylate),replicate,-0.360944,,,5,,,pearson
+compound,Amsacrine,replicate,0.475732,,,5,,,pearson
+compound,Anethole trithione,replicate,0.368348,,,5,,,pearson
+compound,Artesunate,replicate,0.779992,,,5,,,pearson
+compound,Azithromycin (hydrate),replicate,0.493948,,,5,,,pearson
+compound,Baicalin,replicate,0.63653,,,5,,,pearson
+compound,Balsalazide (sodium hydrate),replicate,0.308152,,,5,,,pearson
+compound,Belumosudil,replicate,-0.110632,,,5,,,pearson
+compound,Berbamine,replicate,0.265093,,,5,,,pearson
+compound,Berbamine (dihydrochloride),replicate,-0.226712,,,5,,,pearson
+compound,Berberine (chloride hydrate),replicate,0.49986,,,5,,,pearson
+compound,Bimatoprost,replicate,0.244336,,,5,,,pearson
+compound,Busulfan,replicate,0.557213,,,5,,,pearson
+compound,Cepharanthine,replicate,0.679656,,,5,,,pearson
+compound,Chlorhexidine (diacetate),replicate,0.566966,,,5,,,pearson
+compound,Cysteamine (hydrochloride),replicate,0.167824,,,5,,,pearson
+compound,Daidzin,replicate,-0.194939,,,5,,,pearson
+compound,Demeclocycline,replicate,0.0716252,,,5,,,pearson
+compound,Docetaxel,replicate,0.38234,,,5,,,pearson
+compound,Elagolix sodium,replicate,0.272817,,,5,,,pearson
+compound,Fluvoxamine (maleate),replicate,0.350548,,,5,,,pearson
+compound,Fumaric acid,replicate,-0.228866,,,5,,,pearson
+compound,Furosemide,replicate,0.182114,,,5,,,pearson
+compound,Fusidic acid,replicate,0.603459,,,5,,,pearson
+compound,Gallic acid,replicate,0.384808,,,5,,,pearson
+compound,Gallic acid (hydrate),replicate,0.48168,,,5,,,pearson
+compound,Gemfibrozil,replicate,0.564876,,,5,,,pearson
+compound,Goserelin (acetate),replicate,0.399728,,,5,,,pearson
+compound,Hexylresorcinol,replicate,0.636724,,,5,,,pearson
+compound,Homoharringtonine,replicate,0.926737,,,5,,,pearson
+compound,Idarubicin (hydrochloride),replicate,0.885207,,,5,,,pearson
+compound,Lenalidomide (hemihydrate),replicate,0.740495,,,5,,,pearson
+compound,Lipoic acid,replicate,0.595741,,,5,,,pearson
+compound,Mitoxantrone (dihydrochloride),replicate,0.266983,,,5,,,pearson
+compound,Naproxen,replicate,-0.106982,,,5,,,pearson
+compound,Neratinib (maleate),replicate,0.449728,,,5,,,pearson
+compound,Norepinephrine (hydrochloride),replicate,0.103503,,,5,,,pearson
+compound,Palmatine (chloride),replicate,0.318037,,,5,,,pearson
+compound,Pasireotide (acetate),replicate,0.421708,,,5,,,pearson
+compound,Pentamidine (isethionate),replicate,0.400246,,,5,,,pearson
+compound,Pravastatin (sodium),replicate,-0.336192,,,5,,,pearson
+compound,Pyridoxine,replicate,0.309259,,,5,,,pearson
+compound,Pyridoxine (hydrochloride),replicate,0.547173,,,5,,,pearson
+compound,Radotinib,replicate,0.780434,,,5,,,pearson
+compound,Raltitrexed,replicate,0.459303,,,5,,,pearson
+compound,Rapamycin,replicate,0.3282,,,5,,,pearson
+compound,Regorafenib,replicate,-0.252762,,,5,,,pearson
+compound,Relugolix,replicate,0.265776,,,5,,,pearson
+compound,Resveratrol,replicate,0.324136,,,5,,,pearson
+compound,Retinoic acid,replicate,0.468793,,,5,,,pearson
+compound,Riluzole hydrochloride,replicate,0.35427,,,5,,,pearson
+compound,Rimonabant,replicate,0.460532,,,5,,,pearson
+compound,Ritonavir,replicate,0.543653,,,5,,,pearson
+compound,Ropivacaine (hydrochloride monohydrate),replicate,0.741764,,,5,,,pearson
+compound,Salicylic acid,replicate,0.41827,,,5,,,pearson
+compound,Saquinavir,replicate,0.378911,,,5,,,pearson
+compound,Sinomenine,replicate,0.625882,,,5,,,pearson
+compound,Sodium Salicylate,replicate,0.179903,,,5,,,pearson
+compound,Temsirolimus,replicate,0.529243,,,5,,,pearson
+compound,Terfenadine,replicate,0.412271,,,5,,,pearson
+compound,Thymol,replicate,0.420101,,,5,,,pearson
+compound,Tofacitinib,replicate,0.666751,,,5,,,pearson
+compound,Tofacitinib (citrate),replicate,0.586571,,,5,,,pearson
+compound,Tolcapone,replicate,0.381856,,,5,,,pearson
+compound,Trametinib,replicate,0.385982,,,5,,,pearson
+compound,Triamcinolone,replicate,0.650412,,,5,,,pearson
+compound,Trimetrexate,replicate,0.373555,,,5,,,pearson
+compound,Tucidinostat,replicate,0.522186,,,5,,,pearson
+compound,Vilanterol,replicate,0.693403,,,5,,,pearson
+line,C32,genesis,0.271053,0.21097,0.328408,75,10000,20261014,pearson
+line,HOP62,genesis,0.345438,0.293432,0.397591,75,10000,20261014,pearson
+line,HepG2/C3A,genesis,0.370847,0.316592,0.421574,75,10000,20261014,pearson
+line,Hs 766T,genesis,0.289449,0.238264,0.340659,75,10000,20261014,pearson
+line,PANC-1,genesis,0.309418,0.244791,0.371971,75,10000,20261014,pearson
+compound,(R)-Verapamil (hydrochloride),genesis,0.287635,,,5,,,pearson
+compound,8-Hydroxyquinoline,genesis,0.265931,,,5,,,pearson
+compound,Adenine,genesis,0.300572,,,5,,,pearson
+compound,Adenosine,genesis,0.302592,,,5,,,pearson
+compound,Afatinib,genesis,-0.00758419,,,5,,,pearson
+compound,Almonertinib (hydrochloride),genesis,0.411911,,,5,,,pearson
+compound,Almonertinib (mesylate),genesis,-0.16426,,,5,,,pearson
+compound,Amsacrine,genesis,0.383575,,,5,,,pearson
+compound,Anethole trithione,genesis,0.412976,,,5,,,pearson
+compound,Artesunate,genesis,0.586034,,,5,,,pearson
+compound,Azithromycin (hydrate),genesis,0.423784,,,5,,,pearson
+compound,Baicalin,genesis,0.545929,,,5,,,pearson
+compound,Balsalazide (sodium hydrate),genesis,0.301276,,,5,,,pearson
+compound,Belumosudil,genesis,-0.149906,,,5,,,pearson
+compound,Berbamine,genesis,0.239164,,,5,,,pearson
+compound,Berbamine (dihydrochloride),genesis,-0.180871,,,5,,,pearson
+compound,Berberine (chloride hydrate),genesis,0.38341,,,5,,,pearson
+compound,Bimatoprost,genesis,0.275422,,,5,,,pearson
+compound,Busulfan,genesis,0.470532,,,5,,,pearson
+compound,Cepharanthine,genesis,0.498543,,,5,,,pearson
+compound,Chlorhexidine (diacetate),genesis,0.427617,,,5,,,pearson
+compound,Cysteamine (hydrochloride),genesis,0.233619,,,5,,,pearson
+compound,Daidzin,genesis,-0.180876,,,5,,,pearson
+compound,Demeclocycline,genesis,0.0862562,,,5,,,pearson
+compound,Docetaxel,genesis,0.350705,,,5,,,pearson
+compound,Elagolix sodium,genesis,0.257987,,,5,,,pearson
+compound,Fluvoxamine (maleate),genesis,0.411508,,,5,,,pearson
+compound,Fumaric acid,genesis,-0.148101,,,5,,,pearson
+compound,Furosemide,genesis,0.277052,,,5,,,pearson
+compound,Fusidic acid,genesis,0.396082,,,5,,,pearson
+compound,Gallic acid,genesis,0.346023,,,5,,,pearson
+compound,Gallic acid (hydrate),genesis,0.427049,,,5,,,pearson
+compound,Gemfibrozil,genesis,0.553839,,,5,,,pearson
+compound,Goserelin (acetate),genesis,0.36713,,,5,,,pearson
+compound,Hexylresorcinol,genesis,0.489996,,,5,,,pearson
+compound,Homoharringtonine,genesis,0.7928,,,5,,,pearson
+compound,Idarubicin (hydrochloride),genesis,0.722328,,,5,,,pearson
+compound,Lenalidomide (hemihydrate),genesis,0.537054,,,5,,,pearson
+compound,Lipoic acid,genesis,0.325715,,,5,,,pearson
+compound,Mitoxantrone (dihydrochloride),genesis,0.306294,,,5,,,pearson
+compound,Naproxen,genesis,0.0583497,,,5,,,pearson
+compound,Neratinib (maleate),genesis,0.326805,,,5,,,pearson
+compound,Norepinephrine (hydrochloride),genesis,0.096435,,,5,,,pearson
+compound,Palmatine (chloride),genesis,0.182677,,,5,,,pearson
+compound,Pasireotide (acetate),genesis,0.470834,,,5,,,pearson
+compound,Pentamidine (isethionate),genesis,0.140318,,,5,,,pearson
+compound,Pravastatin (sodium),genesis,-0.36874,,,5,,,pearson
+compound,Pyridoxine,genesis,0.279111,,,5,,,pearson
+compound,Pyridoxine (hydrochloride),genesis,0.344556,,,5,,,pearson
+compound,Radotinib,genesis,0.453514,,,5,,,pearson
+compound,Raltitrexed,genesis,0.379093,,,5,,,pearson
+compound,Rapamycin,genesis,0.218283,,,5,,,pearson
+compound,Regorafenib,genesis,-0.260334,,,5,,,pearson
+compound,Relugolix,genesis,0.253836,,,5,,,pearson
+compound,Resveratrol,genesis,0.320823,,,5,,,pearson
+compound,Retinoic acid,genesis,0.360102,,,5,,,pearson
+compound,Riluzole hydrochloride,genesis,0.392321,,,5,,,pearson
+compound,Rimonabant,genesis,0.432687,,,5,,,pearson
+compound,Ritonavir,genesis,0.370853,,,5,,,pearson
+compound,Ropivacaine (hydrochloride monohydrate),genesis,0.55903,,,5,,,pearson
+compound,Salicylic acid,genesis,0.329751,,,5,,,pearson
+compound,Saquinavir,genesis,0.335563,,,5,,,pearson
+compound,Sinomenine,genesis,0.439322,,,5,,,pearson
+compound,Sodium Salicylate,genesis,0.176553,,,5,,,pearson
+compound,Temsirolimus,genesis,0.445673,,,5,,,pearson
+compound,Terfenadine,genesis,0.355393,,,5,,,pearson
+compound,Thymol,genesis,0.341687,,,5,,,pearson
+compound,Tofacitinib,genesis,0.525677,,,5,,,pearson
+compound,Tofacitinib (citrate),genesis,0.515735,,,5,,,pearson
+compound,Tolcapone,genesis,0.372901,,,5,,,pearson
+compound,Trametinib,genesis,0.395756,,,5,,,pearson
+compound,Triamcinolone,genesis,0.628335,,,5,,,pearson
+compound,Trimetrexate,genesis,0.355825,,,5,,,pearson
+compound,Tucidinostat,genesis,0.392359,,,5,,,pearson
+compound,Vilanterol,genesis,0.605253,,,5,,,pearson
+line,C32,additive,0.186859,0.151054,0.221971,75,10000,20261014,pearson
+line,HOP62,additive,0.23823,0.205196,0.273116,75,10000,20261014,pearson
+line,HepG2/C3A,additive,0.153947,0.115363,0.191795,75,10000,20261014,pearson
+line,Hs 766T,additive,0.161611,0.122363,0.201064,75,10000,20261014,pearson
+line,PANC-1,additive,0.224458,0.187536,0.263098,75,10000,20261014,pearson
+compound,(R)-Verapamil (hydrochloride),additive,0.103699,,,5,,,pearson
+compound,8-Hydroxyquinoline,additive,0.218352,,,5,,,pearson
+compound,Adenine,additive,0.236801,,,5,,,pearson
+compound,Adenosine,additive,0.189671,,,5,,,pearson
+compound,Afatinib,additive,0.108555,,,5,,,pearson
+compound,Almonertinib (hydrochloride),additive,0.248432,,,5,,,pearson
+compound,Almonertinib (mesylate),additive,-0.0675176,,,5,,,pearson
+compound,Amsacrine,additive,0.181173,,,5,,,pearson
+compound,Anethole trithione,additive,0.287189,,,5,,,pearson
+compound,Artesunate,additive,0.384279,,,5,,,pearson
+compound,Azithromycin (hydrate),additive,0.185932,,,5,,,pearson
+compound,Baicalin,additive,0.387523,,,5,,,pearson
+compound,Balsalazide (sodium hydrate),additive,0.154125,,,5,,,pearson
+compound,Belumosudil,additive,0.018757,,,5,,,pearson
+compound,Berbamine,additive,0.229603,,,5,,,pearson
+compound,Berbamine (dihydrochloride),additive,-0.0712135,,,5,,,pearson
+compound,Berberine (chloride hydrate),additive,0.199346,,,5,,,pearson
+compound,Bimatoprost,additive,0.102279,,,5,,,pearson
+compound,Busulfan,additive,0.215084,,,5,,,pearson
+compound,Cepharanthine,additive,0.2647,,,5,,,pearson
+compound,Chlorhexidine (diacetate),additive,0.313989,,,5,,,pearson
+compound,Cysteamine (hydrochloride),additive,0.00754685,,,5,,,pearson
+compound,Daidzin,additive,-0.125051,,,5,,,pearson
+compound,Demeclocycline,additive,0.0822847,,,5,,,pearson
+compound,Docetaxel,additive,0.172862,,,5,,,pearson
+compound,Elagolix sodium,additive,0.193919,,,5,,,pearson
+compound,Fluvoxamine (maleate),additive,0.137502,,,5,,,pearson
+compound,Fumaric acid,additive,0.134401,,,5,,,pearson
+compound,Furosemide,additive,0.0170217,,,5,,,pearson
+compound,Fusidic acid,additive,0.232158,,,5,,,pearson
+compound,Gallic acid,additive,0.173433,,,5,,,pearson
+compound,Gallic acid (hydrate),additive,0.237053,,,5,,,pearson
+compound,Gemfibrozil,additive,0.174616,,,5,,,pearson
+compound,Goserelin (acetate),additive,0.153681,,,5,,,pearson
+compound,Hexylresorcinol,additive,0.122174,,,5,,,pearson
+compound,Homoharringtonine,additive,0.654763,,,5,,,pearson
+compound,Idarubicin (hydrochloride),additive,0.480443,,,5,,,pearson
+compound,Lenalidomide (hemihydrate),additive,0.238651,,,5,,,pearson
+compound,Lipoic acid,additive,0.118285,,,5,,,pearson
+compound,Mitoxantrone (dihydrochloride),additive,0.129969,,,5,,,pearson
+compound,Naproxen,additive,0.0979394,,,5,,,pearson
+compound,Neratinib (maleate),additive,0.213865,,,5,,,pearson
+compound,Norepinephrine (hydrochloride),additive,0.0469874,,,5,,,pearson
+compound,Palmatine (chloride),additive,0.116627,,,5,,,pearson
+compound,Pasireotide (acetate),additive,0.261356,,,5,,,pearson
+compound,Pentamidine (isethionate),additive,0.152469,,,5,,,pearson
+compound,Pravastatin (sodium),additive,0.0403724,,,5,,,pearson
+compound,Pyridoxine,additive,0.0703019,,,5,,,pearson
+compound,Pyridoxine (hydrochloride),additive,0.160261,,,5,,,pearson
+compound,Radotinib,additive,0.265855,,,5,,,pearson
+compound,Raltitrexed,additive,0.193474,,,5,,,pearson
+compound,Rapamycin,additive,0.260472,,,5,,,pearson
+compound,Regorafenib,additive,0.0816103,,,5,,,pearson
+compound,Relugolix,additive,0.0601767,,,5,,,pearson
+compound,Resveratrol,additive,0.167956,,,5,,,pearson
+compound,Retinoic acid,additive,0.105689,,,5,,,pearson
+compound,Riluzole hydrochloride,additive,0.322933,,,5,,,pearson
+compound,Rimonabant,additive,0.114844,,,5,,,pearson
+compound,Ritonavir,additive,0.210987,,,5,,,pearson
+compound,Ropivacaine (hydrochloride monohydrate),additive,0.372153,,,5,,,pearson
+compound,Salicylic acid,additive,0.192956,,,5,,,pearson
+compound,Saquinavir,additive,0.220345,,,5,,,pearson
+compound,Sinomenine,additive,0.0790436,,,5,,,pearson
+compound,Sodium Salicylate,additive,0.259832,,,5,,,pearson
+compound,Temsirolimus,additive,0.230027,,,5,,,pearson
+compound,Terfenadine,additive,0.281551,,,5,,,pearson
+compound,Thymol,additive,0.163277,,,5,,,pearson
+compound,Tofacitinib,additive,0.370548,,,5,,,pearson
+compound,Tofacitinib (citrate),additive,0.424618,,,5,,,pearson
+compound,Tolcapone,additive,0.231889,,,5,,,pearson
+compound,Trametinib,additive,0.331497,,,5,,,pearson
+compound,Triamcinolone,additive,0.397562,,,5,,,pearson
+compound,Trimetrexate,additive,0.146281,,,5,,,pearson
+compound,Tucidinostat,additive,0.280324,,,5,,,pearson
+compound,Vilanterol,additive,0.324029,,,5,,,pearson
+line,C32,copy_closest_15,0.219105,0.167018,0.269456,75,10000,20261014,pearson
+line,HOP62,copy_closest_15,0.275274,0.221004,0.32832,75,10000,20261014,pearson
+line,HepG2/C3A,copy_closest_15,0.21973,0.163323,0.274961,75,10000,20261014,pearson
+line,Hs 766T,copy_closest_15,0.229935,0.179292,0.279911,75,10000,20261014,pearson
+line,PANC-1,copy_closest_15,0.197949,0.143758,0.251285,75,10000,20261014,pearson
+compound,(R)-Verapamil (hydrochloride),copy_closest_15,0.098268,,,5,,,pearson
+compound,8-Hydroxyquinoline,copy_closest_15,0.160866,,,5,,,pearson
+compound,Adenine,copy_closest_15,0.23398,,,5,,,pearson
+compound,Adenosine,copy_closest_15,0.129145,,,5,,,pearson
+compound,Afatinib,copy_closest_15,-0.013347,,,5,,,pearson
+compound,Almonertinib (hydrochloride),copy_closest_15,0.251176,,,5,,,pearson
+compound,Almonertinib (mesylate),copy_closest_15,-0.320417,,,5,,,pearson
+compound,Amsacrine,copy_closest_15,0.146895,,,5,,,pearson
+compound,Anethole trithione,copy_closest_15,0.389689,,,5,,,pearson
+compound,Artesunate,copy_closest_15,0.521538,,,5,,,pearson
+compound,Azithromycin (hydrate),copy_closest_15,0.406362,,,5,,,pearson
+compound,Baicalin,copy_closest_15,0.424114,,,5,,,pearson
+compound,Balsalazide (sodium hydrate),copy_closest_15,0.190785,,,5,,,pearson
+compound,Belumosudil,copy_closest_15,-0.0633724,,,5,,,pearson
+compound,Berbamine,copy_closest_15,0.189699,,,5,,,pearson
+compound,Berbamine (dihydrochloride),copy_closest_15,-0.251087,,,5,,,pearson
+compound,Berberine (chloride hydrate),copy_closest_15,0.360558,,,5,,,pearson
+compound,Bimatoprost,copy_closest_15,0.180489,,,5,,,pearson
+compound,Busulfan,copy_closest_15,0.416788,,,5,,,pearson
+compound,Cepharanthine,copy_closest_15,0.369966,,,5,,,pearson
+compound,Chlorhexidine (diacetate),copy_closest_15,0.287387,,,5,,,pearson
+compound,Cysteamine (hydrochloride),copy_closest_15,-0.0232454,,,5,,,pearson
+compound,Daidzin,copy_closest_15,-0.252278,,,5,,,pearson
+compound,Demeclocycline,copy_closest_15,0.0967363,,,5,,,pearson
+compound,Docetaxel,copy_closest_15,0.211636,,,5,,,pearson
+compound,Elagolix sodium,copy_closest_15,0.20526,,,5,,,pearson
+compound,Fluvoxamine (maleate),copy_closest_15,0.168568,,,5,,,pearson
+compound,Fumaric acid,copy_closest_15,-0.194947,,,5,,,pearson
+compound,Furosemide,copy_closest_15,0.197115,,,5,,,pearson
+compound,Fusidic acid,copy_closest_15,0.376065,,,5,,,pearson
+compound,Gallic acid,copy_closest_15,0.187767,,,5,,,pearson
+compound,Gallic acid (hydrate),copy_closest_15,0.350521,,,5,,,pearson
+compound,Gemfibrozil,copy_closest_15,0.300605,,,5,,,pearson
+compound,Goserelin (acetate),copy_closest_15,0.227767,,,5,,,pearson
+compound,Hexylresorcinol,copy_closest_15,0.456104,,,5,,,pearson
+compound,Homoharringtonine,copy_closest_15,0.700076,,,5,,,pearson
+compound,Idarubicin (hydrochloride),copy_closest_15,0.644036,,,5,,,pearson
+compound,Lenalidomide (hemihydrate),copy_closest_15,0.428356,,,5,,,pearson
+compound,Lipoic acid,copy_closest_15,0.361491,,,5,,,pearson
+compound,Mitoxantrone (dihydrochloride),copy_closest_15,0.189803,,,5,,,pearson
+compound,Naproxen,copy_closest_15,-0.0843375,,,5,,,pearson
+compound,Neratinib (maleate),copy_closest_15,0.19603,,,5,,,pearson
+compound,Norepinephrine (hydrochloride),copy_closest_15,0.042844,,,5,,,pearson
+compound,Palmatine (chloride),copy_closest_15,0.119647,,,5,,,pearson
+compound,Pasireotide (acetate),copy_closest_15,0.302089,,,5,,,pearson
+compound,Pentamidine (isethionate),copy_closest_15,0.0606208,,,5,,,pearson
+compound,Pravastatin (sodium),copy_closest_15,-0.219141,,,5,,,pearson
+compound,Pyridoxine,copy_closest_15,0.0626656,,,5,,,pearson
+compound,Pyridoxine (hydrochloride),copy_closest_15,0.323092,,,5,,,pearson
+compound,Radotinib,copy_closest_15,0.512408,,,5,,,pearson
+compound,Raltitrexed,copy_closest_15,0.375803,,,5,,,pearson
+compound,Rapamycin,copy_closest_15,0.175537,,,5,,,pearson
+compound,Regorafenib,copy_closest_15,-0.142633,,,5,,,pearson
+compound,Relugolix,copy_closest_15,0.134809,,,5,,,pearson
+compound,Resveratrol,copy_closest_15,0.221625,,,5,,,pearson
+compound,Retinoic acid,copy_closest_15,0.27974,,,5,,,pearson
+compound,Riluzole hydrochloride,copy_closest_15,0.387335,,,5,,,pearson
+compound,Rimonabant,copy_closest_15,0.250555,,,5,,,pearson
+compound,Ritonavir,copy_closest_15,0.207725,,,5,,,pearson
+compound,Ropivacaine (hydrochloride monohydrate),copy_closest_15,0.54298,,,5,,,pearson
+compound,Salicylic acid,copy_closest_15,0.230733,,,5,,,pearson
+compound,Saquinavir,copy_closest_15,0.273336,,,5,,,pearson
+compound,Sinomenine,copy_closest_15,0.189037,,,5,,,pearson
+compound,Sodium Salicylate,copy_closest_15,0.131448,,,5,,,pearson
+compound,Temsirolimus,copy_closest_15,0.389988,,,5,,,pearson
+compound,Terfenadine,copy_closest_15,0.224713,,,5,,,pearson
+compound,Thymol,copy_closest_15,0.182656,,,5,,,pearson
+compound,Tofacitinib,copy_closest_15,0.577253,,,5,,,pearson
+compound,Tofacitinib (citrate),copy_closest_15,0.355966,,,5,,,pearson
+compound,Tolcapone,copy_closest_15,0.308532,,,5,,,pearson
+compound,Trametinib,copy_closest_15,0.324159,,,5,,,pearson
+compound,Triamcinolone,copy_closest_15,0.478022,,,5,,,pearson
+compound,Trimetrexate,copy_closest_15,0.31581,,,5,,,pearson
+compound,Tucidinostat,copy_closest_15,0.253295,,,5,,,pearson
+compound,Vilanterol,copy_closest_15,0.404639,,,5,,,pearson
+line,C32,replicate,0.374315,0.301166,0.4447,75,10000,20261014,spearman
+line,HOP62,replicate,0.452413,0.383386,0.519196,75,10000,20261014,spearman
+line,HepG2/C3A,replicate,0.451461,0.381838,0.516804,75,10000,20261014,spearman
+line,Hs 766T,replicate,0.387388,0.316854,0.453866,75,10000,20261014,spearman
+line,PANC-1,replicate,0.403443,0.323509,0.479675,75,10000,20261014,spearman
+compound,(R)-Verapamil (hydrochloride),replicate,0.392615,,,5,,,spearman
+compound,8-Hydroxyquinoline,replicate,0.435621,,,5,,,spearman
+compound,Adenine,replicate,0.331726,,,5,,,spearman
+compound,Adenosine,replicate,0.426708,,,5,,,spearman
+compound,Afatinib,replicate,-0.00219288,,,5,,,spearman
+compound,Almonertinib (hydrochloride),replicate,0.362036,,,5,,,spearman
+compound,Almonertinib (mesylate),replicate,-0.367068,,,5,,,spearman
+compound,Amsacrine,replicate,0.636821,,,5,,,spearman
+compound,Anethole trithione,replicate,0.35977,,,5,,,spearman
+compound,Artesunate,replicate,0.816951,,,5,,,spearman
+compound,Azithromycin (hydrate),replicate,0.572322,,,5,,,spearman
+compound,Baicalin,replicate,0.66909,,,5,,,spearman
+compound,Balsalazide (sodium hydrate),replicate,0.397743,,,5,,,spearman
+compound,Belumosudil,replicate,-0.181388,,,5,,,spearman
+compound,Berbamine,replicate,0.318703,,,5,,,spearman
+compound,Berbamine (dihydrochloride),replicate,-0.304932,,,5,,,spearman
+compound,Berberine (chloride hydrate),replicate,0.539803,,,5,,,spearman
+compound,Bimatoprost,replicate,0.278502,,,5,,,spearman
+compound,Busulfan,replicate,0.591875,,,5,,,spearman
+compound,Cepharanthine,replicate,0.721911,,,5,,,spearman
+compound,Chlorhexidine (diacetate),replicate,0.596101,,,5,,,spearman
+compound,Cysteamine (hydrochloride),replicate,0.272855,,,5,,,spearman
+compound,Daidzin,replicate,-0.218151,,,5,,,spearman
+compound,Demeclocycline,replicate,0.112413,,,5,,,spearman
+compound,Docetaxel,replicate,0.431856,,,5,,,spearman
+compound,Elagolix sodium,replicate,0.379573,,,5,,,spearman
+compound,Fluvoxamine (maleate),replicate,0.38933,,,5,,,spearman
+compound,Fumaric acid,replicate,-0.271683,,,5,,,spearman
+compound,Furosemide,replicate,0.366723,,,5,,,spearman
+compound,Fusidic acid,replicate,0.639164,,,5,,,spearman
+compound,Gallic acid,replicate,0.37431,,,5,,,spearman
+compound,Gallic acid (hydrate),replicate,0.518867,,,5,,,spearman
+compound,Gemfibrozil,replicate,0.552864,,,5,,,spearman
+compound,Goserelin (acetate),replicate,0.413244,,,5,,,spearman
+compound,Hexylresorcinol,replicate,0.666267,,,5,,,spearman
+compound,Homoharringtonine,replicate,0.954113,,,5,,,spearman
+compound,Idarubicin (hydrochloride),replicate,0.931813,,,5,,,spearman
+compound,Lenalidomide (hemihydrate),replicate,0.747285,,,5,,,spearman
+compound,Lipoic acid,replicate,0.614752,,,5,,,spearman
+compound,Mitoxantrone (dihydrochloride),replicate,0.309676,,,5,,,spearman
+compound,Naproxen,replicate,-0.0969508,,,5,,,spearman
+compound,Neratinib (maleate),replicate,0.474074,,,5,,,spearman
+compound,Norepinephrine (hydrochloride),replicate,0.209354,,,5,,,spearman
+compound,Palmatine (chloride),replicate,0.379745,,,5,,,spearman
+compound,Pasireotide (acetate),replicate,0.459092,,,5,,,spearman
+compound,Pentamidine (isethionate),replicate,0.398665,,,5,,,spearman
+compound,Pravastatin (sodium),replicate,-0.314036,,,5,,,spearman
+compound,Pyridoxine,replicate,0.311942,,,5,,,spearman
+compound,Pyridoxine (hydrochloride),replicate,0.589666,,,5,,,spearman
+compound,Radotinib,replicate,0.79079,,,5,,,spearman
+compound,Raltitrexed,replicate,0.521076,,,5,,,spearman
+compound,Rapamycin,replicate,0.388965,,,5,,,spearman
+compound,Regorafenib,replicate,-0.216096,,,5,,,spearman
+compound,Relugolix,replicate,0.262617,,,5,,,spearman
+compound,Resveratrol,replicate,0.363976,,,5,,,spearman
+compound,Retinoic acid,replicate,0.484255,,,5,,,spearman
+compound,Riluzole hydrochloride,replicate,0.483102,,,5,,,spearman
+compound,Rimonabant,replicate,0.58982,,,5,,,spearman
+compound,Ritonavir,replicate,0.628005,,,5,,,spearman
+compound,Ropivacaine (hydrochloride monohydrate),replicate,0.810824,,,5,,,spearman
+compound,Salicylic acid,replicate,0.443285,,,5,,,spearman
+compound,Saquinavir,replicate,0.483697,,,5,,,spearman
+compound,Sinomenine,replicate,0.630387,,,5,,,spearman
+compound,Sodium Salicylate,replicate,0.228888,,,5,,,spearman
+compound,Temsirolimus,replicate,0.613522,,,5,,,spearman
+compound,Terfenadine,replicate,0.385681,,,5,,,spearman
+compound,Thymol,replicate,0.446031,,,5,,,spearman
+compound,Tofacitinib,replicate,0.683707,,,5,,,spearman
+compound,Tofacitinib (citrate),replicate,0.581349,,,5,,,spearman
+compound,Tolcapone,replicate,0.457556,,,5,,,spearman
+compound,Trametinib,replicate,0.434987,,,5,,,spearman
+compound,Triamcinolone,replicate,0.659621,,,5,,,spearman
+compound,Trimetrexate,replicate,0.40291,,,5,,,spearman
+compound,Tucidinostat,replicate,0.611697,,,5,,,spearman
+compound,Vilanterol,replicate,0.675102,,,5,,,spearman
+line,C32,genesis,0.325216,0.261144,0.386395,75,10000,20261014,spearman
+line,HOP62,genesis,0.405684,0.349718,0.460282,75,10000,20261014,spearman
+line,HepG2/C3A,genesis,0.367751,0.311288,0.4195,75,10000,20261014,spearman
+line,Hs 766T,genesis,0.317225,0.262836,0.3697,75,10000,20261014,spearman
+line,PANC-1,genesis,0.368616,0.299816,0.434724,75,10000,20261014,spearman
+compound,(R)-Verapamil (hydrochloride),genesis,0.284408,,,5,,,spearman
+compound,8-Hydroxyquinoline,genesis,0.336855,,,5,,,spearman
+compound,Adenine,genesis,0.391337,,,5,,,spearman
+compound,Adenosine,genesis,0.44485,,,5,,,spearman
+compound,Afatinib,genesis,0.0117679,,,5,,,spearman
+compound,Almonertinib (hydrochloride),genesis,0.408192,,,5,,,spearman
+compound,Almonertinib (mesylate),genesis,-0.245487,,,5,,,spearman
+compound,Amsacrine,genesis,0.472403,,,5,,,spearman
+compound,Anethole trithione,genesis,0.428197,,,5,,,spearman
+compound,Artesunate,genesis,0.672807,,,5,,,spearman
+compound,Azithromycin (hydrate),genesis,0.503798,,,5,,,spearman
+compound,Baicalin,genesis,0.603496,,,5,,,spearman
+compound,Balsalazide (sodium hydrate),genesis,0.371957,,,5,,,spearman
+compound,Belumosudil,genesis,-0.157609,,,5,,,spearman
+compound,Berbamine,genesis,0.328134,,,5,,,spearman
+compound,Berbamine (dihydrochloride),genesis,-0.218132,,,5,,,spearman
+compound,Berberine (chloride hydrate),genesis,0.430463,,,5,,,spearman
+compound,Bimatoprost,genesis,0.245637,,,5,,,spearman
+compound,Busulfan,genesis,0.528509,,,5,,,spearman
+compound,Cepharanthine,genesis,0.55684,,,5,,,spearman
+compound,Chlorhexidine (diacetate),genesis,0.4126,,,5,,,spearman
+compound,Cysteamine (hydrochloride),genesis,0.313671,,,5,,,spearman
+compound,Daidzin,genesis,-0.187025,,,5,,,spearman
+compound,Demeclocycline,genesis,0.0863481,,,5,,,spearman
+compound,Docetaxel,genesis,0.384884,,,5,,,spearman
+compound,Elagolix sodium,genesis,0.430185,,,5,,,spearman
+compound,Fluvoxamine (maleate),genesis,0.42183,,,5,,,spearman
+compound,Fumaric acid,genesis,-0.166421,,,5,,,spearman
+compound,Furosemide,genesis,0.389541,,,5,,,spearman
+compound,Fusidic acid,genesis,0.425114,,,5,,,spearman
+compound,Gallic acid,genesis,0.383491,,,5,,,spearman
+compound,Gallic acid (hydrate),genesis,0.427966,,,5,,,spearman
+compound,Gemfibrozil,genesis,0.53504,,,5,,,spearman
+compound,Goserelin (acetate),genesis,0.385037,,,5,,,spearman
+compound,Hexylresorcinol,genesis,0.570199,,,5,,,spearman
+compound,Homoharringtonine,genesis,0.784096,,,5,,,spearman
+compound,Idarubicin (hydrochloride),genesis,0.779544,,,5,,,spearman
+compound,Lenalidomide (hemihydrate),genesis,0.58328,,,5,,,spearman
+compound,Lipoic acid,genesis,0.363909,,,5,,,spearman
+compound,Mitoxantrone (dihydrochloride),genesis,0.334266,,,5,,,spearman
+compound,Naproxen,genesis,0.0620984,,,5,,,spearman
+compound,Neratinib (maleate),genesis,0.3183,,,5,,,spearman
+compound,Norepinephrine (hydrochloride),genesis,0.211188,,,5,,,spearman
+compound,Palmatine (chloride),genesis,0.238867,,,5,,,spearman
+compound,Pasireotide (acetate),genesis,0.540495,,,5,,,spearman
+compound,Pentamidine (isethionate),genesis,0.191962,,,5,,,spearman
+compound,Pravastatin (sodium),genesis,-0.336106,,,5,,,spearman
+compound,Pyridoxine,genesis,0.261657,,,5,,,spearman
+compound,Pyridoxine (hydrochloride),genesis,0.411121,,,5,,,spearman
+compound,Radotinib,genesis,0.519424,,,5,,,spearman
+compound,Raltitrexed,genesis,0.425671,,,5,,,spearman
+compound,Rapamycin,genesis,0.294876,,,5,,,spearman
+compound,Regorafenib,genesis,-0.2509,,,5,,,spearman
+compound,Relugolix,genesis,0.271453,,,5,,,spearman
+compound,Resveratrol,genesis,0.340696,,,5,,,spearman
+compound,Retinoic acid,genesis,0.284908,,,5,,,spearman
+compound,Riluzole hydrochloride,genesis,0.494588,,,5,,,spearman
+compound,Rimonabant,genesis,0.4914,,,5,,,spearman
+compound,Ritonavir,genesis,0.498881,,,5,,,spearman
+compound,Ropivacaine (hydrochloride monohydrate),genesis,0.688432,,,5,,,spearman
+compound,Salicylic acid,genesis,0.315131,,,5,,,spearman
+compound,Saquinavir,genesis,0.367731,,,5,,,spearman
+compound,Sinomenine,genesis,0.486867,,,5,,,spearman
+compound,Sodium Salicylate,genesis,0.270454,,,5,,,spearman
+compound,Temsirolimus,genesis,0.509465,,,5,,,spearman
+compound,Terfenadine,genesis,0.36195,,,5,,,spearman
+compound,Thymol,genesis,0.411131,,,5,,,spearman
+compound,Tofacitinib,genesis,0.524024,,,5,,,spearman
+compound,Tofacitinib (citrate),genesis,0.547044,,,5,,,spearman
+compound,Tolcapone,genesis,0.43637,,,5,,,spearman
+compound,Trametinib,genesis,0.418987,,,5,,,spearman
+compound,Triamcinolone,genesis,0.64389,,,5,,,spearman
+compound,Trimetrexate,genesis,0.363361,,,5,,,spearman
+compound,Tucidinostat,genesis,0.490714,,,5,,,spearman
+compound,Vilanterol,genesis,0.605253,,,5,,,spearman
+line,C32,additive,0.214973,0.174568,0.253047,75,10000,20261014,spearman
+line,HOP62,additive,0.27115,0.233699,0.310717,75,10000,20261014,spearman
+line,HepG2/C3A,additive,0.170039,0.130595,0.208471,75,10000,20261014,spearman
+line,Hs 766T,additive,0.186028,0.14543,0.226921,75,10000,20261014,spearman
+line,PANC-1,additive,0.248614,0.205107,0.2933,75,10000,20261014,spearman
+compound,(R)-Verapamil (hydrochloride),additive,0.126204,,,5,,,spearman
+compound,8-Hydroxyquinoline,additive,0.279453,,,5,,,spearman
+compound,Adenine,additive,0.256154,,,5,,,spearman
+compound,Adenosine,additive,0.267361,,,5,,,spearman
+compound,Afatinib,additive,0.143882,,,5,,,spearman
+compound,Almonertinib (hydrochloride),additive,0.264538,,,5,,,spearman
+compound,Almonertinib (mesylate),additive,-0.122228,,,5,,,spearman
+compound,Amsacrine,additive,0.171765,,,5,,,spearman
+compound,Anethole trithione,additive,0.250247,,,5,,,spearman
+compound,Artesunate,additive,0.461445,,,5,,,spearman
+compound,Azithromycin (hydrate),additive,0.244543,,,5,,,spearman
+compound,Baicalin,additive,0.414761,,,5,,,spearman
+compound,Balsalazide (sodium hydrate),additive,0.149906,,,5,,,spearman
+compound,Belumosudil,additive,0.0161056,,,5,,,spearman
+compound,Berbamine,additive,0.314401,,,5,,,spearman
+compound,Berbamine (dihydrochloride),additive,0.0052437,,,5,,,spearman
+compound,Berberine (chloride hydrate),additive,0.234535,,,5,,,spearman
+compound,Bimatoprost,additive,0.0672173,,,5,,,spearman
+compound,Busulfan,additive,0.294358,,,5,,,spearman
+compound,Cepharanthine,additive,0.252389,,,5,,,spearman
+compound,Chlorhexidine (diacetate),additive,0.349993,,,5,,,spearman
+compound,Cysteamine (hydrochloride),additive,0.0177479,,,5,,,spearman
+compound,Daidzin,additive,-0.0816038,,,5,,,spearman
+compound,Demeclocycline,additive,0.0562977,,,5,,,spearman
+compound,Docetaxel,additive,0.18158,,,5,,,spearman
+compound,Elagolix sodium,additive,0.244139,,,5,,,spearman
+compound,Fluvoxamine (maleate),additive,0.188946,,,5,,,spearman
+compound,Fumaric acid,additive,0.114324,,,5,,,spearman
+compound,Furosemide,additive,0.0705018,,,5,,,spearman
+compound,Fusidic acid,additive,0.269042,,,5,,,spearman
+compound,Gallic acid,additive,0.186382,,,5,,,spearman
+compound,Gallic acid (hydrate),additive,0.28922,,,5,,,spearman
+compound,Gemfibrozil,additive,0.256788,,,5,,,spearman
+compound,Goserelin (acetate),additive,0.172629,,,5,,,spearman
+compound,Hexylresorcinol,additive,0.0840528,,,5,,,spearman
+compound,Homoharringtonine,additive,0.653013,,,5,,,spearman
+compound,Idarubicin (hydrochloride),additive,0.58108,,,5,,,spearman
+compound,Lenalidomide (hemihydrate),additive,0.286473,,,5,,,spearman
+compound,Lipoic acid,additive,0.126569,,,5,,,spearman
+compound,Mitoxantrone (dihydrochloride),additive,0.141061,,,5,,,spearman
+compound,Naproxen,additive,0.12508,,,5,,,spearman
+compound,Neratinib (maleate),additive,0.243842,,,5,,,spearman
+compound,Norepinephrine (hydrochloride),additive,0.103232,,,5,,,spearman
+compound,Palmatine (chloride),additive,0.144144,,,5,,,spearman
+compound,Pasireotide (acetate),additive,0.293618,,,5,,,spearman
+compound,Pentamidine (isethionate),additive,0.211842,,,5,,,spearman
+compound,Pravastatin (sodium),additive,0.00427371,,,5,,,spearman
+compound,Pyridoxine,additive,0.0844274,,,5,,,spearman
+compound,Pyridoxine (hydrochloride),additive,0.141589,,,5,,,spearman
+compound,Radotinib,additive,0.326809,,,5,,,spearman
+compound,Raltitrexed,additive,0.1886,,,5,,,spearman
+compound,Rapamycin,additive,0.281162,,,5,,,spearman
+compound,Regorafenib,additive,0.0305882,,,5,,,spearman
+compound,Relugolix,additive,0.0552509,,,5,,,spearman
+compound,Resveratrol,additive,0.211006,,,5,,,spearman
+compound,Retinoic acid,additive,0.110098,,,5,,,spearman
+compound,Riluzole hydrochloride,additive,0.408192,,,5,,,spearman
+compound,Rimonabant,additive,0.0918127,,,5,,,spearman
+compound,Ritonavir,additive,0.267918,,,5,,,spearman
+compound,Ropivacaine (hydrochloride monohydrate),additive,0.409796,,,5,,,spearman
+compound,Salicylic acid,additive,0.217921,,,5,,,spearman
+compound,Saquinavir,additive,0.250228,,,5,,,spearman
+compound,Sinomenine,additive,0.0953181,,,5,,,spearman
+compound,Sodium Salicylate,additive,0.306478,,,5,,,spearman
+compound,Temsirolimus,additive,0.335309,,,5,,,spearman
+compound,Terfenadine,additive,0.311702,,,5,,,spearman
+compound,Thymol,additive,0.206492,,,5,,,spearman
+compound,Tofacitinib,additive,0.344538,,,5,,,spearman
+compound,Tofacitinib (citrate),additive,0.384154,,,5,,,spearman
+compound,Tolcapone,additive,0.27854,,,5,,,spearman
+compound,Trametinib,additive,0.338843,,,5,,,spearman
+compound,Triamcinolone,additive,0.409085,,,5,,,spearman
+compound,Trimetrexate,additive,0.158579,,,5,,,spearman
+compound,Tucidinostat,additive,0.371553,,,5,,,spearman
+compound,Vilanterol,additive,0.339515,,,5,,,spearman
+line,C32,copy_closest_15,0.243855,0.189372,0.297228,75,10000,20261014,spearman
+line,HOP62,copy_closest_15,0.313547,0.256324,0.369325,75,10000,20261014,spearman
+line,HepG2/C3A,copy_closest_15,0.236443,0.175426,0.295144,75,10000,20261014,spearman
+line,Hs 766T,copy_closest_15,0.258064,0.207207,0.306922,75,10000,20261014,spearman
+line,PANC-1,copy_closest_15,0.2559,0.197319,0.313972,75,10000,20261014,spearman
+compound,(R)-Verapamil (hydrochloride),copy_closest_15,0.12485,,,5,,,spearman
+compound,8-Hydroxyquinoline,copy_closest_15,0.283227,,,5,,,spearman
+compound,Adenine,copy_closest_15,0.260936,,,5,,,spearman
+compound,Adenosine,copy_closest_15,0.245109,,,5,,,spearman
+compound,Afatinib,copy_closest_15,-0.0215542,,,5,,,spearman
+compound,Almonertinib (hydrochloride),copy_closest_15,0.25793,,,5,,,spearman
+compound,Almonertinib (mesylate),copy_closest_15,-0.319962,,,5,,,spearman
+compound,Amsacrine,copy_closest_15,0.182598,,,5,,,spearman
+compound,Anethole trithione,copy_closest_15,0.436552,,,5,,,spearman
+compound,Artesunate,copy_closest_15,0.579169,,,5,,,spearman
+compound,Azithromycin (hydrate),copy_closest_15,0.477836,,,5,,,spearman
+compound,Baicalin,copy_closest_15,0.497469,,,5,,,spearman
+compound,Balsalazide (sodium hydrate),copy_closest_15,0.276523,,,5,,,spearman
+compound,Belumosudil,copy_closest_15,-0.102771,,,5,,,spearman
+compound,Berbamine,copy_closest_15,0.207818,,,5,,,spearman
+compound,Berbamine (dihydrochloride),copy_closest_15,-0.29891,,,5,,,spearman
+compound,Berberine (chloride hydrate),copy_closest_15,0.411304,,,5,,,spearman
+compound,Bimatoprost,copy_closest_15,0.141762,,,5,,,spearman
+compound,Busulfan,copy_closest_15,0.429282,,,5,,,spearman
+compound,Cepharanthine,copy_closest_15,0.415779,,,5,,,spearman
+compound,Chlorhexidine (diacetate),copy_closest_15,0.318771,,,5,,,spearman
+compound,Cysteamine (hydrochloride),copy_closest_15,0.0561633,,,5,,,spearman
+compound,Daidzin,copy_closest_15,-0.260235,,,5,,,spearman
+compound,Demeclocycline,copy_closest_15,0.0928499,,,5,,,spearman
+compound,Docetaxel,copy_closest_15,0.193527,,,5,,,spearman
+compound,Elagolix sodium,copy_closest_15,0.320375,,,5,,,spearman
+compound,Fluvoxamine (maleate),copy_closest_15,0.175357,,,5,,,spearman
+compound,Fumaric acid,copy_closest_15,-0.211899,,,5,,,spearman
+compound,Furosemide,copy_closest_15,0.324264,,,5,,,spearman
+compound,Fusidic acid,copy_closest_15,0.387131,,,5,,,spearman
+compound,Gallic acid,copy_closest_15,0.219457,,,5,,,spearman
+compound,Gallic acid (hydrate),copy_closest_15,0.405445,,,5,,,spearman
+compound,Gemfibrozil,copy_closest_15,0.406204,,,5,,,spearman
+compound,Goserelin (acetate),copy_closest_15,0.223693,,,5,,,spearman
+compound,Hexylresorcinol,copy_closest_15,0.483457,,,5,,,spearman
+compound,Homoharringtonine,copy_closest_15,0.672691,,,5,,,spearman
+compound,Idarubicin (hydrochloride),copy_closest_15,0.677622,,,5,,,spearman
+compound,Lenalidomide (hemihydrate),copy_closest_15,0.488067,,,5,,,spearman
+compound,Lipoic acid,copy_closest_15,0.405205,,,5,,,spearman
+compound,Mitoxantrone (dihydrochloride),copy_closest_15,0.176499,,,5,,,spearman
+compound,Naproxen,copy_closest_15,-0.112951,,,5,,,spearman
+compound,Neratinib (maleate),copy_closest_15,0.203438,,,5,,,spearman
+compound,Norepinephrine (hydrochloride),copy_closest_15,0.130122,,,5,,,spearman
+compound,Palmatine (chloride),copy_closest_15,0.181186,,,5,,,spearman
+compound,Pasireotide (acetate),copy_closest_15,0.334809,,,5,,,spearman
+compound,Pentamidine (isethionate),copy_closest_15,0.137076,,,5,,,spearman
+compound,Pravastatin (sodium),copy_closest_15,-0.212331,,,5,,,spearman
+compound,Pyridoxine,copy_closest_15,0.0911885,,,5,,,spearman
+compound,Pyridoxine (hydrochloride),copy_closest_15,0.38691,,,5,,,spearman
+compound,Radotinib,copy_closest_15,0.53916,,,5,,,spearman
+compound,Raltitrexed,copy_closest_15,0.448106,,,5,,,spearman
+compound,Rapamycin,copy_closest_15,0.218363,,,5,,,spearman
+compound,Regorafenib,copy_closest_15,-0.139169,,,5,,,spearman
+compound,Relugolix,copy_closest_15,0.102828,,,5,,,spearman
+compound,Resveratrol,copy_closest_15,0.333455,,,5,,,spearman
+compound,Retinoic acid,copy_closest_15,0.197436,,,5,,,spearman
+compound,Riluzole hydrochloride,copy_closest_15,0.435505,,,5,,,spearman
+compound,Rimonabant,copy_closest_15,0.317753,,,5,,,spearman
+compound,Ritonavir,copy_closest_15,0.299496,,,5,,,spearman
+compound,Ropivacaine (hydrochloride monohydrate),copy_closest_15,0.65551,,,5,,,spearman
+compound,Salicylic acid,copy_closest_15,0.256106,,,5,,,spearman
+compound,Saquinavir,copy_closest_15,0.324773,,,5,,,spearman
+compound,Sinomenine,copy_closest_15,0.208691,,,5,,,spearman
+compound,Sodium Salicylate,copy_closest_15,0.153604,,,5,,,spearman
+compound,Temsirolimus,copy_closest_15,0.434363,,,5,,,spearman
+compound,Terfenadine,copy_closest_15,0.234593,,,5,,,spearman
+compound,Thymol,copy_closest_15,0.227236,,,5,,,spearman
+compound,Tofacitinib,copy_closest_15,0.584058,,,5,,,spearman
+compound,Tofacitinib (citrate),copy_closest_15,0.350252,,,5,,,spearman
+compound,Tolcapone,copy_closest_15,0.328384,,,5,,,spearman
+compound,Trametinib,copy_closest_15,0.374204,,,5,,,spearman
+compound,Triamcinolone,copy_closest_15,0.487952,,,5,,,spearman
+compound,Trimetrexate,copy_closest_15,0.348687,,,5,,,spearman
+compound,Tucidinostat,copy_closest_15,0.307361,,,5,,,spearman
+compound,Vilanterol,copy_closest_15,0.409383,,,5,,,spearman

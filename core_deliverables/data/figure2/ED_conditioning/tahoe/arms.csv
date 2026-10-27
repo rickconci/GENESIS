@@ -1,0 +1,5 @@
+arm,style_key,role,fill,hatch
+plate + bio + pert,CIA_all,bar,#1b4f8a,
+plate + bio,CIA_bio,bar,#2a78d6,
+plate + pert,CIA_pert,bar,#7aabdf,
+plate,CIA_plate,bar,#c5daf2,

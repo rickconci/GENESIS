@@ -1,0 +1,153 @@
+# =============================================================================
+# Tahoe-bio, STATE_HVG ∪ hallmark (5,750) — the union5750 recipe with
+# one change: train conditions are HBSS 15% (seed 0), not the full train set.
+# Epochs: floor(5 * 100/15) = 33, so exposure matches the 5-epoch 100% run.
+# LR drops stay at 20% and 40% of the run (epochs 7 and 13). Eval every 10 epochs.
+# =============================================================================
+# The union5750 recipe (not the published 2k arm):
+#   n_repeats                 256
+#   variogram                 fast + debiased, weight 0.3, scored on all
+#                             256 repeats, 6k pairs, batch subsample B/2=896
+#   genes                     STATE_HVG_plus_hallmark_5750.txt
+#   condition_mlp_hidden     [4096, 8192]
+#   epochs                    5; lr ×1 → ×0.1 → ×0.01, then stays
+#                             (peak 9e-4; epochs 2–4 sit at 9e-6)
+#   noise                     uniform
+#
+# AdamW 9e-4 / wd 1e-4,
+# tokdim 256, relu head, head-bias from train mean, log1p raw counts,
+# plate+cell_name+drug+dose, seed 64, bf16 + max-autotune.
+# B=1792 (2048×256×5750 runs an H100 out of memory on vg). vg batch subsample = B/2.
+#
+# 5750 % 8 = 6. Not padded. GEMM tiling may pay for that; pad separately if
+# you want 5752.
+#
+# Caches for this geneset (leaf geneset_e639c3a3c608d54a__n_5750): build_cache /
+# build_eval_cache are ON so the first launch writes them. The 2k eval_cache_dir is NOT
+# pointed at — hash mismatch would ignore it.
+#
+# Launch (from PertGen/):
+#   python -m src.main --config configs/tahoe/bio/biology/union5750_conds015/mlp_h4096x8192_nrs256_vg03rs256_5ep_union5750_conds015.yaml devices=1
+# =============================================================================
+
+run_name_suffix: h4096x8192_nrs256_vg03rs256_33ep_union5750_tahoe_bio_15cond_seed0
+
+dataset: tahoe
+hvg_genes_path: core_util_data/tahoe/gene_subsets/STATE_HVG_plus_hallmark_5750.txt
+split_config: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split/entity_seed0/tahoe_scaling_bio_hbss015_es0.yaml
+
+tahoe:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_e639c3a3c608d54a__n_5750
+  build_cache: true
+  build_eval_cache: true
+  build_noise_ceiling: true
+parse:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_2000
+  build_cache: false
+
+max_epochs: 33
+hbss_equalize_training_budget: false
+eval_callback_points: null
+seed: 64
+limit_train_batches: null
+
+use_curriculum: true
+curriculum_mode: between_epochs
+curriculum_target_product: 458752  # 256 × bs 1792
+between_epoch_curriculum_schedule:
+  - {epoch: 0, n_repeats: 256, batch_size: 1792, lr_mul: 1.0}
+  - {epoch: 7, n_repeats: 256, batch_size: 1792, lr_mul: 0.1}
+  - {epoch: 13, n_repeats: 256, batch_size: 1792, lr_mul: 0.01}  # holds through epoch 32
+curriculum_n_repeats_start: 2
+curriculum_n_repeats_step: 2
+curriculum_lr_decay: 0.333333
+
+n_repeats: 256
+batch_size: 1792
+
+optimizer_type: adamw
+lr: 0.0009
+lr_init: 0.0
+weight_decay: 0.0001
+warmup_steps_min: 100
+warmup_steps_max: 1000
+grad_clip: 0
+
+num_workers: 8
+fetch_factor: 14
+block_size: 1024
+train_loader_mode: per_cell
+use_cell_set: 256
+cell_set_min_cells: 50
+
+accumulate_grad_batches: 1
+precision: bf16-mixed
+compile_model: true
+compile_mode: max-autotune
+checkpoint_data_fraction: 0.5
+devices: 1
+
+backbone_type: condition_mlp
+noise_distribution: uniform
+
+condition_mlp_hidden_dims: [4096, 8192]
+condition_mlp_tokdim: 256
+condition_mlp_norm: none
+condition_mlp_activation: gelu
+condition_mlp_dropout: 0.0
+condition_mlp_residual: false
+condition_mlp_pre_norm: false
+
+output_activation: relu
+head_bias_init_from_train_mean: true
+head_bias_init_n_batches: 100
+apply_log1p: true
+predict_delta: false
+
+# Fast + debiased; rs256 == n_repeats (scores every repeat). 6k pairs.
+# batch_subsample=896 = B/2 (contiguous window; unbiased over the B axis).
+variogram_loss_weight: 0.3
+variogram_p: 0.5
+variogram_fast: true
+variogram_debias: true
+variogram_n_pairs: 6000
+variogram_repeat_subsample: 256
+variogram_batch_subsample: 896
+variogram_balanced_zeros: false
+variogram_mean_weight: false
+
+total_log1p_mass_weight: 0.0
+
+val_check_interval: 0.0
+num_sanity_val_steps: 0
+limit_val_batches: 0
+use_early_stopping: false
+
+use_eval_callback: true
+eval_callback_every_n_epochs: 10
+model_eval_splits:
+  - validation
+
+build_cache: true
+build_eval_cache: true
+build_noise_ceiling: true
+noise_ceiling_strategy: split_half
+noise_ceiling_n_repeats: 5
+overwrite_noise_ceiling: false
+
+run_model_eval_after_fit: true
+plot_model_vs_ceiling_after_fit: false
+model_eval_n_repeats: 3
+save_split_coverage: true
+raise_on_axis_coverage_failure: true
+
+use_wandb: true
+wandb_project: tahoe_bio_state_hallmark_union
+wandb_entity: SCFM_VAL
+wandb_run_name: null
+
+log_every_n_steps: 50
+log_train_reconstruction_metrics: false  # skip mae/max/raw_scale; B×R×G fp32 copy OOMs at 5750
+log_grad_every_n_steps: 500
+log_grad_top_k: 10
+diagnostics: ["magnitudes"]

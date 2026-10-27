@@ -1,0 +1,17 @@
+# The core figure (Riccardo 10-19): HOP62 vs Hs 766T, both KRAS-mutant. The call is fixed here and must be
+# confirmed by the data (same thresholds, replicated, on the clipped drawn values) or the build raises.
+# Trametinib/NFkB removed (10-19): 0.25 apart measured (plate background removed); unique only on the drawn values.
+# 10-20 (Riccardo): three stories. (1) trametinib, drawn as one shared frame over EGFR+MAPK and one unique
+# frame over JAK-STAT+NFkB+TNFa (only TNFa is a call; fig4_core.COLUMN_FRAMES); (2) RMC-6236, the same two frames
+# (only JAK-STAT is the unique call); (3) homoharringtonine: Hypoxia its own cell, one shared frame over NFkB+TNFa. Dropped BI-3406 MAPK, tofacitinib JAK-STAT and
+# AZD-8055 PI3K (the old file: _superseded_1020/).
+line_a	line_b	call	pathway	drug	story_id
+HOP62	Hs 766T	shared	MAPK	Trametinib	S01
+HOP62	Hs 766T	shared	EGFR	Trametinib	S01
+HOP62	Hs 766T	unique	TNFa	Trametinib	S07
+HOP62	Hs 766T	shared	MAPK	RMC-6236	S01
+HOP62	Hs 766T	shared	EGFR	RMC-6236	S01
+HOP62	Hs 766T	unique	JAK-STAT	RMC-6236	S05
+HOP62	Hs 766T	shared	Hypoxia	Homoharringtonine	S11
+HOP62	Hs 766T	shared	TNFa	Homoharringtonine	S12
+HOP62	Hs 766T	shared	NFkB	Homoharringtonine	S12

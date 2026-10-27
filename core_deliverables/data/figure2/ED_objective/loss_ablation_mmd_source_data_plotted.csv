@@ -1,0 +1,25 @@
+panel,metric,arm,mean,n_units
+a,deg_adaptivek_truth,Experimental replicate reference,0.299235,530
+a,deg_adaptivek_truth,GENESIS 25% cells,0.288376,530
+a,deg_adaptivek_truth,Set-level MMD 25% cells,0.275497,530
+a,pearson_r_diff,Experimental replicate reference,0.431902,530
+a,pearson_r_diff,GENESIS 25% cells,0.422317,530
+a,pearson_r_diff,Set-level MMD 25% cells,0.413348,530
+a,energy_distance,Experimental replicate reference,0.153896,530
+a,energy_distance,GENESIS 25% cells,0.161006,530
+a,energy_distance,Set-level MMD 25% cells,0.158243,530
+a,mmd_rbf,Experimental replicate reference,0.00854805,530
+a,mmd_rbf,GENESIS 25% cells,0.00883679,530
+a,mmd_rbf,Set-level MMD 25% cells,0.00859485,530
+b,deg_adaptivek_truth,Split-half reference,0.663413,4098
+b,deg_adaptivek_truth,GENESIS 25% cells,0.507241,4098
+b,deg_adaptivek_truth,Set-level MMD 25% cells,0.45169,4098
+b,pearson_r_diff,Split-half reference,0.864092,4211
+b,pearson_r_diff,GENESIS 25% cells,0.747219,4211
+b,pearson_r_diff,Set-level MMD 25% cells,0.702635,4211
+b,energy_distance,Split-half reference,0.00146848,4211
+b,energy_distance,GENESIS 25% cells,0.0433,4211
+b,energy_distance,Set-level MMD 25% cells,0.056259,4211
+b,mmd_rbf,Split-half reference,7.58789e-05,4211
+b,mmd_rbf,GENESIS 25% cells,0.00229212,4211
+b,mmd_rbf,Set-level MMD 25% cells,0.00294434,4211

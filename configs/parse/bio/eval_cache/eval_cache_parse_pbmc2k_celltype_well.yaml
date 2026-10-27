@@ -1,0 +1,33 @@
+# =============================================================================
+# Eval NPZ cache — Parse 2k PBMC, cell type + bc1_well, donor-holdout PBS
+# =============================================================================
+# The cache every PBMC bio result is scored on (Fig 2c, Fig 3 ED, Fig 4, Appendix):
+#   * cytokine truth keyed by (donor, cytokine, cell_type, bc1_well), all conditions;
+#   * one PBS pool per (donor, cell_type, bc1_well) — references swap wells;
+#   * eval control per (donor, cell_type) = that donor's TRAIN PBS wells stacked in
+#     well order; donors whose PBS is all held out get none (no test-cell leak);
+#   * held-out PBS wells written as test truth.
+#
+#   python scripts/data/build_cache.py eval \
+#     --config configs/parse/bio/eval_cache/eval_cache_parse_pbmc2k_celltype_well.yaml \
+#     --all-conditions --control-unit-column bc1_well \
+#     --control-split core_util_data/splits/parse/bio/parse_bio_well_split/parse_bio_well_hbss100_pbs_donorholdout_es0.yaml
+#
+# Verified against the published namespace: all 72 pooled controls and
+# all 849 held-out-PBS truth files rebuild array-identical from the per-well pools.
+
+run_name_suffix: parse_pbmc2k_eval_cache_celltype_well
+
+dataset: parse
+hvg_genes_path: core_util_data/parse/gene_subsets/pbmc_real_selected_genes.pkl
+split_config: null
+
+parse:
+  split_config: null
+  build_eval_cache: true
+  overwrite_eval_cache: false
+
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_2000__cell_type__well
+
+  model_conditioning_variables: [donor, cytokine, cell_type, bc1_well]
+  control_match_keys: [donor, cell_type]

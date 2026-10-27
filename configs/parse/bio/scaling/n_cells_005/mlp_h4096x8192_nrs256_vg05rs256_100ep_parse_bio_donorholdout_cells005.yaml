@@ -1,0 +1,131 @@
+# =============================================================================
+# Parse-bio donor-holdout — vg0.5, 5% cells (uniform cap target_n=346,283 = 5% of the 100% donor-holdout n_train), 100 epochs.
+# Clone of the 5ep donor-holdout yaml. Same model, same MCV, same 6-well
+# PBS assignment. Epochs = 5 / fraction so the token budget matches the
+# 100% x 5ep run. LR drops stay at 20% and 40% of the run (epochs 20, 40).
+# Eval callback every 10 epochs. Checkpoints every 10 data-epochs
+# (the 5ep yaml's 0.5 would write ~200 files).
+#
+# Launch:
+#   CUDA_VISIBLE_DEVICES=<gpu> python -u -m src.main --config configs/parse/bio/scaling/n_cells_005/mlp_h4096x8192_nrs256_vg05rs256_100ep_parse_bio_donorholdout_cells005.yaml devices=1
+# =============================================================================
+
+run_name_suffix: parse_bio_well_cells005_100ep_donorholdout_seed0
+
+dataset: parse
+hvg_genes_path: core_util_data/parse/gene_subsets/pbmc_real_selected_genes.pkl
+split_config: core_util_data/splits/parse/bio/parse_bio_well_split/parse_bio_well_celln346283_pbs_donorholdout_es0.yaml
+
+tahoe:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_c0d6420ffc0fa861__n_2000
+  build_cache: false
+parse:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_2000__cell_type__well
+  build_cache: false
+  build_eval_cache: false
+  model_conditioning_variables: [donor, cytokine, cell_type, bc1_well]
+  # Eval control = train PBS wells, donor × cell_type matched.
+  # Bio-holdout donors have all 6; PBS-test donors have none.
+  control_match_keys: [donor, cell_type]
+
+group_by_condition: false
+train_loader_mode: per_cell
+use_cell_set: 256
+cell_set_min_cells: 50
+
+max_epochs: 100
+limit_train_batches: null
+hbss_equalize_training_budget: false
+seed: 64
+
+use_curriculum: true
+curriculum_mode: between_epochs
+# 1792 cells × 256 repeats. Pin B on every milestone.
+curriculum_target_product: 458752
+between_epoch_curriculum_schedule:
+  - {epoch: 0, n_repeats: 256, batch_size: 1792, lr_mul: 1.0}   # 9e-4
+  - {epoch: 20, n_repeats: 256, batch_size: 1792, lr_mul: 0.1}   # 9e-5
+  - {epoch: 40, n_repeats: 256, batch_size: 1792, lr_mul: 0.01}  # 9e-6
+
+n_repeats: 256
+batch_size: 1792
+
+optimizer_type: adamw
+lr: 0.0009
+lr_init: 0.0
+weight_decay: 0.0001
+warmup_steps_min: 100
+warmup_steps_max: 1000
+grad_clip: 0
+
+num_workers: 8
+fetch_factor: 14
+prefetch_factor: 2
+block_size: 1024
+accumulate_grad_batches: 1
+precision: bf16-mixed
+compile_model: true
+compile_mode: max-autotune
+checkpoint_data_fraction: 10
+devices: 1
+
+backbone_type: condition_mlp
+noise_distribution: uniform
+condition_mlp_hidden_dims: [4096, 8192]
+condition_mlp_tokdim: 256
+condition_mlp_norm: none
+condition_mlp_activation: gelu
+condition_mlp_dropout: 0.0
+condition_mlp_residual: false
+condition_mlp_pre_norm: false
+
+output_activation: relu
+head_bias_init_from_train_mean: true
+head_bias_init_n_batches: 100
+apply_log1p: true
+predict_delta: false
+
+variogram_loss_weight: 0.5
+variogram_p: 0.5
+variogram_fast: true
+variogram_debias: true
+variogram_n_pairs: 6000
+variogram_repeat_subsample: 256
+variogram_batch_subsample: 896
+variogram_balanced_zeros: false
+variogram_mean_weight: false
+
+cpm_energy_loss_weight: 0.0
+total_log1p_mass_weight: 0.0
+raw_mass_huber_weight: 0.0
+per_gene_crps_weight: 0.0
+output_l1_weight: 0.0
+output_l2_weight: 0.0
+
+batch_composition_diag: true
+batch_composition_diag_every_n_steps: 100
+val_check_interval: 0.0
+num_sanity_val_steps: 0
+limit_val_batches: 0
+use_early_stopping: false
+use_eval_callback: true
+eval_callback_every_n_epochs: 10
+model_eval_splits:
+  - validation
+build_eval_cache: false
+build_noise_ceiling: false
+run_model_eval_after_fit: false
+plot_model_vs_ceiling_after_fit: false
+model_eval_n_repeats: 1
+model_eval_batch_size: 2048
+save_split_coverage: false
+raise_on_axis_coverage_failure: false
+
+use_wandb: true
+wandb_project: parse_bio_well_vg05
+wandb_entity: SCFM_VAL
+wandb_run_name: null
+log_every_n_steps: 50
+log_grad_every_n_steps: 500
+log_grad_top_k: 10
+diagnostics: ["magnitudes"]

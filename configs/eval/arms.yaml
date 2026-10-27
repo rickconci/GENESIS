@@ -1,0 +1,319 @@
+# Arms registry: every bar in a published metric-bar panel, and where its scores live.
+#
+#   arms:   id -> name (default bar label), color (palette key in src/eval/plots/style.py),
+#           path (metrics_summary.json, repo-relative)
+#   panels: name -> bars / references (arm ids, or {arm, name, color} to relabel),
+#           the split-half reference (ceiling_split, or a pinned ceiling_json), the
+#           output figure, and its layout options
+#
+# Read by src/eval/results.py (load_panels) and scripts/figures/figure2/extract/extract.py (arm names and order).
+# A bar arm whose file is missing is fatal: a panel one arm short still looks publishable.
+# How each arm is scored is not recorded here: the level-3 drivers (scripts/figures/figureN/score/<panel>/score.sh)
+# are the record of every published arm's arguments.
+#
+# DEG keys: every arm must sit on the same DEG floor (`..._detfloor10`). An arm on another
+# floor shares no DEG key, and the per-metric intersection then drops to n=0.
+
+arms:
+  tahoe_bio.GENESIS:
+    name: GENESIS
+    color: GENESIS
+    path: results/tahoe/split_half/pertgen/pcseed_20261005/tahoe_bio.GENESIS/metrics_summary.json
+  tahoe_bio.CellFlow:
+    name: CellFlow
+    color: CellFlow
+    path: results/tahoe/cellflow/pregenerated_cellflow_authors_tahoe_bio/cellflow_authors_s1__it500000__test/metrics_summary.json
+  tahoe_bio.STATE:
+    name: STATE
+    color: STATE
+    path: results/tahoe/split_half/pregenerated_state/state__tahoe_eval_state_st4k__test/metrics_summary.json
+  tahoe_bio.PerturbDiff:
+    name: PerturbDiff
+    color: PerturbDiff
+    path: results/tahoe/split_half/pregenerated_perturbdiff/perturbdiff__tahoe_bio__test/metrics_summary.json
+  tahoe_bio.Additive:
+    name: Additive
+    color: Additive
+    path: results/tahoe/split_half/pregenerated_baselines_allcells_log1p_cp10k_full/additive__test/metrics_summary.json
+  tahoe_bio.LinRidge:
+    name: LinRidge
+    color: LinRidge
+    path: results/tahoe/split_half/pregenerated_baselines_allcells_log1p_cp10k_full/linear_ridge__test/metrics_summary.json
+  tahoe_bio.PertMean:
+    name: PertMean
+    color: PertMean
+    path: results/tahoe/split_half/pregenerated_baselines_allcells_log1p_cp10k_full/perturbation_mean__test/metrics_summary.json
+  tahoe_bio.CtxMean:
+    name: CtxMean
+    color: CtxMean
+    path: results/tahoe/split_half/pregenerated_baselines_allcells_log1p_cp10k_full/context_mean__test/metrics_summary.json
+  tahoe_bio.copy_closest:
+    name: copy_closest
+    color: copy_closest
+    path: results/tahoe/split_half/copy_neighbor_v2/cosine_ownctrl/metrics_summary.json
+  tahoe_bio_norm_ablation.GENESIS_slicemed:
+    name: GENESIS log1p_normalized
+    color: GENESIS_slicemed
+    path: results/tahoe/split_half/pertgen/pcseed_20261005/tahoe_bio_norm_ablation.GENESIS_slicemed/metrics_summary.json
+  tahoe_bio_input_ablation.CIA_all:
+    name: plate + bio + pert
+    color: CIA_all
+    path: results/tahoe/split_half/pertgen/pcseed_20261005/tahoe_bio_input_ablation.CIA_all/metrics_summary.json
+  tahoe_bio_input_ablation.CIA_bio:
+    name: plate + bio
+    color: CIA_bio
+    path: results/tahoe/split_half/pertgen/cia_rerun_20261007/tahoe_bio_input_ablation.CIA_plate_bio/metrics_summary.json
+  tahoe_bio_input_ablation.CIA_pert:
+    name: plate + pert
+    color: CIA_pert
+    path: results/tahoe/split_half/pertgen/cia_rerun_20261007/tahoe_bio_input_ablation.CIA_plate_pert/metrics_summary.json
+  tahoe_bio_input_ablation.CIA_plate:
+    name: plate
+    color: CIA_plate
+    path: results/tahoe/split_half/pertgen/cia_rerun_20261007/tahoe_bio_input_ablation.CIA_plate/metrics_summary.json
+  parse_bio.GENESIS:
+    name: GENESIS
+    color: GENESIS
+    path: results/parse/split_half/pertgen/seed0_20261006/parse_bio_cytokines.GENESIS/metrics_summary.json
+  parse_bio.CellFlow:
+    name: CellFlow
+    color: CellFlow
+    path: results/parse/split_half/celltype_cellflow_1nn_6well/cellflow_authors_s0.25/metrics_summary.json
+  parse_bio.CellFlow_classifier:
+    # Comparison only, not in any panel: Extended_data/Figure2/supporting/cellflow_pbmc_celltyping
+    name: CellFlow
+    color: CellFlow
+    path: results/parse/split_half/celltype_classified_6well/cellflow/metrics_summary.json
+  parse_bio.STATE:
+    name: STATE
+    color: STATE
+    path: results/parse/split_half/celltype_own_6well/state_t3320_nobe_final/metrics_summary.json
+  parse_bio.PerturbDiff:
+    name: PerturbDiff
+    color: PerturbDiff
+    path: results/parse/split_half/celltype_own_6well/perturbdiff_from_scratch/metrics_summary.json
+  parse_bio.Additive:
+    name: Additive
+    color: Additive
+    path: results/parse/split_half/baselines_celltype_6well_allcells_log1p_cp10k_full/additive/metrics_summary.json
+  parse_bio.LinRidge:
+    name: LinRidge
+    color: LinRidge
+    path: results/parse/split_half/baselines_celltype_6well_allcells_log1p_cp10k_full/linear_ridge/metrics_summary.json
+  parse_bio.PertMean:
+    name: PertMean
+    color: PertMean
+    path: results/parse/split_half/baselines_celltype_6well_allcells_log1p_cp10k_full/perturbation_mean/metrics_summary.json
+  parse_bio.CtxMean:
+    name: CtxMean
+    color: CtxMean
+    path: results/parse/split_half/baselines_celltype_6well_allcells_log1p_cp10k_full/context_mean/metrics_summary.json
+  parse_bio.copy_closest:
+    name: copy_closest
+    color: copy_closest
+    path: results/parse/split_half/copy_neighbor_v2/cosine_ownctrl/metrics_summary.json
+  tahoe_pert_fixed.Additive:
+    name: Additive
+    color: Additive
+    path: results/tahoe/split_half/pregenerated_baselines_pert_overlap_fixed_r0_es0_log1p_cp10k_full/additive__test/metrics_summary.json
+  tahoe_pert_fixed.LinRidge:
+    name: LinRidge
+    color: LinRidge
+    path: results/tahoe/split_half/pregenerated_baselines_pert_overlap_fixed_r0_es0_log1p_cp10k_full/linear_ridge__test/metrics_summary.json
+  tahoe_pert_fixed.PertMean:
+    name: PertMean
+    color: PertMean
+    path: results/tahoe/split_half/pregenerated_baselines_pert_overlap_fixed_r0_es0_log1p_cp10k_full/perturbation_mean__test/metrics_summary.json
+  tahoe_pert_fixed.CtxMean:
+    name: CtxMean
+    color: CtxMean
+    path: results/tahoe/split_half/pregenerated_baselines_pert_overlap_fixed_r0_es0_log1p_cp10k_full/context_mean__test/metrics_summary.json
+  tahoe_pert_fixed.copy_closest:
+    name: copy_closest
+    color: copy_closest
+    path: results/tahoe/split_half/copy_neighbor_v2_pert_overlap_fixed_r0_es0/cosine_ownctrl/metrics_summary.json
+  tahoe_pert_fixed.GENESIS:
+    name: GENESIS
+    color: GENESIS
+    path: results/tahoe/split_half/pertgen/pcseed_20261006/tahoe_pert_fixed.GENESIS/metrics_summary.json
+  tahoe_pert_fixed.PerturbDiff:
+    name: PerturbDiff
+    color: PerturbDiff
+    path: results/tahoe/split_half/pregenerated_perturbdiff/perturbdiff__tahoe_overlap_pert_fixed_r0_es0_step40k__test/metrics_summary.json
+  tahoe_pert_fixed.CellFlow:
+    name: CellFlow
+    color: CellFlow
+    path: results/tahoe/cellflow/pregenerated_cellflow_authors_tahoe_pert_fixed/cellflow_authors_s0.25__it500000__test/metrics_summary.json
+  tahoe_pert_fixed.STATE:
+    name: STATE
+    color: STATE
+    path: results/tahoe/split_half/pregenerated_state/state__tahoe_pert_fixed_eval_state_st4k_step100000__test/metrics_summary.json
+  parse_pert_fixed.GENESIS:
+    name: GENESIS
+    color: GENESIS
+    path: results/parse/split_half/pertgen/seed0_20261006/parse_pert_fixed.GENESIS/metrics_summary.json
+  parse_pert_fixed.PerturbDiff:
+    name: PerturbDiff
+    color: PerturbDiff
+    path: results/parse/split_half/celltype_own_6well_pert_overlap_fixed_r0_es0/perturbdiff_step40k/metrics_summary.json
+  parse_pert_fixed.CellFlow:
+    name: CellFlow
+    color: CellFlow
+    path: results/parse/split_half/celltype_cellflow_1nn_6well_pert_overlap_fixed_r0_es0/cellflow_authors_s0.5/metrics_summary.json
+  parse_pert_fixed.CellFlow_classifier:
+    # Comparison only, not in any panel: Extended_data/Figure2/supporting/cellflow_pbmc_celltyping
+    name: CellFlow
+    color: CellFlow
+    path: results/parse/split_half/celltype_classified_6well_pert_overlap_fixed_r0_es0/cellflow_authors_s0.5/metrics_summary.json
+  parse_pert_fixed.STATE:
+    name: STATE
+    color: STATE
+    path: results/parse/split_half/celltype_own_6well_pert_overlap_fixed_r0_es0/state_t3320_nobe_final/metrics_summary.json
+  parse_pert_fixed.Additive:
+    name: Additive
+    color: Additive
+    path: results/parse/split_half/baselines_celltype_6well_pert_overlap_fixed_r0_es0_log1p_cp10k_full/additive/metrics_summary.json
+  parse_pert_fixed.LinRidge:
+    name: LinRidge
+    color: LinRidge
+    path: results/parse/split_half/baselines_celltype_6well_pert_overlap_fixed_r0_es0_log1p_cp10k_full/linear_ridge/metrics_summary.json
+  parse_pert_fixed.PertMean:
+    name: PertMean
+    color: PertMean
+    path: results/parse/split_half/baselines_celltype_6well_pert_overlap_fixed_r0_es0_log1p_cp10k_full/perturbation_mean/metrics_summary.json
+  parse_pert_fixed.CtxMean:
+    name: CtxMean
+    color: CtxMean
+    path: results/parse/split_half/baselines_celltype_6well_pert_overlap_fixed_r0_es0_log1p_cp10k_full/context_mean/metrics_summary.json
+  parse_pert_fixed.copy_closest:
+    name: copy_closest
+    color: copy_closest
+    path: results/parse/split_half/copy_neighbor_v2_pert_overlap_fixed_r0_es0/cosine_ownctrl/metrics_summary.json
+
+panels:
+  tahoe_bio:
+    bars:
+    - tahoe_bio.GENESIS
+    - tahoe_bio.CellFlow
+    - tahoe_bio.STATE
+    - tahoe_bio.PerturbDiff
+    - tahoe_bio.Additive
+    - tahoe_bio.LinRidge
+    - tahoe_bio.PertMean
+    - tahoe_bio.CtxMean
+    - tahoe_bio.copy_closest
+    title: 'Tahoe-100M: biological context generalization'
+    title_n: split_half
+    ceiling_split:
+      dataset: tahoe
+      geneset: c0d6420ffc0fa861__n_2000
+      split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+    bar_width: 0.62
+    panel_width: 2.52
+    wspace: 0.22
+    out: results/tahoe/split_half/cross_plots/metric_bars_panel/tahoe_bio_metric_bars.png
+  tahoe_bio_norm_ablation:
+    bars:
+    - arm: tahoe_bio.GENESIS
+      name: GENESIS log1p
+      color: GENESIS
+    - tahoe_bio_norm_ablation.GENESIS_slicemed
+    - tahoe_bio.CellFlow
+    - tahoe_bio.STATE
+    - tahoe_bio.PerturbDiff
+    - tahoe_bio.Additive
+    - tahoe_bio.LinRidge
+    - tahoe_bio.PertMean
+    - tahoe_bio.CtxMean
+    - tahoe_bio.copy_closest
+    title: Tahoe — bio split · GENESIS log1p vs log1p_normalized · test
+    ceiling_split:
+      dataset: tahoe
+      geneset: c0d6420ffc0fa861__n_2000
+      split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+    space_labels:
+      log1p_rgs: log1p
+      log1p_slice_med_rgs: log1p_normalized
+    out: deliverables/Extended_data/Figure2/supporting/norm_ablation/tahoe_bio_norm_ablation_metric_bars.png
+  tahoe_bio_input_ablation:
+    bars:
+    - tahoe_bio_input_ablation.CIA_all
+    - tahoe_bio_input_ablation.CIA_bio
+    - tahoe_bio_input_ablation.CIA_pert
+    - tahoe_bio_input_ablation.CIA_plate
+    title: Tahoe — bio split · input covariates · test
+    ceiling_split:
+      dataset: tahoe
+      geneset: c0d6420ffc0fa861__n_2000
+      split: core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
+    require_ceiling: false
+    panel_width: 2.6
+    out: deliverables/Extended_data/Figure2/supporting/input_covariate_ablation/tahoe_bio_input_covariate_ablation_metric_bars.png
+  tahoe_pert_fixed:
+    bars:
+    - tahoe_pert_fixed.GENESIS
+    - tahoe_pert_fixed.CellFlow
+    - tahoe_pert_fixed.STATE
+    - tahoe_pert_fixed.PerturbDiff
+    - tahoe_pert_fixed.Additive
+    - tahoe_pert_fixed.LinRidge
+    - tahoe_pert_fixed.PertMean
+    - tahoe_pert_fixed.CtxMean
+    - tahoe_pert_fixed.copy_closest
+    title: 'Tahoe-100M: perturbation generalization'
+    title_n: split_half
+    ceiling_split:
+      dataset: tahoe
+      geneset: c0d6420ffc0fa861__n_2000
+      split: core_util_data/splits/tahoe/pert/tahoe_overlap_pert_fixed_r0_es0_allcells.yaml
+    ceiling_json: results/tahoe/split_half/noise_ceiling/geneset_c0d6420ffc0fa861__n_2000__norm_raw_counts/nr_20__splitcfg_9484594cb189159a__mincells_4__test/noise_ceiling.json
+    bar_width: 0.62
+    panel_width: 2.52
+    wspace: 0.22
+    out: results/tahoe/split_half/cross_plots/metric_bars_panel/tahoe_pert_fixed_metric_bars.png
+  parse_bio:
+    bars:
+    - parse_bio.GENESIS
+    - parse_bio.CellFlow
+    - parse_bio.STATE
+    - parse_bio.PerturbDiff
+    - parse_bio.Additive
+    - parse_bio.LinRidge
+    - parse_bio.PertMean
+    - parse_bio.CtxMean
+    - parse_bio.copy_closest
+    title: 'PBMC cytokine atlas: biological context generalization'
+    title_n: split_half
+    bar_width: 0.62
+    panel_width: 2.52
+    wspace: 0.22
+    ceiling_split:
+      dataset: parse
+      geneset: 63a547306aa0e6cd__n_2000
+      split: core_util_data/splits/parse/bio/parse_bio_well_split/parse_bio_well_hbss100_pbs_donorholdout_es0.yaml
+    ceiling_json: results/parse/split_half/noise_ceiling/geneset_63a547306aa0e6cd__n_2000__norm_raw_counts/nr_20__splitcfg_7757bf1b97f87e4c__mincells_4__test/noise_ceiling.json
+    out: results/parse/split_half/cross_plots/metric_bars_panel/parse_bio_metric_bars.png
+  parse_pert_fixed:
+    # Every arm, in parse_bio's order; the per-metric sets drop IL-18Ra and Megalin (CellFlow has no ESM2 embedding for them).
+    bars:
+    - parse_pert_fixed.GENESIS
+    - parse_pert_fixed.CellFlow
+    - parse_pert_fixed.STATE
+    - parse_pert_fixed.PerturbDiff
+    - parse_pert_fixed.Additive
+    - parse_pert_fixed.LinRidge
+    - parse_pert_fixed.PertMean
+    - parse_pert_fixed.CtxMean
+    - parse_pert_fixed.copy_closest
+    title: 'PBMC cytokine atlas: perturbation generalization'
+    title_n: split_half
+    bar_width: 0.62
+    panel_width: 2.52
+    wspace: 0.22
+    ceiling_split:
+      dataset: parse
+      geneset: 63a547306aa0e6cd__n_2000
+      split: core_util_data/splits/parse/pert/parse_overlap_pert_fixed_r0_es0.yaml
+    # 20 redraws, 3,456 conditions: Donor5 x Plasmablast has no PBS cells, so it is excluded, as in the baselines
+    ceiling_json: results/parse/split_half/noise_ceiling/geneset_63a547306aa0e6cd__n_2000__norm_raw_counts/nr_20__splitcfg_f9489b7b854c457e__mincells_4__test/noise_ceiling.json
+    out: results/parse/split_half/cross_plots/metric_bars_panel/parse_pert_fixed_metric_bars.png

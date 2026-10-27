@@ -1,0 +1,91 @@
+# Parse-Biosciences PBMC cytokines: donor-holdout split.
+#
+# Mirrors core_util_data/pbmc.yaml under the new unified split schema.
+# 4 donors are held out; 4 cytokines go to validation, the rest to test
+# (PBS controls are kept in train for all donors).
+
+dataset: pbmc
+controls_to_train: true
+
+validation:
+  donor: [Donor1, Donor4, Donor9, Donor12]
+  cytokine: [G-CSF, IFN-beta, M-CSF, IGF-1]
+
+test:
+  donor: [Donor1, Donor4, Donor9, Donor12]
+  cytokine:
+    - C5a
+    - TWEAK
+    - LIF
+    - IL-17C
+    - FGF-beta
+    - BAFF
+    - FLT3L
+    - IFN-lambda2
+    - 4-1BBL
+    - IL-17E
+    - IL-2
+    - IL-19
+    - PRL
+    - IL-16
+    - IL-7
+    - GM-CSF
+    - IL-17A
+    - IL-13
+    - IL-36-alpha
+    - PSPN
+    - EPO
+    - IL-9
+    - IL-31
+    - IL-11
+    - LT-alpha1-beta2
+    - TL1A
+    - IL-32-beta
+    - IFN-omega
+    - IL-8
+    - Noggin
+    - IFN-epsilon
+    - IL-17F
+    - Leptin
+    - IL-33
+    - IL-35
+    - OSM
+    - IL-34
+    - HGF
+    - IL-1Ra
+    - LIGHT
+    - CD27L
+    - SCF
+    - IL-1-alpha
+    - TGF-beta1
+    - CD30L
+    - IL-24
+    - IFN-gamma
+    - IFN-alpha1
+    - IFN-lambda1
+    - GITRL
+    - VEGF
+    - ADSF
+    - IL-15
+    - EGF
+    - IL-3
+    - IL-17B
+    - IL-6
+    - IL-4
+    - IL-10
+    - CT-1
+    - IFN-lambda3
+    - TRAIL
+
+train:
+  sample: all   # all | hbss
+  # HBSS example for Parse (no hierarchical parents -> diversity_axes is
+  # an empty dict, so Phase 3 reduces to a pure IPF-weighted multinomial).
+  #
+  # fraction: 0.10
+  # hbss:
+  #   balance_axes: [donor, cytokine]
+  #   candidate_axis: donor
+  #   diversity_axes: {}
+  #   lam: 0.0
+  #   seed: 42

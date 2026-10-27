@@ -1,0 +1,105 @@
+drug	moa	drug_class	plates	replicated	on_axis
+Afatinib	EGFR/ERBB inhibitor	EGFR/ERBB	3;9;13	False	True
+Almonertinib (hydrochloride)	EGFR/ERBB inhibitor	EGFR/ERBB	6;14	True	True
+Almonertinib (mesylate)	EGFR/ERBB inhibitor	EGFR/ERBB	9;13	False	True
+Capmatinib	EGFR/ERBB inhibitor	EGFR/ERBB	3	False	True
+Neratinib (maleate)	EGFR/ERBB inhibitor	EGFR/ERBB	6;14	True	True
+BI-3406	RAS inhibitor	RAS–MAPK	3	False	True
+Lonafarnib	RAS inhibitor	RAS–MAPK	3	False	True
+RMC-6236	RAS inhibitor	RAS–MAPK	3	False	True
+Dabrafenib	RAF inhibitor	RAS–MAPK	3	False	True
+Encorafenib	RAF inhibitor	RAS–MAPK	3	False	True
+Vemurafenib	RAF inhibitor	RAS–MAPK	3	False	True
+TAK-733	MEK inhibitor	RAS–MAPK	3	False	True
+Trametinib	MEK inhibitor	RAS–MAPK	3;12	True	True
+Trametinib (DMSO_TF solvate)	MEK inhibitor	RAS–MAPK	9	False	True
+Alpelisib	PI3K/AKT inhibitor	PI3K–AKT–mTOR	3	False	True
+Capivasertib	PI3K/AKT inhibitor	PI3K–AKT–mTOR	3	False	True
+GSK1059615	PI3K/AKT inhibitor	PI3K–AKT–mTOR	3	False	True
+AZD-8055	MTOR inhibitor	PI3K–AKT–mTOR	3	False	True
+Everolimus	MTOR inhibitor	PI3K–AKT–mTOR	3	False	True
+LY-2584702 (tosylate salt)	MTOR inhibitor	PI3K–AKT–mTOR	3	False	True
+Rapamycin	MTOR inhibitor	PI3K–AKT–mTOR	6;14	True	True
+Sapanisertib	MTOR inhibitor	PI3K–AKT–mTOR	3	False	True
+Temsirolimus	MTOR inhibitor	PI3K–AKT–mTOR	6;14	True	True
+Torkinib	MTOR inhibitor	PI3K–AKT–mTOR	3	False	True
+ETC-206	Protein synthesis inhibitor	Translation	3	False	True
+Harringtonine	Protein synthesis inhibitor	Translation	9	False	True
+Homoharringtonine	Protein synthesis inhibitor	Translation	6;14	True	True
+SBI-0640756	Protein synthesis inhibitor	Translation	3	False	True
+Tomivosertib	Protein synthesis inhibitor	Translation	3	False	True
+Altretamine	DNA synthesis/repair inhibitor	DNA damage	9	False	True
+Amsacrine	DNA synthesis/repair inhibitor	DNA damage	6;14	True	True
+AZD-7648	DNA synthesis/repair inhibitor	DNA damage	3	False	True
+Bendamustine	DNA synthesis/repair inhibitor	DNA damage	9	False	True
+Busulfan	DNA synthesis/repair inhibitor	DNA damage	6;14	True	True
+Doxorubicin (hydrochloride)	DNA synthesis/repair inhibitor	DNA damage	9	False	True
+Epirubicin (hydrochloride)	DNA synthesis/repair inhibitor	DNA damage	9	False	True
+Idarubicin (hydrochloride)	DNA synthesis/repair inhibitor	DNA damage	6;14	True	True
+Mitoxantrone (dihydrochloride)	DNA synthesis/repair inhibitor	DNA damage	6;14	True	True
+olaparib	DNA synthesis/repair inhibitor	DNA damage	3	False	True
+Pemetrexed	DNA synthesis/repair inhibitor	DNA damage	9	False	True
+Raltitrexed	DNA synthesis/repair inhibitor	DNA damage	6;14	True	True
+Rucaparib (phosphate)	DNA synthesis/repair inhibitor	DNA damage	9	False	True
+Trimetrexate	DNA synthesis/repair inhibitor	DNA damage	6;14	True	True
+CP21R7	GSK3 inhibitor	Other targeted	3	False	True
+LY2090314	GSK3 inhibitor	Other targeted	3	False	True
+Tucidinostat	HDAC inhibitor	Other targeted	6;14	True	True
+Artesunate	JAK/STAT inhibitor	Other targeted	6;14	True	True
+Balsalazide (sodium hydrate)	JAK/STAT inhibitor	Other targeted	6;14	True	True
+Tofacitinib	JAK/STAT inhibitor	Other targeted	6;14	True	True
+Tofacitinib (citrate)	JAK/STAT inhibitor	Other targeted	6;14	True	True
+Bortezomib	Proteasome inhibitor	Other targeted	3	False	True
+Ixazomib	Proteasome inhibitor	Other targeted	3	False	True
+Betamethasone dipropionate	Glucocorticoid receptor agonist	GC	9	False	True
+Methylprednisolone succinate	Glucocorticoid receptor agonist	GC	3	False	True
+Triamcinolone	Glucocorticoid receptor agonist	GC	6;14	True	True
+(R)-Verapamil (hydrochloride)	unclear		6;14	True	False
+8-Hydroxyquinoline	unclear		6;14	True	False
+Adenine	unclear		6;14	True	False
+Adenosine	unclear		6;14	True	False
+Anethole trithione	unclear		6;14	True	False
+Azithromycin (hydrate)	unclear		6;14	True	False
+Baicalin	unclear		6;14	True	False
+Belumosudil	unclear		9;13	True	False
+Berbamine	unclear		6;14	True	False
+Berberine (chloride hydrate)	unclear		6;14	True	False
+Bimatoprost	unclear		6;14	True	False
+Cepharanthine	unclear		6;14	True	False
+Chlorhexidine (diacetate)	unclear		6;14	True	False
+Cysteamine (hydrochloride)	unclear		6;14	True	False
+Demeclocycline	unclear		6;14	True	False
+Docetaxel	Microtubule inhibitor		6;14	True	False
+Elagolix sodium	unclear		6;14	True	False
+Fluvoxamine (maleate)	unclear		6;14	True	False
+Furosemide	unclear		6;14	True	False
+Fusidic acid	unclear		6;14	True	False
+Gallic acid	Cyclooxygenase inhibitor		6;14	True	False
+Gallic acid (hydrate)	Cyclooxygenase inhibitor		6;14	True	False
+Gemfibrozil	unclear		6;14	True	False
+Goserelin (acetate)	unclear		6;14	True	False
+Hexylresorcinol	unclear		6;14	True	False
+Lenalidomide (hemihydrate)	unclear		6;14	True	False
+Lipoic acid	unclear		6;14	True	False
+Norepinephrine (hydrochloride)	Adrenoceptor agonist		6;14	True	False
+Palmatine (chloride)	unclear		6;14	True	False
+Pasireotide (acetate)	unclear		6;14	True	False
+Pentamidine (isethionate)	unclear		6;14	True	False
+Pyridoxine	unclear		6;14	True	False
+Pyridoxine (hydrochloride)	unclear		6;14	True	False
+Radotinib	Other TK inhibitor		6;14	True	False
+Relugolix	unclear		6;14	True	False
+Resveratrol	unclear		6;14	True	False
+Retinoic acid	Retinoic receptor agonist		6;14	True	False
+Riluzole hydrochloride	unclear		6;14	True	False
+Rimonabant	unclear		6;14	True	False
+Ritonavir	unclear		6;14	True	False
+Ropivacaine (hydrochloride monohydrate)	unclear		6;14	True	False
+Salicylic acid	Cyclooxygenase inhibitor		6;14	True	False
+Saquinavir	unclear		6;14	True	False
+Sinomenine	unclear		6;14	True	False
+Sodium Salicylate	Cyclooxygenase inhibitor		6;14	True	False
+Terfenadine	unclear		6;14	True	False
+Thymol	unclear		6;14	True	False
+Tolcapone	unclear		6;14	True	False
+Vilanterol	Adrenoceptor agonist		6;14	True	False

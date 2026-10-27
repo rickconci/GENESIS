@@ -1,0 +1,20 @@
+STATE_HVG_plus_hallmark_5750 — 5,750 genes
+=========================================
+Built from STATE_HVG.txt (2,000) ∪ total_hallmark_genes_resolved4376.txt (4,376).
+Rebuild (byte-identical; refuses to overwrite a differing file):
+  python scripts/data/build_gene_set.py core_util_data/tahoe/gene_subsets/STATE_HVG.txt \
+      core_util_data/shared/gene_subsets/total_hallmark_genes_resolved4376.txt \
+      --out core_util_data/tahoe/gene_subsets/STATE_HVG_plus_hallmark_5750.txt
+
+The two source panels are not nested. Intersection: 626.
+HVG-only: 1,374. Hallmark-only: 3,750. Union: 5,750.
+
+Order: STATE_HVG.txt (all 2,000, same order) then hallmark-only genes in
+total_hallmark_genes_resolved4376.txt order. Prefix is byte-comparable to STATE_HVG.
+
+file sha256: 376a9de74deaeb1aab99c9e88dad861c28ad4e15e643722a0d53daeeed0b7535
+names sha256[:16]: 3fb651dcc9551f46
+
+Not padded to a multiple of 8 (5,750 = 8×718 + 6). Pad separately if GEMM tiling needs it.
+
+Downstream: subset predictions/eval to STATE_HVG names for 2k-comparable metrics.

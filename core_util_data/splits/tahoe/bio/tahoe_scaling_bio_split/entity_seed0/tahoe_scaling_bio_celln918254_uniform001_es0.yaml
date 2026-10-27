@@ -1,0 +1,345 @@
+# Copied from tahoe_scaling_bio_celln6761692_mhbss005_es0.yaml; only target_n differs.
+# train=celln918254_uniform001: a uniform 1% of the 91,825,395 train cells, controls
+# drawn like any other cell (no keep_controls). Expected from one seed-0 draw:
+# ~894.9k perturbed + ~23.4k control; 49,779 of 52,885 conditions keep >=1 cell.
+# Holdout (validation/test blocks) copied verbatim from tahoe_legacy_bio_holdout.yaml:
+# 5 fully-unseen cell lines, no peek ladder (unlike the pert scaling design).
+dataset: tahoe100M
+controls_to_train: true
+validation:
+- cell_name:
+  - C32
+  - HOP62
+  - HepG2/C3A
+  - Hs 766T
+  - PANC-1
+  drug:
+  - Allantoin
+  - BAY1125976
+  - Cilostazol
+  - Clotrimazole
+  - ERK5-IN-2
+  - Edoxaban (tosylate monohydrate)
+  - 'Erdafitinib '
+  - IQ 1
+  - Imiquimod (maleate)
+  - Larotrectinib
+  - Larotrectinib sulfate
+  - NVP-BHG712
+  - Quinestrol
+  - Sivelestat (sodium tetrahydrate)
+  - Tetracycline (hydrochloride)
+  - Tucatinib
+  dose:
+  - 0.05
+  - 0.5
+  - 5.0
+- cell_name:
+  - C32
+  - HOP62
+  - HepG2/C3A
+  - Hs 766T
+  - PANC-1
+  drug:
+  - Allopurinol
+  - Drospirenone
+  - Vandetanib
+  dose:
+  - 0.05
+  - 0.5
+test:
+- cell_name:
+  - C32
+  - HOP62
+  - HepG2/C3A
+  - Hs 766T
+  - PANC-1
+  drug:
+  - (R)-Verapamil (hydrochloride)
+  - (S)-Crizotinib
+  - 8-Hydroxyquinoline
+  - APTO-253
+  - AT7519
+  - AZD-7648
+  - AZD-8055
+  - Abemaciclib
+  - Adenine
+  - Adenosine
+  - Afatinib
+  - Almonertinib (hydrochloride)
+  - Almonertinib (mesylate)
+  - Alpelisib
+  - Altretamine
+  - Amsacrine
+  - Anastrozole
+  - Anethole trithione
+  - Apalutamide
+  - Artesunate
+  - Azithromycin (hydrate)
+  - BI-3406
+  - Baicalin
+  - Balsalazide (sodium hydrate)
+  - Belumosudil
+  - Belumosudil (mesylate)
+  - Belzutifan
+  - Bendamustine
+  - Benproperine (phosphate)
+  - Bentamapimod
+  - Berbamine
+  - Berbamine (dihydrochloride)
+  - Berberine (chloride hydrate)
+  - Bestatin
+  - Betamethasone dipropionate
+  - Bimatoprost
+  - Bisoprolol (hemifumarate)
+  - Bortezomib
+  - Bosentan (hydrate)
+  - Busulfan
+  - CP21R7
+  - Canagliflozin
+  - Capivasertib
+  - Capmatinib
+  - Carbidopa (monohydrate)
+  - Celecoxib
+  - Cepharanthine
+  - Chlorhexidine (diacetate)
+  - Cysteamine (hydrochloride)
+  - Dabrafenib
+  - Daidzin
+  - Dapagliflozin ((2S)-1,2-propanediol, hydrate)
+  - Daptomycin
+  - Decitabine
+  - Demeclocycline
+  - Dexmedetomidine
+  - Dimethyl fumarate
+  - Dinaciclib
+  - Diphenhydramine
+  - Docetaxel
+  - Docetaxel (Trihydrate)
+  - Dorzolamide (hydrochloride)
+  - Doxorubicin (hydrochloride)
+  - Doxycycline (monohydrate)
+  - ETC-206
+  - EX229
+  - Elagolix sodium
+  - Encorafenib
+  - Entecavir (monohydrate)
+  - Epirubicin (hydrochloride)
+  - Everolimus
+  - Fenofibrate
+  - Finasteride
+  - Fluvoxamine
+  - Fluvoxamine (maleate)
+  - Fumaric acid
+  - Furosemide
+  - Fusidic acid
+  - Futibatinib
+  - GSK1059615
+  - Gallic acid
+  - Gallic acid (hydrate)
+  - Gemfibrozil
+  - Goserelin (acetate)
+  - HI-TOPK-032
+  - Harringtonine
+  - Hesperidin
+  - Hexylresorcinol
+  - Homoharringtonine
+  - Hydroxyfasudil
+  - Idarubicin (hydrochloride)
+  - Infigratinib
+  - Ixazomib
+  - L-Thyroxine (sodium salt pentahydrate)
+  - LB-100
+  - LJI308
+  - LY-2584702 (tosylate salt)
+  - LY2090314
+  - Lenalidomide (hemihydrate)
+  - Ligustrazine
+  - Lipoic acid
+  - Lonafarnib
+  - MK-3903
+  - ML264
+  - Macitentan
+  - Mebendazole
+  - Menadione
+  - Methylprednisolone succinate
+  - Mifepristone
+  - Minodronic acid
+  - Mitoxantrone (dihydrochloride)
+  - Mozavaptan
+  - Naproxen
+  - Neratinib (maleate)
+  - Nevirapine
+  - Nimesulide
+  - Norepinephrine (hydrochloride)
+  - Orlistat
+  - Ornidazole
+  - PF-06260933
+  - PH-797804
+  - Paclitaxel
+  - Palmatine (chloride)
+  - Pasireotide (acetate)
+  - Pemetrexed
+  - Penfluridol
+  - Pentamidine (isethionate)
+  - Peretinoin
+  - Phenytoin (sodium)
+  - Pimitespib
+  - Pitavastatin (Calcium)
+  - Plicamycin
+  - Posaconazole
+  - Pralsetinib
+  - Pravastatin (sodium)
+  - Pyridoxine
+  - Pyridoxine (hydrochloride)
+  - RMC-6236
+  - Radotinib
+  - Ralimetinib dimesylate
+  - Raltitrexed
+  - Rapamycin
+  - Regorafenib
+  - Relugolix
+  - Resveratrol
+  - Retinoic acid
+  - Ribociclib
+  - Rifaximin
+  - Riluzole hydrochloride
+  - Rimonabant
+  - Rimonabant (Hydrochloride)
+  - Ritonavir
+  - Ropivacaine (hydrochloride monohydrate)
+  - Rosiglitazone
+  - Roxadustat
+  - Rucaparib (phosphate)
+  - Rutin (trihydrate)
+  - SBI-0640756
+  - Sacubitril/Valsartan
+  - Salicylic acid
+  - Sapanisertib
+  - Saquinavir
+  - Sildenafil
+  - Sinomenine
+  - Sodium Salicylate
+  - Sonidegib
+  - Sulfatinib
+  - TAK-733
+  - TAK-901
+  - Tadalafil
+  - Temsirolimus
+  - Temuterkib
+  - Terfenadine
+  - Thymol
+  - Tirabrutinib
+  - Tofacitinib
+  - Tofacitinib (citrate)
+  - Tolcapone
+  - Tomivosertib
+  - Torkinib
+  - Trametinib
+  - Trametinib (DMSO_TF solvate)
+  - Triamcinolone
+  - Trimetrexate
+  - Tubulin inhibitor 6
+  - Tucidinostat
+  - ULK-101
+  - Vemurafenib
+  - Verapamil
+  - Verteporfin
+  - Vilanterol
+  - Volasertib
+  - XRK3F2
+  - c-Kit-IN-1
+  - crizotinib
+  - olaparib
+  - palbociclib
+  - venetoclax
+  - vincristine
+  dose:
+  - 0.05
+  - 0.5
+  - 5.0
+- cell_name:
+  - C32
+  - HOP62
+  - HepG2/C3A
+  - Hs 766T
+  - PANC-1
+  drug:
+  - 5-Fluorouracil
+  - Abiraterone acetate
+  - Aprepitant
+  - Artemether
+  - Asciminib
+  - Ataluren
+  - Atazanavir (sulfate)
+  - Bestatin (hydrochloride)
+  - Bexarotene
+  - Brimonidine
+  - Budesonide
+  - Cabozantinib (S-malate)
+  - Canagliflozin (hemihydrate)
+  - Captopril
+  - Carbamazepine
+  - Cinacalcet
+  - Clobetasol propionate
+  - Clopidogrel
+  - Cyclosporin A
+  - Dapagliflozin
+  - Darolutamide
+  - Delamanid
+  - Dexamethasone
+  - Digitoxin
+  - Dihydroartemisinin
+  - Econazole
+  - Entrectinib
+  - Erythromycin
+  - Esmolol (hydrochloride)
+  - Estrone sulfate (potassium)
+  - Fedratinib (hydrochloride hydrate)
+  - Filgotinib
+  - Flutamide
+  - Fulvestrant
+  - Gefitinib
+  - Idoxuridine
+  - Imiquimod (hydrochloride)
+  - Ivermectin
+  - Ixazomib citrate
+  - Lactate (calcium)
+  - Loperamide (hydrochloride)
+  - Malotilate
+  - Meloxicam
+  - Methotrexate
+  - Methyl aminolevulinate (hydrochloride)
+  - Methylthiouracil
+  - Nafamostat (mesylate)
+  - Neratinib
+  - Omeprazole
+  - Omeprazole (sodium)
+  - Osimertinib (mesylate)
+  - Ouabain (Octahydrate)
+  - Oxaprozin
+  - Pentoxifylline
+  - Pimozide
+  - Pioglitazone
+  - Piroxicam
+  - Ponatinib
+  - Proglumide
+  - Ranolazine
+  - Talc
+  - Tazarotene
+  - Tirabrutinib (hydrochloride)
+  - Valdecoxib
+  - Vismodegib
+  - Voriconazole
+  - Vortioxetine
+  - Zileuton
+  - "\u03B3-Oryzanol"
+  dose:
+  - 0.05
+  - 0.5
+train:
+  conditions:
+    sample: all
+  cells:
+    target_n: 918254
+    seed: 0

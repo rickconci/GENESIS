@@ -1,0 +1,4 @@
+space,metric_key,higher_is_better,log_axis,n_conditions,split_half_reference_mean,split_half_reference_repeat_sd
+default,deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,True,False,4098,0.6634129141,0.06987525555
+default,log1p_slice_med_rgs/pearson_r_diff,True,False,4211,0.8640915623,0.01157839799
+default,log1p_slice_med_rgs/energy_distance,False,True,4211,0.001468483792,0.002390850891

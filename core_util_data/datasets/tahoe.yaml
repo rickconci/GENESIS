@@ -1,0 +1,76 @@
+# Dataset registry entry for Tahoe-100M.
+#
+# SSOT for dataset identity (obs columns, control definition, data paths,
+# cache/eval defaults). Model configs set ``dataset: tahoe`` plus top-level
+# ``split_config`` and ``hvg_genes_path`` (per-run gene set + split). Optional
+# ``tahoe:`` inline overrides hydrate unset fields from this file
+# (see ``src.config.loader``).
+
+name: tahoe
+
+# Plate h5ad root. Edit for your cluster checkout.
+data_dir: "{root:data_tahoe}"   # configs/roots.yaml
+plate_glob: "plate*_filt_Vevo_Tahoe100M_WServicesFrom_ParseGigalab.h5ad"
+
+# Median full-transcriptome UMI per cell: L_ref of the composition-only report space
+# log1p_slice_med_rgs (S = n_genes / 20000 * L_ref): the median of the per-plate median UMIs (library_full/plate_medians.json).
+median_umi: 1829.0
+
+# --- Training cache (optional accelerator) ---
+# mmap CSR HVG shards under <data_dir>/hvg_cache/geneset_<hash>__n_<N>/.
+cache_dir: null
+build_cache: true
+overwrite_cache: false
+
+# --- Eval cache (required for fast scoring) ---
+# Per-condition sparse NPZ truth under <data_dir>/eval_cache/normalization_<id>/geneset_<hash>__n_<N>/.
+build_eval_cache: true
+overwrite_eval_cache: false
+
+# Conditioning axes. Order is informational; cond_cols is the union.
+biological_context_columns: [cell_name]
+perturbation_columns:       [drug, dose]
+plate_column:               plate
+# Experimental-replicate reference (scripts/eval/reference.py replicate_pairs):
+# the same (cell_name, drug, dose) was run on several plates: each plate is
+# an independent run of the experiment.
+experimental_replicate_column: plate
+conc_key:                   drugname_drugconc
+
+# Control definition (drug + dose). Rows matching all listed columns are
+# treated as controls and (when controls_to_train=true in a split YAML)
+# kept in train regardless of any test/validation predicate match.
+control_pert:
+  drug: DMSO_TF
+  dose: 0.0
+
+# μ_ctrl grouping when ``predict_delta=true`` and for eval-cache control NPZ
+# keys (must be a subset of biological_context_columns ∪ {plate_column}).
+control_match_keys: [plate, cell_name]
+
+# Full eval-cache key columns (biological_context_columns ∪ perturbation_columns
+# ∪ {plate_column} when present). Optional override; defaults are derived.
+model_conditioning_variables: [cell_name, drug, dose, plate]
+
+# Extra columns to enrich obs with at split time. Paths resolve under repo root.
+metadata_joins:
+  - left_on: cell_name
+    parquet: core_util_data/tahoe/metadata/cell_line_metadata.parquet
+    columns: [Organ]
+  - left_on: drug
+    parquet: core_util_data/tahoe/metadata/drug_metadata.parquet
+    columns: [moa-fine, moa-broad]
+
+# Cross-condition plots: one point per scored row (null = keep plate on x-axis).
+plot_aggregate_over: null
+
+# --- Noise ceiling (shared results/<dataset>/<strategy>/noise_ceiling/) ---
+build_noise_ceiling: true
+noise_ceiling_n_repeats: 5
+overwrite_noise_ceiling: false
+
+# HBSS sub-sampling parquets. Used when a split YAML's train block sets
+# `sample: hbss`. Files under this directory follow
+# tahoe_HBSS_f{XXX}_triplets.parquet (XXX = round(fraction * 100), 3-digit).
+hbss_subsample_dir: core_util_data/tahoe/HBSS_subsamples
+hbss_filename_pattern: "tahoe_HBSS_{tag}_triplets.parquet"

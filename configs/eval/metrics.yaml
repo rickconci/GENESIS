@@ -1,0 +1,15 @@
+# Metric sets the eval kernels compute (src/eval/metrics/eval_metrics.py: load_metric_set).
+# A set is a list of flat <space>/<metric> keys, or `all` for every key the kernels emit.
+# A key's value never depends on which set it was computed under: skipped metrics replay
+# their random subsample draws.
+
+# The three headline metrics of Figs 2-4: DEG top-100 overlap (R-precision against truth's
+# DEGs), Pearson r of the perturbation delta, and energy distance between the cell clouds.
+core:
+  - deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10
+  - log1p_slice_med_rgs/pearson_r_diff
+  - log1p_slice_med_rgs/energy_distance
+
+# Everything else as well: pearson_r, mmd_rbf, the log1p_rgs space (Fig 2c, appendix) and the
+# other DEG variants. The published metrics_summary.json files were scored with this set.
+extended: all

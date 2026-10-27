@@ -1,0 +1,4 @@
+panel,report_space,metric,metric_key,split_half_reference_mean,split_half_reference_repeat_std
+tahoe_pert_fixed,log1p_slice_med_rgs,DEG@100 adaptive-k (truth),deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10,0.62973,0.080556
+tahoe_pert_fixed,log1p_slice_med_rgs,Pearson r Δ,log1p_slice_med_rgs/pearson_r_diff,0.761712,0.018489
+tahoe_pert_fixed,log1p_slice_med_rgs,Energy dist. (log),log1p_slice_med_rgs/energy_distance,0.003712,0.006143

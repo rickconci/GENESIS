@@ -1,0 +1,62 @@
+# Dataset registry entry for the Parse-Biosciences PBMC cytokine atlas.
+#
+# SSOT for dataset identity (obs columns, control definition, data paths,
+# cache/eval defaults). Model configs set ``dataset: parse`` plus top-level
+# ``split_config`` and ``hvg_genes_path``. Optional ``parse:`` inline
+# overrides hydrate unset fields from this file (see ``src.config.loader``).
+
+name: parse
+
+data_dir: "{root:data_parse}"   # configs/roots.yaml
+plate_glob: "20260203_Parse_10M_PBMC_cytokines.h5ad"
+
+# Median full-transcriptome UMI per cell: L_ref of the composition-only report space
+# log1p_slice_med_rgs (S = n_genes / 20000 * L_ref): the median tscp_count over the Parse 10M h5ad.
+median_umi: 3320.0
+
+# --- Training cache ---
+cache_dir: null
+build_cache: false
+overwrite_cache: false
+
+# --- Eval cache ---
+build_eval_cache: true
+overwrite_eval_cache: false
+
+# Default bio context is donor-only (splits / coverage). For cell-type-resolved
+# training or eval, override ``model_conditioning_variables`` and
+# ``control_match_keys`` in the run config (see configs/parse/bio/eval_cache/eval_cache_parse_pbmc2k_celltype_well.yaml).
+biological_context_columns: [donor]
+perturbation_columns:       [cytokine]
+plate_column:               null
+# Experimental-replicate reference (scripts/eval/reference.py replicate_pairs):
+# one sample per (donor, cytokine): nothing is measured twice. The donor is
+# the biological context and each donor is its own plate, so a donor gap is biology, not a replicate.
+experimental_replicate_column: null
+conc_key:                   null
+
+control_pert:
+  cytokine: PBS
+
+# μ_ctrl grouping when ``predict_delta=true`` and for eval-cache control NPZ
+# keys (Parse has no plate, so just donor).
+control_match_keys: [donor]
+
+# Full eval-cache key columns. Parse has no plate. Optional override.
+# Cell-type-resolved variant: [donor, cytokine, cell_type] with
+# control_match_keys: [donor, cell_type] and eval_cache_dir suffix __cell_type.
+model_conditioning_variables: [donor, cytokine]
+
+# No external metadata joins required; donor and cytokine annotations are
+# already on the AnnData object.
+metadata_joins: []
+
+plot_aggregate_over: null
+
+build_noise_ceiling: true
+noise_ceiling_n_repeats: 5
+overwrite_noise_ceiling: false
+
+# PBMC has no HBSS sub-sampling pipeline; sample: hbss is not available.
+hbss_subsample_dir: null
+hbss_filename_pattern: null

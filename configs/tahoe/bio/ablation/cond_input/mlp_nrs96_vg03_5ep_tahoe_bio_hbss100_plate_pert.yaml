@@ -1,0 +1,115 @@
+# Condition-input ablation: plate + pert — no cell_name.
+# STATE 2k MLP with variogram (w=0.3, n_pairs=6000, fast, debiased, subsample 64) and n_repeats=96.
+# max_epochs=5 (epochs 0–4): epoch 0 lr_mul=1.0, epoch 1 0.1, epochs 2–4 0.01.
+# Full-label (all four) twin, same recipe: mlp_nrs96_vg03_5ep_tahoe_bio_hbss100_all4.yaml.
+#
+# Test conditions are the same quadruplets as the full model. At generate we only
+# pass condition_input_variables; conditions that share that key share a law.
+run_name_suffix: cia_tahoe_bio_hbss100_plate_pert_r0_seed0
+dataset: tahoe
+hvg_genes_path: core_util_data/tahoe/gene_subsets/STATE_HVG.txt
+split_config: core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split/entity_seed0/tahoe_scaling_bio_hbss100_es0.yaml
+condition_input_variables: [plate, drug, dose]
+tahoe:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_c0d6420ffc0fa861__n_2000
+  build_cache: false
+parse:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_2000
+  build_cache: false
+group_by_condition: false
+train_loader_mode: per_cell
+max_epochs: 5
+limit_train_batches: null
+hbss_equalize_training_budget: false
+seed: 64
+use_curriculum: true
+curriculum_mode: between_epochs
+curriculum_target_product: 196608
+between_epoch_curriculum_schedule:
+- epoch: 0
+  n_repeats: 96
+  batch_size: 2048
+  lr_mul: 1.0
+- epoch: 1
+  n_repeats: 96
+  batch_size: 2048
+  lr_mul: 0.1
+- epoch: 2
+  n_repeats: 96
+  batch_size: 2048
+  lr_mul: 0.01
+n_repeats: 96
+batch_size: 2048
+optimizer_type: adamw
+lr: 0.0009
+lr_init: 0.0
+weight_decay: 0.001
+warmup_steps_min: 100
+warmup_steps_max: 1000
+wsd_stable_frac: 1.0  # no WSD decay; only epoch lr_mul drops
+grad_clip: 0
+num_workers: 6
+fetch_factor: 4
+prefetch_factor: 2
+block_size: 4096
+accumulate_grad_batches: 1
+precision: bf16-mixed
+compile_model: true
+compile_mode: max-autotune
+checkpoint_data_fraction: 1.25
+devices: 1
+backbone_type: condition_mlp
+noise_distribution: uniform
+condition_mlp_hidden_dims: [4096, 8192, 8192]
+condition_mlp_tokdim: 256
+condition_mlp_norm: none
+condition_mlp_activation: gelu
+condition_mlp_dropout: 0.0
+condition_mlp_residual: false
+condition_mlp_pre_norm: false
+output_activation: relu
+head_bias_init_from_train_mean: false
+head_bias_init_n_batches: 100
+apply_log1p: true
+predict_delta: false
+variogram_loss_weight: 0.3
+variogram_fast: true
+variogram_n_pairs: 6000
+variogram_balanced_zeros: false
+variogram_p: 0.5
+variogram_debias: true
+variogram_repeat_subsample: 64
+variogram_mean_weight: false
+variogram_batch_subsample: 0
+cpm_energy_loss_weight: 0.0
+total_log1p_mass_weight: 0.0
+raw_mass_huber_weight: 0.0
+per_gene_crps_weight: 0.0
+output_l1_weight: 0.0
+output_l2_weight: 0.0
+batch_composition_diag: true
+batch_composition_diag_every_n_steps: 100
+val_check_interval: 0.0
+num_sanity_val_steps: 0
+limit_val_batches: 0
+use_early_stopping: false
+use_eval_callback: false
+eval_callback_every_n_epochs: 1
+model_eval_splits:
+  - validation
+build_eval_cache: false
+build_noise_ceiling: false
+run_model_eval_after_fit: false
+plot_model_vs_ceiling_after_fit: false
+model_eval_n_repeats: 1
+model_eval_batch_size: 2048
+save_split_coverage: false
+raise_on_axis_coverage_failure: false
+use_wandb: true
+wandb_project: tahoe_cond_input_ablation
+wandb_entity: SCFM_VAL
+wandb_run_name: null
+log_every_n_steps: 500
+log_grad_every_n_steps: 5000
+log_grad_top_k: 10
+diagnostics: ["magnitudes"]

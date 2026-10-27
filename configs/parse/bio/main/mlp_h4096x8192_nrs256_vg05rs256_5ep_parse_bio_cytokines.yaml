@@ -1,0 +1,134 @@
+# =============================================================================
+# Parse-bio 100%: the main PBMC recipe on the standard donor-holdout split (parse_cytokines.yaml:
+# 4 held-out donors x test cytokines, ALL PBS wells in train).
+#
+# Diff against mlp_h4096x8192_nrs256_vg05rs256_5ep_parse_bio_donorholdout.yaml, and nothing else:
+#   split_config parse_cytokines.yaml, run_name_suffix
+#
+# A100 80 GB fit (1792 x 256 OOMs at step 0): 2 x 896 accumulated = the same
+# 1,792-cell optimizer step and step count; variogram 448 per micro-batch (= 896 per step);
+# head-bias init 200 x 896 (= 100 x 1792). Gene pairs are redrawn per micro-batch.
+# compile_mode max-autotune-no-cudagraphs: same kernels, no graph replay (graphs + accumulation crash).
+#
+# Launch:
+#   CUDA_VISIBLE_DEVICES=<gpu> python -u -m src.main --config configs/parse/bio/main/mlp_h4096x8192_nrs256_vg05rs256_5ep_parse_bio_cytokines.yaml devices=1
+# =============================================================================
+run_name_suffix: parse_bio_cytokines_5ep_seed0
+
+dataset: parse
+hvg_genes_path: core_util_data/parse/gene_subsets/pbmc_real_selected_genes.pkl
+split_config: core_util_data/splits/parse/bio/parse_cytokines.yaml
+
+tahoe:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_c0d6420ffc0fa861__n_2000
+  build_cache: false
+parse:
+  eval_cache_dir: eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_2000__cell_type__well
+  build_cache: false
+  build_eval_cache: false
+  model_conditioning_variables: [donor, cytokine, cell_type, bc1_well]
+  # Eval control = train PBS wells, donor × cell_type matched.
+  # Bio-holdout donors have all 6; PBS-test donors have none.
+  control_match_keys: [donor, cell_type]
+
+group_by_condition: false
+train_loader_mode: per_cell
+use_cell_set: 256
+cell_set_min_cells: 50
+
+max_epochs: 5
+limit_train_batches: null
+hbss_equalize_training_budget: false
+seed: 64
+
+use_curriculum: true
+curriculum_mode: between_epochs
+# 896 cells × 256 repeats × 2 accumulated = the 1792-cell step. Pin B on every milestone.
+curriculum_target_product: 229376
+between_epoch_curriculum_schedule:
+  - {epoch: 0, n_repeats: 256, batch_size: 896, lr_mul: 1.0}   # 9e-4
+  - {epoch: 1, n_repeats: 256, batch_size: 896, lr_mul: 0.1}   # 9e-5
+  - {epoch: 2, n_repeats: 256, batch_size: 896, lr_mul: 0.01}  # 9e-6 (epochs 2–4)
+
+n_repeats: 256
+batch_size: 896
+
+optimizer_type: adamw
+lr: 0.0009
+lr_init: 0.0
+weight_decay: 0.0001
+warmup_steps_min: 100
+warmup_steps_max: 1000
+grad_clip: 0
+
+num_workers: 8
+fetch_factor: 14
+prefetch_factor: 2
+block_size: 1024
+accumulate_grad_batches: 2
+precision: bf16-mixed
+compile_model: true
+compile_mode: max-autotune-no-cudagraphs   # CUDA graphs break under accumulate_grad_batches 2 (config.py:301)
+checkpoint_data_fraction: 0.5
+devices: 1
+
+backbone_type: condition_mlp
+noise_distribution: uniform
+condition_mlp_hidden_dims: [4096, 8192]
+condition_mlp_tokdim: 256
+condition_mlp_norm: none
+condition_mlp_activation: gelu
+condition_mlp_dropout: 0.0
+condition_mlp_residual: false
+condition_mlp_pre_norm: false
+
+output_activation: relu
+head_bias_init_from_train_mean: true
+head_bias_init_n_batches: 200
+apply_log1p: true
+predict_delta: false
+
+variogram_loss_weight: 0.5
+variogram_p: 0.5
+variogram_fast: true
+variogram_debias: true
+variogram_n_pairs: 6000
+variogram_repeat_subsample: 256
+variogram_batch_subsample: 448
+variogram_balanced_zeros: false
+variogram_mean_weight: false
+
+cpm_energy_loss_weight: 0.0
+total_log1p_mass_weight: 0.0
+raw_mass_huber_weight: 0.0
+per_gene_crps_weight: 0.0
+output_l1_weight: 0.0
+output_l2_weight: 0.0
+
+batch_composition_diag: true
+batch_composition_diag_every_n_steps: 100
+val_check_interval: 0.0
+num_sanity_val_steps: 0
+limit_val_batches: 0
+use_early_stopping: false
+use_eval_callback: false
+eval_callback_every_n_epochs: 1
+model_eval_splits:
+  - validation
+build_eval_cache: false
+build_noise_ceiling: false
+run_model_eval_after_fit: false
+plot_model_vs_ceiling_after_fit: false
+model_eval_n_repeats: 1
+model_eval_batch_size: 2048
+save_split_coverage: false
+raise_on_axis_coverage_failure: false
+
+use_wandb: true
+wandb_project: parse_bio_well_vg05
+wandb_entity: SCFM_VAL
+wandb_run_name: null
+log_every_n_steps: 50
+log_grad_every_n_steps: 500
+log_grad_top_k: 10
+diagnostics: ["magnitudes"]

@@ -1,0 +1,6 @@
+cell_name	neighbor	distance	n_shared_arms	runner_up	runner_up_distance	n_own_train_arms
+C32	SK-MEL-2	0.3505	348	RPMI-7951	0.4456	348
+HOP62	RPMI-7951	0.2727	348	H4	0.2755	348
+HepG2/C3A	SW480	0.5362	348	SW1417	0.5655	348
+Hs 766T	Panc 03.27	0.4164	348	CFPAC-1	0.4225	348
+PANC-1	NCI-H23	0.3331	348	A549	0.3843	348

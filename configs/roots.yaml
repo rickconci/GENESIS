@@ -1,0 +1,14 @@
+# The one machine-specific file: edit these for your machine, or point PERTGEN_ROOTS at your own copy.
+# Every other path names them as {root:<name>} (src/paths.py: expand_path); a dataset registry's data_dir is
+# {root:data_<dataset>}. Drawing the figures (scripts/figures/draw_all.py) reads none of them.
+#
+# Where each dataset's h5ads and the caches built from them live (scripts/data/build_cache.py writes there)
+data_tahoe: /path/to/tahoe100M/h5ad
+data_parse: /path/to/parse_pbmc_cytokines/10m
+# Model outputs produced outside this repository, read only to rescore the comparators
+ml_outputs: /path/to/ml_outputs
+perturbdiff: /path/to/PerturbDiff/outputs/sampling
+cellflow: /path/to/CellFlow/authors_recipe/runs
+perturbdiff_legacy: /path/to/PerturbDiff/outputs
+perturbdiff_data: /path/to/PerturbDiff/perturb_data
+tahoe_metadata: /path/to/tahoe100M/metadata

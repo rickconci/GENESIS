@@ -1,0 +1,380 @@
+drug	moa_fine	targets	rule	expect_pathway	expect_sign	exclude_from	context	tier
+Talc	unclear				none			
+Bortezomib	Proteasome inhibitor	PSMB5	moa	NFkB	down	NFkB,TNFa		A
+Ixazomib	Proteasome inhibitor	PSMB5	moa	NFkB	down	NFkB,TNFa		A
+Ixazomib citrate	Proteasome inhibitor	PSMB1, PSMB2, PSMB5	moa	NFkB	down	NFkB,TNFa		A
+Lactate (calcium)	unclear				none			
+Bisoprolol (hemifumarate)	Adrenoceptor agonist	ADRB1			none			
+Fumaric acid	unclear				none			
+Hydroxyurea	DNA synthesis/repair inhibitor	RRM2, RRM1	moa	p53	up	p53		A
+L-Eflornithine (monohydrochloride)	unclear	ODC1			none			
+Cysteamine (hydrochloride)	unclear				none			
+Darinaparsin	unclear				none			
+Entecavir (monohydrate)	unclear				none			
+Allantoin	unclear				none			
+5-Fluorouracil	DNA synthesis/repair inhibitor	TYMS	moa	p53	up	p53		A
+L-Thyroxine (sodium salt pentahydrate)	unclear				none			
+Gallic acid	Cyclooxygenase inhibitor		moa		none			C
+Gallic acid (hydrate)	Cyclooxygenase inhibitor		moa		none			C
+ERK5-IN-2	Other MAPK inhibitor	MAPK7	moa		none	MAPK		C
+Vilanterol	Adrenoceptor agonist	ADRB2			none			
+Niclosamide (olamine)	unclear	STAT3			none			
+Norepinephrine (hydrochloride)	Adrenoceptor agonist	ADRA1A, ADRA1B, ADRA1D, ADRA2A, ADRA2B, ADRA2C, ADRB1			none			
+Triclosan	unclear				none			
+Mitoxantrone (dihydrochloride)	DNA synthesis/repair inhibitor	TOP2A, TOP2B, PRKCA	moa	p53	up	p53		A
+Pentamidine (isethionate)	unclear	PRLR			none			
+Folic acid	unclear				none			
+Balsalazide (sodium hydrate)	JAK/STAT inhibitor	IL6, STAT3	drug		none			A
+Resveratrol	unclear	SIRT1			none			
+PF-06260933	Other MAPK inhibitor	MAP4K4	drug		none	MAPK		B
+Daidzin	unclear	ALDH2			none			
+Pemetrexed	DNA synthesis/repair inhibitor	TYMS, DHFR, GART	moa	p53	up	p53		A
+Econazole	unclear				none			
+XRK3F2	unclear				none			
+Arbutin	unclear	MYC, KLF4			none			
+Tucidinostat	HDAC inhibitor	HDAC1, HDAC2, HDAC3, HDAC10, HDAC8, HDAC11	moa		none	p53,NFkB,TNFa,JAK-STAT		C
+Pexidartinib (hydrochloride)	Multi-TK inhibitor	CSF1R, KIT, FLT3	moa		none	MAPK,EGFR,VEGF		C
+Sodium Salicylate	Cyclooxygenase inhibitor	PTGS2	moa		none			C
+Salicylic acid	Cyclooxygenase inhibitor		moa		none			C
+Ataluren	unclear	CFTR			none			
+4EGI-1	Protein synthesis inhibitor	EIF4E	moa		none			C
+Clotrimazole	unclear	CYP2A6, CYP51A1			none			
+Phenytoin (sodium)	unclear				none			
+SBI-0640756	Protein synthesis inhibitor		moa		none			C
+Oxaprozin	Cyclooxygenase inhibitor	PTGS1, PTGS2, NFKB1	moa		none			C
+Baicalin	unclear				none			
+Belinostat	HDAC inhibitor	HDAC6	moa		none	p53,NFkB,TNFa,JAK-STAT		C
+Carbamazepine	HDAC inhibitor		drug		none			A
+HI-TOPK-032	unclear	PBK			none			
+8-Hydroxyquinoline	unclear				none			
+Riluzole hydrochloride	unclear				none			
+Minodronic acid	unclear	P2RX2, P2RX3			none			
+GSK1059615	PI3K/AKT inhibitor	PIK3CA, PIK3CB, PIK3CD, PIK3CG, MTOR	moa	PI3K	down	PI3K		B
+Gemcitabine	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Cytarabine	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Cytarabine (hydrochloride)	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Uridine	unclear				none			
+Selinexor	unclear	XPO1			none			
+Furosemide	unclear	SLC12A1, SLC12A2			none			
+Adenosine	unclear	ADORA1, ADORA2A, ADORA2B, ADORA3			none			
+5-Azacytidine	DNA methyltransferase inhibitor	DNMT1	moa		none	JAK-STAT		C
+Clofarabine	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Adenine	unclear				none			
+Allopurinol	unclear	XDH			none			
+Trifluridine	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Brivudine	unclear				none			
+Idoxuridine	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Decitabine	DNA methyltransferase inhibitor	DNMT1, DNMT3A, DNMT3B	moa		none	JAK-STAT		C
+Lenalidomide (hemihydrate)	unclear	CRBN, IKZF1, IKZF3	drug		none			A
+DT-061	unclear				none			
+BAY1125976	PI3K/AKT inhibitor	AKT1, AKT2, AKT3	moa	PI3K	down	PI3K		B
+Larotrectinib	Other TK inhibitor	NTRK1, NTRK2, NTRK3	moa		none			C
+Larotrectinib sulfate	Other TK inhibitor	NTRK1, NTRK2, NTRK3	moa		none			C
+olaparib	DNA synthesis/repair inhibitor	PARP1, PARP2	drug		none	p53		C
+Filgotinib	JAK/STAT inhibitor	JAK1, JAK2, TYK2, JAK3	moa	JAK-STAT	down	JAK-STAT		A
+ULK-101	unclear	ULK1, ULK2			none			
+Oxaliplatin	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Cilostazol	unclear	PDE3A			none			
+LY2090314	GSK3 inhibitor	GSK3B, GSK3A	moa	WNT	up	WNT		A
+Cobimetinib	MEK inhibitor	MAP2K1	moa	MAPK	down	MAPK,EGFR		A
+Asciminib	Other TK inhibitor	ABL1	moa		none			C
+Capivasertib	PI3K/AKT inhibitor	AKT1, AKT2, AKT3, RPS6KB1, PRKACA, ROCK2, ROCK1	moa	PI3K	down	PI3K		B
+Penfluridol	unclear	DRD2			none			
+Lonafarnib	RAS inhibitor	HRAS, KRAS, NRAS	drug		none	MAPK,EGFR	KRAS/NRAS escape by geranylgeranylation	A
+Pimozide	unclear	DRD2, DRD3			none			
+Clonidine (hydrochloride)	Adrenoceptor agonist	ADRA2A, ADRA2B, ADRA2C			none			
+Brimonidine	Adrenoceptor agonist	ADRA2A, ADRA2B, ADRA2C			none			
+AT7519	CDK inhibitor	CDK2, CDK4, CDK5, CDK6, CDK9, CDK1, CDK7, GSK3B	moa		none	p53		C
+Hydroxyfasudil	unclear	ROCK1, ROCK2, PRKACA			none			
+BI-78D3	Other MAPK inhibitor		moa		none	MAPK		C
+ETC-206	Protein synthesis inhibitor		moa		none			C
+LJI308	Other MAPK inhibitor	RPS6KA1, RPS6KA3, RPS6KA2	drug		none	MAPK		B
+Bimiralisib	PI3K/AKT inhibitor	PIK3CA, PIK3CB, MTOR	moa	PI3K	down	PI3K		B
+Bentamapimod	Other MAPK inhibitor	MAPK8, MAPK9, MAPK10	drug		none	MAPK		B
+Lipoic acid	unclear				none			
+Peretinoin	Retinoic receptor agonist	RXRA, RXRB, RXRG			none			
+IQ 1	unclear				none			
+Acetohexamide	unclear				none			
+Pentoxifylline	unclear				none			
+DTP3	unclear				none			
+Acetazolamide	unclear				none			
+Pasireotide (acetate)	unclear	SSTR1, SSTR2, SSTR3, SSTR5			none			
+Chlorhexidine (diacetate)	unclear				none			
+Aspirin	Cyclooxygenase inhibitor	PTGS1, PTGS2	moa		none			C
+Abiraterone acetate	unclear	CYP17A1			none			
+Sivelestat (sodium tetrahydrate)	unclear	ELANE			none			
+Atazanavir (sulfate)	unclear	CYP3A4			none			
+Terfenadine	unclear	HRH1			none			
+Bosentan (hydrate)	unclear	EDNRA, EDNRB			none			
+Dabrafenib	RAF inhibitor	BRAF, RAF1	moa	MAPK	down	MAPK,EGFR	BRAF V600E only; paradoxical ACTIVATION in RAS-mutant	A
+Ralimetinib dimesylate	Other MAPK inhibitor	MAPKAPK2, MAPK14, MAPK11	drug		none	MAPK		B
+Saquinavir	unclear				none			
+Pentagastrin	unclear	CCKBR			none			
+Anastrozole	unclear	CYP19A1			none			
+Harringtonine	Protein synthesis inhibitor		drug		none			A
+Homoharringtonine	Protein synthesis inhibitor		drug		none			A
+Flutamide	Androgen receptor antagonist	AR	moa	Androgen	down	Androgen	AR-expressing lines only	B
+Thymopentin	unclear				none			
+Aliskiren	unclear	REN			none			
+Verapamil	unclear	CYP3A4, ABCB1			none			
+(R)-Verapamil (hydrochloride)	unclear	ABCB1			none			
+Ritonavir	unclear				none			
+Goserelin (acetate)	unclear	GNRHR			none			
+Bestatin	unclear	ANPEP			none			
+Bestatin (hydrochloride)	unclear				none			
+Imiquimod (maleate)	unclear	TLR7			none			
+Imiquimod (hydrochloride)	unclear	TLR7			none			
+Encorafenib	RAF inhibitor	BRAF	moa	MAPK	down	MAPK,EGFR	BRAF V600E only; paradoxical ACTIVATION in RAS-mutant	A
+AZD1390	unclear	ATM			none			
+Sapanisertib	MTOR inhibitor	MTOR	moa	PI3K	down	PI3K		B
+Torkinib	MTOR inhibitor	MTOR, PDGFRA, PRKDC, PIK3CD, PIK3CG, PIK3CA, PIK3CB, HCK, SRC, KDR, ABL1, EPHB4, EGFR	moa	PI3K	down	PI3K		B
+Belumosudil	unclear	ROCK2, ROCK1			none			
+Belumosudil (mesylate)	unclear	ROCK2, ROCK1			none			
+Esmolol (hydrochloride)	unclear	ADRB1			none			
+Erdafitinib	Other TK inhibitor	FGFR1, FGFR2, FGFR3, FGFR4	moa		none			C
+Malotilate	unclear	ALOX5			none			
+Fenofibrate	unclear	CYP2C19, CYP2B6, CYP2C9, CYP2C8, CYP3A4, PPARA			none			
+MK-8353	Other MAPK inhibitor	MAPK3, MAPK1	moa		none	MAPK		C
+crizotinib	Multi-TK inhibitor	ALK, MET, ROS1	moa		none	MAPK,EGFR,VEGF		C
+(S)-Crizotinib	unclear	NUDT1			none			
+Crizotinib (hydrochloride)	Multi-TK inhibitor	ALK, MET, ROS1	moa		none	MAPK,EGFR,VEGF		C
+Aprepitant	unclear	TACR1			none			
+Cinacalcet	unclear	CASR			none			
+Naproxen	Cyclooxygenase inhibitor	PTGS1, PTGS2	moa		none			C
+Zileuton	unclear	ALOX5			none			
+Voriconazole	unclear				none			
+Carbidopa (monohydrate)	unclear	AHR			none			
+Silodosin	unclear	ADRA1A, ADRA1B, ADRA1D			none			
+Darolutamide	Androgen receptor antagonist	AR	moa	Androgen	down	Androgen	AR-expressing lines only	B
+Benproperine (phosphate)	unclear	ARPC2			none			
+Bicalutamide	Androgen receptor antagonist	AR	moa	Androgen	down	Androgen	AR-expressing lines only	B
+Captopril	unclear	ACE			none			
+Tirabrutinib	Other TK inhibitor	BTK	moa		none			C
+Tirabrutinib (hydrochloride)	Other TK inhibitor	BTK	moa		none			C
+Mifepristone	unclear	NR3C1, PGR			none			
+Fostamatinib (disodium hexahydrate)	Other TK inhibitor	SYK, FLT3, LYN, LCK	moa		none			C
+Temuterkib	Other MAPK inhibitor		drug	MAPK	down	MAPK,EGFR		A
+Tetracycline (hydrochloride)	unclear				none			
+Glycyrrhizic acid	unclear				none			
+Diammonium Glycyrrhizinate	unclear				none			
+venetoclax	unclear	BCL2			none			
+Delamanid	unclear				none			
+Dexmedetomidine	Adrenoceptor agonist	ADRA2A, ADRA2B, ADRA2C			none			
+Ranolazine	unclear				none			
+Lopinavir	unclear				none			
+Valdecoxib	Cyclooxygenase inhibitor	PTGS2	moa		none			C
+Cloxacillin (sodium)	unclear				none			
+Elagolix sodium	unclear	GNRHR			none			
+palbociclib	CDK inhibitor	CDK4, CDK6	moa		none	p53		C
+Retinoic acid	Retinoic receptor agonist	RARB, RARG, RARA, PPARD			none			
+PH-797804	Other MAPK inhibitor	MAPK14	drug		none	MAPK		B
+Ponatinib	Multi-TK inhibitor	ABL1, PDGFRA, KDR, FGFR1, SRC, KIT	moa		none	MAPK,EGFR,VEGF		C
+Radotinib	Other TK inhibitor	ABL1	drug		none			A
+NVP-BHG712	unclear	EPHB4			none			
+Canagliflozin	Glucose transporter inhibitor	SLC5A2			none			
+MK-3903	unclear	PRKAA1			none			
+EX229	unclear	PRKAA1			none			
+Flumatinib (mesylate)	Other TK inhibitor	ABL1	moa		none			C
+Tucatinib	EGFR/ERBB inhibitor	ERBB2	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Trimetrexate	DNA synthesis/repair inhibitor	DHFR	moa	p53	up	p53		A
+APTO-253	unclear	MYC, KLF4			none			
+Vitamin K4	unclear				none			
+Panobinostat	HDAC inhibitor	HDAC1, HDAC2, HDAC3, HDAC6, HDAC8, HDAC10, HDAC11	moa		none	p53,NFkB,TNFa,JAK-STAT		C
+Rimonabant	unclear	CNR1			none			
+Rimonabant (Hydrochloride)	unclear	CNR1			none			
+Ligustrazine	unclear				none			
+Sulfisoxazole	unclear	EDNRA, EDNRB			none			
+Alpelisib	PI3K/AKT inhibitor	PIK3CA	moa	PI3K	down	PI3K		B
+Trametinib	MEK inhibitor	MAP2K1, MAP2K2	moa	MAPK	down	MAPK,EGFR		A
+Nevirapine	unclear				none			
+Tomivosertib	Protein synthesis inhibitor		moa		none			C
+Paclitaxel	Microtubule inhibitor		moa	p53	up	p53	p53-competent only	B
+Docetaxel	Microtubule inhibitor		moa	p53	up	p53	p53-competent only	B
+Docetaxel (Trihydrate)	Microtubule inhibitor	TUBB1, TUBB3, TUBB4B, TUBB4A, TUBB2A, TUBB2B	moa	p53	up	p53	p53-competent only	B
+Roxadustat	unclear		drug	Hypoxia	up	Hypoxia		A
+Thymol	unclear	TRPA1			none			
+Gemfibrozil	unclear	PPARA, CYP2C9, CYP2C19, CYP2C8, CYP1A2			none			
+Vortioxetine	unclear	SLC6A4, HTR3A, HTR7			none			
+OTS514	Other MAPK inhibitor	MAP3K8	moa		none	MAPK		C
+Pralsetinib	Other TK inhibitor	RET	moa		none			C
+Menadione	unclear				none			
+Ciclopirox	unclear				none			
+Methylthiouracil	unclear				none			
+Tolcapone	unclear	COMT			none			
+Tolmetin	Cyclooxygenase inhibitor	PTGS1, PTGS2	moa		none			C
+Celecoxib	Cyclooxygenase inhibitor	PTGS2	moa		none			C
+S-Adenosyl-L-methionine (disulfate tosylate)	unclear				none			
+Lapatinib ditosylate	EGFR/ERBB inhibitor	EGFR, ERBB2	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+LY-2584702 (tosylate salt)	MTOR inhibitor	RPS6KB1	moa	PI3K	down	PI3K		B
+Edoxaban (tosylate monohydrate)	unclear	F10			none			
+Lumateperone (tosylate)	unclear	HTR2A, DRD2			none			
+Mozavaptan	unclear	AVPR2			none			
+Bexarotene	Retinoic receptor agonist	RXRA, RXRB, RXRG			none			
+Sulfatinib	Multi-TK inhibitor	FLT1, KDR, FLT4, FGFR1, CSF1R	moa		none	MAPK,EGFR,VEGF		C
+Olanzapine	unclear	HTR2A, HTR2C, DRD2, DRD4, ADRA1A, ADRA1B, ADRA1D, HTR6, CHRM1, CHRM2, CHRM3, CHRM4, CHRM5			none			
+AZD-7648	DNA synthesis/repair inhibitor	PRKDC	drug		none	p53		C
+Megestrol	unclear				none			
+Omeprazole (sodium)	unclear				none			
+Omeprazole	unclear				none			
+Fedratinib (hydrochloride hydrate)	JAK/STAT inhibitor	JAK2, FLT3, RET	moa	JAK-STAT	down	JAK-STAT		A
+Meloxicam	Cyclooxygenase inhibitor	PTGS1, PTGS2	moa		none			C
+Pyridoxine	unclear				none			
+Pyridoxine (hydrochloride)	unclear				none			
+Ornidazole	unclear				none			
+Raltitrexed	DNA synthesis/repair inhibitor	TYMS	moa	p53	up	p53		A
+BI-3406	RAS inhibitor	KRAS, SOS1	moa	MAPK	down	MAPK,EGFR	RAS-mutant; spares BRAF V600E	A
+Triamcinolone	Glucocorticoid receptor agonist	NR3C1	moa	NFkB	down	NFkB,TNFa		A
+Drospirenone	unclear				none			
+Eplerenone	unclear	NR3C2			none			
+Quinestrol	unclear				none			
+Estrone sulfate (potassium)	unclear				none			
+Finasteride	unclear	SRD5A2			none			
+Fulvestrant	unclear	ESR1			none			
+Monocrotaline	unclear	SLC22A1, SLC22A2			none			
+Ouabain (Octahydrate)	unclear				none			
+Rutin (trihydrate)	unclear				none			
+Hesperidin	unclear				none			
+Digitoxin	unclear				none			
+Doxorubicin (hydrochloride)	DNA synthesis/repair inhibitor	TOP2A, TOP2B, TOP1	moa	p53	up	p53		A
+Epirubicin (hydrochloride)	DNA synthesis/repair inhibitor	TOP2A	moa	p53	up	p53		A
+Idarubicin (hydrochloride)	DNA synthesis/repair inhibitor	TOP2A	moa	p53	up	p53		A
+Plicamycin	unclear	SP1, GSTM2			none			
+Rifaximin	unclear				none			
+Doxycycline (monohydrate)	unclear	MMP7, MMP8, MMP9, MMP13, MMP14			none			
+Fusidic acid	unclear				none			
+Ipatasertib	PI3K/AKT inhibitor	AKT1, AKT2, AKT3	moa	PI3K	down	PI3K		B
+Medroxyprogesterone acetate	unclear	PGR			none			
+Methylprednisolone succinate	Glucocorticoid receptor agonist	NR3C1	moa	NFkB	down	NFkB,TNFa		A
+Dexamethasone	Glucocorticoid receptor agonist	NR3C1	moa	NFkB	down	NFkB,TNFa		A
+Dihydroartemisinin	unclear				none			
+Artesunate	JAK/STAT inhibitor		drug		none			A
+Artemether	unclear				none			
+Rapamycin	MTOR inhibitor	MTOR, FKBP1A	moa	PI3K	down	PI3K		B
+Temsirolimus	MTOR inhibitor	MTOR	moa	PI3K	down	PI3K		B
+Everolimus	MTOR inhibitor	MTOR, FKBP1A	moa	PI3K	down	PI3K		B
+Tofacitinib	JAK/STAT inhibitor	JAK1, JAK2, JAK3	moa	JAK-STAT	down	JAK-STAT		A
+Tofacitinib (citrate)	JAK/STAT inhibitor	JAK1, JAK2, JAK3	moa	JAK-STAT	down	JAK-STAT		A
+Sonidegib	Sonic inhibitor	SMO			none			
+AZD-8055	MTOR inhibitor	MTOR	moa	PI3K	down	PI3K		B
+Elimusertib hydrochloride	unclear	ATR			none			
+Clobetasol propionate	unclear	CYP3A5, CYP3A4	drug	NFkB	down	NFkB,TNFa		A
+Betamethasone dipropionate	Glucocorticoid receptor agonist	NR3C1	moa	NFkB	down	NFkB,TNFa		A
+Posaconazole	unclear				none			
+Pravastatin (sodium)	unclear	HMGCR			none			
+Ivermectin	unclear				none			
+Topotecan (hydrochloride)	DNA synthesis/repair inhibitor	TOP1	moa	p53	up	p53		A
+Vinblastine (sulfate)	Microtubule inhibitor		moa	p53	up	p53	p53-competent only	B
+vincristine	Microtubule inhibitor		moa	p53	up	p53	p53-competent only	B
+Indacaterol (maleate)	Adrenoceptor agonist	ADRB2			none			
+Pimitespib	unclear	HSP90AA1, HSP90AB1			none			
+Irinotecan	DNA synthesis/repair inhibitor	TOP1	moa	p53	up	p53		A
+Irinotecan (hydrochloride)	DNA synthesis/repair inhibitor	TOP1	moa	p53	up	p53		A
+Dinaciclib	CDK inhibitor	CDK1, CDK2, CDK5, CDK9	moa		none	p53		C
+Pioglitazone	unclear	PPARG			none			
+Volasertib	unclear	PLK1, PLK2, PLK3			none			
+Cyclosporin A	unclear	PPP3CA, PPP3CB, PPP3CC			none			
+Erythromycin	unclear				none			
+Azithromycin (hydrate)	unclear				none			
+Perindopril (erbumine)	unclear	STAT3, ACE			none			
+Sildenafil	unclear	PDE5A			none			
+Budesonide	Glucocorticoid receptor agonist	NR3C1	moa	NFkB	down	NFkB,TNFa		A
+Hexylresorcinol	unclear				none			
+Oleic acid	unclear				none			
+Fingolimod (hydrochloride)	unclear	PAK1			none			
+Daptomycin	unclear				none			
+Orlistat	unclear				none			
+Levobupivacaine (hydrochloride)	unclear	SCN5A			none			
+Proglumide	unclear	CCKBR, CCKAR			none			
+Ropivacaine (hydrochloride monohydrate)	unclear				none			
+Macitentan	unclear	EDNRA, EDNRB			none			
+Vemurafenib	RAF inhibitor	BRAF	moa	MAPK	down	MAPK,EGFR	BRAF V600E only; paradoxical ACTIVATION in RAS-mutant	A
+Lidocaine (hydrochloride)	unclear	MAP2K1, MAPK1, NFKB1			none			
+Sunitinib	Multi-TK inhibitor	KDR, PDGFRB	moa		none	MAPK,EGFR,VEGF		C
+Procainamide (hydrochloride)	DNA methyltransferase inhibitor	DNMT1	moa		none	JAK-STAT		C
+Lucanthone	unclear				none			
+RMC-6236	RAS inhibitor	KRAS	moa	MAPK	down	MAPK,EGFR	RAS-mutant; spares BRAF V600E	A
+Pemigatinib	Other TK inhibitor	FGFR1, FGFR2, FGFR3, FGFR4	moa		none			C
+Infigratinib	Other TK inhibitor	FGFR1, FGFR2, FGFR3, FGFR4	moa		none			C
+NG25	Other MAPK inhibitor	MAP4K2, MAP3K7, LYN, ABL1, ABL2, FER, SRC, EPHA2, EPHB2, EPHB4, ZAK, ZKSCAN1, RAF1	moa		none	MAPK		C
+Abemaciclib	CDK inhibitor	CDK4, CDK6	moa		none	p53		C
+Bimatoprost	unclear				none			
+Dorzolamide (hydrochloride)	unclear	CA2			none			
+Tazarotene	Retinoic receptor agonist	RARA, RARB, RARG			none			
+Neratinib	EGFR/ERBB inhibitor	EGFR, ERBB2	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Neratinib (maleate)	EGFR/ERBB inhibitor	EGFR, ERBB2	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Dapagliflozin	Glucose transporter inhibitor	SLC5A2			none			
+Dapagliflozin ((2S)-1,2-propanediol, hydrate)	Glucose transporter inhibitor	SLC5A2			none			
+Auranofin	unclear	TXNRD1, TXNRD2			none			
+TAK-901	unclear	AURKB			none			
+Loperamide (hydrochloride)	unclear				none			
+Ribociclib	CDK inhibitor	CDK4, CDK6	moa		none	p53		C
+Altretamine	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Demeclocycline	unclear				none			
+Afatinib	EGFR/ERBB inhibitor	EGFR, ERBB2	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Relugolix	unclear	GNRHR			none			
+Citalopram (hydrobromide)	unclear	SLC6A4			none			
+Almonertinib (hydrochloride)	EGFR/ERBB inhibitor	EGFR	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Almonertinib (mesylate)	EGFR/ERBB inhibitor	EGFR	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Diphenhydramine	unclear	HRH1			none			
+ML264	unclear	KLF5			none			
+Methotrexate	DNA synthesis/repair inhibitor	DHFR	moa	p53	up	p53		A
+Ivabradine (hydrochloride)	unclear	HCN4			none			
+Rosiglitazone	unclear	PPARG, TRPC5, TRPM3			none			
+Piroxicam	Cyclooxygenase inhibitor	PTGS1, PTGS2	moa		none			C
+c-Kit-IN-1	Multi-TK inhibitor	KIT, MET, KDR, PDGFRA, PDGFRB	moa		none	MAPK,EGFR,VEGF		C
+CP21R7	GSK3 inhibitor	GSK3B, PRKCA	moa	WNT	up	WNT		A
+9-ING-41	GSK3 inhibitor	GSK3B	moa	WNT	up	WNT		A
+Binimetinib	MEK inhibitor	MAP2K1, MAP2K2	moa	MAPK	down	MAPK,EGFR		A
+TAK-733	MEK inhibitor	MAP2K1	moa	MAPK	down	MAPK,EGFR		A
+Bendamustine	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+Benztropine (mesylate)	unclear				none			
+Tadalafil	unclear	PDE5A			none			
+Vandetanib	Multi-TK inhibitor	EGFR, KDR	moa		none	MAPK,EGFR,VEGF		C
+Glasdegib	Sonic inhibitor	SMO			none			
+Isocorydine	unclear				none			
+Berbamine	unclear	CACNA1C			none			
+Berbamine (dihydrochloride)	unclear				none			
+Cepharanthine	unclear	CYP3A4, CYP2E1, CYP2C9			none			
+Sinomenine	unclear	OPRM1			none			
+Adagrasib	RAS inhibitor	KRAS	moa	MAPK	down	MAPK,EGFR	RAS-mutant; spares BRAF V600E	A
+LB-100	unclear	PPP2CA, PPP2CB			none			
+Entrectinib	Other TK inhibitor	NTRK1, NTRK2, NTRK3, ROS1, ALK	moa		none			C
+AZD2858	GSK3 inhibitor	GSK3B, GSK3A	moa	WNT	up	WNT		A
+Capmatinib	EGFR/ERBB inhibitor	MET	drug	EGFR	down	EGFR,MAPK	MET-amplified only	B
+Apalutamide	Androgen receptor antagonist	AR	moa	Androgen	down	Androgen	AR-expressing lines only	B
+Regorafenib	Multi-TK inhibitor	BRAF, FLT1, FLT4, KDR, KIT, PDGFRB, RAF1, RET, TEK	moa		none	MAPK,EGFR,VEGF		C
+Phenylephrine (hydrochloride)	Adrenoceptor agonist	ADRA1A, ADRA1B, ADRA1D			none			
+Rucaparib (phosphate)	DNA synthesis/repair inhibitor	PARP1, PARP2, PARP3	drug		none	p53		C
+Clopidogrel	unclear	P2RY12			none			
+Dimethyl fumarate	unclear	NFE2L2	target		none			C
+Methyl aminolevulinate (hydrochloride)	unclear				none			
+Mebendazole	Microtubule inhibitor	TUBA1A, TUBA1B, TUBA1C, TUBB, TUBB1, TUBB2A, TUBB3, TUBB4A, TUBB4B, TUBB6	moa	p53	up	p53	p53-competent only	B
+Tranilast	unclear	PLA2G2A, EGR1			none			
+Gefitinib	EGFR/ERBB inhibitor	EGFR	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Simotinib	EGFR/ERBB inhibitor	EGFR	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Bergenin	unclear				none			
+Ferulic acid	Other TK inhibitor	FGFR1, FGFR2	moa		none			C
+Amsacrine	DNA synthesis/repair inhibitor	TOP2A	moa	p53	up	p53		A
+Palmatine (chloride)	unclear	IDO1, WNV NS2B-NS3			none			
+Berberine (chloride hydrate)	unclear				none			
+Futibatinib	Other TK inhibitor	FGFR1, FGFR2, FGFR3, FGFR4	moa		none			C
+Tubulin inhibitor 6	Microtubule inhibitor		moa	p53	up	p53	p53-competent only	B
+Anethole trithione	unclear				none			
+Cabozantinib (S-malate)	Multi-TK inhibitor	MET, KDR, AXL	moa		none	MAPK,EGFR,VEGF		C
+Fluvoxamine	unclear	SLC6A4			none			
+Fluvoxamine (maleate)	unclear				none			
+Erlotinib	EGFR/ERBB inhibitor	EGFR	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+Belzutifan	unclear	EPAS1	target	Hypoxia	down	Hypoxia		A
+Vismodegib	Sonic inhibitor	SMO, ABCB1, ABCG2			none			
+Nimesulide	Cyclooxygenase inhibitor	PTGS2	moa		none			C
+Nafamostat (mesylate)	unclear				none			
+Busulfan	DNA synthesis/repair inhibitor		moa	p53	up	p53		A
+18β-Glycyrrhetinic acid	unclear				none			
+Trametinib (DMSO_TF solvate)	MEK inhibitor	MAP2K1, MAP2K2	moa	MAPK	down	MAPK,EGFR		A
+Sacubitril/Valsartan	unclear	AGTR1			none			
+Pitavastatin (Calcium)	unclear	HMGCR			none			
+Verteporfin	unclear	YAP1	drug		none	WNT		B
+Quinidine (15% dihydroquinidine)	unclear	KCNH2			none			
+Canagliflozin (hemihydrate)	Glucose transporter inhibitor	SLC5A2			none			
+Osimertinib (mesylate)	EGFR/ERBB inhibitor	EGFR	moa	EGFR	down	EGFR,MAPK	EGFR/HER-driven only; inert downstream of mutant RAS/RAF	A
+γ-Oryzanol	DNA methyltransferase inhibitor		drug		none			A

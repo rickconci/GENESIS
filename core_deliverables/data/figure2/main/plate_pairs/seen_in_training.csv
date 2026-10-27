@@ -1,0 +1,11 @@
+cell_name,drug
+C32,Captopril
+C32,Malotilate
+HOP62,Captopril
+HOP62,Malotilate
+HepG2/C3A,Captopril
+HepG2/C3A,Malotilate
+Hs 766T,Captopril
+Hs 766T,Malotilate
+PANC-1,Captopril
+PANC-1,Malotilate

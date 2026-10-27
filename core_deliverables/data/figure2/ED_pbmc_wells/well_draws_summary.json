@@ -1,0 +1,104 @@
+{
+  "min_half": 50,
+  "n_draws": 10,
+  "min_cells": 10,
+  "deg_key": "deg_raw_int_rgs/deg_overlap_top_p_ranked_k100_fdr0p001_lfc0p1_adaptivek_truth_detfloor10",
+  "pearson_key": "log1p_slice_med_rgs/pearson_r_diff",
+  "energy": "control sample vs control sample, log1p_slice_med_rgs, no subsampling",
+  "strata": {
+    "total": 72,
+    "kept": 46,
+    "five_wells": 4
+  },
+  "conditions": {
+    "total": 4268,
+    "scored": 2805
+  },
+  "s_a": {
+    "min": 54,
+    "median": 126.5,
+    "max": 1175
+  },
+  "cluster": [
+    "donor",
+    "cell_type"
+  ],
+  "deg": {
+    "n_conditions": 2792,
+    "n_clusters": 46,
+    "within_mean": 0.6888712301311963,
+    "between_mean": 0.2982511856457829,
+    "ratio": {
+      "estimate": 0.4329563677510247,
+      "boot": [
+        0.408890667753356,
+        0.45522431928429713
+      ],
+      "p": 2.1349007577545434e-31,
+      "ci_lo": 0.40929935874568585,
+      "ci_hi": 0.45798072332830486
+    },
+    "between_worse_share": {
+      "estimate": 0.9930157593123209,
+      "boot": [
+        0.9870223503965393,
+        0.9973214285714286
+      ],
+      "p": 2.48207699484707e-66,
+      "ci_lo": 0.9876041189895783,
+      "ci_hi": 0.9984273996350634
+    }
+  },
+  "pearson_delta": {
+    "n_conditions": 2805,
+    "n_clusters": 46,
+    "within_mean": 0.6950072501908978,
+    "between_mean": 0.4941990026171188,
+    "ratio": {
+      "estimate": 0.7110702837724027,
+      "boot": [
+        0.6873214840011017,
+        0.7354596367427092
+      ],
+      "p": 8.856481775112279e-24,
+      "ci_lo": 0.6867391477302416,
+      "ci_hi": 0.7362634708321282
+    },
+    "between_worse_share": {
+      "estimate": 1.0,
+      "boot": [
+        1.0,
+        1.0
+      ],
+      "p": 0.0,
+      "ci_lo": 1.0,
+      "ci_hi": 1.0
+    }
+  },
+  "energy_per_stratum": {
+    "n_conditions": 46,
+    "n_clusters": 46,
+    "within_mean": 0.005322197554767975,
+    "between_mean": 0.0982642468853273,
+    "ratio": {
+      "estimate": 18.463096469858716,
+      "boot": [
+        13.376765243074248,
+        25.298784305135015
+      ],
+      "p": 7.272773906364889e-22,
+      "ci_lo": 13.241113818135991,
+      "ci_hi": 25.74450578231624
+    },
+    "between_worse_share": {
+      "estimate": 1.0,
+      "boot": [
+        1.0,
+        1.0
+      ],
+      "p": 0.0,
+      "ci_lo": 1.0,
+      "ci_hi": 1.0
+    }
+  }
+}

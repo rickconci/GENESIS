@@ -1,0 +1,17 @@
+cell_name,drug,dose,plate_i,plate_j
+C32,Hydroxyfasudil,0.05,1,13
+C32,L-Thyroxine (sodium salt pentahydrate),5.0,6,14
+C32,Sonidegib,0.05,1,13
+HOP62,Hydroxyfasudil,0.05,1,13
+HOP62,Sonidegib,0.05,1,13
+HOP62,c-Kit-IN-1,0.05,1,13
+HOP62,olaparib,0.05,1,13
+HepG2/C3A,Hydroxyfasudil,0.05,1,13
+HepG2/C3A,Sonidegib,0.05,1,13
+HepG2/C3A,olaparib,0.05,1,13
+Hs 766T,Hydroxyfasudil,0.05,1,13
+Hs 766T,Sonidegib,0.05,1,13
+Hs 766T,olaparib,0.05,1,13
+PANC-1,Hydroxyfasudil,0.05,1,13
+PANC-1,Sonidegib,0.05,1,13
+PANC-1,olaparib,0.05,1,13
