@@ -26,6 +26,10 @@ from src.figures import ed_page, page  # noqa: E402
 from src.figures.palette import C_SPLIT, GRID, INK, REF_DASH, hatch_ink  # noqa: E402
 
 H = 52.0                                          # one row: Fig. 2c's one-line header, bars, key
+# 9.5 mm bars and a 30 mm bar, the same as ED objective, between this row's old 11 mm bars on
+# 172 mm and that panel's old 7 mm bars on 104 mm. Four touching bars occupy 4.4 data units.
+BAR_H, PAD, AX_W = 30.0, 8.5, 41.8
+ROW = 3 * AX_W + 3 * PAD                      # left pad and two gaps: 151 mm
 TITLES = {"deg": "Top-100 DEG overlap", "pearson_r_diff": "Pearson r Δ", "energy_distance": "Energy distance"}
 # (letter, top mm, folder, arm -> display name, key's top mm)
 ROWS = (("a", 0.0, "tahoe", {"plate": "Plate only (batch)", "plate + bio": "Plate + cell line",
@@ -51,11 +55,10 @@ def metric_row(fig, pc: pd.DataFrame, ref: pd.DataFrame, arms: pd.DataFrame, y0:
     repeat-s.d. band. Condition sets still have to match across arms (DEG is undefined where truth calls none)."""
     style = arms.set_index("arm")
     # Fig. 2c: one 4.6 mm line, dataset · reference, axes 8 mm down.
-    page.banner(fig, 4.0, y0, 172.0, 4.6, [[("Tahoe-100M", INK, "bold"), ("  ·  ", INK, "normal"),
-                                            ("Split-half reproducibility", C_SPLIT, "bold")]])
-    aw = (172.0 - 6.0 - 2 * 9.0) / 3
+    page.banner(fig, 4.0, y0, ROW, 4.6, [[("Tahoe-100M", INK, "bold"), ("  ·  ", INK, "normal"),
+                                          ("Split-half reproducibility", C_SPLIT, "bold")]])
     for i, m in enumerate(ref.itertuples()):
-        ax = page.axes_mm(fig, 10.0 + i * (aw + 9.0), y0 + 8.0, aw, 28.0)
+        ax = page.axes_mm(fig, 4.0 + PAD + i * (AX_W + PAD), y0 + 8.0, AX_W, BAR_H)
         stat = pc[pc.metric_key.eq(m.metric_key)].groupby("arm", sort=False)["value"].agg(["mean", "count"])
         stat = stat.sort_values("mean", ascending=not m.higher_is_better)
         if stat["count"].nunique() != 1:
@@ -84,7 +87,7 @@ def metric_row(fig, pc: pd.DataFrame, ref: pd.DataFrame, arms: pd.DataFrame, y0:
                     va="bottom", rotation=90, fontsize=5, color=INK, zorder=7)
         ax.set_xticks([])
         leaf = "deg" if m.metric_key.startswith("deg") else m.metric_key.split("/")[-1]
-        ax.set_title(f"{TITLES[leaf]}{' (log)' if m.log_axis else ''} {'↑' if m.higher_is_better else '↓'}", pad=3)
+        ax.set_title(f"{TITLES[leaf]} {'↑' if m.higher_is_better else '↓'}", pad=3)
 
 
 def legend(fig, arms: pd.DataFrame, y: float) -> None:

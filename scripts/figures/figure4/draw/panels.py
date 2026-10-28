@@ -53,12 +53,24 @@ def style() -> None:
 # ----------------------------------------------------------------------------
 
 def pathway_rows(progs: pd.DataFrame) -> tuple[list[str], list[tuple[str, int, int]]]:
-    """The drawn pathways, top down, and each biological group's (short name, first row, last row)."""
-    names, groups = [], []
+    """The drawn pathways, top down, and each biological group's (short name, first row, last row).
+    WNT is the last Growth row. The programmes table still files it under Hormone / dev."""
+    chunks: list[tuple[str, list[str]]] = []
     for grp, g in progs[progs.set == "grid"].groupby("group", sort=False):
-        ps = list(dict.fromkeys(g.programme))
-        groups.append((GROUP_SHORT.get(grp, grp), len(names), len(names) + len(ps) - 1))
-        names += ps
+        chunks.append((GROUP_SHORT.get(grp, grp), list(dict.fromkeys(g.programme))))
+    donors = [(i, ps) for i, (name, ps) in enumerate(chunks) if name != "Growth" and "WNT" in ps]
+    if len(donors) != 1:
+        raise RuntimeError(f"WNT should sit in one non-growth group, found {len(donors)}")
+    donors[0][1].remove("WNT")
+    growth = [ps for name, ps in chunks if name == "Growth"]
+    if len(growth) != 1:
+        raise RuntimeError(f"expected one Growth group, found {len(growth)}")
+    growth[0].append("WNT")
+    names, groups = [], []
+    for name, ps in chunks:
+        if ps:
+            groups.append((name, len(names), len(names) + len(ps) - 1))
+            names += ps
     return names, groups
 
 

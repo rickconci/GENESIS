@@ -183,9 +183,11 @@ def ceilings(panels: list[str], spaces: tuple[str, ...]) -> pd.DataFrame:
 
 @cache
 def conditioning(panel: str) -> dict[str, pd.DataFrame]:
-    """ED conditioning's three inputs (ed_supporting_extract_panel.py): per-condition scores of the bars and the
-    reference lines, on the bars' set (and the lines' too when the panel intersects them), the split-half reference
-    there, and each arm's fill and hatch. Every arm is ``filled``, so the set is the truth's."""
+    """ED conditioning's three inputs: per-condition scores, the split-half reference, and each arm's fill and hatch.
+
+    The conditions are Figure 2c's for this panel's reference split, not the ones this panel could score on its
+    own. Figure 2c keeps a condition only when every arm there defines the metric, so DEG drops conditions where
+    a competitor calls no overlap and these bars would otherwise still have one."""
     from src.eval.plots.style import COL, HATCH
     models, refs = arms(panel), arms(panel, "references")
     roles = [("bar", n, k) for n, k, _p in models] + [("reference_line", n, k) for n, k, _p in refs]
@@ -193,9 +195,15 @@ def conditioning(panel: str) -> dict[str, pd.DataFrame]:
     joint = [n for n, _k, _p in models + (refs if REG["panels"][panel].get("intersect_references") else [])]
     ceil, sd = reference(panel)
     common = sorted(ceil)
+    fig2c = per_condition(REFERENCE.get(panel, panel))
     rows, ref = [], []
     for _t, _g, key, hb, logy in METRICS:
         kept = keep(pc, joint, common, key, ceil)
+        on_2c = set(fig2c.loc[fig2c.metric_key.eq(key), "condition"])
+        joined = ["|".join(c) for c in kept]
+        if missing := on_2c - set(joined):
+            raise RuntimeError(f"{panel} {key}: Figure 2c scores {len(missing)} conditions this panel does not")
+        kept = [c for c, j in zip(kept, joined) if j in on_2c]
         rows += [("default", role, n, "|".join(c), key, pc[n][c][key]) for role, n, _k in roles
                  for c in kept if key in pc[n].get(c, {})]
         ref.append(("default", key, hb, logy, len(kept), mean_of([ceil[c][key] for c in kept], f"{panel} {key}"),
@@ -398,19 +406,42 @@ def mmd_pairs() -> pd.DataFrame:
     return out.rename_axis(f2.KEYS).reset_index()
 
 
+@cache
+def f2c_keep() -> dict[str, set[str]]:
+    """Figure 2c's Tahoe condition ids, per metric. A condition one of its arms cannot score is out of
+    every bar and out of the reference: nearest-neighbor leaves top-100 DEG undefined on 34 conditions,
+    and those near-zero overlaps must not pull this panel's split-half line down. MMD is not a Figure 2c
+    metric, so it uses the energy set."""
+    pc = per_condition("tahoe_bio")
+    deg, energy = mb.DEG_METRIC[2], f"{SPACE}/energy_distance"
+    key = {"deg_adaptivek_truth": deg, "pearson_r_diff": f"{SPACE}/pearson_r_diff",
+           "energy_distance": energy, "mmd_rbf": energy}
+    return {m: set(pc.loc[pc.metric_key.eq(k), "condition"]) for m, k in key.items()}
+
+
 def mmd_conditions() -> pd.DataFrame:
-    """b: Figure 2c's conditions (every source scores them; each metric's set is cut where it is plotted), each arm
-    at Figure 2c's K=1 draw."""
-    src = {"Split-half reference": reference("tahoe_bio", MMD_SPLIT)[0]}
+    """b: every condition the reference and both loss arms score, at Figure 2c's K=1 draw. ``condition`` is
+    Figure 2c's id; ``mmd_tables`` cuts each metric to that panel's keep set. ``sd__`` is the reference's
+    per-condition repeat s.d."""
+    ceil, sd = reference("tahoe_bio", MMD_SPLIT)
+    src = {"Split-half reference": ceil}
     for arm, stem in MMD_STEM.items():
         path = MMD / "split_half" / f"{stem}.json"
         if json.loads(path.read_text()).get("model_eval_n_repeats", 1) != 1:
             raise RuntimeError(f"{arm}: not the K=1 draw Figure 2c's arms use")
         src[arm] = scores(path, MMD_SPLIT)
     col = {"deg_adaptivek_truth": mb.DEG_METRIC[2], **{m: f"{SPACE}/{m}" for m, _hb in MMD_METRICS[1:]}}
-    return pd.DataFrame([dict(item.split("=", 1) for item in c) | {f"{a}__{m}": v[c].get(k, np.nan)
-                                                                    for a, v in src.items() for m, k in col.items()}
-                         for c in sorted(set.intersection(*map(set, src.values())))])
+    rows = []
+    for c in sorted(set.intersection(*map(set, src.values()))):
+        row = dict(item.split("=", 1) for item in c)
+        row["condition"] = "|".join(c)
+        for a, v in src.items():
+            for m, k in col.items():
+                row[f"{a}__{m}"] = v[c].get(k, np.nan)
+        for m, k in col.items():
+            row[f"sd__{m}"] = sd.get(c, {}).get(k, np.nan)
+        rows.append(row)
+    return pd.DataFrame(rows)
 
 
 def share_better(g: np.ndarray, m: np.ndarray, cluster: np.ndarray, higher_is_better: bool) -> dict:
@@ -424,15 +455,27 @@ def share_better(g: np.ndarray, m: np.ndarray, cluster: np.ndarray, higher_is_be
 
 @cache
 def mmd_tables() -> tuple[pd.DataFrame, pd.DataFrame]:
-    """(plotted means, GENESIS vs MMD unit by unit), as loss_ablation_mmd.py draws them: each metric on the units
-    where the reference and both arms define it."""
+    """(plotted means, GENESIS vs MMD unit by unit). Each metric on the units where the reference and both arms
+    define it; panel b then keeps only Figure 2c's conditions for that metric."""
     plotted, h2h = [], []
+    keep = f2c_keep()
     for lab, df, ref, ref_col in (("a", mmd_pairs(), "Experimental replicate reference", f2.REPEAT),
                                   ("b", mmd_conditions(), "Split-half reference", "Split-half reference")):
         for m, hb in MMD_METRICS:
             cols = [f"{ref_col}__{m}", f"{G}__{m}", f"{S}__{m}"]
             d = df[df[cols].notna().all(axis=1)]
-            plotted += [dict(panel=lab, metric=m, arm=a, mean=float(d[c].mean()), n_units=len(d))
+            # Figure 2c's band: the mean of the reference's per-condition repeat s.d. on these same conditions
+            repeat_std = np.nan
+            if lab == "b":
+                d = d[d.condition.isin(keep[m])]
+                if len(d) != len(keep[m]):
+                    raise RuntimeError(f"{m}: {len(d)} conditions on the loss arms, Figure 2c keeps {len(keep[m])}")
+                s = d[f"sd__{m}"]
+                if not np.isfinite(s.to_numpy(float)).all():
+                    raise RuntimeError(f"{m}: a plotted condition has no split-half repeat s.d.")
+                repeat_std = float(s.mean())
+            plotted += [dict(panel=lab, metric=m, arm=a, mean=float(d[c].mean()), n_units=len(d),
+                             split_half_repeat_std=repeat_std if a == ref and lab == "b" else np.nan)
                         for a, c in zip([ref, G, S], cols)]
             cluster = d[["cell_name", "drug", "dose"]].astype(str).agg("|".join, axis=1).to_numpy()
             h2h.append(dict(panel=lab, metric=m, vs=S, **share_better(d[cols[1]].to_numpy(float),
