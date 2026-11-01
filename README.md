@@ -117,4 +117,4 @@ Single-cell perturbation prediction near experimental reproducibility with GENES
 
 ## License
 
-The code is released under the [MIT License](LICENSE).
+The code is released under the [MIT License](LICENSE). The checkpoints on Hugging Face carry the licence of the data they were trained on: CC BY 4.0 for the Tahoe-100M models, CC BY-NC 4.0 for the PBMC models (`models/LICENSE.md`).
