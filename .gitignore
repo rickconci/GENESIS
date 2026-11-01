@@ -1,5 +1,6 @@
-# core_results/ ships on Hugging Face, not in git: the scores behind the figures and the model checkpoints
+# core_results/ and models/ ship on Hugging Face, not in git: the scores behind the figures and the model checkpoints
 /core_results/
+/models/
 # what running the pipeline writes
 /runs/
 /results/

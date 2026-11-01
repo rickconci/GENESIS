@@ -39,11 +39,12 @@ and every published score ([RConci/GENESIS_results](https://huggingface.co/datas
 them into the repository root:
 
 ```bash
-uvx --from huggingface_hub hf download RConci/GENESIS --include 'runs/*' --local-dir .
+uvx --from huggingface_hub hf download RConci/GENESIS --local-dir models
 uvx --from huggingface_hub hf download RConci/GENESIS_results --repo-type dataset --include 'core_results/*' --local-dir .
 ```
 
-To predict, one run is enough: `--include 'runs/tahoe/bio/main/*/260916_114938_*'` fetches Figure 2's Tahoe GENESIS.
+To predict, one model is enough: `--include 'tahoe/*'` fetches Figure 2's Tahoe GENESIS, `--include 'pbmc/*'` its PBMC
+twin. `models/README.md` lists every model and the figure it reproduces.
 
 - **The datasets**, for training and scoring: [Tahoe-100M](https://huggingface.co/datasets/tahoebio/Tahoe-100M)
   (also via the [Arc Virtual Cell Atlas](https://docs.lamin.ai/arc-virtual-cell-atlas)) and Parse Biosciences' [10 million human PBMCs](https://www.parsebiosciences.com/datasets/10-million-human-pbmcs-in-a-single-experiment/).
@@ -60,13 +61,12 @@ draws the 4 main and 12 Extended Data figures from `core_deliverables/data/` and
 ### Predict with a checkpoint
 
 ```bash
-RUN=$(ls -d runs/tahoe/bio/main/h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0/260916_114938_*)
-uv run python scripts/eval/generate.py conditions --run-dir "$RUN" --out-dir results/generated/tahoe_bio
+uv run python scripts/eval/generate.py conditions --run-dir models/tahoe --out-dir results/generated/tahoe_bio
 ```
 
 generates Figure 2's Tahoe GENESIS cells for its 4,211 held-out test conditions at their measured cell counts: one
 `.npz` per condition, named by its values, with `predictions` (cells x 2,000 genes, float32, log1p), `gene_names`,
-`normalization`, `cell_name`, `drug`, `dose` and `plate`. It needs a CUDA GPU and the run folder only; all 4,211 files
+`normalization`, `cell_name`, `drug`, `dose` and `plate`. It needs a CUDA GPU and the model folder only; all 4,211 files
 take ~66 GB (8.3 million cells), and `--limit N` writes the first N.
 
 ### Train
@@ -96,7 +96,7 @@ Every published number rebuilds at four levels, each from the outputs of the one
 |---|---|---|---|
 | 1 | the figures | the tables in `core_deliverables/data/` (in git) | `uv run python -m scripts.figures.draw_all` |
 | 2 | the tables | the scores in `core_results/` (data release) | `uv run bash scripts/figures/extract_all.sh` |
-| 3 | the scores | the checkpoints in `runs/` (data release) | `OUT=results/rescore GPU=0 uv run bash scripts/figures/score_all.sh` |
+| 3 | the scores | the checkpoints in `models/` (data release) | `OUT=results/rescore GPU=0 uv run bash scripts/figures/score_all.sh` |
 | 4 | the checkpoints | the configs in `configs/` | `uv run python -m src.main --config <config> devices=1`, one per run |
 
 ## Repository layout
@@ -106,7 +106,7 @@ Every published number rebuilds at four levels, each from the outputs of the one
 - [`core_util_data/`](core_util_data/README.md): dataset registries, splits, gene lists, metadata, [frozen inputs](core_util_data/tahoe/eval_inputs/README.md)
 - `core_deliverables/`: the figures (`figureN/`) and the tables they are drawn from (`data/figureN/`)
 - `scripts/`: [`data/`](scripts/data/README.md) (caches, splits), `baselines/` (`fit.py`), [`eval/`](scripts/eval/README.md) (the scoring engine), [`figures/`](scripts/figures/README.md) (levels 1-3)
-- `core_results/`, `runs/`: the data release (not in git)
+- `core_results/`, `models/`: the data release (not in git); `runs/` is where training writes
 
 ## Citation
 

@@ -87,20 +87,23 @@ them. They are Figure 2a's GENESIS pair table and ED_objective's GENESIS pairs; 
 ### What the data release holds
 
 `core_results/figureN/` holds every published score, the comparators' (STATE, CellFlow, PerturbDiff) among them; the
-drivers read those as-is. Each GENESIS run under `runs/` holds the files the drivers read:
+drivers read those as-is. `models/` holds the GENESIS checkpoints, one folder per model, named by the figure that
+first uses it (`models/README.md` lists them all); a driver finds each of its models there by name (`model <name>`,
+scripts/eval/_env.sh). A model folder holds the files the drivers read:
 
-| File in the run folder | What it is | Read by |
+| File in the model folder | What it is | Read by |
 |---|---|---|
 | `checkpoints/last.ckpt` | the trained weights | every GENESIS score |
-| `config_resolved.yaml`, `encoder_idx_to_name.json`, `output_gene_names.txt` | the run's config, condition vocabularies and gene order | loading the model |
-| `eval/eval_manifest.json`, `eval/condition_summary.parquet` | the run's split and its cells per condition | `score.py`, `generate.py conditions`, `subset.py query`; Figure 2's PBMC panels |
-| `eval/after_fit/test/metrics_summary.json` | the after-fit test evaluation | ED_pert_generalization (its census) |
+| `config_resolved.yaml`, `encoder_idx_to_name.json`, `output_gene_names.txt` | the model's config, condition vocabularies and gene order | loading the model |
+| `eval/eval_manifest.json`, `eval/condition_summary.parquet` | the model's test split and its cells per condition | `score.py`, `generate.py conditions`, `subset.py query`; Figure 2's PBMC panels (`models/pbmc`'s) |
 | `run.log` | the training log (cells trained on) | Figure 3 main, ED_12cells, ED_scaling_pert_split |
 | `split_cache/train_idx.npy` | the training rows | Figure 3 main, ED_12cells, Figure 4 main |
-| `hbss_selected_triplets.parquet` (subsampled runs) | the conditions the run kept | ED_tahoe_hallmark_gsea |
+| `split_cache/{meta.json, test_idx.npy, pert_train_idx_pre_hbss.npy}` (ED_12cells' three cells arms) | the split's test rows and the training rows before the draw | ED_12cells |
+| `hbss_meta.json`, `hbss_selected_triplets.parquet` (subsampled models) | the conditions the model kept | Figure 3 main, ED_12cells, ED_tahoe_hallmark_gsea |
 
-`runs/parse/bio/scaling/full_100` is a link to `../main`: ED_scaling_pert_split's arm table names the PBMC 100% arm by
-that path. Keep the link when copying `runs/`.
+The Hugging Face repo holds the models of Figure 2 (main, ED_pbmc_wells, ED_pert_generalization), Figure 3 main and
+Figure 4. The other five drivers (ED_genesis_settings, ED_conditioning, ED_objective, ED_12cells, ED_scaling_pert_split)
+name models that are not released: `DRY_RUN` lists them as missing, and their scores ship as-is in `core_results/`.
 
 The drivers also read the dataset caches ([scripts/data](../data/README.md) builds them) and a few small tables as
 shipped: [core_util_data/tahoe/eval_inputs](../../core_util_data/tahoe/eval_inputs/README.md) lists each one, the
@@ -119,11 +122,11 @@ uv run bash scripts/figures/extract_all.sh
 ## Level 4: train
 
 Each published run has its config under `configs/` ([configs](../../configs/README.md) says which config makes which
-figure's runs). To score your own run at level 3, edit the driver that scores the published one: each names its runs
-near the top, in a `need_run` line (`RUN=$(need_run '<run folder>' checkpoints/last.ckpt)`; `T_RUN=` and `P_RUN=` in
-Figure 2's) or in a table of runs (`SPLIT_HALF=(…)` in Figure 3 main, `RUNS=(…)` in ED_genesis_settings). Replace the
-published folder, or its timestamp, with yours; a `SUBSET` check then shows where your model's scores differ from the
-published ones.
+figure's runs). A trained run folder holds every file a model folder does, so it scores the same way: put it (or a
+link to it) under `models/`, and name it in the driver that scores the published model. Each driver names its models
+near the top, with `model <name>` (`RUN=$(model …)`; `T_RUN=` and `P_RUN=` in Figure 2's) or in a table
+(`SPLIT_HALF=(…)` in Figure 3 main, `RUNS=(…)` in ED_genesis_settings). A `SUBSET` check then shows where your model's
+scores differ from the published ones.
 
 ## Cost
 
@@ -133,6 +136,6 @@ Approximately, from the drivers' `Cost:` lines and the published runs (— = not
 |---|---|---|---|---|
 | 1 | any CPU | ~5 min | — | — |
 | 2 | CPU | ~10 min for Figures 1-3, ~30 min for Figure 4 | `core_results/`, ~5.5 GB | — |
-| 3, `SUBSET` | an H100 (an A100 to check Figure 2's baselines exactly) | a few hours | the datasets, their caches and `runs/` | — |
+| 3, `SUBSET` | an H100 (an A100 to check Figure 2's baselines exactly) | a few hours | the datasets, their caches and `models/` (~30 GB) | — |
 | 3, full | the same | ~3-4 GPU-days, plus 12-24 CPU-hours (ED_pbmc_wells) | the same, plus ~300 GB under `OUT` (Figure 4's two persisted predictions, ~190 and ~95 GB) | ~90 GB (Figure 4's CPU steps) |
 | 4 | one 94 GB H100 per run (some recipes run out of memory on an 80 GB A100) | ~4-43 h per run (the main Tahoe GENESIS ~43 h); 67 configs | its caches; the main run's 15 checkpoints take ~10 GB | — |
