@@ -2,8 +2,8 @@
 # Figure 2: (c) GENESIS, the four linear baselines, copy_closest and the split-half reference on the Tahoe-100M and PBMC
 # biological-context test sets, plus each condition's own controls ("no response") where an arm failed; (a/b) the
 # Tahoe arms against the experimental repeat, one row per pair of plates of a multi-plate test condition.
-# In:   GENESIS tahoe_bio  runs/tahoe/bio/main/h4096x8192_…/260916_114938_…/checkpoints/last.ckpt   (seed 42)
-#       GENESIS parse_bio  runs/parse/bio/main/parse_bio_cytokines_5ep_seed0/261006_020118_…/checkpoints/last.ckpt (seed 0)
+# In:   GENESIS tahoe_bio  models/tahoe   (seed 42)
+#       GENESIS parse_bio  models/pbmc    (seed 0)
 #       The baselines are fitted and copy_closest's deltas rebuilt here, from the eval and HVG caches named below.
 #       core_util_data/tahoe/eval_inputs/{multi_plate_test_conditions.tsv (the 545 multi-plate test conditions,
 #       frozen), copy_closest_line__cosine_v2.tsv (one neighbour line per held-out line, score.py copy_lines)}
@@ -23,10 +23,10 @@ source "$(dirname "$0")/../../../../eval/_env.sh"
 need_gpu
 
 # The two panels. score.py and fit.py take plain paths, so {data:tahoe} / {data:parse} (configs/roots.yaml) are spelled
-# out. Tahoe's summary is the split policy's default, named so a query and the scorer read one file; PBMC's is the
-# per-well summary of the parse_bio_well run (conditions donor x cytokine x cell_type x bc1_well).
-T_RUN=$(need_run "$ROOT/runs/tahoe/bio/main/h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0/260916_114938_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_biohold_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_s64_h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0")
-P_RUN=$(need_run "$ROOT/runs/parse/bio/main/parse_bio_cytokines_5ep_seed0/261006_020118_cur-between_epoch-tp229376-bs896xnrm256_nre256_lr0.0009_wd0.0001_parse_cytoki_condmlp-D256-h4096x8192_cond_mlpout-relu_vg0.5p0.5np6k_log1p_s64_parse_bio_cytokines_5ep_seed0")
+# out. Tahoe's summary is the split policy's default, named so a query and the scorer read one file; PBMC's is
+# models/pbmc's per-well summary (conditions donor x cytokine x cell_type x bc1_well).
+T_RUN=$(model tahoe)
+P_RUN=$(model pbmc)
 T_DATA=$("$PY" -m src.paths '{data:tahoe}')     # configs/roots.yaml: this machine's data roots
 P_DATA=$("$PY" -m src.paths '{data:parse}')
 T_SPLIT=core_util_data/splits/tahoe/bio/tahoe_legacy_bio_holdout.yaml
@@ -36,7 +36,7 @@ P_NS=$P_DATA/eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_200
 T_GENES=core_util_data/tahoe/gene_subsets/STATE_HVG.txt
 P_GENES=core_util_data/parse/gene_subsets/pbmc_real_selected_genes.pkl
 T_SUMMARY=core_util_data/tahoe/metadata/quadruplet_summary.parquet
-P_SUMMARY=runs/parse/bio/main/parse_bio_well_conds100_5ep_donorholdout_seed0/260921_192149_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_parse_bio_we_condmlp-D256-h4096x8192_cond_mlpout-relu_vg0.5p0.5np6k_log1p_s64_parse_bio_well_conds100_5ep_donorholdout_seed0/eval/condition_summary.parquet
+P_SUMMARY=$P_RUN/eval/condition_summary.parquet
 T=(--dataset tahoe --split-yaml "$T_SPLIT" --condition-summary "$T_SUMMARY" --eval-cache-namespace "$T_NS" --gene-names "$T_GENES")
 PAIRS=core_util_data/tahoe/eval_inputs/multi_plate_test_conditions.tsv
 NEIGHBORS=core_util_data/tahoe/eval_inputs/copy_closest_line__cosine_v2.tsv

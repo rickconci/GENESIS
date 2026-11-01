@@ -25,7 +25,7 @@ REPO = Path(__file__).resolve().parents[4]
 sys.path.insert(0, str(REPO))
 from scripts.figures.figure3.score.scaling import CELLS_ARMS, CONTROL_DRUG, REPLICATES  # noqa: E402
 
-RUNS = REPO / "runs/tahoe"
+RUNS = REPO / "models"                     # the GENESIS checkpoints, by release name (README.md)
 N_TRAIN_RE = re.compile(r"n_train=([\d,]+)")
 # Row-level obs codes (cell line, drug + dose) of the training cache, one sidecar per shard
 HVG_CACHE = "{data:tahoe}/hvg_cache/geneset_c0d6420ffc0fa861__n_2000"   # src/paths.py: expand_path
@@ -100,6 +100,8 @@ def arms_table(scaling: list, obs: tuple[np.ndarray, np.ndarray]) -> pd.DataFram
     """scaling_arms*.csv: one row per arm (one run each)."""
     rows = []
     for a, p, s, r in scaling:
+        if r is None:
+            raise SystemExit(f"{s}: its model is not released (scaling.py), so this table cannot be recounted")
         conds, pool = n_conds(RUNS / r, obs)
         rows.append({"axis": a, "pct_kept": p, "stem": s, "n_train": n_train(RUNS / r), "n_conds": conds, "pool": pool})
     return same_pool(pd.DataFrame(rows))

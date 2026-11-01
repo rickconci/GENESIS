@@ -24,7 +24,7 @@ from scripts.figures.figure4.extract.context import readouts  # noqa: E402
 from scripts.figures.figure4.extract.progeny import N_REAL, safe  # noqa: E402
 from src.model.inference_output import to_raw_integer  # noqa: E402  the scorer's snap to the count lattice
 
-RUNS = REPO / "runs/tahoe/bio/biology/progeny3072_cells005_keepctrl"
+RUN = REPO / "models/reproduce/figure4/progeny_5pct_cells"   # the GENESIS model whose predictions are read
 THREADS = 6                                 # per worker; 5 lines x 6 = 30 of the node's 48 cores
 TARGET = 1e4                                # counts per cell before log1p, for the per-cell score
 LINES = ["C32", "HOP62", "HepG2/C3A", "Hs 766T", "PANC-1"]
@@ -76,8 +76,7 @@ def test_conditions(panel, genesis: Path) -> pd.DataFrame:
     loaders take). Built from the prediction files themselves, so nothing absent from disk is listed."""
     rx = re.compile(r"cell_name=(.+?)__drug=(.+?)__dose=(.+?)__plate=plate(\d+)\.npy")
     disk = {rx.match(f.name).groups() for f in (genesis / "predictions").iterdir()}
-    run = next(RUNS.glob("*/261016_181841*"))
-    summ = pd.read_parquet(run / "eval/condition_summary.parquet")
+    summ = pd.read_parquet(RUN / "eval/condition_summary.parquet")
     summ["key"] = [(safe(c), safe(d), str(float(x)), p.replace("plate", ""))
                    for c, d, x, p in zip(summ.cell_name, summ.drug, summ.dose, summ.plate)]
     t = summ[summ.key.isin(disk)][["cell_name", "drug", "dose", "plate", "num_cells"]].reset_index(drop=True)

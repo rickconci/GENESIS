@@ -23,28 +23,19 @@ from src.data.data_utils import load_eval_manifest  # noqa: E402
 from src.eval.reference.pairs import MIN_CELLS_PER_PLATE  # noqa: E402
 from src.paths import expand_path  # noqa: E402
 
-# The Figure 3a cells arms, each a uniform draw of training rows (controls included), last.ckpt.
-# SHALLOW_ARM picks one for every script here; 005 is the default and writes where it always has.
+# The Figure 3a cells arms, each a uniform draw of training rows (controls included), last.ckpt: <arm>: (model, results
+# subfolder). SHALLOW_ARM picks one for every script here; 005 is the default and writes where it always has.
 ARMS = {
-    "005": ("runs/tahoe/bio/scaling/n_cells_005/h4096x8192_nrs256_vg05rs256_100ep_state2k_tahoe_bio_5cell_seed0/"
-            "260920_162654_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-"
-            "D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln6761692_s64_h4096x8192_nrs256_vg05rs256_"
-            "100ep_state2k_tahoe_bio_5cell_seed0", ""),
-    "025": ("runs/tahoe/bio/scaling/n_cells_025/h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cell_seed0/"
-            "260918_151050_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-"
-            "D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln24921726_s64_h4096x8192_nrs256_vg05rs256_"
-            "20ep_state2k_tahoe_bio_25cell_seed0", "n_cells_025"),
+    "005": ("reproduce/figure3/ed_12cells/cells5", ""),
+    "025": ("reproduce/figure2/objective/genesis_25pct_cells", "n_cells_025"),
     # NOT a fraction: exactly 25 perturbed cells per condition (every control kept), so training depth is
     # fixed and independent of condition size (percond.py)
-    "pc25": ("runs/tahoe/bio/scaling/n_cells_percond25/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_percond25_seed0/"
-             "261012_220500_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-"
-             "D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_s64_h4096x8192_nrs256_vg05rs256_25ep_"
-             "state2k_tahoe_bio_percond25_seed0", "n_cells_percond25"),
+    "pc25": ("reproduce/figure3/ed_12cells/percondition25", "n_cells_percond25"),
 }
 ARM = os.environ.get("SHALLOW_ARM", "005")
 if ARM not in ARMS:
     raise SystemExit(f"SHALLOW_ARM={ARM!r}; expected one of {sorted(ARMS)}")
-RUN = REPO / ARMS[ARM][0]
+RUN = REPO / "models" / ARMS[ARM][0]   # the GENESIS checkpoints, by release name (README.md)
 HVG_CACHE = "{data:tahoe}/hvg_cache/geneset_c0d6420ffc0fa861__n_2000"  # raw counts by global row, the run's genes
 # SHALLOW_OUT redirects every script's outputs (a level-3 driver writes under its own $OUT, never results/)
 OUT = Path(os.environ.get("SHALLOW_OUT") or REPO / "results/tahoe/scaling_results/shallow_denoising" / ARMS[ARM][1])

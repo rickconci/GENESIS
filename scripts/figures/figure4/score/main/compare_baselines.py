@@ -40,7 +40,7 @@ from src.paths import expand_path  # noqa: E402
 CACHE = Path(expand_path("{data:tahoe}/hvg_cache/geneset_12aead7e0e3f60fa__n_3072"))
 LIBRARY = Path(expand_path("{data:tahoe}/library_full"))   # plate<p>_tscp_count.npy: each h5ad row's L_full
 FIT_SPACE = LOG1P_CP10K_FULL   # the Additive's fit space, as every baseline in the paper (src/baselines/space.py)
-RUN_DIR = REPO / "runs/tahoe/bio/biology/progeny3072_cells005_keepctrl"   # the GENESIS run whose train rows fit the Additive
+RUN_DIR = REPO / "models/reproduce/figure4/progeny_5pct_cells"   # the GENESIS model whose train rows fit the Additive
 NEIGHBORS = REPO / "core_util_data/tahoe/eval_inputs" / COPY_TABLE   # frozen input
 PARTIAL = Path("data/upstream/compare_baselines")    # in the bundle: resumable sums and the summary's sidecars
 CONTROL = "DMSO_TF"
@@ -52,12 +52,11 @@ G = 3072
 
 
 def train_idx() -> Path:
-    """The run's split_cache/train_idx.npy, looked up when first read, so importing this module needs no runs/."""
-    hit = next(RUN_DIR.glob("*/261016_181841*/split_cache/train_idx.npy"), None)
-    if hit is None:
-        raise FileNotFoundError(f"no */261016_181841*/split_cache/train_idx.npy under {RUN_DIR}: "
-                                "download the GENESIS checkpoints (README: Setup)")
-    return hit
+    """The model's split_cache/train_idx.npy, checked when first read, so importing this module needs no models/."""
+    path = RUN_DIR / "split_cache/train_idx.npy"
+    if not path.is_file():
+        raise FileNotFoundError(f"no {path}: download the GENESIS checkpoints into models/ (README.md)")
+    return path
 
 
 # ----------------------------------------------------------------------------

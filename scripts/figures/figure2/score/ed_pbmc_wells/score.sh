@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Extended Data (Fig 2 PBMC wells): control wells against each other, within vs between wells, at the sizes of the test conditions (truth only).
 # In:   eval cache only (no checkpoint); core_results/figure2/split_half/parse_bio/GENESIS.json (names the conditions to score)
-#       runs/parse/bio/main/parse_bio_well_conds100_5ep_donorholdout_seed0/260921_192149_…/eval/condition_summary.parquet
+#       models/pbmc/eval/condition_summary.parquet (the PBMC per-well summary)
 # Out:  $OUT/core_results/figure2/pbmc_wells/{well_draws_rows.csv, well_draws_energy.csv, well_draws_summary.json, condition_summary.parquet}
 # Ships as-is (not rerun): nothing.   Needs first: figure2/score/main/score.sh (the GENESIS file is read from core_results/, as published).
 # Cost: CPU, 3-6 h per shard (4 shards, run one after another here; start the shards by hand to parallelise). SUBSET: first 10 conditions per stratum, ~15 min.
@@ -27,8 +27,8 @@ fi
 place work/pbmc_wells/well_draws_rows$TAG.csv figure2/pbmc_wells/well_draws_rows.csv
 place work/pbmc_wells/well_draws_energy$TAG.csv figure2/pbmc_wells/well_draws_energy.csv
 
-# 3. The condition summary the draws were scored against is the run's own file, copied as it is
-S=$(need_run "$ROOT/runs/parse/bio/main/parse_bio_well_conds100_5ep_donorholdout_seed0/260921_192149_*/eval/condition_summary.parquet")
+# 3. The condition summary the draws were scored against, copied as it is
+S=$(model pbmc)/eval/condition_summary.parquet
 run work/pbmc_wells/condition_summary.parquet cp "$S" "$OUT/work/pbmc_wells/condition_summary.parquet"
 place work/pbmc_wells/condition_summary.parquet figure2/pbmc_wells/condition_summary.parquet
 finish

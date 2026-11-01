@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 # Extended Data (Fig 2 perturbation generalization): GENESIS, the four linear baselines, copy_closest and the split-half
 # reference on the Tahoe and PBMC held-out-perturbation test sets; Tahoe's plate pairs against the experimental repeat; no response.
-# In:   GENESIS tahoe_pert  runs/tahoe/pert/main/h4096x8192_…/261003_180534_…/checkpoints/last.ckpt   (seed 42)
-#       GENESIS parse_pert  runs/parse/pert/main/parse_pert_well_fixed_r0_es0_5ep_seed0/261006_005520_…/checkpoints/last.ckpt (seed 0)
+# In:   GENESIS tahoe_pert  models/reproduce/figure2/tahoe_perturbation_split   (seed 42)
+#       GENESIS parse_pert  models/reproduce/figure2/pbmc_perturbation_split    (seed 0)
 #       core_util_data/tahoe/eval_inputs/{two_plate_conditions.tsv, two_plate_conditions__min50.tsv, two_plate_counts.parquet, copy_closest_pert_neighbors.tsv}
-#       the after-fit eval of runs/tahoe/pert/scaling/overlap_celln10_fixed/entity_seed0/…r0_es0/260930_075411_…
 # Out:  $OUT/core_results/figure2/{split_half/{tahoe,parse}_pert_fixed/{GENESIS,Additive,LinRidge,PertMean,CtxMean,copy_closest,reference}.json,
-#       plate_pairs/tahoe_pert_fixed/{pair_metrics__{genesis,copy_closest,additive,context_mean,linear_ridge,perturbation_mean}.parquet,census_r0_es0.json},
+#       plate_pairs/tahoe_pert_fixed/pair_metrics__{genesis,copy_closest,additive,context_mean,linear_ridge,perturbation_mean}.parquet,
 #       no_response/{tahoe,parse}_pert_fixed.json}
-# Ships as-is (not rerun): STATE, CellFlow, PerturbDiff (split_half/*_pert_fixed/*.json, plate_pairs/tahoe_pert_fixed/pair_metrics__*.parquet)
+# Ships as-is (not rerun): STATE, CellFlow, PerturbDiff (split_half/*_pert_fixed/*.json, plate_pairs/tahoe_pert_fixed/pair_metrics__*.parquet);
+#       plate_pairs/tahoe_pert_fixed/census_r0_es0.json (each test condition's truth cells per plate, which picks the
+#       repeat-benchmark pairs; it is the after-fit eval of models/reproduce/figure3/pert_overlap/row0_seed0, same test set)
 # Needs first: nothing.
 # Cost: full ~6 GPU-h (fits ~50 min, references ~1.7 h, plate pairs ~1.2 h); SUBSET is dominated by the fits (always full). Run on an H100.
 #   GPU=0 OUT=<new dir> [SUBSET=<dir>] bash scripts/figures/figure2/score/ed_pert_generalization/score.sh
@@ -16,8 +17,8 @@ source "$(dirname "$0")/../../../../eval/_env.sh"
 need_gpu
 
 # 1. The two panels (plain paths: score.py and fit.py do not expand {data:...})
-T_RUN=$(need_run "$ROOT/runs/tahoe/pert/main/h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_pert_fixed_allcells_r0_es0/261003_180534_*")
-P_RUN=$(need_run "$ROOT/runs/parse/pert/main/parse_pert_well_fixed_r0_es0_5ep_seed0/261006_005520_*")
+T_RUN=$(model reproduce/figure2/tahoe_perturbation_split)
+P_RUN=$(model reproduce/figure2/pbmc_perturbation_split)
 T_DATA=$("$PY" -m src.paths '{data:tahoe}'); P_DATA=$("$PY" -m src.paths '{data:parse}')
 T_SPLIT=core_util_data/splits/tahoe/pert/tahoe_overlap_pert_fixed/entity_seed0/tahoe_overlap_pert_fixed_r0_es0_allcells.yaml
 P_SPLIT=core_util_data/splits/parse/pert/parse_overlap_pert_fixed/entity_seed0/parse_overlap_pert_fixed_r0_es0.yaml
@@ -26,7 +27,7 @@ P_NS=$P_DATA/eval_cache/normalization_raw_counts/geneset_63a547306aa0e6cd__n_200
 T_GENES=core_util_data/tahoe/gene_subsets/STATE_HVG.txt
 P_GENES=core_util_data/parse/gene_subsets/pbmc_real_selected_genes.pkl
 T_SUMMARY=core_util_data/tahoe/metadata/quadruplet_summary.parquet
-P_SUMMARY=$(need_run "$ROOT/runs/parse/bio/main/parse_bio_well_conds100_5ep_donorholdout_seed0/260921_192149_*/eval/condition_summary.parquet")
+P_SUMMARY=$(model pbmc)/eval/condition_summary.parquet   # the PBMC per-well summary
 T=(--dataset tahoe --split-yaml "$T_SPLIT" --condition-summary "$T_SUMMARY" --eval-cache-namespace "$T_NS" --gene-names "$T_GENES")
 P=(--dataset parse --condition-variables donor cytokine cell_type bc1_well --control-match-keys donor cell_type
    --split-yaml "$P_SPLIT" --condition-summary "$P_SUMMARY" --eval-cache-namespace "$P_NS" --gene-names "$P_GENES")
@@ -124,10 +125,6 @@ run $PP/model_vs_batch_gap__copy_closest.parquet \
 for m in genesis copy_closest additive context_mean linear_ridge perturbation_mean; do
     place $PP/model_vs_batch_gap__$m.parquet figure2/plate_pairs/tahoe_pert_fixed/pair_metrics__$m.parquet
 done
-# the census is the after-fit eval of the overlap run r0_es0 (used as truth only), copied as it is
-CENSUS=$(need_run "$ROOT/runs/tahoe/pert/scaling/overlap_celln10_fixed/entity_seed0/nogroup_state2k_vg05_nrs96_15ep_tahoe_pert_fixed_celln10_r0_es0/260930_075411_*/eval/after_fit/test/metrics_summary.json")
-run $PP/census_r0_es0.json cp "$CENSUS" "$OUT/$PP/census_r0_es0.json"
-place $PP/census_r0_es0.json figure2/plate_pairs/tahoe_pert_fixed/census_r0_es0.json
 
 # 10. Score no response where an arm failed, LAST because it reads every arm's file: the conditions the reference scores minus those an arm
 # scored (the shipped comparators too), with the failed arms' seed (0). A SUBSET run's arms hold 50 rows, so there the published files name the failures.

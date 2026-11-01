@@ -400,7 +400,7 @@ def cmd_genesis(args: argparse.Namespace) -> int:
     if not run_dir.is_absolute():
         raise SystemExit(
             f"--run-dir must be an absolute path (got {run_dir}).\n"
-            f"Example: --run-dir {ROOT / 'runs' / '<run_name>'}",
+            f"Example: --run-dir {ROOT / 'models' / 'tahoe'}",
         )
     run_dir = run_dir.resolve()
     if not run_dir.is_dir():

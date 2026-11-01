@@ -28,45 +28,45 @@ CONTROL_DRUG = "DMSO_TF"                     # core_util_data/datasets/tahoe.yam
 # 1. The runs behind each point: the scaling arms and their 3 replicates (Figure 3's extract reads them)
 # ----------------------------------------------------------------------------
 
-# (axis, % of conditions or cells kept, stem, run dir under runs/tahoe). The 100% arm is Figure 2's GENESIS.
+# (axis, % of conditions or cells kept, stem, its model under models/). The 100% arm is Figure 2's GENESIS.
 # Cells arm = the MATCHED runs: every training control kept, perturbed cells drawn to the conds arm's
 # perturbed count. 5% = the 25-epoch run (~96k steps); 25% = 20 epochs.
 SCALING = [
-    ("conds", 100, "genesis", "bio/main/h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0/260916_114938_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_biohold_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_s64_h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0"),
-    ("conds", 25, "genesis_25conds", "bio/scaling/n_conds_025/h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cond_seed0/260918_150610_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf025_s64_h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cond_seed0"),
-    ("conds", 5, "genesis_5conds", "bio/scaling/n_conds_005/h4096x8192_nrs256_vg05rs256_100ep_state2k_tahoe_bio_5cond_seed0/260920_164413_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf005_s64_h4096x8192_nrs256_vg05rs256_100ep_state2k_tahoe_bio_5cond_seed0"),
-    ("cells", 25, "genesis_25cells_allctrl", "bio/scaling/n_cells_025_keepctrl/h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cell_keepctrl_seed0/261009_003648_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln22129534_s64_h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cell_keepctrl_seed0"),
-    ("cells", 5, "genesis_5cells_allctrl", "bio/scaling/n_cells_005_keepctrl/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cell_keepctrl_seed0/261006_113942_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln4579207_s64_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cell_keepctrl_seed0"),
+    ("conds", 100, "genesis", "tahoe"),
+    ("conds", 25, "genesis_25conds", "reproduce/figure3/ed_12cells/conditions25"),
+    ("conds", 5, "genesis_5conds", "reproduce/figure3/ed_12cells/conditions5"),
+    ("cells", 25, "genesis_25cells_allctrl", None),   # not released: only scaling_arms.csv (no driver regenerates it) counts it
+    ("cells", 5, "genesis_5cells_allctrl", "reproduce/figure3/scaling/cells5_seed0"),
 ]
 # The uniform-draw cells arm, a figure variant. Cells drawn uniformly over all training
 # rows, controls included, so it keeps fewer controls and more perturbed cells than the conds arm at the same total.
 UNIFORM_CELLS = [
-    ("cells", 25, "genesis_25cells", "bio/scaling/n_cells_025/h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cell_seed0/260918_151050_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln24921726_s64_h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cell_seed0"),
-    ("cells", 5, "genesis_5cells", "bio/scaling/n_cells_005/h4096x8192_nrs256_vg05rs256_100ep_state2k_tahoe_bio_5cell_seed0/260920_162654_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln6761692_s64_h4096x8192_nrs256_vg05rs256_100ep_state2k_tahoe_bio_5cell_seed0"),
+    ("cells", 25, "genesis_25cells", "reproduce/figure2/objective/genesis_25pct_cells"),
+    ("cells", 5, "genesis_5cells", "reproduce/figure3/ed_12cells/cells5"),
     # 1%: cells-only, no conds twin; 87 ep (~44.5k steps), not the 5% arm's 100 ep (~377k)
-    ("cells", 1, "genesis_1cells", "bio/scaling/n_cells_001/h4096x8192_nrs256_vg05rs256_87ep_state2k_tahoe_bio_cells001_seed0/261016_085931_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln918254_s64_h4096x8192_nrs256_vg05rs256_87ep_state2k_tahoe_bio_cells001_seed0"),
+    ("cells", 1, "genesis_1cells", "reproduce/figure3/ed_12cells/cells1"),
 ]
 CELLS_ARMS = {"matched": ("scaling_arms.csv", SCALING), "uniform": ("scaling_arms_uniform_cells.csv", SCALING[:3] + UNIFORM_CELLS)}
 # Every run behind Figure 3a's variants, 3 per point (25% = 11 ep, 5% = 25 ep).
 # Replicate r draws its subsample with seed r and trains with seed 64 + r; the 100% runs share the full data, so
-# only their training seed differs. (axis, % kept, replicate, stem, run dir)
+# only their training seed differs. (axis, % kept, replicate, stem, model)
 REPLICATES = [
     ("conds", 100, "r0", "genesis", SCALING[0][3]),
-    ("conds", 100, "r1", "genesis_100_mseed65", "bio/main/h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0_mseed65/261012_174122_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_biohold_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_s65_h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0_mseed65"),
-    ("conds", 100, "r2", "genesis_100_mseed66", "bio/main/h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0_mseed66/261012_212356_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_biohold_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_s66_h4096x8192_nrs256_vg05rs256_5ep_state2k_tahoe_bio_100cond_seed0_mseed66"),
-    ("conds", 25, "r0", "genesis_25conds_11ep_r0", "bio/scaling/n_conds_025/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed0/261014_085704_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf025_s64_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed0"),
-    ("conds", 25, "r1", "genesis_25conds_11ep_r1", "bio/scaling/n_conds_025/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed1/261014_234413_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf025_s65_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed1"),
-    ("conds", 25, "r2", "genesis_25conds_11ep_r2", "bio/scaling/n_conds_025/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed2/261015_134031_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf025_s66_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cond_seed2"),
-    ("conds", 5, "r0", "genesis_5conds_25ep_r0", "bio/scaling/n_conds_005/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed0/261013_143712_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf005_s64_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed0"),
-    ("conds", 5, "r1", "genesis_5conds_25ep_r1", "bio/scaling/n_conds_005/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed1/261013_202453_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf005_s65_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed1"),
-    ("conds", 5, "r2", "genesis_5conds_25ep_r2", "bio/scaling/n_conds_005/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed2/261015_064123_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_hbssf005_s66_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cond_seed2"),
-    ("cells", 25, "r0", "genesis_25cells_allctrl_11ep_r0", "bio/scaling/n_cells_025_keepctrl/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cell_keepctrl_seed0/261014_115029_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln22129534_s64_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cell_keepctrl_seed0"),
-    ("cells", 25, "r1", "genesis_25cells_allctrl_11ep_r1", "bio/scaling/n_cells_025_keepctrl/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cell_keepctrl_seed1/261016_181513_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln21887263_s65_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cell_keepctrl_seed1"),
-    ("cells", 25, "r2", "genesis_25cells_allctrl_11ep_r2", "bio/scaling/n_cells_025_keepctrl/h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cell_keepctrl_seed2/261016_181556_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln21750407_s66_h4096x8192_nrs256_vg05rs256_11ep_state2k_tahoe_bio_25cell_keepctrl_seed2"),
+    ("conds", 100, "r1", "genesis_100_mseed65", "reproduce/figure3/scaling/full_seed1"),
+    ("conds", 100, "r2", "genesis_100_mseed66", "reproduce/figure3/scaling/full_seed2"),
+    ("conds", 25, "r0", "genesis_25conds_11ep_r0", "reproduce/figure3/scaling/conditions25_seed0"),
+    ("conds", 25, "r1", "genesis_25conds_11ep_r1", "reproduce/figure3/scaling/conditions25_seed1"),
+    ("conds", 25, "r2", "genesis_25conds_11ep_r2", "reproduce/figure3/scaling/conditions25_seed2"),
+    ("conds", 5, "r0", "genesis_5conds_25ep_r0", "reproduce/figure3/scaling/conditions5_seed0"),
+    ("conds", 5, "r1", "genesis_5conds_25ep_r1", "reproduce/figure3/scaling/conditions5_seed1"),
+    ("conds", 5, "r2", "genesis_5conds_25ep_r2", "reproduce/figure3/scaling/conditions5_seed2"),
+    ("cells", 25, "r0", "genesis_25cells_allctrl_11ep_r0", "reproduce/figure3/scaling/cells25_seed0"),
+    ("cells", 25, "r1", "genesis_25cells_allctrl_11ep_r1", "reproduce/figure3/scaling/cells25_seed1"),
+    ("cells", 25, "r2", "genesis_25cells_allctrl_11ep_r2", "reproduce/figure3/scaling/cells25_seed2"),
     ("cells", 5, "r0", "genesis_5cells_allctrl", SCALING[4][3]),
     # r1/r2: perturbed cells matched to conds5 r1/r2's perturbed count
-    ("cells", 5, "r1", "genesis_5cells_allctrl_r1", "bio/scaling/n_cells_005_keepctrl/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cell_keepctrl_seed1/261018_182521_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln4665879_s65_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cell_keepctrl_seed1"),
-    ("cells", 5, "r2", "genesis_5cells_allctrl_r2", "bio/scaling/n_cells_005_keepctrl/h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cell_keepctrl_seed2/261019_205600_cur-between_epoch-tp458752-bs1792xnrm256_nre256_lr0.0009_wd0.0001_tahoe_scalin_condmlp-D256-h4096x8192_cond-plate_mlpout-relu_vg0.5p0.5np6k_log1p_celln4632324_s66_h4096x8192_nrs256_vg05rs256_25ep_state2k_tahoe_bio_5cell_keepctrl_seed2"),
+    ("cells", 5, "r1", "genesis_5cells_allctrl_r1", "reproduce/figure3/scaling/cells5_seed1"),
+    ("cells", 5, "r2", "genesis_5cells_allctrl_r2", "reproduce/figure3/scaling/cells5_seed2"),
 ]
 
 

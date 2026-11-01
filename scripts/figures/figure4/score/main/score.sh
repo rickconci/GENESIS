@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Figure 4 (main; also feeds ED_celllines_per_model): the PROGENy drug axis, GENESIS and State means, context, baselines.
-# In:   GENESIS 5% cells, PROGENy 3,072 genes: runs/tahoe/bio/biology/progeny3072_cells005_keepctrl/
-#       h4096x8192_nrs256_vg05rs256_25ep_progeny3072_tahoe_bio_5cell_kc_seed0/261016_181841_*/checkpoints/last.ckpt
+# In:   GENESIS 5% cells, PROGENy 3,072 genes: models/reproduce/figure4/progeny_5pct_cells
 #       Frozen inputs: core_util_data/tahoe/eval_inputs/{gene_sets.tsv, stories/{core_pair,curated_picks}.tsv} (hand-curated);
 #       eval_inputs/drug_expectations.tsv (ctx_apriori.py's mechanism -> pathway table from the curated a priori tables;
 #       not rerun: its line-feature checks need the DepMap 23Q4 download and the response atlas, both untracked);
@@ -23,7 +22,7 @@
 #   GPU=0 OUT=<new dir> [SUBSET=<dir>] bash scripts/figures/figure4/score/main/score.sh
 source "$(dirname "$0")/../../../../eval/_env.sh"
 need_gpu
-RUN=$(need_run 'runs/tahoe/bio/biology/progeny3072_cells005_keepctrl/h4096x8192_nrs256_vg05rs256_25ep_progeny3072_tahoe_bio_5cell_kc_seed0/261016_181841_*' checkpoints/last.ckpt)
+RUN=$(model reproduce/figure4/progeny_5pct_cells)
 # The n_3072 caches no command line names: the eval cache (score.py through the run's config, the means through
 # deg_readout's progeny3072 panel) and, for the full run's Additive, the HVG cache (compare_baselines.py)
 need_path '{data:tahoe}/eval_cache/normalization_raw_counts/geneset_12aead7e0e3f60fa__n_3072'

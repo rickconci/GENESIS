@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Extended Data (Fig 2 objective): GENESIS trained with the energy+variogram loss vs a set-level kernel (MMD) loss, both on 25% of the cells,
 # scored against the split-half reference (bio test set) and against the experimental repeat (two-plate test pairs).
-# In:   last.ckpt of  runs/tahoe/bio/ablation/mmd_loss/h4096x8192_rbfset_c7x256_32ep_…/261005_213507_…   (set-level MMD)
-#                     runs/tahoe/bio/scaling/n_cells_025/h4096x8192_nrs256_vg05rs256_20ep_…/260918_151050_…   (GENESIS, 25% cells)
+# In:   models/reproduce/figure2/objective/mmd_25pct_cells       (set-level MMD)
+#       models/reproduce/figure2/objective/genesis_25pct_cells   (GENESIS, 25% cells)
 #       core_util_data/tahoe/eval_inputs/multi_plate_test_conditions.tsv   (the 545 two-plate test combinations)
 # Out:  $OUT/core_results/figure2/loss_mmd/{split_half/{rbfset,genesis}_25cells.json, plate_pairs/{rbfset,genesis}_25cells.parquet}
 # Ships as-is (not rerun): nothing.   Needs first: nothing.
@@ -13,9 +13,9 @@
 source "$(dirname "$0")/../../../../eval/_env.sh"
 need_gpu
 
-# 1. The two runs and the plate-pair inputs. A run's stamp picks one of several launches of an experiment (crashed ones have no last.ckpt).
-M_RUN=$(need_run "$ROOT/runs/tahoe/bio/ablation/mmd_loss/h4096x8192_rbfset_c7x256_32ep_state2k_tahoe_bio_25cell_seed0/261005_213507_*")
-G_RUN=$(need_run "$ROOT/runs/tahoe/bio/scaling/n_cells_025/h4096x8192_nrs256_vg05rs256_20ep_state2k_tahoe_bio_25cell_seed0/260918_151050_*")
+# 1. The two models and the plate-pair inputs
+M_RUN=$(model reproduce/figure2/objective/mmd_25pct_cells)
+G_RUN=$(model reproduce/figure2/objective/genesis_25pct_cells)
 NS=$("$PY" -m src.paths '{data:tahoe}/eval_cache/normalization_raw_counts/geneset_c0d6420ffc0fa861__n_2000')
 PAIRS=core_util_data/tahoe/eval_inputs/multi_plate_test_conditions.tsv
 

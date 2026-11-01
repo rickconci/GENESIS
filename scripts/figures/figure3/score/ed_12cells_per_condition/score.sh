@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # ED 12: the uniform-draw cells arms on Figure 2c's conditions (c), and GENESIS trained on 25 cells per combination (a-b).
-# In:   uniform arms: runs/tahoe/bio/scaling/{n_conds_025: 260918_150610, n_conds_005: 260920_164413, n_cells_001: 261016_085931,
-#       n_cells_005: 260920_162654, n_cells_025: 260918_151050}/checkpoints/last.ckpt (+ run.log, split_cache: training_runs.py);
-#       25 per combination: runs/tahoe/bio/scaling/n_cells_percond25/…/261012_220500_*/checkpoints/last.ckpt, and Figure 2's
-#       GENESIS (runs/tahoe/bio/main/…/260916_114938_*) for train614; core_util_data/tahoe/eval_inputs/train614_conds.tsv
+# In:   uniform arms: models/reproduce/figure3/ed_12cells/{conditions25,conditions5,cells1,cells5} and
+#       models/reproduce/figure2/objective/genesis_25pct_cells (+ run.log, split_cache: training_runs.py);
+#       25 per combination: models/reproduce/figure3/ed_12cells/percondition25, and Figure 2's GENESIS (models/tahoe)
+#       for train614; core_util_data/tahoe/eval_inputs/train614_conds.tsv
 #       (FROZEN: the 3,941 plate-6/14 training combinations; a byte copy of the published list; no script here builds it);
 #       core_deliverables/data/figure2/main/plate_pairs/ (Figure 2a's 530 pairs: the test_cross cohort).
 # Out:  $OUT/core_results/figure3/{uniform_cells/*.json (6), scaling_arms_uniform_cells.csv, shallow_pc25/scores/*.parquet,
@@ -19,19 +19,17 @@ need_gpu
 NEW_SAMPLE="figure3/uniform_cells/genesis_5cells.json figure3/uniform_cells/genesis_25cells_k3.json"
 NS='{data:tahoe}/eval_cache/normalization_raw_counts/geneset_c0d6420ffc0fa861__n_2000'
 
-# 1. Resolve every checkpoint first, so a moved or missing run fails here and not hours into the queue.
-#    run_of <glob>: the one run dir matching <glob> that holds a last.ckpt
-run_of() { need_run "$1" checkpoints/last.ckpt; }
-UNIFORM=(  # <published stem>=<K model repeats>=<its run under runs/tahoe/bio/scaling/>; K as each published file records
-    'genesis_25conds=1=n_conds_025/*_20ep_*_seed0/260918_150610_*'
-    'genesis_5conds=1=n_conds_005/*_100ep_*_seed0/260920_164413_*'
-    'genesis_1cells=3=n_cells_001/*_seed0/261016_085931_*'
-    'genesis_5cells=3=n_cells_005/*_100ep_*_seed0/260920_162654_*'
-    'genesis_25cells_k3=3=n_cells_025/*_seed0/260918_151050_*'
+# 1. Resolve every model first, so a missing one fails here and not hours into the queue.
+UNIFORM=(  # <published stem>=<K model repeats>=<its model>; K as each published file records
+    'genesis_25conds=1=reproduce/figure3/ed_12cells/conditions25'
+    'genesis_5conds=1=reproduce/figure3/ed_12cells/conditions5'
+    'genesis_1cells=3=reproduce/figure3/ed_12cells/cells1'
+    'genesis_5cells=3=reproduce/figure3/ed_12cells/cells5'
+    'genesis_25cells_k3=3=reproduce/figure2/objective/genesis_25pct_cells'
 )
-for e in "${UNIFORM[@]}"; do run_of "runs/tahoe/bio/scaling/${e##*=}" >/dev/null; done
-PC25=$(run_of 'runs/tahoe/bio/scaling/n_cells_percond25/*_seed0/261012_220500_*')
-FULL=$(run_of 'runs/tahoe/bio/main/*_100cond_seed0/260916_114938_*')
+for e in "${UNIFORM[@]}"; do model "${e##*=}" >/dev/null; done
+PC25=$(model reproduce/figure3/ed_12cells/percondition25)
+FULL=$(model tahoe)
 
 # 2. (SUBSET) Freeze the sample once: 50 of Figure 2c's test conditions, the same file figure2/score/main/score.sh draws.
 #    Drawn even under DRY_RUN: the queries below read it.
@@ -41,7 +39,7 @@ FULL=$(run_of 'runs/tahoe/bio/main/*_100cond_seed0/260916_114938_*')
 # 3. Score the uniform-draw arms on Figure 2c's split-half test set (last.ckpt, extended metrics). 5% and 1% cells are
 #    published at K=3 only, and 25% cells is scored at K=3 too, to show K barely moves a mean.
 for e in "${UNIFORM[@]}"; do
-    stem=${e%%=*}; k=${e#*=}; k=${k%%=*}; RUN=$(run_of "runs/tahoe/bio/scaling/${e##*=}")
+    stem=${e%%=*}; k=${e#*=}; k=${k%%=*}; RUN=$(model "${e##*=}")
     Q=${SUBSET:+$("$PY" scripts/eval/subset.py query "$RUN" "$SUBSET/tahoe_bio.json")}
     run "work/uniform_cells/$stem/metrics_summary.json" \
         "$PY" -u scripts/eval/score.py genesis --run-dir "$RUN" --checkpoint last --eval-split test \

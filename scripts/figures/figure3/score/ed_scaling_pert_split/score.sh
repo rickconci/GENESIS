@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 # ED 13: a held-out compound that trained in k pool lines (a: 4 Latin rows x 3 entity seeds), and PBMC on fewer cells or conditions (b).
-# In:   a: runs/tahoe/pert/scaling/overlap_celln10_fixed/entity_seed<s>/*_r<r>_es<s>/<ts>_*/checkpoints/last.ckpt (12);
+# In:   a: models/reproduce/figure3/pert_overlap/row<r>_seed<s> (12: Latin row r, entity seed s);
 #          core_util_data/splits/tahoe/pert/tahoe_overlap_pert_fixed/manifest.json (tracked; the published manifest is a byte copy).
-#       b: runs/parse/bio/main/parse_bio_well_conds100_5ep_donorholdout_seed0/<ts>_*/ and
-#          runs/parse/bio/scaling/{n_cells_025,n_cells_005,n_conds_025}/*donorholdout_seed0/<ts>_*/: checkpoints/last.ckpt
-#          and their run.log (pbmc_runs.py, CPU, reads the 100% arm through the link runs/parse/bio/scaling/full_100).
+#       b: models/reproduce/figure3/pbmc_scaling/{full,cells25,cells5,conditions25} and their run.log (pbmc_runs.py, CPU).
 # Out:  $OUT/core_results/figure3/{pert_overlap/{r{0-3}_es{0-2}.json, manifest.json}, pbmc_cells_conds/{full100,cells25,cells5,conds25}.json, pbmc_cells_conds/scaling_arms.csv}
 # Ships as-is (not rerun): nothing.   Needs first: nothing.
 # Cost: full ~5 h GPU (12 Tahoe pert + 4 PBMC evals); SUBSET: 50 conditions each. Run on an H100.
@@ -15,22 +13,17 @@ need_gpu
 NEW_SAMPLE="$(for r in 0 1 2 3; do for s in 0 1 2; do printf 'figure3/pert_overlap/r%d_es%d.json ' "$r" "$s"; done; done)"
 NEW_SAMPLE+="figure3/pbmc_cells_conds/full100.json figure3/pbmc_cells_conds/cells25.json figure3/pbmc_cells_conds/cells5.json figure3/pbmc_cells_conds/conds25.json"
 
-# 1. Resolve every checkpoint first, so a moved or missing run fails here and not hours into the queue.
-#    run_of <glob>: the one run dir matching <glob> that holds a last.ckpt
-run_of() { need_run "$1" checkpoints/last.ckpt; }
-pert_run() { run_of "runs/tahoe/pert/scaling/overlap_celln10_fixed/entity_seed$2/*_r$1_es$2/2*"; }
-PBMC=(  # <published stem>=<its run> (pbmc_runs.py: ARMS)
-    'full100=runs/parse/bio/main/parse_bio_well_conds100_5ep_donorholdout_seed0/260921_192149_*'
-    'cells25=runs/parse/bio/scaling/n_cells_025/parse_bio_well_cells025_20ep_donorholdout_seed0/260925_215259_*'
-    'cells5=runs/parse/bio/scaling/n_cells_005/parse_bio_well_cells005_100ep_donorholdout_seed0/260926_014742_*'
-    'conds25=runs/parse/bio/scaling/n_conds_025/parse_bio_well_conds025_20ep_donorholdout_seed0/260925_215300_*'
+# 1. Resolve every model first, so a missing one fails here and not hours into the queue.
+pert_run() { model "reproduce/figure3/pert_overlap/row$1_seed$2"; }
+PBMC=(  # <published stem>=<its model under models/reproduce/figure3/pbmc_scaling/> (pbmc_runs.py: ARMS)
+    'full100=full'
+    'cells25=cells25'
+    'cells5=cells5'
+    'conds25=conditions25'
 )
 for r in 0 1 2 3; do for s in 0 1 2; do pert_run "$r" "$s" >/dev/null; done; done
-for e in "${PBMC[@]}"; do run_of "${e#*=}" >/dev/null; done
-FULL=$(run_of "${PBMC[0]#*=}")
-# pbmc_runs.py names the 100% arm runs/parse/bio/scaling/full_100/..., as the published scaling_arms.csv records it:
-# a link to runs/parse/bio/main
-need_path runs/parse/bio/scaling/full_100
+for e in "${PBMC[@]}"; do model "reproduce/figure3/pbmc_scaling/${e#*=}" >/dev/null; done
+FULL=$(model reproduce/figure3/pbmc_scaling/full)
 
 # 2. (SUBSET) Freeze the samples once, drawn even under DRY_RUN (the queries below read them). The 12 pert splits
 #    hold out one test set, so r0_es0's split draws for all; PBMC conditions are donor x cytokine x cell type x well.
@@ -60,7 +53,7 @@ place work/pert_overlap/manifest.json figure3/pert_overlap/manifest.json
 
 # 5. Score the 4 PBMC arms on the donor-holdout test set, same after-fit settings (K=1, extended metrics)
 for e in "${PBMC[@]}"; do
-    stem=${e%%=*}; RUN=$(run_of "${e#*=}")
+    stem=${e%%=*}; RUN=$(model "reproduce/figure3/pbmc_scaling/${e#*=}")
     Q=${SUBSET:+$("$PY" scripts/eval/subset.py query "$RUN" "$SUBSET/parse_bio_well.json")}
     run "work/pbmc_cells_conds/$stem/metrics_summary.json" \
         "$PY" -u scripts/eval/score.py genesis --run-dir "$RUN" --checkpoint last --eval-split test \

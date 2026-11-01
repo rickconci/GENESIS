@@ -60,11 +60,15 @@ need_run() {
     local m=($1${2:+/$2}) n=0
     [ ! -e "${m[0]}" ] || n=${#m[@]}
     if [ "$n" = 1 ]; then echo "${m[0]%"${2:+/$2}"}"; return; fi
-    if [ "$n" = 0 ]; then missing "missing: $1${2:+/$2} (download the GENESIS checkpoints)"
+    if [ "$n" = 0 ]; then missing "missing: $1${2:+/$2} (download the GENESIS checkpoints into models/: see README.md)"
     else missing "need_run: $1${2:+/$2} matches $n paths, expected one"; fi
     [ -n "${DRY_RUN:-}" ] || exit 1
     echo "$1"
 }
+
+# model <name>: the absolute folder of the GENESIS checkpoint named <name>, models/<name> (its path in the Hugging Face
+# repo RConci/GENESIS; models/README.md lists every name). Absolute, because score.py refuses a relative --run-dir.
+model() { need_run "$ROOT/models/$1" checkpoints/last.ckpt; }
 
 # run <done-file> <cmd...>: skip once <done-file> finished, so a rerun resumes instead of redoing hours of work.
 # "Finished" is a marker written after the command exits 0, not the file itself: some scorers write partial output as

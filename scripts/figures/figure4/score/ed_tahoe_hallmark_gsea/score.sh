@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # ED_tahoe_hallmark_gsea: Hallmark NES per plate for truth, GENESIS, Additive and Copy closest on the tahoe-bio test set.
-# In:   GENESIS 15% conditions, union 5,750 genes: runs/tahoe/bio/biology/union5750_conds015/
-#       h4096x8192_nrs256_vg03rs256_33ep_union5750_tahoe_bio_15cond_seed0/260925_013450_*/checkpoints/last.ckpt
+# In:   GENESIS 15% conditions, union 5,750 genes: models/reproduce/figure4/hallmark_15pct_conditions
 #       Frozen: core_util_data/tahoe/eval_inputs/neighbors.parquet (the copy-neighbour table; shipped, not rebuilt).
 #       Read where they ship (> 10 MB): core_results/figure4/progeny/library_size__tahoe.tsv (frozen).
 #       Untracked, read where they are: results/tahoe/union5750/response_atlas (1.7 GB; the Copy side's check) and
@@ -15,7 +14,7 @@
 #   GPU=0 OUT=<new dir> [SUBSET=<dir>] bash scripts/figures/figure4/score/ed_tahoe_hallmark_gsea/score.sh
 source "$(dirname "$0")/../../../../eval/_env.sh"
 need_gpu
-RUN=$(need_run 'runs/tahoe/bio/biology/union5750_conds015/h4096x8192_nrs256_vg03rs256_33ep_union5750_tahoe_bio_15cond_seed0/260925_013450_*' checkpoints/last.ckpt)
+RUN=$(model reproduce/figure4/hallmark_15pct_conditions)
 SPLIT=core_util_data/splits/tahoe/bio/tahoe_scaling_bio_split/entity_seed0/tahoe_scaling_bio_hbss015_es0.yaml
 CACHE=$("$PY" -m src.paths '{data:tahoe}/eval_cache/normalization_raw_counts/geneset_e639c3a3c608d54a__n_5750')
 NEW_SAMPLE="figure4/hallmark_gsea/nes.parquet figure4/hallmark_gsea/plates.tsv"
