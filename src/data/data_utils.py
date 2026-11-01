@@ -5,6 +5,7 @@ warnings.filterwarnings("ignore")
 
 import hashlib
 import json
+import os
 import pickle
 import re
 from dataclasses import dataclass, replace
@@ -125,31 +126,46 @@ def write_eval_manifest(workdir: Union[str, Path], manifest: EvalManifest) -> Pa
 
 
 def _heal_moved_paths(workdir: Path, manifest: EvalManifest) -> EvalManifest:
-    """Re-anchor paths a run recorded at a location that has since moved (in memory, logged).
+    """Read a run's recorded paths from this checkout and machine first (in memory, logged).
 
-    The condition summary lives in the run's own eval/ folder, so it follows the run;
-    a split goes through the split move table. A path that still does not exist raises.
+    A run records absolute paths from where it was trained, and a released model was trained elsewhere, so
+    each path is looked for here first and the recorded path is the fallback:
+      condition summary  the run's own eval/ copy
+      split_config       this checkout's core_util_data/ copy, or where the split move table sends it
+      eval cache         under this machine's {data:<dataset>}
+    A summary or split found nowhere raises. A cache found nowhere is only logged: generating cells never
+    reads it, and scoring raises on it.
     """
     import dataclasses
 
-    from src.paths import relocated_split_path
+    import yaml
 
-    changes = {}
+    from src.paths import expand_path, relocated_split_path
+
+    here = {}
     summary = Path(manifest.condition_summary)
-    if not summary.is_file() and summary.name == "condition_summary.parquet" and summary.parent.name == "eval":
-        here = workdir / "eval" / summary.name
-        if not here.is_file():
-            raise FileNotFoundError(f"condition summary missing at {summary} and at {here}")
-        changes["condition_summary"] = here
-    split = manifest.split_config
-    if split and not Path(split).is_file():
-        moved = relocated_split_path(str(split))
-        if not Path(moved).is_file():
-            raise FileNotFoundError(f"split_config {split} is missing and has no recorded move")
-        changes["split_config"] = moved
+    if summary.name == "condition_summary.parquet" and summary.parent.name == "eval":
+        here["condition_summary"] = workdir / "eval" / summary.name
+    if manifest.split_config:
+        here["split_config"] = relocated_split_path(str(manifest.split_config))
+    cache, config = str(manifest.eval_cache_dir), workdir / "config_resolved.yaml"
+    if (i := cache.find("/eval_cache/")) >= 0 and config.is_file():
+        dataset = yaml.safe_load(config.read_text())["dataset"]
+        here["eval_cache_dir"] = Path(expand_path(f"{{data:{dataset}}}") + cache[i:])
+    # a local path that is missing, or is the recorded path itself, changes nothing. No symlink is followed:
+    # a roots entry that links to the recorded folder still wins, so reads go where this machine says.
+    changes = {k: v for k, v in here.items()
+               if Path(v).exists() and os.path.abspath(v) != os.path.abspath(getattr(manifest, k))}
+    healed = dataclasses.replace(manifest, **changes)
+    if "condition_summary" in here and not Path(healed.condition_summary).is_file():
+        raise FileNotFoundError(f"condition summary missing at {summary} and at {here['condition_summary']}")
+    if healed.split_config and not Path(healed.split_config).is_file():
+        raise FileNotFoundError(f"split_config {manifest.split_config} is missing here and has no recorded move")
+    if not Path(healed.eval_cache_dir).is_dir():
+        logger.warning("eval cache %s not found here either (scoring needs it; generating does not)", cache)
     for k, v in changes.items():
-        logger.warning("eval manifest %s: %s moved -> %s (healed in memory)", workdir.name, k, v)
-    return dataclasses.replace(manifest, **changes) if changes else manifest
+        logger.info("eval manifest %s: %s read from %s", workdir.name, k, v)
+    return healed
 
 
 def load_eval_manifest(workdir: Union[str, Path]) -> EvalManifest:

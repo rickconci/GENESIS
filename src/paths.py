@@ -92,9 +92,22 @@ def _split_moves() -> dict[str, str]:
 
 
 def relocated_split_path(path: str) -> str:
-    """Where a recorded split path is now: unchanged if it exists or never moved."""
-    if not path or os.path.exists(path):
+    """Where a recorded split path is in this checkout.
+
+    A released model was trained in another checkout, so from its core_util_data/ on the path is read as
+    repo-relative: this checkout's copy wins when it exists. Otherwise the path itself is kept if it exists,
+    and the move table is consulted if not.
+    """
+    if not path:
         return path
+    if (i := path.find("/core_util_data/")) >= 0:
+        here = f"{PERTGEN_REPO_ROOT}{path[i:]}"
+        if os.path.exists(here):
+            return here
+    if os.path.exists(path):
+        return path
+    if i >= 0:
+        path = here                     # the move table's rows are addresses in this checkout
     # Longest first, so a file's own row wins over a row for the folder it sits in.
     for old, new in sorted(_split_moves().items(), key=lambda kv: -len(kv[0])):
         if path == old or path.startswith(old + "/"):
