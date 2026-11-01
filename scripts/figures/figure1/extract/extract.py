@@ -61,6 +61,7 @@ def reps() -> bytes:
 
 KEYS = [m[2] for m in mb.METRICS]          # Figure 2c's three: DEG overlap on counts, Pearson Δ and energy in slice_med
 # staged run -> (timestamp, recipe) of the run whose eval it must be: <timestamp>_..._s64_<recipe>_5ep_state2k_...
+# A published eval names that lab run; a rescore names its model, models/<MODEL[run]> (README.md).
 RUNS = {"genesis": ("260916_114938", "h4096x8192_nrs256_vg05rs256"),
         "m16": ("261005_235052", "h4096x8192_nrs16_vg05rs16"), "m64": ("261006_044718", "h4096x8192_nrs64_vg05rs64"),
         "lambda0": ("260909_220316", "h4096x8192_nrs256_vg00rs256"),
@@ -68,6 +69,7 @@ RUNS = {"genesis": ("260916_114938", "h4096x8192_nrs256_vg05rs256"),
         "lambda0.3": ("260916_114940", "h4096x8192_nrs256_vg03rs256"),
         "lambda1": ("261004_162151", "h4096x8192_nrs256_vg10rs256"),
         "depth0": ("261022_123317", "hnone_nrs256_vg05rs256"), "depth1": ("261021_130248", "h8192_nrs256_vg05rs256")}
+MODEL = {name: "tahoe" if name == "genesis" else f"reproduce/figure1/settings/{name}" for name in RUNS}
 # setting -> {value: run}. Figure 2's GENESIS (m = 256, λ = 0.5, two hidden layers) is in all three rows.
 SETTINGS = {"n_repeats": {16: "m16", 64: "m64", 256: "genesis"},
             "variogram_weight": {0.0: "lambda0", 0.1: "lambda0.1", 0.3: "lambda0.3", 0.5: "genesis", 1.0: "lambda1"},
@@ -95,8 +97,8 @@ def scores(name: str) -> tuple[tuple[str, str, float], ...]:
     path = RAW / "settings" / name / "metrics_summary.json"
     blob, (ts, recipe) = json.loads(path.read_text()), RUNS[name]
     got = (blob["model_eval_n_repeats"], blob["eval_split"])
-    if got != (3, "test") or not re.fullmatch(rf"{ts}_.*_s64_{recipe}_5ep_state2k_tahoe_bio_100cond_seed0",
-                                              Path(blob["run_dir"]).name):
+    lab = re.fullmatch(rf"{ts}_.*_s64_{recipe}_5ep_state2k_tahoe_bio_100cond_seed0", Path(blob["run_dir"]).name)
+    if got != (3, "test") or not (lab or blob["run_dir"].endswith(f"models/{MODEL[name]}")):
         raise RuntimeError(f"{name}: {got} from {blob['run_dir']}, expected 3 generations on test from run {ts}")
     rows = tuple(("|".join(c), k, v[k]) for c, v in mb.load_percond(path, mb.METRICS).items() for k in KEYS if k in v)
     for k in KEYS:

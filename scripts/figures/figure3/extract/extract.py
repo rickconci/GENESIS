@@ -5,7 +5,7 @@ tables in core_results/figure3/ and from Figure 2's staged data, then checked ag
     python -m scripts.figures.figure3.extract.extract --write    # overwrite what differs, and its MANIFEST rows
 
 Two inputs are frozen rather than rebuilt: the training-run tables (scaling_runs.csv, the scaling_arms CSVs) count
-rows in each run's split cache and run.log, which live with the checkpoints in runs/ (the data release);
+rows in each run's split cache and run.log, which live with the checkpoints in models/ (Hugging Face: RConci/GENESIS);
 scripts/figures/figure3/score/main/score.sh rebuilds them from there.
 """
 
@@ -212,7 +212,10 @@ def overlap_bio() -> pd.DataFrame:
     for e in json.loads(BIO_MANIFEST.read_text()):
         row, seed = int(e["row"]), int(e["entity_seed"])
         blob = json.loads((RAW / "overlap_bio" / f"r{row}_es{seed}.json").read_text())
-        if f"tahoe_bio_celln10_r{row}_es{seed}" not in blob["run_dir"] or blob["eval_split"] != "test":
+        # a published eval names the lab run; a rescore names its model (models/reproduce/figure3/overlap/...)
+        run = blob["run_dir"]
+        if not (f"tahoe_bio_celln10_r{row}_es{seed}" in run or run.endswith(f"/overlap/row{row}_seed{seed}")) \
+                or blob["eval_split"] != "test":
             raise RuntimeError(f"r{row}_es{seed}.json is not that run's test eval: {blob['run_dir']}")
         if leaked := drugs & {d for ds in e["peeked_drugs"].values() for d in ds}:
             raise RuntimeError(f"r{row} es{seed} peeked strict drugs: {sorted(leaked)[:5]}")
@@ -259,8 +262,10 @@ def pert_overlap() -> pd.DataFrame:
     rows = []
     for (row, seed), e in sorted(by_id.items()):
         blob = json.loads((RAW / "pert_overlap" / f"r{row}_es{seed}.json").read_text())
-        if not re.search(rf"entity_seed{seed}/[^/]*_r{row}_es{seed}/", blob["run_dir"]) or \
-                (blob["n_conditions"], blob["n_skipped"]) != (4023, 0):
+        # a published eval names the lab run; a rescore names its model (models/reproduce/figure3/pert_overlap/...)
+        run = blob["run_dir"]
+        named = re.search(rf"entity_seed{seed}/[^/]*_r{row}_es{seed}/", run) or run.endswith(f"/pert_overlap/row{row}_seed{seed}")
+        if not named or (blob["n_conditions"], blob["n_skipped"]) != (4023, 0):
             raise RuntimeError(f"r{row}_es{seed}.json is not that run's full test eval")
         peek, vals = {d: int(k) for d, k in e["peek_per_drug"].items()}, defaultdict(list)
         if odd := set(peek) ^ {str(c["condition_keys"]["drug"]) for c in blob["results"]}:

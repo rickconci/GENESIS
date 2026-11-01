@@ -50,8 +50,8 @@ ARMS = ["genesis", "state"]
 # Grouped a priori by what drives each pathway, not by the data.
 GROUPS = [("Growth factor", ["EGFR", "MAPK", "PI3K", "VEGF"]), ("Stress", ["Hypoxia", "p53", "Trail"]),
           ("Inflammation", ["JAK-STAT", "NFkB", "TNFa", "TGFb"]), ("Hormone / dev.", ["Androgen", "Estrogen", "WNT"])]
-# The split the Figure 4 GENESIS run trained on: split_config in its config_resolved.yaml (runs/tahoe/bio/biology/
-# progeny3072_cells005_keepctrl/*/261016_181841_*)
+# The split the Figure 4 GENESIS model trained on: split_config in its config_resolved.yaml
+# (models/reproduce/figure4/progeny_5pct_cells)
 SPLIT_YAML = REPO / ("core_util_data/splits/tahoe/bio/tahoe_scaling_bio_keepctrl/entity_seed0/"
                      "tahoe_scaling_bio_celln4579207_keepctrl_mhbss005_es0.yaml")
 
