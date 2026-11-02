@@ -35,8 +35,9 @@ uv sync --extra model    # predict, train and score: adds CUDA 12.8 PyTorch (Lin
 ### Download
 
 The data release is on Hugging Face: the GENESIS checkpoints ([RConci/GENESIS](https://huggingface.co/RConci/GENESIS))
-and every published score ([RConci/GENESIS_results](https://huggingface.co/datasets/RConci/GENESIS_results)). Fetch
-them into the repository root:
+and every published score ([RConci/GENESIS_results](https://huggingface.co/datasets/RConci/GENESIS_results)). The
+checkpoints are gated: request access on their page, then log in once with `uvx --from huggingface_hub hf auth login`.
+Fetch them into the repository root:
 
 ```bash
 uvx --from huggingface_hub hf download RConci/GENESIS --local-dir models
