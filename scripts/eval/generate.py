@@ -72,12 +72,12 @@ def truth_counts(d, conditions: Path, eval_cache: str) -> dict[tuple, int]:
 
 def cmd_replicates(a: argparse.Namespace) -> None:
     """One .npy per (condition, replicate) at that real replicate's size; a file that exists is skipped."""
-    ckpt = a.checkpoint or (a.run_dir / "checkpoints" / "last.ckpt")
+    from src.training.utils import resolve_run_checkpoint
+    ckpt = resolve_run_checkpoint(a.run_dir, a.checkpoint)   # 'last' (default), a name in checkpoints/, or a path
     if (a.counts_from is None) == (a.conditions is None) or (a.conditions is None) != (a.eval_cache is None):
         raise SystemExit("sizes from --counts-from (a scored pair table) OR --conditions + --eval-cache")
-    for f in (Path(ckpt), a.counts_from or a.conditions):
-        if not f.is_file():
-            raise FileNotFoundError(f)
+    if not (a.counts_from or a.conditions).is_file():
+        raise FileNotFoundError(a.counts_from or a.conditions)
     d = replicate_design(a.dataset)
     counts = (replicate_cell_counts(d, pd.read_parquet(a.counts_from)) if a.counts_from
               else truth_counts(d, a.conditions, a.eval_cache))
@@ -94,7 +94,7 @@ def cmd_replicates(a: argparse.Namespace) -> None:
                                             a.draw, replicate_k_seed(d, cond, rep, a.draw))))
     n_skip, n_cells_total, t0 = len(jobs) - len(todo), 0, time.time()
     if todo:
-        bundle = _bundle(a.run_dir, Path(ckpt), a.device)
+        bundle = _bundle(a.run_dir, ckpt, a.device)
         if a.pseudobulk and not is_deterministic(bundle.config):
             raise SystemExit("--pseudobulk needs a deterministic (train_loss=mse) checkpoint: "
                              "a generative model's one draw is not its pseudobulk")
@@ -176,7 +176,7 @@ def main() -> int:
     shared.add_argument("--limit", type=int, default=None, help="first N files only (smoke test)")
     r = sub.add_parser("replicates", parents=[shared])
     r.add_argument("--dataset", required=True)
-    r.add_argument("--checkpoint", type=Path, default=None, help="default: <run-dir>/checkpoints/last.ckpt")
+    r.add_argument("--checkpoint", default=None, help="'last' (default), a name in <run-dir>/checkpoints/, or a path")
     r.add_argument("--counts-from", type=Path, default=None, help="scored pair table with n_truth_i/j")
     r.add_argument("--conditions", type=Path, default=None,
                    help="replicate_pairs' TSV (condition columns + plates, e.g. 6,14); sizes from --eval-cache")
